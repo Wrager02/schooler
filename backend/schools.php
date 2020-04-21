@@ -2,6 +2,8 @@
 
 require_once 'vendor/autoload.php';
 
+use Schooler\Classes\School as School;
+
 $connectionParams = array(
         'dbname' => 'u156147db1',
         'user' => 'u156147db1',
@@ -22,8 +24,8 @@ try {
         ->fetchAll()
     ;
 
-    foreach ($result as $schule) {
-        echo $schule['Name'];
+    foreach ($result as $school) {
+        echo new School($school['Name'], );
     }
 
     $conn->close();
