@@ -10,7 +10,7 @@ app.component("schoolsView", {
 app.config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider.state({
         name: "schools-view",
-        url: "schools-view",
+        url: "/schools-view",
         component: "schoolsView"
     });
 
