@@ -14,7 +14,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
         component: "landingPage"
     });
 
-    // $urlRouterProvider.otherwise("/landing-page");
+    $urlRouterProvider.otherwise("/landing-page");
 });
 
 
