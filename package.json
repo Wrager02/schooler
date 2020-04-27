@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "jasmine-core": "~3.5",
-    "jasmine-spec-reporter": "^5.0",
+    "jasmine-spec-reporter": "^5.0.2",
     "karma": "^4.4",
     "karma-chrome-launcher": "^3.1",
     "karma-edge-launcher": "^0.4.2",
@@ -11,9 +11,12 @@
     "karma-opera-launcher": "^1.0",
     "karma-safari-launcher": "^1.0",
     "karma-spec-reporter": "^0.0.32",
-    "testcafe": "^1.8"
+    "testcafe": "^1.8.4"
   },
   "scripts": {
     "e2e-tests": "testcafe --speed 1.0 chromium e2e-tests/"
+  },
+  "dependencies": {
+    "fuse.js": "^5.2.3"
   }
 }
