@@ -101,18 +101,19 @@ class School
      * @param string $degree
      */
     public function __construct(
-        string $name, string $zip, string $city, string $street, string $houseNumber)
+        string $name, string $zip, string $city, string $street, string $houseNumber, $addressAddition,
+        bool $privat, string $specialization, string $specializationDescription, string $picture)
     {
         $this->name = $name;
         $this->zip = $zip;
         $this->city = $city;
         $this->street = $street;
         $this->houseNumber = $houseNumber;
-//        $this->addressAddition = $addressAddition;
-//        $this->privat = $privat;
-//        $this->specialization = $specialization;
-//        $this->specializationDescription = $specializationDescription;
-//        $this->picture = $picture;
+        $this->addressAddition = $addressAddition;
+        $this->privat = $privat;
+        $this->specialization = $specialization;
+        $this->specializationDescription = $specializationDescription;
+        $this->picture = $picture;
 //        $this->schooltype = $schooltype;
 //        $this->schooltypeDescription = $schooltypeDescription;
 //        $this->degree = $degree;
@@ -124,7 +125,7 @@ class School
 
     public function __toString()
     {
-        return $this->name . ": " . $this->zip . " " . $this->city . ", " . $this->street . " " . $this->houseNumber;
+        return $this->name . ": " . $this->zip . " " . $this->city . ", " . $this->street . " " . $this->houseNumber . ": " . $this->specialization;
     }
 
 
