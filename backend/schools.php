@@ -32,7 +32,7 @@ try {
         ->fetchAll();
 
     foreach ($schools as $school) {
-        $schooltypes = [];
+    /*    $schooltypes = [];
         $schooltypes = $conn->createQueryBuilder()
             ->select('sf.pk_schoolform', 'sf.description', 'sf.graduation')
             ->from('school_schoolform', 'ss')
@@ -56,13 +56,28 @@ try {
         array_push($return, new School($school['name'], $school['fk_zip'], $school['city'], $school['street'], $school['housenumber'],
             $school['adressextra'], $school['private'], array_map('toSchooltype', $schooltypes),
             array_map('toSpecialisation', $specialisations)));
+*/
+
+        //$currentSchool = new School($school['name'], $school['fk_zip'], $school['city'], $school['street'], $school['housenumber'],
+          //  $school['adressextra'], $school['private'], [], []);
+
+
+        $currentSchool = new School($school['name'], $school['fk_zip'], $school['city'], $school['street'], $school['housenumber'],
+            $school['adressextra'], true, [], []);
+
+        $currentSchoolWithRandomValues = new School('1', '2', '3', '4', '5',
+            '6', 'true', [], []);
+
+        $return[] = $currentSchool->jsonSerialize();
+
+        //array_push($return, $currentSchool->jsonSerialize());
+
+
 
 //        echo new School($school['name'], $school['fk_zip'], $school['city'], $school['street'], $school['housenumber'],
 //            $school['adressextra'], $school['private'], array_map('toSchooltype', $schooltypes),
 //            array_map('toSpecialisation', $specialisations));
     }
-
-    echo (microtime(true) - $start) . "<br>";
 
     echo json_encode($return);
 

@@ -66,11 +66,11 @@ class School implements \JsonSerializable
      * @param string $housenumber
      * @param string $addressaddition
      * @param bool $privat
-     * @param array $specialisations
      * @param array $schoolforms
+     * @param array $specialisations
      */
     public function __construct(
-        string $name, string $zip, string $city, string $street, string $housenumber, $addressaddition,
+        string $name, string $zip, string $city, string $street, string $housenumber, string $addressaddition,
         bool $privat, array $schoolforms, array $specialisations)
     {
         $this->name = $name;
@@ -84,25 +84,101 @@ class School implements \JsonSerializable
         $this->specialisations = $specialisations;
     }
 
+
     public function __toString()
     {
-        return $this->name . ": " . $this->zip . " " . $this->city . ", " . $this->street . " " . $this->housenumber .
+        return $this->name . ": " . $this->zip . " " . $this->city . " " . $this->street . " " . $this->housenumber .
             ", Schultyp: " . implode(", ", $this->schoolforms) . ", Spezialisierung: " .
-            implode(", ", $this->specialisations) . "\n";
+            implode(", ", $this->specialisations) . "<br>";
     }
+
+    /**
+     * @return string
+     */
+    public function getName(): string
+    {
+        return $this->name;
+    }
+
+    /**
+     * @return string
+     */
+    public function getZip(): string
+    {
+        return $this->zip;
+    }
+
+    /**
+     * @return string
+     */
+    public function getCity(): string
+    {
+        return $this->city;
+    }
+
+    /**
+     * @return string
+     */
+    public function getStreet(): string
+    {
+        return $this->street;
+    }
+
+    /**
+     * @return string
+     */
+    public function getHousenumber(): string
+    {
+        return $this->housenumber;
+    }
+
+    /**
+     * @return string
+     */
+    public function getAddressextra(): string
+    {
+        return $this->addressextra;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isPrivate(): bool
+    {
+        return $this->private;
+    }
+
+    /**
+     * @return array
+     */
+    public function getSpecialisations(): array
+    {
+        return $this->specialisations;
+    }
+
+    /**
+     * @return array
+     */
+    public function getSchoolforms(): array
+    {
+        return $this->schoolforms;
+    }
+
+
+
 
     public function jsonSerialize()
     {
-        echo "School";
-        $array['name'] = $this->name;
-        $array['zip'] = $this->zip;
-        $array['city'] = $this->city;
-        $array['street'] = $this->street;
-        $array['housenumber'] = $this->housenumber;
-        $array['addressextra'] = $this->addressextra;
-        $array['private'] = $this->private;
-        $array["schoolforms"] = $this->schoolforms;
-        $array["specialisations"] = $this->specialisations;
-        return $array;
+        return array(
+            'name' => $this->getName(),
+            'zip' => $this->getZip(),
+            'city' => $this->getCity(),
+            'street' => $this->getStreet(),
+            'housenumber' => $this->getHousenumber(),
+            'addressextra' => $this->getAddressextra(),
+            'private' => $this->isPrivate(),
+            'schoolforms' => $this->getSchoolforms(),
+            'specialisations' => $this->getSpecialisations()
+        );
     }
 }
