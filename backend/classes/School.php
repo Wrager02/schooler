@@ -2,7 +2,7 @@
 
 namespace Schooler\Classes;
 
-class School
+class School implements \JsonSerializable
 {
     /**
      * @var string
@@ -28,61 +28,34 @@ class School
      */
     private $street;
 
-
     /**
      * @var string
      * Hausnummer
      */
-    private $houseNumber;
+    private $housenumber;
 
     /**
      * @var string
      * Adresszusatz (z.B. Türnummer oder Stiege)
      */
-    private $addressAddition;
+    private $addressextra;
 
     /**
      * @var boolean
      * Handelt es sich um eine private oder öffentliche Schule?
      * true wenn privat, false wenn nicht
      */
-    private $privat;
+    private $private;
 
     /**
-     * @var string
-     * Fachrichtung (z.B. IT, Chemie)
+     * @var array
      */
-    private $specialization;
+    private $specialisations;
 
     /**
-     * @var string
-     * Zusätzliche Information zur Fachrichtung
+     * @var array
      */
-    private $specializationDescription;
-
-    /**
-     * @var string
-     * URL zu einem Beispielbild
-     */
-    private $picture;
-
-    /**
-     * @var string
-     * Schulform (z.B. HTL, Gymnasium)
-     */
-    private $schooltype;
-
-    /**
-     * @var string
-     * Zusätzliche Information zur Schulform
-     */
-    private $schooltypeDescription;
-
-    /**
-     * @var string
-     * Abschluss
-     */
-    private $degree;
+    private $schoolforms;
 
     /**
      * School constructor.
@@ -90,43 +63,46 @@ class School
      * @param string $zip
      * @param string $city
      * @param string $street
-     * @param string $houseNumber
-     * @param string $addressAddition
+     * @param string $housenumber
+     * @param string $addressaddition
      * @param bool $privat
-     * @param string $specialization
-     * @param string $specializationDescription
-     * @param string $picture
-     * @param string $schooltype
-     * @param string $schooltypeDescription
-     * @param string $degree
+     * @param array $specialisations
+     * @param array $schoolforms
      */
     public function __construct(
-        string $name, string $zip, string $city, string $street, string $houseNumber, $addressAddition,
-        bool $privat, string $specialization, string $specializationDescription, string $picture)
+        string $name, string $zip, string $city, string $street, string $housenumber, $addressaddition,
+        bool $privat, array $schoolforms, array $specialisations)
     {
         $this->name = $name;
         $this->zip = $zip;
         $this->city = $city;
         $this->street = $street;
-        $this->houseNumber = $houseNumber;
-        $this->addressAddition = $addressAddition;
-        $this->privat = $privat;
-        $this->specialization = $specialization;
-        $this->specializationDescription = $specializationDescription;
-        $this->picture = $picture;
-//        $this->schooltype = $schooltype;
-//        $this->schooltypeDescription = $schooltypeDescription;
-//        $this->degree = $degree;
+        $this->housenumber = $housenumber;
+        $this->addressextra = $addressaddition;
+        $this->private = $privat;
+        $this->schoolforms = $schoolforms;
+        $this->specialisations = $specialisations;
     }
-
-//, string $addressAddition,
-//bool $privat, string $specialization, string $specializationDescription, string $picture, string $schooltype,
-//string $schooltypeDescription, string $degree
 
     public function __toString()
     {
-        return $this->name . ": " . $this->zip . " " . $this->city . ", " . $this->street . " " . $this->houseNumber . ": " . $this->specialization;
+        return $this->name . ": " . $this->zip . " " . $this->city . ", " . $this->street . " " . $this->housenumber .
+            ", Schultyp: " . implode(", ", $this->schoolforms) . ", Spezialisierung: " .
+            implode(", ", $this->specialisations) . "\n";
     }
 
-
+    public function jsonSerialize()
+    {
+        echo "School";
+        $array['name'] = $this->name;
+        $array['zip'] = $this->zip;
+        $array['city'] = $this->city;
+        $array['street'] = $this->street;
+        $array['housenumber'] = $this->housenumber;
+        $array['addressextra'] = $this->addressextra;
+        $array['private'] = $this->private;
+        $array["schoolforms"] = $this->schoolforms;
+        $array["specialisations"] = $this->specialisations;
+        return $array;
+    }
 }
