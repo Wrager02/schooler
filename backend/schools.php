@@ -65,8 +65,6 @@ try {
         $currentSchool = new School($school['name'], $school['fk_zip'], $school['city'], $school['street'], $school['housenumber'],
             $school['adressextra'], true, [], []);
 
-        $currentSchoolWithRandomValues = new School('1', '2', '3', '4', '5',
-            '6', 'true', [], []);
 
         $return[] = $currentSchool->jsonSerialize();
 
@@ -79,7 +77,7 @@ try {
 //            array_map('toSpecialisation', $specialisations));
     }
 
-    echo json_encode($return);
+    file_put_contents('schools.json', json_encode($return, JSON_UNESCAPED_UNICODE));
 
 
 } catch (\Doctrine\DBAL\DBALException $e) {

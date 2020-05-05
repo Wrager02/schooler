@@ -73,10 +73,10 @@ class School implements \JsonSerializable
         string $name, string $zip, string $city, string $street, string $housenumber, string $addressaddition,
         bool $privat, array $schoolforms, array $specialisations)
     {
-        $this->name = $name;
+        $this->name = utf8_encode($name);
         $this->zip = $zip;
-        $this->city = $city;
-        $this->street = $street;
+        $this->city = utf8_encode($city);
+        $this->street = utf8_encode($street);
         $this->housenumber = $housenumber;
         $this->addressextra = $addressaddition;
         $this->private = $privat;
