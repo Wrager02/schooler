@@ -18,10 +18,10 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 });
 
 
-app.controller("SchoolsViewController", function ($log, FulltextSearch) {
+app.controller("SchoolsViewController", function ($log, FulltextSearch, AttributeFilter) {
 
     $log.debug("SchoolsViewController()");
 
-    this.list = FulltextSearch.search("");
+    this.list = AttributeFilter.rankSchools(FulltextSearch.search(""));
 
 });

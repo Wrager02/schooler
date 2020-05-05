@@ -6,29 +6,28 @@ app.service("FulltextSearch", function ($log, $timeout) {
 
     const root_list = [
         {
-            title: "Old Man's War fiction",
-            author: 'John X',
-            tags: ['war']
+            name: "HTL Rennweg",
+            bezirk: 'dritter',
+            schultyp: 'privat'
         },
         {
-            title: 'Right Ho Jeeves',
-            author: 'P.D. Man',
-            tags: ['fiction', 'war']
+            name: "HTL Ottakring",
+            bezirk: 'zweiter',
+            schultyp: 'privat'
         },
         {
-            title: 'Right Ho Jeeves',
-            author: 'P.D. ManManMan',
-            tags: ['fiction', 'man']
+            name: "HTL Mödling",
+            bezirk: 'zweiter',
+            schultyp: 'öffentlich'
         }
     ];
 
 
     const options = {
 
-        includeScore: true,
         shouldSort: true,
         findAllMatches: true,
-        keys: ['author', 'tags']
+        keys: ['name', 'bezirk', 'schultyp']
 
     };
 
