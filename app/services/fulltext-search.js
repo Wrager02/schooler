@@ -1,18 +1,10 @@
 "use strict";
 
-app.service("FulltextSearch", function ($log, $timeout) {
+app.service("FulltextSearch", function ($log, $timeout, LoadJson) {
 
     $log.debug("FulltextSearch()");
 
-    var root_list = [];
-
-    $.getJSON("./resources/data/schools.json", function(json) {
-        json.forEach(n => {
-            root_list.push(n);
-        });
-    })
-
-    console.log(root_list);
+    var root_list;
 
     const options = {
 
@@ -22,33 +14,43 @@ app.service("FulltextSearch", function ($log, $timeout) {
 
     };
 
-    const fuse = new Fuse(root_list, options);
+    var fuse;
+
+    this.getRoot = () => {
+        //console.log("Get Root ", root_list);
+        return root_list;
+    }
+
+    this.init = () => {
+
+        LoadJson.getJson().then(response => {
+            root_list = response;
+            //console.log(response);
+            fuse = new Fuse(this.getRoot(), options);
+        });
+
+    }
+
 
     this.search = (input) => {
+        this.init();
+        //console.log('%c School-Output', 'color:orange; font-size: 32px;');
 
-        console.log('%c School-Output', 'color:orange; font-size: 32px;');
-
-        if(input === "") {
-            return this.createListWithoutInput();
+        if (input === "") {
+            return LoadJson.getJson()
+                .then(response => {
+                    return response.map(n => {
+                        return {
+                            "item": n
+                        };
+                    });
+                })
         } else {
             this.output = fuse.search(input);
-            console.table(this.output);
+            //console.table(this.output);
             return this.output;
         }
 
-
     };
 
-    this.createListWithoutInput = () => {
-        let list = [];
-        root_list.forEach(n => {
-            list.push(
-                {
-                    "item" : n
-                }
-            )
-        });
-        console.table(list);
-        return list;
-    }
 });

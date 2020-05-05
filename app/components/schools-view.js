@@ -22,7 +22,9 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, Attribut
 
     $log.debug("SchoolsViewController()");
 
-    this.list = FulltextSearch.search("");
-    console.log(this.list);
+    FulltextSearch.search("").then(response => {
+        this.list = response;
+    });
+
 
 });
