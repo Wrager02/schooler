@@ -1,41 +1,83 @@
 <div class="schools-view">
 
+    <div class="navbar">
+        <a ui-sref="landing-page" class="logo">
+            <img src="./resources/images/icon_font.svg">
+        </a>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
 
     <div class="sidebar">
+        <div class="fixed-container">
+            <div class="logo-container">
 
-        <div class="logo-container">
+                <img src="" class="logo">
+    
+            </div>
+    
+            <div class="filter-container">
+    
+                <div>
+    
+                    <p class="filter-title">Schwerpunkte</p>
 
-            <img src="" class="logo">
+                    <div class="selected-tag-container">
+                        <div class="selectedTag" ng-bind="tag" ng-repeat="tag in $ctrl.selectedTags" ng-click="$ctrl.deselectTag($index)">
+                        </div>
+                    </div>
+                    
+                    <div class="tag-container" ng-controller="SchoolsViewController">
+                        <div class="tag" ng-bind="tag" ng-repeat="tag in $ctrl.tags" ng-click="$ctrl.selectTag($index)">
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <div>
+    
+                    <p class="filter-title">Bundesland</p>
 
+
+                    <div class="button-container">
+                        <button class="selection-button selected">Wien</button>
+                        <button class="selection-button">Niederösterreich</button>
+                    </div>
+                    
+                    
+    
+                </div>
+    
+                <div>
+    
+                    <p class="filter-title">Schultyp</p>
+
+                    <div class="button-container">
+                        <button class="selection-button">Öffentlich</button>
+                        <button class="selection-button">Privat</button>
+                    </div>
+    
+                </div>
+    
+                <div>
+    
+                    <p class="filter-title">Abschluss</p>
+
+                    <div class="button-container">
+                        <button class="selection-button">Matura</button>
+                        <button class="selection-button">Hauptschule</button>
+                        <button class="selection-button">Ingenieur</button>
+                    </div>
+    
+                </div>
+    
+            </div>
         </div>
 
-        <div class="filter-container">
-
-            <div>
-
-                <p class="filter-title">Schwerpunkte</p>
-
-            </div>
-
-            <div>
-
-                <p class="filter-title">Anreise</p>
-
-            </div>
-
-            <div>
-
-                <p class="filter-title">Schultyp</p>
-
-            </div>
-
-            <div>
-
-                <p class="filter-title">Abschluss</p>
-
-            </div>
-
-        </div>
+        
 
     </div>
 
@@ -45,7 +87,7 @@
 
             <div>
 
-                <input type="text" placeholder="Nach Schule suchen">
+                <input type="text" placeholder="Schule suchen">
 
             </div>
 
@@ -64,7 +106,9 @@
 
             <div>
 
-                <button class="toggle-list">Toggle</button>
+                <button class="toggle-list">
+
+                </button>
 
             </div>
 

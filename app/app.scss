@@ -3,7 +3,7 @@
     width: 100vw;
     height: 100vh;
     background-color: #E8E8E8;
-    font-size: 1em;
+    font-size: 20px;
     position: relative;
     font-family: 'Nunito Sans', sans-serif;
 
@@ -129,23 +129,158 @@
 
     
     @media(min-width: 768px){
+
+        display: table;
+        width: 100%;
+
+
         .navbar{
             display: none;
         }
 
         .sidebar{
-           display: inline-block;
-           position: fixed; 
+           display: table-cell;
            background-color: #000021;
            width: 30vw;
-           min-width: 300px;
-           height: 100vh;
+           min-width: 380px;
+           height: 100%;
+
+           .fixed-container{
+               width: 30vw;
+               min-width: 380px;
+               height: 100%;
+               position: fixed;
+
+               .filter-container{
+                   margin: 15vh 10% 0 10%;
+
+                   p{
+                       color: #ffffff;
+                       font-weight: bold;
+                       letter-spacing: .1em;
+                   }
+
+                   .tag-container{
+                       max-height: 100px;
+                       overflow-y: scroll;
+                      
+                            &::-webkit-scrollbar {
+                            width: 10px;
+                            border-radius: 5px;
+                            
+                            }
+
+                 
+                            &::-webkit-scrollbar-track {
+                            background: #263055;
+                            border-radius: 5px;
+                            }
+
+                            &::-webkit-scrollbar-thumb{
+                                background-color: #ffffff;
+                                width: 4px;
+                                border-radius: 5px;
+                            }
+                   }
+
+                   .selected-tag-container{
+                    height: 80px;
+                    max-height: 80px;
+                    overflow-y: auto;
+                    &::-webkit-scrollbar {
+                        width: 10px;
+                        border-radius: 5px;
+                        
+                        }
+
+             
+                        &::-webkit-scrollbar-track {
+                        background: #263055;
+                        border-radius: 5px;
+                        }
+
+                        &::-webkit-scrollbar-thumb{
+                            background-color: #ffffff;
+                            width: 4px;
+                            border-radius: 5px;
+                        }
+                   }
+
+
+                   .selectedTag{
+                    display: inline-block;
+                     background-color: #00AEEF;
+                     color: #ffffff;
+                     margin: 5px 5px 5px 0;
+                     padding: 5px;
+                     font-size: .8em;
+                     border-radius: 3px;
+                     cursor: pointer;
+                     
+                }
+
+
+
+                   .tag{
+                       display: inline-block;
+                        background-color: #ffffff;
+                        color: #000021;
+                        margin: 5px 5px 5px 0;
+                        padding: 5px;
+                        font-size: .8em;
+                        border-radius: 3px;
+                        cursor: pointer;
+
+                        &:hover{
+                            background-color: #E8E8E8;
+                        }
+                        
+                   }
+
+
+                   .button-container{
+                       width: 100%;
+                       
+                       .selection-button{
+                            width: 140px;
+                            height: 40px;
+                            font-size: .6em;
+                            background-color: #000021;
+                            color: #ffffff;
+                            font-family: 'Nunito Sans', sans-serif;
+                            letter-spacing: .1em;
+                            border: 2px solid #ffffff;
+                            border-radius: 5px;
+                            margin: 5px 5px 5px 0;
+                       }
+
+                       &:focus{
+                           outline: 0 !important;
+                       }
+
+                       .selected{
+                           color: #00AEEF;
+                           border: 2px solid #00AEEF;
+                       }
+                   }
+                   
+               }
+           }
 
         }
 
         .content{
-            margin: 0 5% auto 5%;
             width: auto; 
+            display: table-cell;
+
+            .top-bar{
+            width: 90%;
+            margin: 5% 5% 0 5%;
+                div{
+                    height: 40px;
+                }
+                
+            }
         }
     }
 

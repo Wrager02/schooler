@@ -24,4 +24,16 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch) {
 
     this.list = FulltextSearch.search("");
 
+    this.tags = ["Mechatronik", "Informationstechnologie", "Chemie", "Sport", "Design", "Fotografie", "Designee", "Fotografieee" ];
+    this.selectedTags = [];
+
+    this.selectTag = (tag) => {
+         this.selectedTags.push(this.tags[tag]);
+         this.tags.splice(tag, 1);
+    }
+
+    this.deselectTag = (tag) => {
+         this.tags.push(this.selectedTags[tag]);
+         this.selectedTags.splice(tag, 1);
+    }
 });
