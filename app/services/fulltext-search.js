@@ -10,6 +10,7 @@ app.service("FulltextSearch", function ($log, $timeout, LoadJson) {
 
         shouldSort: true,
         findAllMatches: true,
+        includeScore: true,
         keys: ['name']
 
     };
@@ -46,11 +47,27 @@ app.service("FulltextSearch", function ($log, $timeout, LoadJson) {
                     });
                 })
         } else {
-            this.output = fuse.search(input);
-            //console.table(this.output);
-            return this.output;
+            return LoadJson.getJson()
+                .then(response => {
+                    return fuse.search(input);
+                })
+
         }
 
     };
+
+    /*this.stringSearch = (object, input) => {
+        object.forEach(n => {
+            if(typeof(input) === 'string' && n.includes(input)) {
+                return true;
+            }
+        });
+        return false;
+    }
+
+    if(FulltextSearch.stringSearch(['Hey', 'jo', 'nibba'], "jo")) {
+        console.log("yes");
+    }*/
+
 
 });
