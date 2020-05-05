@@ -22,6 +22,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, Attribut
 
     $log.debug("SchoolsViewController()");
 
-    this.list = AttributeFilter.rankSchools(FulltextSearch.search(""));
+    this.list = FulltextSearch.search("");
+    console.log(this.list);
 
 });

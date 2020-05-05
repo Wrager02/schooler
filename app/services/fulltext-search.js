@@ -4,30 +4,21 @@ app.service("FulltextSearch", function ($log, $timeout) {
 
     $log.debug("FulltextSearch()");
 
-    const root_list = [
-        {
-            name: "HTL Rennweg",
-            bezirk: 'dritter',
-            schultyp: 'privat'
-        },
-        {
-            name: "HTL Ottakring",
-            bezirk: 'zweiter',
-            schultyp: 'privat'
-        },
-        {
-            name: "HTL Mödling",
-            bezirk: 'zweiter',
-            schultyp: 'öffentlich'
-        }
-    ];
+    var root_list = [];
 
+    $.getJSON("./resources/data/schools.json", function(json) {
+        json.forEach(n => {
+            root_list.push(n);
+        });
+    })
+
+    console.log(root_list);
 
     const options = {
 
         shouldSort: true,
         findAllMatches: true,
-        keys: ['name', 'bezirk', 'schultyp']
+        keys: ['name']
 
     };
 
