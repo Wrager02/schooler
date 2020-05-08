@@ -7,8 +7,12 @@
     "housenumber": "20",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "AkG Beethovenplatz 1",
@@ -18,8 +22,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pG 1 Freyung 6",
@@ -29,8 +37,12 @@
     "housenumber": "6",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Rg 1 Schottenbastei 7-9",
@@ -40,8 +52,12 @@
     "housenumber": "7-9",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 1 Stubenbastei 6-8",
@@ -51,8 +67,12 @@
     "housenumber": "6-8",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "ORg 1\/H 12 Hegelgasse 12",
@@ -62,8 +82,12 @@
     "housenumber": "12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Vienna Business School - Handelsakademie und Handelsschule Akademiestraße der Wiener Kaufmannschaft",
@@ -73,8 +97,12 @@
     "housenumber": "12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Gastgewerbefachschule des Schulvereins der Wiener Gastwirte",
@@ -84,8 +112,12 @@
     "housenumber": "3-4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Schauspielschule Krauss",
@@ -95,8 +127,12 @@
     "housenumber": "9",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Diözesankonservatorium für Kirchenmusik der Erzdiözese Wien",
@@ -106,8 +142,12 @@
     "housenumber": "Eisen-Platz",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "RgORg 2 Lessinggasse 8-14",
@@ -117,8 +157,12 @@
     "housenumber": "18",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Feuerbachstraße 1",
@@ -128,8 +172,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 2 Wohlmutstraße 3",
@@ -139,8 +187,12 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 2 Zirkusgasse 48",
@@ -150,8 +202,12 @@
     "housenumber": "48",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 2 Kleine Sperlgasse 4",
@@ -161,8 +217,12 @@
     "housenumber": "2c",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Obere Augartenstraße 38",
@@ -172,8 +232,12 @@
     "housenumber": "38",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pRg 2 Simon-Wiesenthal-Gasse 3",
@@ -183,8 +247,12 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Pazmanitengasse 26",
@@ -194,8 +262,12 @@
     "housenumber": "26",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "FIT - Fachspezifische Schule für individualisierte Teilausbildungen für Jugendliche und junge Erwachsene mit Behinderungen\/Benachteiligungen der ITA gem. GmbH",
@@ -205,8 +277,12 @@
     "housenumber": "21",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "I-FIT - Inklusive Fachspezifische Schule für Individualisierte Teilausbildungen für Jugendliche und junge Erwachsene mit Ausgrenzungsgefährdung und Behinderungen\/Benachteiligungen des Evang.Schulwerks A.B. Wien\"",
@@ -216,8 +292,12 @@
     "housenumber": "21",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Obere Augartenstraße 34",
@@ -227,8 +307,12 @@
     "housenumber": "34",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pORg 2 Rabbiner-Schneerson-Platz 1",
@@ -238,8 +322,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Malzgasse 16",
@@ -249,8 +337,12 @@
     "housenumber": "16",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Rabbiner Schneerson-Platz 1",
@@ -260,8 +352,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Große Stadtgutgasse 24",
@@ -271,8 +367,12 @@
     "housenumber": "24",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Danube International School Vienna",
@@ -282,8 +382,12 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "?JESSODE-Hatara-Schule? des Vereins ?KHAL ISRAEL religiös-orthodoxer Verein",
@@ -293,8 +397,12 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Vienna Business School - Handelsakademie und Handelsschule Augarten der Wiener Kaufmannschaft",
@@ -304,8 +412,12 @@
     "housenumber": "9",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Handelsschule des Vereins jüdisches pädagogisches Zentrum",
@@ -315,8 +427,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Handelsschule am Bundes-Blindeninstitut",
@@ -326,8 +442,12 @@
     "housenumber": "5",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Fachschule für jüdische Sozialberufe - Wiener Jeschiwah",
@@ -337,8 +457,12 @@
     "housenumber": "19",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Jüdische Mädchenfachschule für Kommunikation und Wirtschaft \"Beth-Jakov-Schule\"",
@@ -348,8 +472,12 @@
     "housenumber": "24",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Jehuda Halevi Musikschule des Vereins Jehuda Halevi Zentrum für Kunst und Kultur",
@@ -359,8 +487,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Max-Winter-Platz 2",
@@ -370,8 +502,12 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pRgORg 2 Obere Augartenstraße 1c",
@@ -381,8 +517,12 @@
     "housenumber": "1c",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Wittelsbachstraße 6",
@@ -392,8 +532,12 @@
     "housenumber": "6",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "WMS Kleine Sperlgasse 2A",
@@ -403,8 +547,12 @@
     "housenumber": "2A",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Dietrichgasse 36",
@@ -414,8 +562,12 @@
     "housenumber": "36",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PTS Maiselgasse 1",
@@ -425,8 +577,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "ORg 3 Landstraßer Hauptstraße 70",
@@ -436,8 +592,12 @@
     "housenumber": "70",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Hainburger Straße 40",
@@ -447,8 +607,12 @@
     "housenumber": "40",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 3 Boerhaavegasse 15",
@@ -458,8 +622,12 @@
     "housenumber": "15",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Hörnesgasse 12",
@@ -469,8 +637,12 @@
     "housenumber": "12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pG 3 Rennweg 31",
@@ -480,8 +652,12 @@
     "housenumber": "31",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 3 Kundmanngasse 20-22",
@@ -491,8 +667,12 @@
     "housenumber": "20-22",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 3 Hagenmüllergasse 30",
@@ -502,8 +682,12 @@
     "housenumber": "30",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Erdbergstraße 70",
@@ -513,8 +697,12 @@
     "housenumber": "70",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Schützengasse 31",
@@ -524,8 +712,12 @@
     "housenumber": "31",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Fasangasse 4",
@@ -535,8 +727,12 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pRgORg 3 Schützengasse 31",
@@ -546,8 +742,12 @@
     "housenumber": "31",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "ORg 3 Ballsportgymnasium Wien",
@@ -557,8 +757,12 @@
     "housenumber": "186",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Handelsakademie und Handelsschule Marienanstalt - Sacré Coeur der Schulstiftung Erzdiözese Wien",
@@ -568,8 +772,12 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Schule für Sozialbetreuungsberufe (WISOZ) der AWZ-Soziales Wien GmbH",
@@ -579,8 +787,12 @@
     "housenumber": "37",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Lehranstalt für wirtschaftliche Berufe des Schulvereins der Schulschwestern",
@@ -590,8 +802,12 @@
     "housenumber": "70",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Camillo Sitte Lehranstalt, Höhere Technische Bundeslehr- und Versuchsanstalt",
@@ -601,8 +817,12 @@
     "housenumber": "4c",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Bundeshandelsakademie und Bundeshandelsschule und Höhere Technische Bundeslehranstalt Schulzentrum Ungargasse Wien 3",
@@ -612,8 +832,12 @@
     "housenumber": "69",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Bundeshandelsakademie und Bundeshandelsschule und Höhere Technische Bundeslehranstalt Schulzentrum Ungargasse Wien 3",
@@ -623,8 +847,12 @@
     "housenumber": "69",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Technische Bundeslehranstalt Wien 3 Rennweg",
@@ -634,8 +862,12 @@
     "housenumber": "89b",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "BSH Bundesschüler\/innen-Wohnheim Juchgasse",
@@ -645,8 +877,12 @@
     "housenumber": "27",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 3 Radetzkystraße 2A",
@@ -656,8 +892,12 @@
     "housenumber": "2A",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Kölblgasse 23",
@@ -667,8 +907,12 @@
     "housenumber": "23",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GTNMS Schäffergasse 3",
@@ -678,8 +922,12 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PPTS Karlsplatz 14",
@@ -689,8 +937,12 @@
     "housenumber": "14",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Rg 4 Waltergasse 7",
@@ -700,8 +952,12 @@
     "housenumber": "7",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PWMS Karlsplatz 14",
@@ -711,8 +967,12 @@
     "housenumber": "14",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 4 Wiedner Gürtel 68",
@@ -722,8 +982,12 @@
     "housenumber": "68",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Technisch-Gewerbliche Abendschule des bfi Wien - Werkmeisterschule",
@@ -733,8 +997,12 @@
     "housenumber": "13",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Prayner Konservatorium des Herrn Mag. Josef Schmid",
@@ -744,8 +1012,12 @@
     "housenumber": "28-30",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pG 4 Favoritenstraße 15",
@@ -755,8 +1027,12 @@
     "housenumber": "15",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 12 - International Business College Hetzendorf",
@@ -766,8 +1042,12 @@
     "housenumber": "24-26",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 5 Reinprechtsdorfer Straße 24",
@@ -777,8 +1057,12 @@
     "housenumber": "24",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Gassergasse 44",
@@ -788,8 +1072,12 @@
     "housenumber": "44",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Verwaltungsberufe",
@@ -799,8 +1087,12 @@
     "housenumber": "46",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 5 Rainergasse 39",
@@ -810,8 +1102,12 @@
     "housenumber": "39",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Viktor-Christ-Gasse 24",
@@ -821,8 +1117,12 @@
     "housenumber": "24",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Bundeslehr- und Versuchsanstalt für Textilindustrie und Informatik",
@@ -832,8 +1132,12 @@
     "housenumber": "20",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Schulen des BFI Wien",
@@ -843,8 +1147,12 @@
     "housenumber": "65",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Liniengasse 21",
@@ -854,8 +1162,12 @@
     "housenumber": "21",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 6 Amerlingstraße 6",
@@ -865,8 +1177,12 @@
     "housenumber": "6",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Elektrotechnik und Mechatronik",
@@ -876,8 +1192,12 @@
     "housenumber": "87",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Sanitär-, Heizungs- und Klimatechnik",
@@ -887,8 +1207,12 @@
     "housenumber": "87",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Metalltechnik, Glasbautechnik und Technische Zeichner",
@@ -898,8 +1222,12 @@
     "housenumber": "87",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Elektro-, Veranstaltungs- und Informationstechnik Austria",
@@ -909,8 +1237,12 @@
     "housenumber": "87",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "WMS Loquaiplatz 4",
@@ -920,8 +1252,12 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Rg 6 Marchettigasse 3",
@@ -931,8 +1267,12 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Neubaugasse 42",
@@ -942,8 +1282,12 @@
     "housenumber": "42",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PPTS Kenyongasse 4-12",
@@ -953,8 +1297,12 @@
     "housenumber": "4-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PTS Burggasse 14-16",
@@ -964,8 +1312,12 @@
     "housenumber": "14-16",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Maschinen-, Fertigungstechnik und Elektronik",
@@ -975,8 +1327,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 7 Kandlgasse 39",
@@ -986,8 +1342,12 @@
     "housenumber": "39",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pGRg 7 Kenyongasse 4-12",
@@ -997,8 +1357,12 @@
     "housenumber": "4-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Kenyongasse 4-12",
@@ -1008,8 +1372,12 @@
     "housenumber": "4-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "RgORg 7 Neustiftgasse 95-99",
@@ -1019,8 +1387,12 @@
     "housenumber": "95-99",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Islamische Fachschule für soziale Bildung - Dr. A.K. Hammerschmidt der Islamischen Religionsgemeinde Wien",
@@ -1030,8 +1402,12 @@
     "housenumber": "117",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Konservatorium Sunrise_Studios des Herrn Mike Loewenrosen",
@@ -1041,8 +1417,12 @@
     "housenumber": "38",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Private Bildungsanstalt für Sozialpädagogik - Kolleg für Sozialpädagogik für Berufstätige der MERA Bildungsholding GmbH Schottenfeldgasse 69",
@@ -1052,8 +1432,12 @@
     "housenumber": "69",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "BAFEP 7 Kenyongasse 4-12",
@@ -1063,8 +1447,12 @@
     "housenumber": "4-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Neustiftgasse 98-102",
@@ -1074,8 +1462,12 @@
     "housenumber": "98-102",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 8 Albertgasse 18-22",
@@ -1085,8 +1477,12 @@
     "housenumber": "18-22",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Rg 8 Feldgasse 6-8",
@@ -1096,8 +1492,12 @@
     "housenumber": "6-8",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Vienna Business School -  Handelsakademie und Handelsschule Hamerlingplatz der Wiener Kaufmannschaft",
@@ -1107,8 +1507,12 @@
     "housenumber": "5-6",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Vienna Business School -  Handelsakademie und Handelsschule Schönborngasse der Wiener Kaufmannschaft",
@@ -1118,8 +1522,12 @@
     "housenumber": "3-5",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "BAFEP 8 Lange Gasse 47 + Albertgasse 38",
@@ -1129,8 +1537,12 @@
     "housenumber": "47",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Private \"Bildungsanstalt für Sozialpädagogik - Kolleg für Berufstätige\" des Vereins die \"bildungsakademie, Verein für Durchlässigkeit und soziale Gerechtigkeit in der Bildung",
@@ -1140,8 +1552,12 @@
     "housenumber": "04",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Pfeilgasse 42b",
@@ -1151,8 +1567,12 @@
     "housenumber": "42b",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "G 8 Jodok-Fink-Platz 2",
@@ -1162,8 +1582,12 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 9 Wasagasse 10",
@@ -1173,8 +1597,12 @@
     "housenumber": "10",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Rg 9 Glasergasse 25",
@@ -1184,8 +1612,12 @@
     "housenumber": "25",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Währinger Straße 59",
@@ -1195,8 +1627,12 @@
     "housenumber": "59",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Lycée Liechtensteinstraße 37a Francais de Vienne",
@@ -1206,8 +1642,12 @@
     "housenumber": "37a",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Bundeslehranstalt für Mode und für wirtschaftliche Berufe Wien 9",
@@ -1217,8 +1657,12 @@
     "housenumber": "12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Caritas Ausbildungszentrum für Sozialberufe",
@@ -1228,8 +1672,12 @@
     "housenumber": "30",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Wiener Kunstschule",
@@ -1239,8 +1687,12 @@
     "housenumber": "27",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Glasergasse 8",
@@ -1250,8 +1702,12 @@
     "housenumber": "8",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRG 10 Ettenreichgasse 41-43",
@@ -1261,8 +1717,12 @@
     "housenumber": "41-43",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Georg-Wilhelm-Pabst-Gasse 2a",
@@ -1272,8 +1732,12 @@
     "housenumber": "2a",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pGRg 10 Ludwig-von-Höhnel-Gasse 17-19",
@@ -1283,8 +1747,12 @@
     "housenumber": "17-19",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Praxis-MS Grenzackerstraße 18",
@@ -1294,8 +1762,12 @@
     "housenumber": "18",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PTS Pernerstorfergasse 30-32",
@@ -1305,8 +1777,12 @@
     "housenumber": "30-32",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 10 Laaer Berg-Straße 25-29",
@@ -1316,8 +1792,12 @@
     "housenumber": "25-29",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Herzgasse 27",
@@ -1327,8 +1807,12 @@
     "housenumber": "27",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 10 Pichelmayergasse 1",
@@ -1338,8 +1822,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Leibnizgasse 33",
@@ -1349,8 +1837,12 @@
     "housenumber": "33",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Ludwig v. Höhnel-Gasse 17-19",
@@ -1360,8 +1852,12 @@
     "housenumber": "17-19",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Gudrunstraße 110",
@@ -1371,8 +1867,12 @@
     "housenumber": "110",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Quellenstraße 144",
@@ -1382,8 +1882,12 @@
     "housenumber": "144",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Mayflower Christian Academy - Primar des Vereins MCA",
@@ -1393,8 +1897,12 @@
     "housenumber": "8",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PVS Maria Lassnig-Straße 32\/1",
@@ -1404,8 +1912,12 @@
     "housenumber": "32\/1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Technische Bundeslehranstalt Wien 10",
@@ -1415,8 +1927,12 @@
     "housenumber": "54",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 10",
@@ -1426,8 +1942,12 @@
     "housenumber": "77",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Bundeslehranstalt für wirtschaftliche Berufe Wien 10",
@@ -1437,8 +1957,12 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Schule für Sozialbetreuungsberufe",
@@ -1448,8 +1972,12 @@
     "housenumber": "27",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "BAFEP 10 Ettenreichgasse 45c",
@@ -1459,8 +1987,12 @@
     "housenumber": "45c",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Wendstattgasse 3",
@@ -1470,8 +2002,12 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Wendstattgasse 5\/I",
@@ -1481,8 +2017,12 @@
     "housenumber": "5\/I",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Absberggasse 50",
@@ -1492,8 +2032,12 @@
     "housenumber": "50",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Knöllgasse 61",
@@ -1503,8 +2047,12 @@
     "housenumber": "61",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Wendstattgasse 5\/II",
@@ -1514,8 +2062,12 @@
     "housenumber": "5\/II",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Phönix Realgymnasium Knöllgasse 20 - 24",
@@ -1525,8 +2077,12 @@
     "housenumber": "20",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Josef-Enslein-Platz 1-3",
@@ -1536,8 +2092,12 @@
     "housenumber": "1-3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Enkplatz 4\/II",
@@ -1547,8 +2107,12 @@
     "housenumber": "4\/II",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 11 Gottschalkgasse 21",
@@ -1558,8 +2122,12 @@
     "housenumber": "21",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 11 Geringergasse 2",
@@ -1569,8 +2137,12 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Rzehakgasse 7",
@@ -1580,8 +2152,12 @@
     "housenumber": "7",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pGRg 11 Erdbergstraße 222 A",
@@ -1591,8 +2167,12 @@
     "housenumber": "A",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Hasenleitengasse 7",
@@ -1602,8 +2182,12 @@
     "housenumber": "7",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 11",
@@ -1613,8 +2197,12 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Konservatorium JAM MUSIC LAB \" International Academy of Music and Performing Arts Vienna\" der Jam Music Lab GmbH",
@@ -1624,8 +2212,12 @@
     "housenumber": "Gasometer",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Johann Sebastian Bach Musikschule des Evangelischen Schulwerk A.B. Wien",
@@ -1635,8 +2227,12 @@
     "housenumber": "8-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Florian-Hedorferstraße 22",
@@ -1646,8 +2242,12 @@
     "housenumber": "22",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Pachmayergasse 6",
@@ -1657,8 +2257,12 @@
     "housenumber": "6",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Enkplatz 4\/I",
@@ -1668,8 +2272,12 @@
     "housenumber": "4\/I",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Svetelskystraße 4-6",
@@ -1679,8 +2287,12 @@
     "housenumber": "4-6",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Isma Private Gesamtschule Muhammad Asad Reschgasse 20-22",
@@ -1690,8 +2302,12 @@
     "housenumber": "20-22",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Fachschule der Stadt Wien für wirtschaftliche Berufe",
@@ -1701,8 +2317,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Modeschule der Stadt Wien im Schloss Hetzendorf",
@@ -1712,8 +2332,12 @@
     "housenumber": "79",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Richard Wagner Konservatorium des Herrn Mirza Kapetanovic",
@@ -1723,8 +2347,12 @@
     "housenumber": "28\/EG",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "BAFEP 12 Private Bundesbildungsanstalt für Elementarpädagogik",
@@ -1734,8 +2362,12 @@
     "housenumber": "20-22",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Herthergasse 28",
@@ -1745,8 +2377,12 @@
     "housenumber": "28",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Lebensmittel, Touristik und Zahntechnik",
@@ -1756,8 +2392,12 @@
     "housenumber": "13-15",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 12 Rosasgasse 1-3",
@@ -1767,8 +2407,12 @@
     "housenumber": "1-3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Johann-Hoffmann-Platz 19",
@@ -1778,8 +2422,12 @@
     "housenumber": "19",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 12 Erlgasse 32-34",
@@ -1789,8 +2437,12 @@
     "housenumber": "32-34",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Gastgewerbe",
@@ -1800,8 +2452,12 @@
     "housenumber": "13-15",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Privatschule INFINUM ORG",
@@ -1811,8 +2467,12 @@
     "housenumber": "77",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Singrienergasse 23",
@@ -1822,8 +2482,12 @@
     "housenumber": "23",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Industrie, Finanzen und Transport",
@@ -1833,8 +2497,12 @@
     "housenumber": "13-15",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Hermann-Broch-Gasse 2",
@@ -1844,8 +2512,12 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Am Schöpfwerk 27",
@@ -1855,8 +2527,12 @@
     "housenumber": "27",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Steinbauergasse 27",
@@ -1866,8 +2542,12 @@
     "housenumber": "27",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Lehranstalt für systemische Familientherapie der Erzdiözese Wien für Berufstätige",
@@ -1877,8 +2557,12 @@
     "housenumber": "3a",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Fachschule und Aufbaulehrgang für wirtschaftliche Berufe des Schulvereins der Dominikanerinnen",
@@ -1888,8 +2572,12 @@
     "housenumber": "177",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 13 - Schumpeter Handelsakademie",
@@ -1899,8 +2587,12 @@
     "housenumber": "43",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Bundeslehranstalt für Tourismus und für wirtschaftliche Berufe Wien 13",
@@ -1910,8 +2602,12 @@
     "housenumber": "5-19",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Speziallehrgang für Leitungsfunktionen in der Sozialarbeit der Caritas der Erzdiözese Wien",
@@ -1921,8 +2617,12 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "HBLFA Grünbergstraße 24",
@@ -1932,8 +2632,12 @@
     "housenumber": "24",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "BSH 13 Himmelhofgasse 17-19",
@@ -1943,8 +2647,12 @@
     "housenumber": "17-19",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pORg 13 Auhofstraße 78 e-f",
@@ -1954,8 +2662,12 @@
     "housenumber": "e-f",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule der SPAR österreichische Warenhandels-AG - Private Spar Akademie Wien",
@@ -1965,8 +2677,12 @@
     "housenumber": "17",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "G 13 Fichtnergasse 15",
@@ -1976,8 +2692,12 @@
     "housenumber": "15",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Einzelhandel",
@@ -1987,8 +2707,12 @@
     "housenumber": "31-33",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 13 Wenzgasse 7",
@@ -1998,8 +2722,12 @@
     "housenumber": "7",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS  Schloßberggasse 17",
@@ -2009,8 +2737,12 @@
     "housenumber": "17",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pGRg 13 Schloßberggasse 17",
@@ -2020,8 +2752,12 @@
     "housenumber": "17",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Veitingergasse 9",
@@ -2031,8 +2767,12 @@
     "housenumber": "9",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Verein W@lz.Wiener Lernzentrum, Heinrich-Collin-Straße 9",
@@ -2042,8 +2782,12 @@
     "housenumber": "9",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Schönheitsberufe",
@@ -2053,8 +2797,12 @@
     "housenumber": "137",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 14 Astgasse 3",
@@ -2064,8 +2812,12 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Torricelligasse 50",
@@ -2075,8 +2827,12 @@
     "housenumber": "50\/I",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 14 Linzer Straße 146",
@@ -2086,8 +2842,12 @@
     "housenumber": "146",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Lortzinggasse 2",
@@ -2097,8 +2857,12 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Waldorf Campus Wien West (11.-13. Schulstufe)",
@@ -2108,8 +2872,12 @@
     "housenumber": "430",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Kinkplatz 21\/II",
@@ -2119,8 +2887,12 @@
     "housenumber": "50\/II",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "BgBRgORg 14",
@@ -2130,8 +2902,12 @@
     "housenumber": "33",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Henckellgasse 19",
@@ -2141,8 +2917,12 @@
     "housenumber": "19",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Montessori Schule - Statutschule (1. - 3. Schulstufe)",
@@ -2152,8 +2932,12 @@
     "housenumber": "8",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Montessori Schule - Statutschule (10. - 12. Schulstufe)",
@@ -2163,8 +2947,12 @@
     "housenumber": "430",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Graphische Bundes-Lehr- und Versuchsanstalt",
@@ -2174,8 +2962,12 @@
     "housenumber": "6",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Werkmeisterschule für Berufstätige des BMLV an der Vega-Payer-Weyprecht-Kaserne",
@@ -2185,8 +2977,12 @@
     "housenumber": "61",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Musikinstitut Polyhymnia der Polyhymnia GmbH",
@@ -2196,8 +2992,12 @@
     "housenumber": "146",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Spallartgasse 18",
@@ -2207,8 +3007,12 @@
     "housenumber": "18",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Hadersdorf Hauptstraße 80",
@@ -2218,8 +3022,12 @@
     "housenumber": "80",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PTS Benedikt-Schellinger-Gasse 1-3",
@@ -2229,8 +3037,12 @@
     "housenumber": "1-3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Chemie, Grafik und gestaltende Berufe",
@@ -2240,8 +3052,12 @@
     "housenumber": "7-17",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "RgORg 15 Henriettenplatz 6",
@@ -2251,8 +3067,12 @@
     "housenumber": "6",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Schweglerstraße 2-4",
@@ -2262,8 +3082,12 @@
     "housenumber": "2-4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Sechshauser Straße 71",
@@ -2273,8 +3097,12 @@
     "housenumber": "71",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Holz, Klang, Farbe und Lack",
@@ -2284,8 +3112,12 @@
     "housenumber": "7-17",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pGRg 15 Friesgasse 4",
@@ -2295,8 +3127,12 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Friesgasse 4",
@@ -2306,8 +3142,12 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Gebrüder-Lang-Gasse 4",
@@ -2317,8 +3157,12 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 15 Auf der Schmelz 4",
@@ -2328,8 +3172,12 @@
     "housenumber": "Schmelz",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Handel und Reisen",
@@ -2339,8 +3187,12 @@
     "housenumber": "7-17",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pRg 15 Rauchfangkehrergasse 34\/6",
@@ -2350,8 +3202,12 @@
     "housenumber": "34\/6",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Bürokaufleute",
@@ -2361,8 +3217,12 @@
     "housenumber": "19",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Handelsakademie-Aufbaulehrgang \/ Handelsschule d. Schulverbund SSND Österreich",
@@ -2372,8 +3232,12 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Vienna Konservatorium der Frau Mag. Eva Maria Schmid",
@@ -2383,8 +3247,12 @@
     "housenumber": "15-17",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "VMI - VIENNA MUSIC INSTITUT - PRIVATKONSERVATORIUM DES HERRN MAG. ERNST RITSCH",
@@ -2394,8 +3262,12 @@
     "housenumber": "23-25",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "BSPA Bundessportakademie -  Auf der Schmelz 6",
@@ -2405,8 +3277,12 @@
     "housenumber": "Schmelz",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Selzergasse 25",
@@ -2416,8 +3292,12 @@
     "housenumber": "25",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 15 Diefenbachgasse 19",
@@ -2427,8 +3307,12 @@
     "housenumber": "19",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Kauergasse 3-5",
@@ -2438,8 +3322,12 @@
     "housenumber": "3-5",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Grundsteingasse 48",
@@ -2449,8 +3337,12 @@
     "housenumber": "48",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Rg 16 Schuhmeierplatz 7",
@@ -2460,8 +3352,12 @@
     "housenumber": "7",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Koppstraße 110\/II",
@@ -2471,8 +3367,12 @@
     "housenumber": "110\/II",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 16 Maroltingergasse 69-71",
@@ -2482,8 +3382,12 @@
     "housenumber": "69-71",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "AHS Julius-Meinl-Gasse 2a",
@@ -2493,8 +3397,12 @@
     "housenumber": "2a",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Brüßlgasse 18",
@@ -2504,8 +3412,12 @@
     "housenumber": "18",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Handel @ Administration",
@@ -2515,8 +3427,12 @@
     "housenumber": "31",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Roterdstraße 1",
@@ -2526,8 +3442,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Wiesberggasse 7",
@@ -2537,8 +3457,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Bundeslehranstalt für Mode und künstlerische Gestaltung",
@@ -2548,8 +3472,12 @@
     "housenumber": "104",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Technische Bundeslehranstalt Wien West",
@@ -2559,8 +3487,12 @@
     "housenumber": "125",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Koppstraße 110\/I",
@@ -2570,8 +3502,12 @@
     "housenumber": "110\/I",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Schule im Spital (HIS) des Vereins für Individualpsychologie, Pezzlgasse 29",
@@ -2581,8 +3517,12 @@
     "housenumber": "29",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Bundes-Lehr- und Versuchsanstalt für chemische Industrie",
@@ -2592,8 +3532,12 @@
     "housenumber": "79",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Bundesschulen Kalvarienberg - Fachschulen und Aufbaulehrgang - Wirtschaft und Soziales",
@@ -2603,8 +3547,12 @@
     "housenumber": "28",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Geblergasse 29-31",
@@ -2614,8 +3562,12 @@
     "housenumber": "29-31",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 17 Parhamerplatz 18",
@@ -2625,8 +3577,12 @@
     "housenumber": "18",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Redtenbachergasse 79",
@@ -2636,8 +3592,12 @@
     "housenumber": "79",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 17 Geblergasse 56-58",
@@ -2647,8 +3607,12 @@
     "housenumber": "56-58",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PTS Schopenhauerstraße 81",
@@ -2658,8 +3622,12 @@
     "housenumber": "79-81",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pGRg 18  Semperstraße 45",
@@ -2669,8 +3637,12 @@
     "housenumber": "45",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Schopenhauerstraße 79",
@@ -2680,8 +3652,12 @@
     "housenumber": "79",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pRgORg 18 Scheidlstraße 2",
@@ -2691,8 +3667,12 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Antonigasse 72 - Schulstiftung der Erzdiözese Wien",
@@ -2702,8 +3682,12 @@
     "housenumber": "72",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "G 18 Klostergasse 25",
@@ -2713,8 +3697,12 @@
     "housenumber": "25",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Rg 18 Schopenhauerstraße 49",
@@ -2724,8 +3712,12 @@
     "housenumber": "49",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Schopenhauerstraße 44-46",
@@ -2735,8 +3727,12 @@
     "housenumber": "44-46",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 18 Haizingergasse 37",
@@ -2746,8 +3742,12 @@
     "housenumber": "37",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Semperstraße 45",
@@ -2757,8 +3757,12 @@
     "housenumber": "45",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Rudolf Steiner Schule Pötzleinsdorf",
@@ -2768,8 +3772,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Private NMS der Frau Dr. Sigrid Schauberger",
@@ -2779,8 +3787,12 @@
     "housenumber": "16",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "AMADEUS International School VIENNA",
@@ -2790,8 +3802,12 @@
     "housenumber": "-",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pORg 18, VES - Vienna European School",
@@ -2801,8 +3817,12 @@
     "housenumber": "16a",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Werbeakademie - Fachlehrgang für Marktkommunikation des WIFI der Wirtschaftskammer Wien",
@@ -2812,8 +3832,12 @@
     "housenumber": "97",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Werkmeisterschule für Berufstätige des Wirtschaftsförderungsinstitutes der Wirtschaftskammer Wien",
@@ -2823,8 +3847,12 @@
     "housenumber": "97",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pGRg 19 Hofzeile 22",
@@ -2834,8 +3862,12 @@
     "housenumber": "22",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pGRg 19 Alfred Wegener-Gasse 10-12",
@@ -2845,8 +3877,12 @@
     "housenumber": "10-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 19 Billrothstraße 73",
@@ -2856,8 +3892,12 @@
     "housenumber": "73",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "American International School  Salmanndorferstraße 47",
@@ -2867,8 +3907,12 @@
     "housenumber": "47",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Schwedische Schule Scheibelreitergasse 15",
@@ -2878,8 +3922,12 @@
     "housenumber": "15",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Bundeslehranstalt für wirtschaftliche Berufe Wien 19",
@@ -2889,8 +3937,12 @@
     "housenumber": "37-39",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Tourismusschulen Modul der Wirtschaftskammer Wien",
@@ -2900,8 +3952,12 @@
     "housenumber": "78",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "BAFEP 19 Hofzeile 17",
@@ -2911,8 +3967,12 @@
     "housenumber": "17",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PPTS Alfred Wegener-Gasse 10-12",
@@ -2922,8 +3982,12 @@
     "housenumber": "10-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "G 19 Gymnasiumstraße 83",
@@ -2933,8 +3997,12 @@
     "housenumber": "83",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Oskar-Spiel-Gasse 3",
@@ -2944,8 +4012,12 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Pyrkergasse 14-16",
@@ -2955,8 +4027,12 @@
     "housenumber": "14-16",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Alfred-Wegener-Gasse 10-12",
@@ -2966,8 +4042,12 @@
     "housenumber": "10-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Rg 19 Krottenbachstraße 11-13",
@@ -2977,8 +4057,12 @@
     "housenumber": "11",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 19 Billrothstraße 26-30",
@@ -2988,8 +4072,12 @@
     "housenumber": "26-30",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS In der Krim 6",
@@ -2999,8 +4087,12 @@
     "housenumber": "Krim",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Greiseneckergasse 31",
@@ -3010,8 +4102,12 @@
     "housenumber": "31",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PTS Stromstraße 44",
@@ -3021,8 +4117,12 @@
     "housenumber": "44",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "BOL Adalbert-Stifter-Straße 14-18",
@@ -3032,8 +4132,12 @@
     "housenumber": "14-18",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Pöchlarnstraße 14",
@@ -3043,8 +4147,12 @@
     "housenumber": "14",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Staudingergasse 6",
@@ -3054,8 +4162,12 @@
     "housenumber": "6",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Stromstraße 40",
@@ -3065,8 +4177,12 @@
     "housenumber": "40",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "TGM Höhere Technische Bundes Lehr- und Versuchsanstalt Wien 20",
@@ -3076,8 +4192,12 @@
     "housenumber": "19-31",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "WMS Leipziger Platz 1",
@@ -3087,8 +4207,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRgORg 20 Karajangasse 14",
@@ -3098,8 +4222,12 @@
     "housenumber": "14",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Kraftfahrzeugtechnik",
@@ -3109,8 +4237,12 @@
     "housenumber": "40",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 21 Franklinstraße 21",
@@ -3120,8 +4252,12 @@
     "housenumber": "21",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Regnerweg 6",
@@ -3131,8 +4267,12 @@
     "housenumber": "6",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 21 Franklinstraße 26",
@@ -3142,8 +4282,12 @@
     "housenumber": "26",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Kinzerplatz 9",
@@ -3153,8 +4297,12 @@
     "housenumber": "9",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 21 Ödenburger Straße 74",
@@ -3164,8 +4312,12 @@
     "housenumber": "74",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 21 Donauinselplatz 1",
@@ -3175,8 +4327,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Pastorstraße 29",
@@ -3186,8 +4342,12 @@
     "housenumber": "29",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRgORg 21 Gerasdorfer Straße 103",
@@ -3197,8 +4357,12 @@
     "housenumber": "103",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Reisgasse 1",
@@ -3208,8 +4372,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Anton-Böck-Gasse 20",
@@ -3219,8 +4387,12 @@
     "housenumber": "20",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pORg 21 Nordbahnanlage 4",
@@ -3230,8 +4402,12 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Mayerweckstraße 1",
@@ -3241,8 +4417,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Bundesgymnasium für Berufstätige",
@@ -3252,8 +4432,12 @@
     "housenumber": "72",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Privates Realgymnasium Avicenna (Ibn Sina)",
@@ -3263,8 +4447,12 @@
     "housenumber": "124",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Jochbergengasse 1",
@@ -3274,8 +4462,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Adolf-Loos-Gasse 2",
@@ -3285,8 +4477,12 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Weisselgasse 28",
@@ -3296,8 +4492,12 @@
     "housenumber": "28",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Privatschule für instinktives Lernen",
@@ -3307,8 +4507,12 @@
     "housenumber": "15-17",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Bundeslehranstalt für Tourismus und wirtschaftliche Berufe",
@@ -3318,8 +4522,12 @@
     "housenumber": "12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Tierpflegerschule des Fonds zur Förderung der Tierpflegerausbildung",
@@ -3329,8 +4537,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "BAFEP 21 Bildungsanstalt für Elementarpädagogik des Vereins \"Schulverein De La Salle\"",
@@ -3340,8 +4552,12 @@
     "housenumber": "20",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "BAFEP 21 Patrizigasse 2",
@@ -3351,8 +4567,12 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Kolleg für Sozialpädagogik für Berufstätige",
@@ -3362,8 +4582,12 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Rudolf-Schön-Weg 1",
@@ -3373,8 +4597,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pGRgORg 21 Anton-Böck-Gasse 37",
@@ -3384,8 +4612,12 @@
     "housenumber": "-",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Deublergasse 21",
@@ -3395,8 +4627,12 @@
     "housenumber": "21",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Aderklaaer Straße 2",
@@ -3406,8 +4642,12 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Roda-Roda-Gasse 3",
@@ -3417,8 +4657,12 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Hanreitergasse 2",
@@ -3428,8 +4672,12 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Anton-Sattler-Gasse 93",
@@ -3439,8 +4687,12 @@
     "housenumber": "93",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PTS Wintzingerodestraße 1-3",
@@ -3450,8 +4702,12 @@
     "housenumber": "1-3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Baugewerbe",
@@ -3461,8 +4717,12 @@
     "housenumber": "65",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 22 Bernoullistraße 3",
@@ -3472,8 +4732,12 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Gartenbau und Floristik",
@@ -3483,8 +4747,12 @@
     "housenumber": "31",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRgORg 22 Polgarstraße 24",
@@ -3494,8 +4762,12 @@
     "housenumber": "24",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Konstanziagasse 50",
@@ -3505,8 +4777,12 @@
     "housenumber": "50",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "VIS Straße der Menschenrechte 1",
@@ -3516,8 +4792,12 @@
     "housenumber": "Menschenrechte",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 22 Theodor Kramer-Straße 3",
@@ -3527,8 +4807,12 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Plankenmaisstraße 30",
@@ -3538,8 +4822,12 @@
     "housenumber": "30",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 22 Heustadelgasse 4",
@@ -3549,8 +4837,12 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 22 Contiweg 1",
@@ -3560,8 +4852,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pRgORg 22 Maculangasse 2",
@@ -3571,8 +4867,12 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "BgBRg Maria-Trapp-Platz 5",
@@ -3582,8 +4882,12 @@
     "housenumber": "5",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Afritschgasse 56",
@@ -3593,8 +4897,12 @@
     "housenumber": "56",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Mira-Lobe-Weg 4",
@@ -3604,8 +4912,12 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Jüptnergasse 4",
@@ -3615,8 +4927,12 @@
     "housenumber": "4-8",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Japanische Internationale Schule in Wien",
@@ -3626,8 +4942,12 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "International Christian School of Vienna, Wagramer Straße 175",
@@ -3637,8 +4957,12 @@
     "housenumber": "175",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 22 - business.academy.donaustadt",
@@ -3648,8 +4972,12 @@
     "housenumber": "24",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Hertha Firnberg Schulen für Wirtschaft und Tourismus",
@@ -3659,8 +4987,12 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Technische Bundeslehranstalt Donaustadt",
@@ -3670,8 +5002,12 @@
     "housenumber": "45",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Prinzgasse 3",
@@ -3681,8 +5017,12 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Eibengasse 58",
@@ -3692,8 +5032,12 @@
     "housenumber": "58",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Am Kaisermühlendamm 2",
@@ -3703,8 +5047,12 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Steinergasse 25",
@@ -3714,8 +5062,12 @@
     "housenumber": "25",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Berufsschule für Reinigungstechnik der Gebäudereinigungsakademie der Wiener Gebäudereiniger SchulungsGmbH",
@@ -3725,8 +5077,12 @@
     "housenumber": "Objekt",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PTS Anton Baumgartner-Straße 44",
@@ -3736,8 +5092,12 @@
     "housenumber": "44",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pGRg 23 Promenadeweg 3",
@@ -3747,8 +5107,12 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PSO Kanitzgasse 1-3",
@@ -3758,8 +5122,12 @@
     "housenumber": "1-3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "pGORg 23 Franz Asenbauer Gasse 49",
@@ -3769,8 +5137,12 @@
     "housenumber": "49",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Bendagasse 1-2",
@@ -3780,8 +5152,12 @@
     "housenumber": "1-2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Willergasse 55",
@@ -3791,8 +5167,12 @@
     "housenumber": "55",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 23 Anton-Baumgartner-Straße 123",
@@ -3802,8 +5182,12 @@
     "housenumber": "123",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "PNMS Franz-Asenbauer-Gasse 49",
@@ -3813,8 +5197,12 @@
     "housenumber": "49",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Höhere Lehranstalt für wirtschaftliche Berufe - Institut Santa Christiana",
@@ -3824,8 +5212,12 @@
     "housenumber": "55",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "Musikschule Harmony des Vereins der Freunde der Musikschule Harmony",
@@ -3835,8 +5227,12 @@
     "housenumber": "90-92",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "GRg 23 Draschestraße 90-92",
@@ -3846,8 +5242,12 @@
     "housenumber": "90-92",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Dirmhirngasse 138",
@@ -3857,8 +5257,12 @@
     "housenumber": "138",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "RgORg 23 Anton-Krieger-Gasse 25",
@@ -3868,8 +5272,12 @@
     "housenumber": "25",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Carlbergergasse 72",
@@ -3879,8 +5287,12 @@
     "housenumber": "72",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   },
   {
     "name": "NMS Anton-Baumgartner-Straße 119",
@@ -3890,7 +5302,11 @@
     "housenumber": "119",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [],
-    "specialisations": []
+    "schoolforms": [
+      "HTL"
+    ],
+    "specialisations": [
+      "INSY"
+    ]
   }
 ]

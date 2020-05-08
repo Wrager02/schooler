@@ -63,7 +63,7 @@ try {
 
 
         $currentSchool = new School($school['name'], $school['fk_zip'], $school['city'], $school['street'], $school['housenumber'],
-            $school['adressextra'], true, [], []);
+            $school['adressextra'], true, ['HTL'], ['INSY']);
 
 
         $return[] = $currentSchool->jsonSerialize();

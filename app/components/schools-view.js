@@ -22,18 +22,14 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, Attribut
 
     $log.debug("SchoolsViewController()");
 
-    //FulltextSearch.search("").then(response => {
-    //    this.list = response;
-    //});
-
-    this.applyFilter = () => {
-        FulltextSearch.search("Rennweg").then(response => {
+    this.search = () => {
+        FulltextSearch.search("HTL").then(response => {
             console.log(response);
             this.list = response;
         });
-    }
+    };
 
-    this.applyFilter();
+    this.search();
 
 
     this.tags = ["Mechatronik", "Informationstechnologie", "Chemie", "Sport", "Design", "Fotografie", "Designee", "Fotografieee" ];
