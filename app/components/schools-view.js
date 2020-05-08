@@ -18,18 +18,28 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 });
 
 
-app.controller("SchoolsViewController", function ($log, FulltextSearch, AttributeFilter) {
+app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy) {
 
     $log.debug("SchoolsViewController()");
 
+    this.init = () => {
+        FulltextSearch.search("").then(response => {
+            this.list = response;
+        });
+    };
+    this.init();
+
+
     this.search = () => {
-        FulltextSearch.search("HTL").then(response => {
-            console.log(response);
+        FulltextSearch.search(this.input).then(response => {
             this.list = response;
         });
     };
 
-    this.search();
+    this.sortList = () => {
+        this.list.sort(SortBy.dynamicSort(this.select));
+        console.log(this.list);
+    };
 
 
     this.tags = ["Mechatronik", "Informationstechnologie", "Chemie", "Sport", "Design", "Fotografie", "Designee", "Fotografieee" ];

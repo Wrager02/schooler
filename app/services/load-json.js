@@ -8,7 +8,9 @@ app.service("LoadJson", function ($log, $http) {
 
     this.getJson = () => {
         if(jsonInput) {
-            return new Promise(jsonInput);
+            return new Promise(function (resolve,reject) {
+                resolve(jsonInput);
+            })
         } else {
             return $http.get("./resources/data/schools.json")
                 .then(response => {
