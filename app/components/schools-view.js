@@ -58,8 +58,6 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     this.tags = ["Mechatronik", "Informationstechnologie", "Chemie", "Sport", "Design", "Fotografie", "Designee", "Fotografieee", "Hirsie", "ist", "lost", "af", "denn", "hallo", "moin", "karl ess", "insolvenz", "madeira"];
     this.selectedTags = [];
-    
-    console.log(this.selectedTags.length);
 
     this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
 
@@ -73,5 +71,15 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
          this.tags.push(this.selectedTags[tag]);
          this.selectedTags.splice(tag, 1);
          this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
+    }
+
+
+
+    // Buttons
+    
+    this.control = [true, false, true, false, false,true,false]
+
+    this.change = (button) =>{
+        this.control[button] = !this.control[button];
     }
 });

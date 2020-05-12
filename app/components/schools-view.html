@@ -29,14 +29,14 @@
                     <input type="text" class="tag-search" ng-model="$ctrl.tagInput" placeholder="Suche">
                     
                     <div class="tag-container" ng-controller="SchoolsViewController">
-                        <div class="tag" ng-bind="tag" ng-show="$ctrl.showTag(tag)" ng-repeat="tag in $ctrl.tags" ng-click="$ctrl.selectTag($index)">
+                        <div class="tag noselect" ng-bind="tag" ng-show="$ctrl.showTag(tag)" ng-repeat="tag in $ctrl.tags" ng-click="$ctrl.selectTag($index)">
                         </div>
                     </div>
 
                     <p class="filter-title" ng-show="$ctrl.tagSelected" ng-model="$ctrl.tagSelected">Ausgewählt</p>
                     
                     <div class="selected-tag-container">
-                        <div class="selectedTag" ng-bind="tag" ng-repeat="tag in $ctrl.selectedTags" ng-click="$ctrl.deselectTag($index)">
+                        <div class="selectedTag noselect" ng-bind="tag" ng-repeat="tag in $ctrl.selectedTags" ng-click="$ctrl.deselectTag($index)">
                         </div>
                     </div>
     
@@ -48,8 +48,8 @@
 
 
                     <div class="button-container">
-                        <button class="selection-button selected">Wien</button>
-                        <button class="selection-button">Niederösterreich</button>
+                        <button class="selection-button" ng-click="$ctrl.change(0)" ng-class="{true: 'selected', false: ''}[$ctrl.control[0] == true]">Wien</button>
+                        <button class="selection-button" ng-click="$ctrl.change(1)" ng-class="{true: 'selected', false: ''}[$ctrl.control[1] == true]">Niederösterreich</button>
                     </div>
                     
                     
@@ -61,8 +61,8 @@
                     <p class="filter-title">Schultyp</p>
 
                     <div class="button-container">
-                        <button class="selection-button">Öffentlich</button>
-                        <button class="selection-button">Privat</button>
+                        <button class="selection-button" ng-click="$ctrl.change(2)" ng-class="{true: 'selected', false: ''}[$ctrl.control[2] == true]">Öffentlich</button>
+                        <button class="selection-button" ng-click="$ctrl.change(3)" ng-class="{true: 'selected', false: ''}[$ctrl.control[3] == true]">Privat</button>
                     </div>
     
                 </div>
@@ -72,9 +72,9 @@
                     <p class="filter-title">Abschluss</p>
 
                     <div class="button-container">
-                        <button class="selection-button">Matura</button>
-                        <button class="selection-button">Hauptschule</button>
-                        <button class="selection-button">Ingenieur</button>
+                        <button class="selection-button" ng-click="$ctrl.change(4)" ng-class="{true: 'selected', false: ''}[$ctrl.control[4] == true]">Matura</button>
+                        <button class="selection-button" ng-click="$ctrl.change(5)" ng-class="{true: 'selected', false: ''}[$ctrl.control[5] == true]">Hauptschule</button>
+                        <button class="selection-button" ng-click="$ctrl.change(6)" ng-class="{true: 'selected', false: ''}[$ctrl.control[6] == true]">Ingenieur</button>
                     </div>
     
                 </div>

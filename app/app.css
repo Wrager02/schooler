@@ -114,6 +114,7 @@
 }
 
 .schools-view .content .top-bar div:nth-child(1) input {
+  outline: none;
   border-radius: .3em;
   border: 2px solid #000021;
   height: 100%;
@@ -127,6 +128,7 @@
 }
 
 .schools-view .content .top-bar div:nth-child(2) select {
+  outline: none;
   height: 100%;
   border-radius: .3em;
   border: 2px solid #000021;
@@ -143,6 +145,21 @@
 .schools-view .content .top-bar div:nth-child(3) button {
   height: 100%;
   width: 100%;
+}
+
+.schools-view .noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                        supported by Chrome, Edge, Opera and Firefox */
 }
 
 @media (min-width: 992px) {

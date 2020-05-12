@@ -91,6 +91,7 @@ $light-blue: #00AEEF;
                         margin-left: .5em;
 
                         input{
+                            outline: none;
                             border-radius: .3em;
                             border: 2px solid $dark-blue;
                             height: 100%;
@@ -105,6 +106,7 @@ $light-blue: #00AEEF;
                         width: 33%;
 
                         select{
+                            outline: none;
                             height: 100%;
                             border-radius: .3em;
                             border: 2px solid $dark-blue;
@@ -129,6 +131,16 @@ $light-blue: #00AEEF;
 
         }
     }
+
+    .noselect {
+        -webkit-touch-callout: none; /* iOS Safari */
+          -webkit-user-select: none; /* Safari */
+           -khtml-user-select: none; /* Konqueror HTML */
+             -moz-user-select: none; /* Old versions of Firefox */
+              -ms-user-select: none; /* Internet Explorer/Edge */
+                  user-select: none; /* Non-prefixed version, currently
+                                        supported by Chrome, Edge, Opera and Firefox */
+      }
 
     
     @media(min-width: 992px){
