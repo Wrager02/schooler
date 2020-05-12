@@ -18,7 +18,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 });
 
 
-app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy) {
+app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, $timeout) {
 
     $log.debug("SchoolsViewController()");
 
@@ -33,6 +33,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy) 
     this.search = () => {
         FulltextSearch.search(this.input).then(response => {
             this.list = response;
+            $timeout();
         });
     };
 

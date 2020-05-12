@@ -91,7 +91,7 @@
 
             <div>
 
-                <input type="text" placeholder="Schule suchen" ng-model="$ctrl.input" ng-change="$ctrl.search()">
+                <input type="text" placeholder="Schule suchen" ng-model="$ctrl.input" ng-model-options="{debounce: 300}" ng-change="$ctrl.search()">
 
             </div>
 
@@ -120,7 +120,7 @@
         </div>
 
         <div class="school-list">
-
+            {{$ctrl.list.length}}
             <school ng-repeat="school in $ctrl.list" school="school"></school>
 
         </div>
