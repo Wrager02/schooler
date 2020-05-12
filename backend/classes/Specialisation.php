@@ -44,7 +44,6 @@ class Specialisation implements \JsonSerializable
 
     public function jsonSerialize()
     {
-        echo "Specialisation";
         $array["specialisation"] = $this->specialisation;
         $array["description"] = $this->description;
         $array["graphic"] = $this->graphic;

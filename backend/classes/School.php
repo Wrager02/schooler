@@ -48,14 +48,27 @@ class School implements \JsonSerializable
     private $private;
 
     /**
-     * @var array
+     * @var string
+     * Schulform (z.B. HTL, Gymnasium)
      */
-    private $specialisations;
+    private $schoolform;
+
+    /**
+     * @var string
+     * Zusätzliche Information zur Schulform
+     */
+    private $schoolformDescription;
+
+    /**
+     * @var string
+     * Abschluss
+     */
+    private $graduation;
 
     /**
      * @var array
      */
-    private $schoolforms;
+    private $specialisations;
 
     /**
      * School constructor.
@@ -66,12 +79,14 @@ class School implements \JsonSerializable
      * @param string $housenumber
      * @param string $addressaddition
      * @param bool $privat
-     * @param array $schoolforms
+     * @param string $schoolform
+     * @param string $schoolformDescription
+     * @param string $graduation
      * @param array $specialisations
      */
     public function __construct(
         string $name, string $zip, string $city, string $street, string $housenumber, string $addressaddition,
-        bool $privat, array $schoolforms, array $specialisations)
+        bool $privat, string $schoolform, string $schoolformDescription, string $graduation, array $specialisations)
     {
         $this->name = utf8_encode($name);
         $this->zip = $zip;
@@ -80,7 +95,9 @@ class School implements \JsonSerializable
         $this->housenumber = $housenumber;
         $this->addressextra = $addressaddition;
         $this->private = $privat;
-        $this->schoolforms = $schoolforms;
+        $this->schoolform = $schoolform;
+        $this->schoolformDescription = $schoolformDescription;
+        $this->graduation = $graduation;
         $this->specialisations = $specialisations;
     }
 
@@ -88,7 +105,7 @@ class School implements \JsonSerializable
     public function __toString()
     {
         return $this->name . ": " . $this->zip . " " . $this->city . " " . $this->street . " " . $this->housenumber .
-            ", Schultyp: " . implode(", ", $this->schoolforms) . ", Spezialisierung: " .
+            ", Schultyp: " . $this->schoolform . ", Spezialisierung: " .
             implode(", ", $this->specialisations) . "<br>";
     }
 
@@ -157,12 +174,29 @@ class School implements \JsonSerializable
     }
 
     /**
-     * @return array
+     * @return string
      */
-    public function getSchoolforms(): array
+    public function getSchoolform(): string
     {
-        return $this->schoolforms;
+        return $this->schoolform;
     }
+
+    /**
+     * @return string
+     */
+    public function getSchoolformDescription(): string
+    {
+        return $this->schoolformDescription;
+    }
+
+    /**
+     * @return string
+     */
+    public function getGraduation(): string
+    {
+        return $this->graduation;
+    }
+
 
 
 
@@ -177,7 +211,9 @@ class School implements \JsonSerializable
             'housenumber' => $this->getHousenumber(),
             'addressextra' => $this->getAddressextra(),
             'private' => $this->isPrivate(),
-            'schoolforms' => $this->getSchoolforms(),
+            'schoolform' => $this->getSchoolform(),
+            'schoolformDescription' => $this->getSchoolformDescription(),
+            'graduation' => $this->getGraduation(),
             'specialisations' => $this->getSpecialisations()
         );
     }
