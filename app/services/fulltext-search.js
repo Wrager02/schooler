@@ -16,12 +16,12 @@ app.service("FulltextSearch", function ($log, $timeout, LoadJson) {
                 .then(response => {
                     return response.filter(function (e) {
                         for (let key in e) {
-                            if (typeof e[key] === 'string' && e[key].includes(input)) {
+                            if (typeof e[key] === 'string' && (e[key].toLowerCase()).includes(input.toLowerCase())) {
                                 return true;
                             }
                             if (typeof e[key] === 'object') {
                                 for (let i = 0; i <= e[key].length; i++) {
-                                    if(typeof e[key][i] === 'string' && e[key][i].includes(input)) {
+                                    if(typeof e[key][i] === 'string' && (e[key][i].toLowerCase()).includes(input.toLowerCase())) {
                                         return true;
                                     }
                                 }
