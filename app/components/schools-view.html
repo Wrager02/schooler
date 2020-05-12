@@ -25,13 +25,18 @@
     
                     <p class="filter-title">Schwerpunkte</p>
 
-                    <div class="selected-tag-container">
-                        <div class="selectedTag" ng-bind="tag" ng-repeat="tag in $ctrl.selectedTags" ng-click="$ctrl.deselectTag($index)">
-                        </div>
-                    </div>
+                    
+                    <input type="text" class="tag-search" placeholder="Suche">
                     
                     <div class="tag-container" ng-controller="SchoolsViewController">
                         <div class="tag" ng-bind="tag" ng-repeat="tag in $ctrl.tags" ng-click="$ctrl.selectTag($index)">
+                        </div>
+                    </div>
+
+                    <p class="filter-title" ng-show="$ctrl.tagSelected" ng-model="$ctrl.tagSelected">Ausgewählt</p>
+                    
+                    <div class="selected-tag-container">
+                        <div class="selectedTag" ng-bind="tag" ng-repeat="tag in $ctrl.selectedTags" ng-click="$ctrl.deselectTag($index)">
                         </div>
                     </div>
     
