@@ -26,10 +26,10 @@
                     <p class="filter-title">Schwerpunkte</p>
 
                     
-                    <input type="text" class="tag-search" placeholder="Suche">
+                    <input type="text" class="tag-search" ng-model="$ctrl.tagInput" placeholder="Suche">
                     
                     <div class="tag-container" ng-controller="SchoolsViewController">
-                        <div class="tag" ng-bind="tag" ng-repeat="tag in $ctrl.tags" ng-click="$ctrl.selectTag($index)">
+                        <div class="tag" ng-bind="tag" ng-show="$ctrl.showTag(tag)" ng-repeat="tag in $ctrl.tags" ng-click="$ctrl.selectTag($index)">
                         </div>
                     </div>
 

@@ -29,6 +29,14 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     };
     this.init();
 
+    this.showTag = (tag) => {
+        if (!this.tagInput) {
+            return true;
+        } else {
+            return tag.toLowerCase().includes(this.tagInput.toLowerCase());
+        }
+    }
+
 
     this.search = () => {
         FulltextSearch.search(this.input).then(response => {
