@@ -41,12 +41,15 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
         } else {
             return tag.toLowerCase().includes(this.tagInput.toLowerCase());
         }
-    }
+    };
 
 
     this.search = () => {
         FulltextSearch.search(this.input).then(response => {
             this.list = response;
+            if (this.select) {
+                this.sortList();
+            }
             $timeout();
         });
     };
