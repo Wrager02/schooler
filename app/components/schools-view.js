@@ -22,6 +22,12 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     $log.debug("SchoolsViewController()");
 
+    this.sortList = () => {
+        this.list.sort(SortBy.dynamicSort(this.select));
+        console.log(this.list);
+    };
+
+
     this.init = () => {
         FulltextSearch.search("").then(response => {
             this.list = response;
@@ -33,13 +39,9 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     this.search = () => {
         FulltextSearch.search(this.input).then(response => {
             this.list = response;
+            console.log(this.list);
             $timeout();
         });
-    };
-
-    this.sortList = () => {
-        this.list.sort(SortBy.dynamicSort(this.select));
-        console.log(this.list);
     };
 
 
