@@ -163,6 +163,10 @@ $light-blue: #00AEEF;
                        letter-spacing: .1em;
                    }
 
+                   textarea:focus, input:focus{
+                    outline: none;
+                    }
+
                    .tag-search{
                        background: $dark-blue;
                         border: 0 0 2px 0 soild #fff;
@@ -172,6 +176,8 @@ $light-blue: #00AEEF;
                         color: #ffffff;
                         font-size: .8em;
                         padding: .2em .2em .2em 2em;
+
+                        
 
                         &:focus{
                             border: 2px solid $light-blue;
@@ -258,6 +264,7 @@ $light-blue: #00AEEF;
 
                    .button-container{
                        width: 100%;
+            
                        
                        .selection-button{
                             width: 140px;
@@ -270,11 +277,9 @@ $light-blue: #00AEEF;
                             border: 2px solid #ffffff;
                             border-radius: 5px;
                             margin: 5px 5px 5px 0;
+                            outline: none;
                        }
 
-                       &:focus{
-                           outline: 0 !important;
-                       }
 
                        .selected{
                            color: $light-blue;

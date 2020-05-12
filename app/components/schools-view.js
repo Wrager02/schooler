@@ -47,7 +47,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     
 
-    this.tags = ["Mechatronik", "Informationstechnologie", "Chemie", "Sport", "Design", "Fotografie", "Designee", "Fotografieee" ];
+    this.tags = ["Mechatronik", "Informationstechnologie", "Chemie", "Sport", "Design", "Fotografie", "Designee", "Fotografieee", "Hirsie", "ist", "lost", "af", "denn", "hallo", "moin", "karl ess", "insolvenz", "madeira"];
     this.selectedTags = [];
     
     console.log(this.selectedTags.length);
