@@ -25,13 +25,17 @@
     
                     <p class="filter-title">Schwerpunkte</p>
 
-                    <div class="selected-tag-container">
-                        <div class="selectedTag" ng-bind="tag" ng-repeat="tag in $ctrl.selectedTags" ng-click="$ctrl.deselectTag($index)">
-                        </div>
-                    </div>
+                    
                     
                     <div class="tag-container" ng-controller="SchoolsViewController">
                         <div class="tag" ng-bind="tag" ng-repeat="tag in $ctrl.tags" ng-click="$ctrl.selectTag($index)">
+                        </div>
+                    </div>
+
+                    <p class="filter-title" ng-show="$ctrl.tagSelected" ng-model="$ctrl.tagSelected">Ausgewählt</p>
+                    
+                    <div class="selected-tag-container">
+                        <div class="selectedTag" ng-bind="tag" ng-repeat="tag in $ctrl.selectedTags" ng-click="$ctrl.deselectTag($index)">
                         </div>
                     </div>
     
@@ -87,7 +91,7 @@
 
             <div>
 
-                <input type="text" placeholder="Schule suchen" ng-model="$ctrl.input" ng-change="$ctrl.search()">
+                <input type="text" placeholder="Schule suchen" ng-model="$ctrl.input" ng-model-options="{debounce: 300}" ng-change="$ctrl.search()">
 
             </div>
 
@@ -116,7 +120,7 @@
         </div>
 
         <div class="school-list">
-
+            {{$ctrl.list.length}}
             <school ng-repeat="school in $ctrl.list" school="school"></school>
 
         </div>
