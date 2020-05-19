@@ -2,7 +2,7 @@
 
     <div class="navbar">
         <a ui-sref="landing-page" class="logo">
-            <img src="./resources/images/icon_font.svg">
+            <img src="./resources/images/icon_font.svg" alt="schooler logo">
         </a>
         <div class="burger">
             <span></span>
@@ -15,7 +15,7 @@
         <div class="fixed-container">
             <div class="logo-container">
 
-                <img src="" class="logo">
+                <img src="./resources/images/icon_font.svg" class="logo" alt="schooler logo">
     
             </div>
     
@@ -25,8 +25,12 @@
     
                     <p class="filter-title">Schwerpunkte</p>
 
+                    <div class="tag-search">
+                        <i class="fas fa-search"></i>
+                        <input type="text" ng-model="$ctrl.tagInput" placeholder="Suche"> 
+                    </div>
                     
-                    <input type="text" class="tag-search" ng-model="$ctrl.tagInput" placeholder="Suche">
+
                     
                     <div class="tag-container" ng-controller="SchoolsViewController">
                         <div class="tag noselect" ng-bind="tag" ng-show="$ctrl.showTag(tag)" ng-repeat="tag in $ctrl.tags" ng-click="$ctrl.selectTag($index)">
@@ -36,7 +40,8 @@
                     <p class="filter-title" ng-show="$ctrl.tagSelected" ng-model="$ctrl.tagSelected">Ausgewählt</p>
                     
                     <div class="selected-tag-container">
-                        <div class="selectedTag noselect" ng-bind="tag" ng-repeat="tag in $ctrl.selectedTags" ng-click="$ctrl.deselectTag($index)">
+                        <div class="selectedTag noselect"  ng-repeat="tag in $ctrl.selectedTags" ng-click="$ctrl.deselectTag($index)">
+                                {{tag}}  <span>X</span>
                         </div>
                     </div>
     
@@ -90,8 +95,9 @@
 
         <div class="top-bar">
 
-            <div>
+            <div class="search">
 
+                <i class="fas fa-search"></i>
                 <input type="text" placeholder="Schule suchen" ng-model="$ctrl.input" ng-model-options="{debounce: 300}" ng-change="$ctrl.search()">
 
             </div>
@@ -100,7 +106,7 @@
 
                 <select class="filter-select" ng-model="$ctrl.select" ng-change="$ctrl.sortList()">
 
-                    <option disabled selected value> -- Sortierung -- </option>
+                    <option disabled selected value>Sortierung</option>
                     <option selected value="name">Alphabetisch</option>
                     <option value="city">Ort</option>
                     <option value="typ">Typ</option>
@@ -113,9 +119,7 @@
 
             <div>
 
-                <button class="toggle-list" ng-click="$ctrl.applyFilter()">
-                    Test
-                </button>
+                <i class="fas fa-th-list"></i>
 
             </div>
 
