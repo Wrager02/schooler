@@ -50,6 +50,7 @@ try {
 
         foreach ($schooltypes as $schooltype) {
             $return[] = new School(
+                $school['pk_school_id'],
                 $school['name'],
                 $school['fk_zip'],
                 $school['city'],
