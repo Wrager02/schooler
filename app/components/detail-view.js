@@ -25,11 +25,9 @@ app.controller("DetailViewController", function ($log, $stateParams, FilterByIdS
 
     // this.school = FilterByIdService.filterByID(this.id);
 
-    FilterByIdService.filterByID(this.id).then(response => {
-        this.school = response;
-        console.log(this.school);
-    });
 
-    console.log(this.school);
+    FilterByIdService.filterByID(this.id).then(response => {
+        this.school = response[0];
+    });
 
 });
