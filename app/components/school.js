@@ -4,7 +4,8 @@ app.component("school", {
     templateUrl: "components/school.html",
     controller: "SchoolController",
     bindings: {
-        school: '<'
+        school: '<',
+        view: '<'
     }
 });
 

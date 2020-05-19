@@ -1,9 +1,13 @@
-<div class="listed-school" ui-sref="detail-view({id: $ctrl.school.id})">
+<div class="listed-school" ui-sref="detail-view({id: $ctrl.school.id})" ng-class="{true: 'list', false: 'card'}[$ctrl.view == true]">
 
     <img src="" class="thumbnail">
 
-    <h1>{{$ctrl.school.name}}</h1>
-    <p>{{$ctrl.school.id}}</p>
+    <div class="school-info">
+        <h3>Design</h3>
+        <h1>{{$ctrl.school.name}}</h1>
+    </div>
+    
+    
 
     <div class="infos">
 
@@ -21,6 +25,8 @@
 
     </div>
 
-    <button class="addToFavorite">+</button>
+    <div class="favourite">
+        <i class="far fa-plus-square"></i>
+    </div>
 
 </div>
