@@ -1,35 +1,34 @@
 [
   {
+    "id": 125,
     "name": "NMS Renngasse 20",
     "zip": "1010",
     "city": "Wien",
     "street": "Renngasse",
     "housenumber": "20",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 126,
     "name": "AkG Beethovenplatz 1",
     "zip": "1010",
     "city": "Wien",
     "street": "Beethovenplatz",
     "housenumber": "1",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 127,
     "name": "pG 1 Freyung 6",
     "zip": "1010",
     "city": "Wien",
@@ -37,59 +36,55 @@
     "housenumber": "6",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 128,
     "name": "Rg 1 Schottenbastei 7-9",
     "zip": "1010",
     "city": "Wien",
     "street": "Schottenbastei",
     "housenumber": "7-9",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 129,
     "name": "GRg 1 Stubenbastei 6-8",
     "zip": "1010",
     "city": "Wien",
     "street": "Stubenbastei",
     "housenumber": "6-8",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 130,
     "name": "ORg 1\/H 12 Hegelgasse 12",
     "zip": "1010",
     "city": "Wien",
     "street": "Hegelgasse",
     "housenumber": "12",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 131,
     "name": "Vienna Business School - Handelsakademie und Handelsschule Akademiestraße der Wiener Kaufmannschaft",
     "zip": "1010",
     "city": "Wien",
@@ -97,14 +92,13 @@
     "housenumber": "12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 132,
     "name": "Gastgewerbefachschule des Schulvereins der Wiener Gastwirte",
     "zip": "1010",
     "city": "Wien",
@@ -112,14 +106,13 @@
     "housenumber": "3-4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 133,
     "name": "Schauspielschule Krauss",
     "zip": "1010",
     "city": "Wien",
@@ -127,14 +120,13 @@
     "housenumber": "9",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 134,
     "name": "Diözesankonservatorium für Kirchenmusik der Erzdiözese Wien",
     "zip": "1010",
     "city": "Wien",
@@ -142,104 +134,97 @@
     "housenumber": "Eisen-Platz",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 135,
     "name": "RgORg 2 Lessinggasse 8-14",
     "zip": "1010",
     "city": "Wien",
     "street": "Schellinggasse",
     "housenumber": "18",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 136,
     "name": "NMS Feuerbachstraße 1",
     "zip": "1020",
     "city": "Wien",
     "street": "Feuerbachstraße",
     "housenumber": "1",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 137,
     "name": "GRg 2 Wohlmutstraße 3",
     "zip": "1020",
     "city": "Wien",
     "street": "Wohlmutstraße",
     "housenumber": "3",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 138,
     "name": "GRg 2 Zirkusgasse 48",
     "zip": "1020",
     "city": "Wien",
     "street": "Zirkusgasse",
     "housenumber": "48",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 139,
     "name": "GRg 2 Kleine Sperlgasse 4",
     "zip": "1020",
     "city": "Wien",
     "street": "Kleine Sperlgasse",
     "housenumber": "2c",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 140,
     "name": "NMS Obere Augartenstraße 38",
     "zip": "1020",
     "city": "Wien",
     "street": "Obere Augartenstraße",
     "housenumber": "38",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 141,
     "name": "pRg 2 Simon-Wiesenthal-Gasse 3",
     "zip": "1020",
     "city": "Wien",
@@ -247,29 +232,27 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 142,
     "name": "NMS Pazmanitengasse 26",
     "zip": "1020",
     "city": "Wien",
     "street": "Pazmanitengasse",
     "housenumber": "26",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 143,
     "name": "FIT - Fachspezifische Schule für individualisierte Teilausbildungen für Jugendliche und junge Erwachsene mit Behinderungen\/Benachteiligungen der ITA gem. GmbH",
     "zip": "1020",
     "city": "Wien",
@@ -277,14 +260,13 @@
     "housenumber": "21",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 144,
     "name": "I-FIT - Inklusive Fachspezifische Schule für Individualisierte Teilausbildungen für Jugendliche und junge Erwachsene mit Ausgrenzungsgefährdung und Behinderungen\/Benachteiligungen des Evang.Schulwerks A.B. Wien\"",
     "zip": "1020",
     "city": "Wien",
@@ -292,14 +274,13 @@
     "housenumber": "21",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 145,
     "name": "PNMS Obere Augartenstraße 34",
     "zip": "1020",
     "city": "Wien",
@@ -307,14 +288,13 @@
     "housenumber": "34",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 146,
     "name": "pORg 2 Rabbiner-Schneerson-Platz 1",
     "zip": "1020",
     "city": "Wien",
@@ -322,14 +302,13 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 147,
     "name": "PNMS Malzgasse 16",
     "zip": "1020",
     "city": "Wien",
@@ -337,14 +316,13 @@
     "housenumber": "16",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 148,
     "name": "PNMS Rabbiner Schneerson-Platz 1",
     "zip": "1020",
     "city": "Wien",
@@ -352,14 +330,13 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 149,
     "name": "PNMS Große Stadtgutgasse 24",
     "zip": "1020",
     "city": "Wien",
@@ -367,14 +344,13 @@
     "housenumber": "24",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 150,
     "name": "Danube International School Vienna",
     "zip": "1020",
     "city": "Wien",
@@ -382,29 +358,27 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
-    "name": "JESSODE-Hatara-Schule des Vereins KHAL ISRAEL religiös-orthodoxer Verein",
+    "id": 151,
+    "name": "?JESSODE-Hatara-Schule? des Vereins ?KHAL ISRAEL religiös-orthodoxer Verein",
     "zip": "1020",
     "city": "Wien",
     "street": "Tempelgasse",
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 152,
     "name": "Vienna Business School - Handelsakademie und Handelsschule Augarten der Wiener Kaufmannschaft",
     "zip": "1020",
     "city": "Wien",
@@ -412,14 +386,13 @@
     "housenumber": "9",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 153,
     "name": "Handelsschule des Vereins jüdisches pädagogisches Zentrum",
     "zip": "1020",
     "city": "Wien",
@@ -427,29 +400,27 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 154,
     "name": "Handelsschule am Bundes-Blindeninstitut",
     "zip": "1020",
     "city": "Wien",
     "street": "Wittelsbachstraße",
     "housenumber": "5",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 155,
     "name": "Fachschule für jüdische Sozialberufe - Wiener Jeschiwah",
     "zip": "1020",
     "city": "Wien",
@@ -457,14 +428,13 @@
     "housenumber": "19",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 156,
     "name": "Jüdische Mädchenfachschule für Kommunikation und Wirtschaft \"Beth-Jakov-Schule\"",
     "zip": "1020",
     "city": "Wien",
@@ -472,14 +442,13 @@
     "housenumber": "24",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 157,
     "name": "Jehuda Halevi Musikschule des Vereins Jehuda Halevi Zentrum für Kunst und Kultur",
     "zip": "1020",
     "city": "Wien",
@@ -487,29 +456,27 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 302,
     "name": "NMS Max-Winter-Platz 2",
     "zip": "1020",
     "city": "Wien",
     "street": "Max-Winter-Platz",
     "housenumber": "2",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 308,
     "name": "pRgORg 2 Obere Augartenstraße 1c",
     "zip": "1020",
     "city": "Wien",
@@ -517,134 +484,125 @@
     "housenumber": "1c",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 332,
     "name": "NMS Wittelsbachstraße 6",
     "zip": "1020",
     "city": "Wien",
     "street": "Wittelsbachstraße",
     "housenumber": "6",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 343,
     "name": "WMS Kleine Sperlgasse 2A",
     "zip": "1020",
     "city": "Wien",
     "street": "Kleine Sperlgasse",
     "housenumber": "2A",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 158,
     "name": "NMS Dietrichgasse 36",
     "zip": "1030",
     "city": "Wien",
     "street": "Dietrichgasse",
     "housenumber": "36",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 159,
     "name": "PTS Maiselgasse 1",
     "zip": "1030",
     "city": "Wien",
     "street": "Maiselgasse",
     "housenumber": "1",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Polytechnische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 160,
     "name": "ORg 3 Landstraßer Hauptstraße 70",
     "zip": "1030",
     "city": "Wien",
     "street": "Landstraßer Hauptstraße",
     "housenumber": "70",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 161,
     "name": "NMS Hainburger Straße 40",
     "zip": "1030",
     "city": "Wien",
     "street": "Hainburger Straße",
     "housenumber": "40",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 162,
     "name": "GRg 3 Boerhaavegasse 15",
     "zip": "1030",
     "city": "Wien",
     "street": "Boerhaavegasse",
     "housenumber": "15",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 163,
     "name": "NMS Hörnesgasse 12",
     "zip": "1030",
     "city": "Wien",
     "street": "Hörnesgasse",
     "housenumber": "12",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 164,
     "name": "pG 3 Rennweg 31",
     "zip": "1030",
     "city": "Wien",
@@ -652,44 +610,41 @@
     "housenumber": "31",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 165,
     "name": "GRg 3 Kundmanngasse 20-22",
     "zip": "1030",
     "city": "Wien",
     "street": "Kundmanngasse",
     "housenumber": "20-22",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 166,
     "name": "GRg 3 Hagenmüllergasse 30",
     "zip": "1030",
     "city": "Wien",
     "street": "Hagenmüllergasse",
     "housenumber": "30",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 167,
     "name": "PNMS Erdbergstraße 70",
     "zip": "1030",
     "city": "Wien",
@@ -697,14 +652,13 @@
     "housenumber": "70",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 168,
     "name": "PNMS Schützengasse 31",
     "zip": "1030",
     "city": "Wien",
@@ -712,14 +666,13 @@
     "housenumber": "31",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 169,
     "name": "PNMS Fasangasse 4",
     "zip": "1030",
     "city": "Wien",
@@ -727,14 +680,13 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 170,
     "name": "pRgORg 3 Schützengasse 31",
     "zip": "1030",
     "city": "Wien",
@@ -742,29 +694,27 @@
     "housenumber": "31",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 171,
     "name": "ORg 3 Ballsportgymnasium Wien",
     "zip": "1030",
     "city": "Wien",
     "street": "Erdbergstraße",
     "housenumber": "186",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 172,
     "name": "Handelsakademie und Handelsschule Marienanstalt - Sacré Coeur der Schulstiftung Erzdiözese Wien",
     "zip": "1030",
     "city": "Wien",
@@ -772,14 +722,13 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 173,
     "name": "Schule für Sozialbetreuungsberufe (WISOZ) der AWZ-Soziales Wien GmbH",
     "zip": "1030",
     "city": "Wien",
@@ -787,14 +736,13 @@
     "housenumber": "37",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 174,
     "name": "Höhere Lehranstalt für wirtschaftliche Berufe des Schulvereins der Schulschwestern",
     "zip": "1030",
     "city": "Wien",
@@ -802,134 +750,125 @@
     "housenumber": "70",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 175,
     "name": "Camillo Sitte Lehranstalt, Höhere Technische Bundeslehr- und Versuchsanstalt",
     "zip": "1030",
     "city": "Wien",
     "street": "Leberstraße",
     "housenumber": "4c",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Technische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 176,
     "name": "Bundeshandelsakademie und Bundeshandelsschule und Höhere Technische Bundeslehranstalt Schulzentrum Ungargasse Wien 3",
     "zip": "1030",
     "city": "Wien",
     "street": "Ungargasse",
     "housenumber": "69",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Technische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 177,
     "name": "Bundeshandelsakademie und Bundeshandelsschule und Höhere Technische Bundeslehranstalt Schulzentrum Ungargasse Wien 3",
     "zip": "1030",
     "city": "Wien",
     "street": "Ungargasse",
     "housenumber": "69",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 178,
     "name": "Höhere Technische Bundeslehranstalt Wien 3 Rennweg",
     "zip": "1030",
     "city": "Wien",
     "street": "Rennweg",
     "housenumber": "89b",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Technische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 179,
     "name": "BSH Bundesschüler\/innen-Wohnheim Juchgasse",
     "zip": "1030",
     "city": "Wien",
     "street": "Juchgasse",
     "housenumber": "27",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Technische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 350,
     "name": "GRg 3 Radetzkystraße 2A",
     "zip": "1030",
     "city": "Wien",
     "street": "Radetzkystraße",
     "housenumber": "2A",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 353,
     "name": "NMS Kölblgasse 23",
     "zip": "1030",
     "city": "Wien",
     "street": "Kölblgasse",
     "housenumber": "23",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 180,
     "name": "GTNMS Schäffergasse 3",
     "zip": "1040",
     "city": "Wien",
     "street": "Schäffergasse",
     "housenumber": "3",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 181,
     "name": "PPTS Karlsplatz 14",
     "zip": "1040",
     "city": "Wien",
@@ -937,29 +876,27 @@
     "housenumber": "14",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Polytechnische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 182,
     "name": "Rg 4 Waltergasse 7",
     "zip": "1040",
     "city": "Wien",
     "street": "Waltergasse",
     "housenumber": "7",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 183,
     "name": "PWMS Karlsplatz 14",
     "zip": "1040",
     "city": "Wien",
@@ -967,29 +904,27 @@
     "housenumber": "14",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 184,
     "name": "GRg 4 Wiedner Gürtel 68",
     "zip": "1040",
     "city": "Wien",
     "street": "Wiedner Gürtel",
     "housenumber": "68",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 185,
     "name": "Technisch-Gewerbliche Abendschule des bfi Wien - Werkmeisterschule",
     "zip": "1040",
     "city": "Wien",
@@ -997,14 +932,13 @@
     "housenumber": "13",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Technische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 186,
     "name": "Prayner Konservatorium des Herrn Mag. Josef Schmid",
     "zip": "1040",
     "city": "Wien",
@@ -1012,14 +946,13 @@
     "housenumber": "28-30",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 315,
     "name": "pG 4 Favoritenstraße 15",
     "zip": "1040",
     "city": "Wien",
@@ -1027,119 +960,111 @@
     "housenumber": "15",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 115,
     "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 12 - International Business College Hetzendorf",
     "zip": "1050",
     "city": "Wien",
     "street": "Kriehubergasse",
     "housenumber": "24-26",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 187,
     "name": "GRg 5 Reinprechtsdorfer Straße 24",
     "zip": "1050",
     "city": "Wien",
     "street": "Reinprechtsdorfer Straße",
     "housenumber": "24",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 188,
     "name": "NMS Gassergasse 44",
     "zip": "1050",
     "city": "Wien",
     "street": "Gassergasse",
     "housenumber": "44",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 189,
     "name": "Berufsschule für Verwaltungsberufe",
     "zip": "1050",
     "city": "Wien",
     "street": "Embelgasse",
     "housenumber": "46",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 190,
     "name": "GRg 5 Rainergasse 39",
     "zip": "1050",
     "city": "Wien",
     "street": "Rainergasse",
     "housenumber": "39",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 191,
     "name": "NMS Viktor-Christ-Gasse 24",
     "zip": "1050",
     "city": "Wien",
     "street": "Viktor-Christ-Gasse",
     "housenumber": "24",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 192,
     "name": "Höhere Bundeslehr- und Versuchsanstalt für Textilindustrie und Informatik",
     "zip": "1050",
     "city": "Wien",
     "street": "Spengergasse",
     "housenumber": "20",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Zentrallehranstalt",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 193,
     "name": "Schulen des BFI Wien",
     "zip": "1050",
     "city": "Wien",
@@ -1147,14 +1072,13 @@
     "housenumber": "65",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 194,
     "name": "PNMS Liniengasse 21",
     "zip": "1060",
     "city": "Wien",
@@ -1162,134 +1086,125 @@
     "housenumber": "21",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 195,
     "name": "GRg 6 Amerlingstraße 6",
     "zip": "1060",
     "city": "Wien",
     "street": "Amerlingstraße",
     "housenumber": "6",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 196,
     "name": "Berufsschule für Elektrotechnik und Mechatronik",
     "zip": "1060",
     "city": "Wien",
     "street": "Mollardgasse",
     "housenumber": "87",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 197,
     "name": "Berufsschule für Sanitär-, Heizungs- und Klimatechnik",
     "zip": "1060",
     "city": "Wien",
     "street": "Mollardgasse",
     "housenumber": "87",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 198,
     "name": "Berufsschule für Metalltechnik, Glasbautechnik und Technische Zeichner",
     "zip": "1060",
     "city": "Wien",
     "street": "Mollardgasse",
     "housenumber": "87",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 199,
     "name": "Berufsschule für Elektro-, Veranstaltungs- und Informationstechnik Austria",
     "zip": "1060",
     "city": "Wien",
     "street": "Mollardgasse",
     "housenumber": "87",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 303,
     "name": "WMS Loquaiplatz 4",
     "zip": "1060",
     "city": "Wien",
     "street": "Loquaiplatz",
     "housenumber": "4",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 331,
     "name": "Rg 6 Marchettigasse 3",
     "zip": "1060",
     "city": "Wien",
     "street": "Marchettigasse",
     "housenumber": "3",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 200,
     "name": "NMS Neubaugasse 42",
     "zip": "1070",
     "city": "Wien",
     "street": "Neubaugasse",
     "housenumber": "42",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 201,
     "name": "PPTS Kenyongasse 4-12",
     "zip": "1070",
     "city": "Wien",
@@ -1297,59 +1212,55 @@
     "housenumber": "4-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Polytechnische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 202,
     "name": "PTS Burggasse 14-16",
     "zip": "1070",
     "city": "Wien",
     "street": "Burggasse",
     "housenumber": "14-16",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Polytechnische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 203,
     "name": "Berufsschule für Maschinen-, Fertigungstechnik und Elektronik",
     "zip": "1070",
     "city": "Wien",
     "street": "Apollogasse",
     "housenumber": "1",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 204,
     "name": "GRg 7 Kandlgasse 39",
     "zip": "1070",
     "city": "Wien",
     "street": "Kandlgasse",
     "housenumber": "39",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 205,
     "name": "pGRg 7 Kenyongasse 4-12",
     "zip": "1070",
     "city": "Wien",
@@ -1357,14 +1268,13 @@
     "housenumber": "4-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 206,
     "name": "PNMS Kenyongasse 4-12",
     "zip": "1070",
     "city": "Wien",
@@ -1372,29 +1282,27 @@
     "housenumber": "4-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 207,
     "name": "RgORg 7 Neustiftgasse 95-99",
     "zip": "1070",
     "city": "Wien",
     "street": "Neustiftgasse",
     "housenumber": "95-99",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 208,
     "name": "Islamische Fachschule für soziale Bildung - Dr. A.K. Hammerschmidt der Islamischen Religionsgemeinde Wien",
     "zip": "1070",
     "city": "Wien",
@@ -1402,14 +1310,13 @@
     "housenumber": "117",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 209,
     "name": "Konservatorium Sunrise_Studios des Herrn Mike Loewenrosen",
     "zip": "1070",
     "city": "Wien",
@@ -1417,14 +1324,13 @@
     "housenumber": "38",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 210,
     "name": "Private Bildungsanstalt für Sozialpädagogik - Kolleg für Sozialpädagogik für Berufstätige der MERA Bildungsholding GmbH Schottenfeldgasse 69",
     "zip": "1070",
     "city": "Wien",
@@ -1432,14 +1338,13 @@
     "housenumber": "69",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 211,
     "name": "BAFEP 7 Kenyongasse 4-12",
     "zip": "1070",
     "city": "Wien",
@@ -1447,59 +1352,55 @@
     "housenumber": "4-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 327,
     "name": "NMS Neustiftgasse 98-102",
     "zip": "1070",
     "city": "Wien",
     "street": "Neustiftgasse",
     "housenumber": "98-102",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 212,
     "name": "GRg 8 Albertgasse 18-22",
     "zip": "1080",
     "city": "Wien",
     "street": "Albertgasse",
     "housenumber": "18-22",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 213,
     "name": "Rg 8 Feldgasse 6-8",
     "zip": "1080",
     "city": "Wien",
     "street": "Feldgasse",
     "housenumber": "6-8",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 214,
     "name": "Vienna Business School -  Handelsakademie und Handelsschule Hamerlingplatz der Wiener Kaufmannschaft",
     "zip": "1080",
     "city": "Wien",
@@ -1507,14 +1408,13 @@
     "housenumber": "5-6",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 215,
     "name": "Vienna Business School -  Handelsakademie und Handelsschule Schönborngasse der Wiener Kaufmannschaft",
     "zip": "1080",
     "city": "Wien",
@@ -1522,29 +1422,27 @@
     "housenumber": "3-5",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 216,
     "name": "BAFEP 8 Lange Gasse 47 + Albertgasse 38",
     "zip": "1080",
     "city": "Wien",
     "street": "Lange Gasse",
     "housenumber": "47",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 217,
     "name": "Private \"Bildungsanstalt für Sozialpädagogik - Kolleg für Berufstätige\" des Vereins die \"bildungsakademie, Verein für Durchlässigkeit und soziale Gerechtigkeit in der Bildung",
     "zip": "1080",
     "city": "Wien",
@@ -1552,74 +1450,69 @@
     "housenumber": "04",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 305,
     "name": "NMS Pfeilgasse 42b",
     "zip": "1080",
     "city": "Wien",
     "street": "Pfeilgasse",
     "housenumber": "42b",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 323,
     "name": "G 8 Jodok-Fink-Platz 2",
     "zip": "1080",
     "city": "Wien",
     "street": "Jodok-Fink-Platz",
     "housenumber": "2",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 218,
     "name": "GRg 9 Wasagasse 10",
     "zip": "1090",
     "city": "Wien",
     "street": "Wasagasse",
     "housenumber": "10",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 219,
     "name": "Rg 9 Glasergasse 25",
     "zip": "1090",
     "city": "Wien",
     "street": "Glasergasse",
     "housenumber": "25",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 220,
     "name": "PNMS Währinger Straße 59",
     "zip": "1090",
     "city": "Wien",
@@ -1627,14 +1520,13 @@
     "housenumber": "59",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 221,
     "name": "Lycée Liechtensteinstraße 37a Francais de Vienne",
     "zip": "1090",
     "city": "Wien",
@@ -1642,29 +1534,27 @@
     "housenumber": "37a",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 222,
     "name": "Höhere Bundeslehranstalt für Mode und für wirtschaftliche Berufe Wien 9",
     "zip": "1090",
     "city": "Wien",
     "street": "Michelbeuerngasse",
     "housenumber": "12",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 223,
     "name": "Caritas Ausbildungszentrum für Sozialberufe",
     "zip": "1090",
     "city": "Wien",
@@ -1672,14 +1562,13 @@
     "housenumber": "30",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 224,
     "name": "Wiener Kunstschule",
     "zip": "1090",
     "city": "Wien",
@@ -1687,59 +1576,55 @@
     "housenumber": "27",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 307,
     "name": "NMS Glasergasse 8",
     "zip": "1090",
     "city": "Wien",
     "street": "Glasergasse",
     "housenumber": "8",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 225,
     "name": "GRG 10 Ettenreichgasse 41-43",
     "zip": "1100",
     "city": "Wien",
     "street": "Ettenreichgasse",
     "housenumber": "41-43",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 226,
     "name": "NMS Georg-Wilhelm-Pabst-Gasse 2a",
     "zip": "1100",
     "city": "Wien",
     "street": "Georg-Wilhelm-Pabst-Gasse",
     "housenumber": "2a",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 227,
     "name": "pGRg 10 Ludwig-von-Höhnel-Gasse 17-19",
     "zip": "1100",
     "city": "Wien",
@@ -1747,104 +1632,97 @@
     "housenumber": "17-19",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 228,
     "name": "Praxis-MS Grenzackerstraße 18",
     "zip": "1100",
     "city": "Wien",
     "street": "Grenzackerstraße",
     "housenumber": "18",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 229,
     "name": "PTS Pernerstorfergasse 30-32",
     "zip": "1100",
     "city": "Wien",
     "street": "Pernerstorfergasse",
     "housenumber": "30-32",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Polytechnische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 230,
     "name": "GRg 10 Laaer Berg-Straße 25-29",
     "zip": "1100",
     "city": "Wien",
     "street": "Laaer Berg-Straße",
     "housenumber": "25-29",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 231,
     "name": "NMS Herzgasse 27",
     "zip": "1100",
     "city": "Wien",
     "street": "Herzgasse",
     "housenumber": "27",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 232,
     "name": "GRg 10 Pichelmayergasse 1",
     "zip": "1100",
     "city": "Wien",
     "street": "Pichelmayergasse",
     "housenumber": "1",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 233,
     "name": "NMS Leibnizgasse 33",
     "zip": "1100",
     "city": "Wien",
     "street": "Leibnizgasse",
     "housenumber": "33",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 234,
     "name": "PNMS Ludwig v. Höhnel-Gasse 17-19",
     "zip": "1100",
     "city": "Wien",
@@ -1852,44 +1730,41 @@
     "housenumber": "17-19",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 235,
     "name": "NMS Gudrunstraße 110",
     "zip": "1100",
     "city": "Wien",
     "street": "Gudrunstraße",
     "housenumber": "110",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 236,
     "name": "NMS Quellenstraße 144",
     "zip": "1100",
     "city": "Wien",
     "street": "Quellenstraße",
     "housenumber": "144",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 237,
     "name": "Mayflower Christian Academy - Primar des Vereins MCA",
     "zip": "1100",
     "city": "Wien",
@@ -1897,14 +1772,13 @@
     "housenumber": "8",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 238,
     "name": "PVS Maria Lassnig-Straße 32\/1",
     "zip": "1100",
     "city": "Wien",
@@ -1912,59 +1786,55 @@
     "housenumber": "32\/1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 239,
     "name": "Höhere Technische Bundeslehranstalt Wien 10",
     "zip": "1100",
     "city": "Wien",
     "street": "Ettenreichgasse",
     "housenumber": "54",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Technische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 240,
     "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 10",
     "zip": "1100",
     "city": "Wien",
     "street": "Pernerstorfergasse",
     "housenumber": "77",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 241,
     "name": "Höhere Bundeslehranstalt für wirtschaftliche Berufe Wien 10",
     "zip": "1100",
     "city": "Wien",
     "street": "Reumannplatz",
     "housenumber": "3",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 242,
     "name": "Schule für Sozialbetreuungsberufe",
     "zip": "1100",
     "city": "Wien",
@@ -1972,104 +1842,97 @@
     "housenumber": "27",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 243,
     "name": "BAFEP 10 Ettenreichgasse 45c",
     "zip": "1100",
     "city": "Wien",
     "street": "Ettenreichgasse",
     "housenumber": "45c",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 304,
     "name": "NMS Wendstattgasse 3",
     "zip": "1100",
     "city": "Wien",
     "street": "Wendstattgasse",
     "housenumber": "3",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 312,
     "name": "NMS Wendstattgasse 5\/I",
     "zip": "1100",
     "city": "Wien",
     "street": "Wendstattgasse",
     "housenumber": "5\/I",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 314,
     "name": "NMS Absberggasse 50",
     "zip": "1100",
     "city": "Wien",
     "street": "Absberggasse",
     "housenumber": "50",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 325,
     "name": "NMS Knöllgasse 61",
     "zip": "1100",
     "city": "Wien",
     "street": "Knöllgasse",
     "housenumber": "61",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 334,
     "name": "NMS Wendstattgasse 5\/II",
     "zip": "1100",
     "city": "Wien",
     "street": "Wendstattgasse",
     "housenumber": "5\/II",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 335,
     "name": "Phönix Realgymnasium Knöllgasse 20 - 24",
     "zip": "1100",
     "city": "Wien",
@@ -2077,89 +1940,83 @@
     "housenumber": "20",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 342,
     "name": "NMS Josef-Enslein-Platz 1-3",
     "zip": "1100",
     "city": "Wien",
     "street": "Josef-Enslein-Platz",
     "housenumber": "1-3",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 244,
     "name": "NMS Enkplatz 4\/II",
     "zip": "1110",
     "city": "Wien",
     "street": "Enkplatz",
     "housenumber": "4\/II",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 245,
     "name": "GRg 11 Gottschalkgasse 21",
     "zip": "1110",
     "city": "Wien",
     "street": "Gottschalkgasse",
     "housenumber": "21",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 246,
     "name": "GRg 11 Geringergasse 2",
     "zip": "1110",
     "city": "Wien",
     "street": "Geringergasse",
     "housenumber": "2",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 247,
     "name": "NMS Rzehakgasse 7",
     "zip": "1110",
     "city": "Wien",
     "street": "Rzehakgasse",
     "housenumber": "7",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 248,
     "name": "pGRg 11 Erdbergstraße 222 A",
     "zip": "1110",
     "city": "Wien",
@@ -2167,44 +2024,41 @@
     "housenumber": "A",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 249,
     "name": "NMS Hasenleitengasse 7",
     "zip": "1110",
     "city": "Wien",
     "street": "Hasenleitengasse",
     "housenumber": "7",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 250,
     "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 11",
     "zip": "1110",
     "city": "Wien",
     "street": "Geringergasse",
     "housenumber": "2",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 251,
     "name": "Konservatorium JAM MUSIC LAB \" International Academy of Music and Performing Arts Vienna\" der Jam Music Lab GmbH",
     "zip": "1110",
     "city": "Wien",
@@ -2212,14 +2066,13 @@
     "housenumber": "Gasometer",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 252,
     "name": "Johann Sebastian Bach Musikschule des Evangelischen Schulwerk A.B. Wien",
     "zip": "1110",
     "city": "Wien",
@@ -2227,74 +2080,69 @@
     "housenumber": "8-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 309,
     "name": "NMS Florian-Hedorferstraße 22",
     "zip": "1110",
     "city": "Wien",
     "street": "Florian-Hedorfer-Straße",
     "housenumber": "22",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 313,
     "name": "NMS Pachmayergasse 6",
     "zip": "1110",
     "city": "Wien",
     "street": "Pachmayergasse",
     "housenumber": "6",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 349,
     "name": "NMS Enkplatz 4\/I",
     "zip": "1110",
     "city": "Wien",
     "street": "Enkplatz",
     "housenumber": "4\/I",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 351,
     "name": "NMS Svetelskystraße 4-6",
     "zip": "1110",
     "city": "Wien",
     "street": "Svetelskystraße",
     "housenumber": "4-6",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 113,
     "name": "Isma Private Gesamtschule Muhammad Asad Reschgasse 20-22",
     "zip": "1120",
     "city": "Wien",
@@ -2302,14 +2150,13 @@
     "housenumber": "20-22",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 114,
     "name": "Fachschule der Stadt Wien für wirtschaftliche Berufe",
     "zip": "1120",
     "city": "Wien",
@@ -2317,14 +2164,13 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 116,
     "name": "Modeschule der Stadt Wien im Schloss Hetzendorf",
     "zip": "1120",
     "city": "Wien",
@@ -2332,14 +2178,13 @@
     "housenumber": "79",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 117,
     "name": "Richard Wagner Konservatorium des Herrn Mirza Kapetanovic",
     "zip": "1120",
     "city": "Wien",
@@ -2347,14 +2192,13 @@
     "housenumber": "28\/EG",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 118,
     "name": "BAFEP 12 Private Bundesbildungsanstalt für Elementarpädagogik",
     "zip": "1120",
     "city": "Wien",
@@ -2362,104 +2206,97 @@
     "housenumber": "20-22",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 253,
     "name": "NMS Herthergasse 28",
     "zip": "1120",
     "city": "Wien",
     "street": "Herthergasse",
     "housenumber": "28",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 254,
     "name": "Berufsschule für Lebensmittel, Touristik und Zahntechnik",
     "zip": "1120",
     "city": "Wien",
     "street": "Längenfeldgasse",
     "housenumber": "13-15",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 255,
     "name": "GRg 12 Rosasgasse 1-3",
     "zip": "1120",
     "city": "Wien",
     "street": "Rosasgasse",
     "housenumber": "1-3",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 256,
     "name": "NMS Johann-Hoffmann-Platz 19",
     "zip": "1120",
     "city": "Wien",
     "street": "Johann-Hoffmann-Platz",
     "housenumber": "19",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 257,
     "name": "GRg 12 Erlgasse 32-34",
     "zip": "1120",
     "city": "Wien",
     "street": "Erlgasse",
     "housenumber": "32-34",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 258,
     "name": "Berufsschule für Gastgewerbe",
     "zip": "1120",
     "city": "Wien",
     "street": "Längenfeldgasse",
     "housenumber": "13-15",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 259,
     "name": "Privatschule INFINUM ORG",
     "zip": "1120",
     "city": "Wien",
@@ -2467,89 +2304,83 @@
     "housenumber": "77",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 260,
     "name": "NMS Singrienergasse 23",
     "zip": "1120",
     "city": "Wien",
     "street": "Singrienergasse",
     "housenumber": "23",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 261,
     "name": "Berufsschule für Industrie, Finanzen und Transport",
     "zip": "1120",
     "city": "Wien",
     "street": "Längenfeldgasse",
     "housenumber": "13-15",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 324,
     "name": "NMS Hermann-Broch-Gasse 2",
     "zip": "1120",
     "city": "Wien",
     "street": "Hermann-Broch-Gasse",
     "housenumber": "2",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 330,
     "name": "NMS Am Schöpfwerk 27",
     "zip": "1120",
     "city": "Wien",
     "street": "Am Schöpfwerk",
     "housenumber": "27",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 336,
     "name": "NMS Steinbauergasse 27",
     "zip": "1120",
     "city": "Wien",
     "street": "Steinbauergasse",
     "housenumber": "27",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 59,
     "name": "Lehranstalt für systemische Familientherapie der Erzdiözese Wien für Berufstätige",
     "zip": "1130",
     "city": "Wien",
@@ -2557,14 +2388,13 @@
     "housenumber": "3a",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 60,
     "name": "Fachschule und Aufbaulehrgang für wirtschaftliche Berufe des Schulvereins der Dominikanerinnen",
     "zip": "1130",
     "city": "Wien",
@@ -2572,44 +2402,41 @@
     "housenumber": "177",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 61,
     "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 13 - Schumpeter Handelsakademie",
     "zip": "1130",
     "city": "Wien",
     "street": "Maygasse",
     "housenumber": "43",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 62,
     "name": "Höhere Bundeslehranstalt für Tourismus und für wirtschaftliche Berufe Wien 13",
     "zip": "1130",
     "city": "Wien",
     "street": "Bergheidengasse",
     "housenumber": "5-19",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 63,
     "name": "Speziallehrgang für Leitungsfunktionen in der Sozialarbeit der Caritas der Erzdiözese Wien",
     "zip": "1130",
     "city": "Wien",
@@ -2617,44 +2444,41 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 64,
     "name": "HBLFA Grünbergstraße 24",
     "zip": "1130",
     "city": "Wien",
     "street": "Grünbergstraße",
     "housenumber": "24",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Zentrallehranstalt",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 65,
     "name": "BSH 13 Himmelhofgasse 17-19",
     "zip": "1130",
     "city": "Wien",
     "street": "Himmelhofgasse",
     "housenumber": "17-19",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 66,
     "name": "pORg 13 Auhofstraße 78 e-f",
     "zip": "1130",
     "city": "Wien",
@@ -2662,14 +2486,13 @@
     "housenumber": "e-f",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 119,
     "name": "Berufsschule der SPAR österreichische Warenhandels-AG - Private Spar Akademie Wien",
     "zip": "1130",
     "city": "Wien",
@@ -2677,59 +2500,55 @@
     "housenumber": "17",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 120,
     "name": "G 13 Fichtnergasse 15",
     "zip": "1130",
     "city": "Wien",
     "street": "Fichtnergasse",
     "housenumber": "15",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 121,
     "name": "Berufsschule für Einzelhandel",
     "zip": "1130",
     "city": "Wien",
     "street": "Amalienstraße",
     "housenumber": "31-33",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 122,
     "name": "GRg 13 Wenzgasse 7",
     "zip": "1130",
     "city": "Wien",
     "street": "Wenzgasse",
     "housenumber": "7",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 123,
     "name": "PNMS  Schloßberggasse 17",
     "zip": "1130",
     "city": "Wien",
@@ -2737,14 +2556,13 @@
     "housenumber": "17",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 124,
     "name": "pGRg 13 Schloßberggasse 17",
     "zip": "1130",
     "city": "Wien",
@@ -2752,29 +2570,27 @@
     "housenumber": "17",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 333,
     "name": "NMS Veitingergasse 9",
     "zip": "1130",
     "city": "Wien",
     "street": "Veitingergasse",
     "housenumber": "9",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 67,
     "name": "Verein W@lz.Wiener Lernzentrum, Heinrich-Collin-Straße 9",
     "zip": "1140",
     "city": "Wien",
@@ -2782,89 +2598,83 @@
     "housenumber": "9",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Polytechnische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 68,
     "name": "Berufsschule für Schönheitsberufe",
     "zip": "1140",
     "city": "Wien",
     "street": "Goldschlagstraße",
     "housenumber": "137",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 69,
     "name": "GRg 14 Astgasse 3",
     "zip": "1140",
     "city": "Wien",
     "street": "Astgasse",
     "housenumber": "3",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 70,
     "name": "NMS Torricelligasse 50",
     "zip": "1140",
     "city": "Wien",
     "street": "Torricelligasse",
     "housenumber": "50\/I",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 71,
     "name": "GRg 14 Linzer Straße 146",
     "zip": "1140",
     "city": "Wien",
     "street": "Linzer Straße",
     "housenumber": "146",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 72,
     "name": "NMS Lortzinggasse 2",
     "zip": "1140",
     "city": "Wien",
     "street": "Lortzinggasse",
     "housenumber": "2",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 73,
     "name": "Waldorf Campus Wien West (11.-13. Schulstufe)",
     "zip": "1140",
     "city": "Wien",
@@ -2872,44 +2682,41 @@
     "housenumber": "430",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 74,
     "name": "NMS Kinkplatz 21\/II",
     "zip": "1140",
     "city": "Wien",
     "street": "Torricelligasse",
     "housenumber": "50\/II",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 75,
     "name": "BgBRgORg 14",
     "zip": "1140",
     "city": "Wien",
     "street": "Steinbruchstraße",
     "housenumber": "33",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 76,
     "name": "PNMS Henckellgasse 19",
     "zip": "1140",
     "city": "Wien",
@@ -2917,14 +2724,13 @@
     "housenumber": "19",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 82,
     "name": "Montessori Schule - Statutschule (1. - 3. Schulstufe)",
     "zip": "1140",
     "city": "Wien",
@@ -2932,14 +2738,13 @@
     "housenumber": "8",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 83,
     "name": "Montessori Schule - Statutschule (10. - 12. Schulstufe)",
     "zip": "1140",
     "city": "Wien",
@@ -2947,29 +2752,27 @@
     "housenumber": "430",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 84,
     "name": "Höhere Graphische Bundes-Lehr- und Versuchsanstalt",
     "zip": "1140",
     "city": "Wien",
     "street": "Leyserstraße",
     "housenumber": "6",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Zentrallehranstalt",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 85,
     "name": "Werkmeisterschule für Berufstätige des BMLV an der Vega-Payer-Weyprecht-Kaserne",
     "zip": "1140",
     "city": "Wien",
@@ -2977,14 +2780,13 @@
     "housenumber": "61",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Technische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 86,
     "name": "Musikinstitut Polyhymnia der Polyhymnia GmbH",
     "zip": "1140",
     "city": "Wien",
@@ -2992,134 +2794,125 @@
     "housenumber": "146",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 311,
     "name": "NMS Spallartgasse 18",
     "zip": "1140",
     "city": "Wien",
     "street": "Spallartgasse",
     "housenumber": "18",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 322,
     "name": "NMS Hadersdorf Hauptstraße 80",
     "zip": "1140",
     "city": "Wien",
     "street": "Hadersdorf Hauptstraße",
     "housenumber": "80",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 77,
     "name": "PTS Benedikt-Schellinger-Gasse 1-3",
     "zip": "1150",
     "city": "Wien",
     "street": "Benedikt-Schellinger-Gasse",
     "housenumber": "1-3",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Polytechnische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 78,
     "name": "Berufsschule für Chemie, Grafik und gestaltende Berufe",
     "zip": "1150",
     "city": "Wien",
     "street": "Hütteldorfer Straße",
     "housenumber": "7-17",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 79,
     "name": "RgORg 15 Henriettenplatz 6",
     "zip": "1150",
     "city": "Wien",
     "street": "Henriettenplatz",
     "housenumber": "6",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 80,
     "name": "NMS Schweglerstraße 2-4",
     "zip": "1150",
     "city": "Wien",
     "street": "Schweglerstraße",
     "housenumber": "2-4",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 81,
     "name": "NMS Sechshauser Straße 71",
     "zip": "1150",
     "city": "Wien",
     "street": "Sechshauser Straße",
     "housenumber": "71",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 87,
     "name": "Berufsschule für Holz, Klang, Farbe und Lack",
     "zip": "1150",
     "city": "Wien",
     "street": "Hütteldorfer Straße",
     "housenumber": "7-17",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 88,
     "name": "pGRg 15 Friesgasse 4",
     "zip": "1150",
     "city": "Wien",
@@ -3127,14 +2920,13 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 89,
     "name": "PNMS Friesgasse 4",
     "zip": "1150",
     "city": "Wien",
@@ -3142,14 +2934,13 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 90,
     "name": "PNMS Gebrüder-Lang-Gasse 4",
     "zip": "1150",
     "city": "Wien",
@@ -3157,44 +2948,41 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 91,
     "name": "GRg 15 Auf der Schmelz 4",
     "zip": "1150",
     "city": "Wien",
     "street": "Auf der",
     "housenumber": "Schmelz",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 92,
     "name": "Berufsschule für Handel und Reisen",
     "zip": "1150",
     "city": "Wien",
     "street": "Hütteldorfer Straße",
     "housenumber": "7-17",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 93,
     "name": "pRg 15 Rauchfangkehrergasse 34\/6",
     "zip": "1150",
     "city": "Wien",
@@ -3202,29 +2990,27 @@
     "housenumber": "34\/6",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 94,
     "name": "Berufsschule für Bürokaufleute",
     "zip": "1150",
     "city": "Wien",
     "street": "Meiselstraße",
     "housenumber": "19",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 95,
     "name": "Handelsakademie-Aufbaulehrgang \/ Handelsschule d. Schulverbund SSND Österreich",
     "zip": "1150",
     "city": "Wien",
@@ -3232,14 +3018,13 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 96,
     "name": "Vienna Konservatorium der Frau Mag. Eva Maria Schmid",
     "zip": "1150",
     "city": "Wien",
@@ -3247,14 +3032,13 @@
     "housenumber": "15-17",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 97,
     "name": "VMI - VIENNA MUSIC INSTITUT - PRIVATKONSERVATORIUM DES HERRN MAG. ERNST RITSCH",
     "zip": "1150",
     "city": "Wien",
@@ -3262,134 +3046,125 @@
     "housenumber": "23-25",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 98,
     "name": "BSPA Bundessportakademie -  Auf der Schmelz 6",
     "zip": "1150",
     "city": "Wien",
     "street": "Auf der",
     "housenumber": "Schmelz",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 317,
     "name": "NMS Selzergasse 25",
     "zip": "1150",
     "city": "Wien",
     "street": "Selzergasse",
     "housenumber": "25",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 328,
     "name": "GRg 15 Diefenbachgasse 19",
     "zip": "1150",
     "city": "Wien",
     "street": "Diefenbachgasse",
     "housenumber": "19",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 344,
     "name": "NMS Kauergasse 3-5",
     "zip": "1150",
     "city": "Wien",
     "street": "Kauergasse",
     "housenumber": "3-5",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 99,
     "name": "NMS Grundsteingasse 48",
     "zip": "1160",
     "city": "Wien",
     "street": "Grundsteingasse",
     "housenumber": "48",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 100,
     "name": "Rg 16 Schuhmeierplatz 7",
     "zip": "1160",
     "city": "Wien",
     "street": "Schuhmeierplatz",
     "housenumber": "7",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 101,
     "name": "NMS Koppstraße 110\/II",
     "zip": "1160",
     "city": "Wien",
     "street": "Koppstraße",
     "housenumber": "110\/II",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 102,
     "name": "GRg 16 Maroltingergasse 69-71",
     "zip": "1160",
     "city": "Wien",
     "street": "Maroltingergasse",
     "housenumber": "69-71",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 103,
     "name": "AHS Julius-Meinl-Gasse 2a",
     "zip": "1160",
     "city": "Wien",
@@ -3397,119 +3172,111 @@
     "housenumber": "2a",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 104,
     "name": "NMS Brüßlgasse 18",
     "zip": "1160",
     "city": "Wien",
     "street": "Brüßlgasse",
     "housenumber": "18",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 105,
     "name": "Berufsschule für Handel @ Administration",
     "zip": "1160",
     "city": "Wien",
     "street": "Panikengasse",
     "housenumber": "31",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 106,
     "name": "NMS Roterdstraße 1",
     "zip": "1160",
     "city": "Wien",
     "street": "Roterdstraße",
     "housenumber": "1",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 107,
     "name": "NMS Wiesberggasse 7",
     "zip": "1160",
     "city": "Wien",
     "street": "Opfermanngasse",
     "housenumber": "1",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 108,
     "name": "Höhere Bundeslehranstalt für Mode und künstlerische Gestaltung",
     "zip": "1160",
     "city": "Wien",
     "street": "Herbststraße",
     "housenumber": "104",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 109,
     "name": "Höhere Technische Bundeslehranstalt Wien West",
     "zip": "1160",
     "city": "Wien",
     "street": "Thaliastraße",
     "housenumber": "125",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Technische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 318,
     "name": "NMS Koppstraße 110\/I",
     "zip": "1160",
     "city": "Wien",
     "street": "Koppstraße",
     "housenumber": "110\/I",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 1,
     "name": "Höhere Schule im Spital (HIS) des Vereins für Individualpsychologie, Pezzlgasse 29",
     "zip": "1170",
     "city": "Wien",
@@ -3517,119 +3284,117 @@
     "housenumber": "29",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
     "specialisations": [
-      "INSY"
+      {
+        "specialisation": "spezialisationname",
+        "description": "description",
+        "graphic": "1"
+      }
     ]
   },
   {
+    "id": 2,
     "name": "Höhere Bundes-Lehr- und Versuchsanstalt für chemische Industrie",
     "zip": "1170",
     "city": "Wien",
     "street": "Rosensteingasse",
     "housenumber": "79",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Zentrallehranstalt",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 3,
     "name": "Bundesschulen Kalvarienberg - Fachschulen und Aufbaulehrgang - Wirtschaft und Soziales",
     "zip": "1170",
     "city": "Wien",
     "street": "Kalvarienberggasse",
     "housenumber": "28",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 110,
     "name": "NMS Geblergasse 29-31",
     "zip": "1170",
     "city": "Wien",
     "street": "Geblergasse",
     "housenumber": "29-31",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 111,
     "name": "GRg 17 Parhamerplatz 18",
     "zip": "1170",
     "city": "Wien",
     "street": "Parhamerplatz",
     "housenumber": "18",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 112,
     "name": "NMS Redtenbachergasse 79",
     "zip": "1170",
     "city": "Wien",
     "street": "Redtenbachergasse",
     "housenumber": "79",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 338,
     "name": "GRg 17 Geblergasse 56-58",
     "zip": "1170",
     "city": "Wien",
     "street": "Geblergasse",
     "housenumber": "56-58",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 4,
     "name": "PTS Schopenhauerstraße 81",
     "zip": "1180",
     "city": "Wien",
     "street": "Schopenhauerstraße",
     "housenumber": "79-81",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Polytechnische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 5,
     "name": "pGRg 18  Semperstraße 45",
     "zip": "1180",
     "city": "Wien",
@@ -3637,29 +3402,27 @@
     "housenumber": "45",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 6,
     "name": "NMS Schopenhauerstraße 79",
     "zip": "1180",
     "city": "Wien",
     "street": "Schopenhauerstraße",
     "housenumber": "79",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 7,
     "name": "pRgORg 18 Scheidlstraße 2",
     "zip": "1180",
     "city": "Wien",
@@ -3667,14 +3430,13 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 41,
     "name": "PNMS Antonigasse 72 - Schulstiftung der Erzdiözese Wien",
     "zip": "1180",
     "city": "Wien",
@@ -3682,44 +3444,41 @@
     "housenumber": "72",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 42,
     "name": "G 18 Klostergasse 25",
     "zip": "1180",
     "city": "Wien",
     "street": "Klostergasse",
     "housenumber": "25",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 43,
     "name": "Rg 18 Schopenhauerstraße 49",
     "zip": "1180",
     "city": "Wien",
     "street": "Schopenhauerstraße",
     "housenumber": "49",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 44,
     "name": "PNMS Schopenhauerstraße 44-46",
     "zip": "1180",
     "city": "Wien",
@@ -3727,29 +3486,27 @@
     "housenumber": "44-46",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 45,
     "name": "GRg 18 Haizingergasse 37",
     "zip": "1180",
     "city": "Wien",
     "street": "Haizingergasse",
     "housenumber": "37",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 46,
     "name": "PNMS Semperstraße 45",
     "zip": "1180",
     "city": "Wien",
@@ -3757,14 +3514,13 @@
     "housenumber": "45",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 47,
     "name": "Rudolf Steiner Schule Pötzleinsdorf",
     "zip": "1180",
     "city": "Wien",
@@ -3772,14 +3528,13 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 48,
     "name": "Private NMS der Frau Dr. Sigrid Schauberger",
     "zip": "1180",
     "city": "Wien",
@@ -3787,14 +3542,13 @@
     "housenumber": "16",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 49,
     "name": "AMADEUS International School VIENNA",
     "zip": "1180",
     "city": "Wien",
@@ -3802,14 +3556,13 @@
     "housenumber": "-",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 50,
     "name": "pORg 18, VES - Vienna European School",
     "zip": "1180",
     "city": "Wien",
@@ -3817,14 +3570,13 @@
     "housenumber": "16a",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 51,
     "name": "Werbeakademie - Fachlehrgang für Marktkommunikation des WIFI der Wirtschaftskammer Wien",
     "zip": "1180",
     "city": "Wien",
@@ -3832,14 +3584,13 @@
     "housenumber": "97",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 52,
     "name": "Werkmeisterschule für Berufstätige des Wirtschaftsförderungsinstitutes der Wirtschaftskammer Wien",
     "zip": "1180",
     "city": "Wien",
@@ -3847,14 +3598,13 @@
     "housenumber": "97",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Technische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 8,
     "name": "pGRg 19 Hofzeile 22",
     "zip": "1190",
     "city": "Wien",
@@ -3862,14 +3612,13 @@
     "housenumber": "22",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 9,
     "name": "pGRg 19 Alfred Wegener-Gasse 10-12",
     "zip": "1190",
     "city": "Wien",
@@ -3877,29 +3626,27 @@
     "housenumber": "10-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 10,
     "name": "GRg 19 Billrothstraße 73",
     "zip": "1190",
     "city": "Wien",
     "street": "Billrothstraße",
     "housenumber": "73",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 11,
     "name": "American International School  Salmanndorferstraße 47",
     "zip": "1190",
     "city": "Wien",
@@ -3907,14 +3654,13 @@
     "housenumber": "47",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 12,
     "name": "Schwedische Schule Scheibelreitergasse 15",
     "zip": "1190",
     "city": "Wien",
@@ -3922,29 +3668,27 @@
     "housenumber": "15",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 13,
     "name": "Höhere Bundeslehranstalt für wirtschaftliche Berufe Wien 19",
     "zip": "1190",
     "city": "Wien",
     "street": "Straßergasse",
     "housenumber": "37-39",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 14,
     "name": "Tourismusschulen Modul der Wirtschaftskammer Wien",
     "zip": "1190",
     "city": "Wien",
@@ -3952,14 +3696,13 @@
     "housenumber": "78",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 15,
     "name": "BAFEP 19 Hofzeile 17",
     "zip": "1190",
     "city": "Wien",
@@ -3967,14 +3710,13 @@
     "housenumber": "17",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 53,
     "name": "PPTS Alfred Wegener-Gasse 10-12",
     "zip": "1190",
     "city": "Wien",
@@ -3982,59 +3724,55 @@
     "housenumber": "10-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Polytechnische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 54,
     "name": "G 19 Gymnasiumstraße 83",
     "zip": "1190",
     "city": "Wien",
     "street": "Gymnasiumstraße",
     "housenumber": "83",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 55,
     "name": "NMS Oskar-Spiel-Gasse 3",
     "zip": "1190",
     "city": "Wien",
     "street": "Oskar-Spiel-Gasse",
     "housenumber": "3",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 56,
     "name": "NMS Pyrkergasse 14-16",
     "zip": "1190",
     "city": "Wien",
     "street": "Pyrkergasse",
     "housenumber": "14-16",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 57,
     "name": "PNMS Alfred-Wegener-Gasse 10-12",
     "zip": "1190",
     "city": "Wien",
@@ -4042,89 +3780,83 @@
     "housenumber": "10-12",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 58,
     "name": "Rg 19 Krottenbachstraße 11-13",
     "zip": "1190",
     "city": "Wien",
     "street": "Krottenbachstraße",
     "housenumber": "11",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 310,
     "name": "GRg 19 Billrothstraße 26-30",
     "zip": "1190",
     "city": "Wien",
     "street": "Billrothstraße",
     "housenumber": "26-30",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 337,
     "name": "NMS In der Krim 6",
     "zip": "1190",
     "city": "Wien",
     "street": "In der",
     "housenumber": "Krim",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 16,
     "name": "NMS Greiseneckergasse 31",
     "zip": "1200",
     "city": "Wien",
     "street": "Greiseneckergasse",
     "housenumber": "31",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 17,
     "name": "PTS Stromstraße 44",
     "zip": "1200",
     "city": "Wien",
     "street": "Stromstraße",
     "housenumber": "44",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Polytechnische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 18,
     "name": "BOL Adalbert-Stifter-Straße 14-18",
     "zip": "1200",
     "city": "Wien",
@@ -4132,254 +3864,237 @@
     "housenumber": "14-18",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 19,
     "name": "NMS Pöchlarnstraße 14",
     "zip": "1200",
     "city": "Wien",
     "street": "Pöchlarnstraße",
     "housenumber": "14",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 20,
     "name": "NMS Staudingergasse 6",
     "zip": "1200",
     "city": "Wien",
     "street": "Staudingergasse",
     "housenumber": "6",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 21,
     "name": "NMS Stromstraße 40",
     "zip": "1200",
     "city": "Wien",
     "street": "Stromstraße",
     "housenumber": "40",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 22,
     "name": "TGM Höhere Technische Bundes Lehr- und Versuchsanstalt Wien 20",
     "zip": "1200",
     "city": "Wien",
     "street": "Wexstraße",
     "housenumber": "19-31",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Zentrallehranstalt",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 339,
     "name": "WMS Leipziger Platz 1",
     "zip": "1200",
     "city": "Wien",
     "street": "Leipziger Platz",
     "housenumber": "1",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 346,
     "name": "GRgORg 20 Karajangasse 14",
     "zip": "1200",
     "city": "Wien",
     "street": "Karajangasse",
     "housenumber": "14",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 23,
     "name": "Berufsschule für Kraftfahrzeugtechnik",
     "zip": "1210",
     "city": "Wien",
     "street": "Scheydgasse",
     "housenumber": "40",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 24,
     "name": "GRg 21 Franklinstraße 21",
     "zip": "1210",
     "city": "Wien",
     "street": "Franklinstraße",
     "housenumber": "21",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 25,
     "name": "NMS Regnerweg 6",
     "zip": "1210",
     "city": "Wien",
     "street": "Regnerweg",
     "housenumber": "6",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 26,
     "name": "GRg 21 Franklinstraße 26",
     "zip": "1210",
     "city": "Wien",
     "street": "Franklinstraße",
     "housenumber": "26",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 27,
     "name": "NMS Kinzerplatz 9",
     "zip": "1210",
     "city": "Wien",
     "street": "Kinzerplatz",
     "housenumber": "9",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 28,
     "name": "GRg 21 Ödenburger Straße 74",
     "zip": "1210",
     "city": "Wien",
     "street": "Ödenburger Straße",
     "housenumber": "74",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 29,
     "name": "GRg 21 Donauinselplatz 1",
     "zip": "1210",
     "city": "Wien",
     "street": "Donauinselplatz",
     "housenumber": "1",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 30,
     "name": "NMS Pastorstraße 29",
     "zip": "1210",
     "city": "Wien",
     "street": "Pastorstraße",
     "housenumber": "29",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 31,
     "name": "GRgORg 21 Gerasdorfer Straße 103",
     "zip": "1210",
     "city": "Wien",
     "street": "Gerasdorfer Straße",
     "housenumber": "103",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 32,
     "name": "NMS Reisgasse 1",
     "zip": "1210",
     "city": "Wien",
     "street": "Reisgasse",
     "housenumber": "1",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 33,
     "name": "PNMS Anton-Böck-Gasse 20",
     "zip": "1210",
     "city": "Wien",
@@ -4387,14 +4102,13 @@
     "housenumber": "20",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 34,
     "name": "pORg 21 Nordbahnanlage 4",
     "zip": "1210",
     "city": "Wien",
@@ -4402,14 +4116,13 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 35,
     "name": "PNMS Mayerweckstraße 1",
     "zip": "1210",
     "city": "Wien",
@@ -4417,29 +4130,27 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 36,
     "name": "Bundesgymnasium für Berufstätige",
     "zip": "1210",
     "city": "Wien",
     "street": "Brünner Straße",
     "housenumber": "72",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 37,
     "name": "Privates Realgymnasium Avicenna (Ibn Sina)",
     "zip": "1210",
     "city": "Wien",
@@ -4447,44 +4158,41 @@
     "housenumber": "124",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 38,
     "name": "NMS Jochbergengasse 1",
     "zip": "1210",
     "city": "Wien",
     "street": "Jochbergengasse",
     "housenumber": "1",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 39,
     "name": "NMS Adolf-Loos-Gasse 2",
     "zip": "1210",
     "city": "Wien",
     "street": "Adolf-Loos-Gasse",
     "housenumber": "2",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 40,
     "name": "PNMS Weisselgasse 28",
     "zip": "1210",
     "city": "Wien",
@@ -4492,14 +4200,13 @@
     "housenumber": "28",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 262,
     "name": "Privatschule für instinktives Lernen",
     "zip": "1210",
     "city": "Wien",
@@ -4507,29 +4214,27 @@
     "housenumber": "15-17",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 263,
     "name": "Höhere Bundeslehranstalt für Tourismus und wirtschaftliche Berufe",
     "zip": "1210",
     "city": "Wien",
     "street": "Wassermanngasse",
     "housenumber": "12",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 264,
     "name": "Tierpflegerschule des Fonds zur Förderung der Tierpflegerausbildung",
     "zip": "1210",
     "city": "Wien",
@@ -4537,14 +4242,13 @@
     "housenumber": "1",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 265,
     "name": "BAFEP 21 Bildungsanstalt für Elementarpädagogik des Vereins \"Schulverein De La Salle\"",
     "zip": "1210",
     "city": "Wien",
@@ -4552,14 +4256,13 @@
     "housenumber": "20",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 266,
     "name": "BAFEP 21 Patrizigasse 2",
     "zip": "1210",
     "city": "Wien",
@@ -4567,14 +4270,13 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 267,
     "name": "Kolleg für Sozialpädagogik für Berufstätige",
     "zip": "1210",
     "city": "Wien",
@@ -4582,29 +4284,27 @@
     "housenumber": "4",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 319,
     "name": "NMS Rudolf-Schön-Weg 1",
     "zip": "1210",
     "city": "Wien",
     "street": "Rudolf-Schön-Weg",
     "housenumber": "1",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 320,
     "name": "pGRgORg 21 Anton-Böck-Gasse 37",
     "zip": "1210",
     "city": "Wien",
@@ -4612,179 +4312,167 @@
     "housenumber": "-",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 326,
     "name": "NMS Deublergasse 21",
     "zip": "1210",
     "city": "Wien",
     "street": "Deublergasse",
     "housenumber": "21",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 340,
     "name": "NMS Aderklaaer Straße 2",
     "zip": "1210",
     "city": "Wien",
     "street": "Aderklaaer Straße",
     "housenumber": "2",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 352,
     "name": "NMS Roda-Roda-Gasse 3",
     "zip": "1210",
     "city": "Wien",
     "street": "Roda-Roda-Gasse",
     "housenumber": "3",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 354,
     "name": "NMS Hanreitergasse 2",
     "zip": "1210",
     "city": "Wien",
     "street": "Hanreitergasse",
     "housenumber": "2",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 268,
     "name": "NMS Anton-Sattler-Gasse 93",
     "zip": "1220",
     "city": "Wien",
     "street": "Anton-Sattler-Gasse",
     "housenumber": "93",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 269,
     "name": "PTS Wintzingerodestraße 1-3",
     "zip": "1220",
     "city": "Wien",
     "street": "Wintzingerodestraße",
     "housenumber": "1-3",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Polytechnische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 270,
     "name": "Berufsschule für Baugewerbe",
     "zip": "1220",
     "city": "Wien",
     "street": "Wagramer Straße",
     "housenumber": "65",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 271,
     "name": "GRg 22 Bernoullistraße 3",
     "zip": "1220",
     "city": "Wien",
     "street": "Bernoullistraße",
     "housenumber": "3",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 272,
     "name": "Berufsschule für Gartenbau und Floristik",
     "zip": "1220",
     "city": "Wien",
     "street": "Donizettiweg",
     "housenumber": "31",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 273,
     "name": "GRgORg 22 Polgarstraße 24",
     "zip": "1220",
     "city": "Wien",
     "street": "Polgarstraße",
     "housenumber": "24",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 274,
     "name": "NMS Konstanziagasse 50",
     "zip": "1220",
     "city": "Wien",
     "street": "Konstanziagasse",
     "housenumber": "50",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 275,
     "name": "VIS Straße der Menschenrechte 1",
     "zip": "1220",
     "city": "Wien",
@@ -4792,74 +4480,69 @@
     "housenumber": "Menschenrechte",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 276,
     "name": "GRg 22 Theodor Kramer-Straße 3",
     "zip": "1220",
     "city": "Wien",
     "street": "Theodor Kramer-Straße",
     "housenumber": "3",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 277,
     "name": "NMS Plankenmaisstraße 30",
     "zip": "1220",
     "city": "Wien",
     "street": "Plankenmaisstraße",
     "housenumber": "30",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 278,
     "name": "GRg 22 Heustadelgasse 4",
     "zip": "1220",
     "city": "Wien",
     "street": "Heustadelgasse",
     "housenumber": "4",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 279,
     "name": "GRg 22 Contiweg 1",
     "zip": "1220",
     "city": "Wien",
     "street": "Contiweg",
     "housenumber": "1",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 280,
     "name": "pRgORg 22 Maculangasse 2",
     "zip": "1220",
     "city": "Wien",
@@ -4867,59 +4550,55 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 281,
     "name": "BgBRg Maria-Trapp-Platz 5",
     "zip": "1220",
     "city": "Wien",
     "street": "Maria-Trapp-Platz",
     "housenumber": "5",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 282,
     "name": "NMS Afritschgasse 56",
     "zip": "1220",
     "city": "Wien",
     "street": "Afritschgasse",
     "housenumber": "56",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 283,
     "name": "NMS Mira-Lobe-Weg 4",
     "zip": "1220",
     "city": "Wien",
     "street": "Mira-Lobe-Weg",
     "housenumber": "4",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 284,
     "name": "PNMS Jüptnergasse 4",
     "zip": "1220",
     "city": "Wien",
@@ -4927,14 +4606,13 @@
     "housenumber": "4-8",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 285,
     "name": "Japanische Internationale Schule in Wien",
     "zip": "1220",
     "city": "Wien",
@@ -4942,14 +4620,13 @@
     "housenumber": "2",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 286,
     "name": "International Christian School of Vienna, Wagramer Straße 175",
     "zip": "1220",
     "city": "Wien",
@@ -4957,119 +4634,111 @@
     "housenumber": "175",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
-    "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 22",
+    "id": 287,
+    "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 22 - business.academy.donaustadt",
     "zip": "1220",
     "city": "Wien",
     "street": "Polgarstraße",
     "housenumber": "24",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Kaufmaennische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 288,
     "name": "Hertha Firnberg Schulen für Wirtschaft und Tourismus",
     "zip": "1220",
     "city": "Wien",
     "street": "Firnbergplatz",
     "housenumber": "1",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 289,
     "name": "Höhere Technische Bundeslehranstalt Donaustadt",
     "zip": "1220",
     "city": "Wien",
     "street": "Donaustadtstraße",
     "housenumber": "45",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Technische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 306,
     "name": "NMS Prinzgasse 3",
     "zip": "1220",
     "city": "Wien",
     "street": "Prinzgasse",
     "housenumber": "3",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 316,
     "name": "NMS Eibengasse 58",
     "zip": "1220",
     "city": "Wien",
     "street": "Eibengasse",
     "housenumber": "58",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 347,
     "name": "NMS Am Kaisermühlendamm 2",
     "zip": "1220",
     "city": "Wien",
     "street": "Am Kaisermühlendamm",
     "housenumber": "2",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 290,
     "name": "NMS Steinergasse 25",
     "zip": "1230",
     "city": "Wien",
     "street": "Steinergasse",
     "housenumber": "25",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 291,
     "name": "Berufsschule für Reinigungstechnik der Gebäudereinigungsakademie der Wiener Gebäudereiniger SchulungsGmbH",
     "zip": "1230",
     "city": "Wien",
@@ -5077,29 +4746,27 @@
     "housenumber": "Objekt",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Berufsschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 292,
     "name": "PTS Anton Baumgartner-Straße 44",
     "zip": "1230",
     "city": "Wien",
     "street": "Anton Baumgartner-Straße",
     "housenumber": "44",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Polytechnische Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 293,
     "name": "pGRg 23 Promenadeweg 3",
     "zip": "1230",
     "city": "Wien",
@@ -5107,14 +4774,13 @@
     "housenumber": "3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 294,
     "name": "PSO Kanitzgasse 1-3",
     "zip": "1230",
     "city": "Wien",
@@ -5122,14 +4788,13 @@
     "housenumber": "1-3",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 295,
     "name": "pGORg 23 Franz Asenbauer Gasse 49",
     "zip": "1230",
     "city": "Wien",
@@ -5137,29 +4802,27 @@
     "housenumber": "49",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 296,
     "name": "NMS Bendagasse 1-2",
     "zip": "1230",
     "city": "Wien",
     "street": "Bendagasse",
     "housenumber": "1-2",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 297,
     "name": "PNMS Willergasse 55",
     "zip": "1230",
     "city": "Wien",
@@ -5167,29 +4830,27 @@
     "housenumber": "55",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 298,
     "name": "GRg 23 Anton-Baumgartner-Straße 123",
     "zip": "1230",
     "city": "Wien",
     "street": "Anton Baumgartner-Straße",
     "housenumber": "123",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 299,
     "name": "PNMS Franz-Asenbauer-Gasse 49",
     "zip": "1230",
     "city": "Wien",
@@ -5197,14 +4858,13 @@
     "housenumber": "49",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 300,
     "name": "Höhere Lehranstalt für wirtschaftliche Berufe - Institut Santa Christiana",
     "zip": "1230",
     "city": "Wien",
@@ -5212,14 +4872,13 @@
     "housenumber": "55",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Humanberufliche Schule",
+    "schoolformDescription": "\/",
+    "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
+    "specialisations": []
   },
   {
+    "id": 301,
     "name": "Musikschule Harmony des Vereins der Freunde der Musikschule Harmony",
     "zip": "1230",
     "city": "Wien",
@@ -5227,86 +4886,79 @@
     "housenumber": "90-92",
     "addressextra": "extra",
     "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "schoolform": "Statutschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 321,
     "name": "GRg 23 Draschestraße 90-92",
     "zip": "1230",
     "city": "Wien",
     "street": "Draschestraße",
     "housenumber": "90-92",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 329,
     "name": "NMS Dirmhirngasse 138",
     "zip": "1230",
     "city": "Wien",
     "street": "Dirmhirngasse",
     "housenumber": "138",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 341,
     "name": "RgORg 23 Anton-Krieger-Gasse 25",
     "zip": "1230",
     "city": "Wien",
     "street": "Anton-Krieger-Gasse",
     "housenumber": "25",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Allgemeinbildende hoehere Schule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 345,
     "name": "NMS Carlbergergasse 72",
     "zip": "1230",
     "city": "Wien",
     "street": "Carlbergergasse",
     "housenumber": "72",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   },
   {
+    "id": 348,
     "name": "NMS Anton-Baumgartner-Straße 119",
     "zip": "1230",
     "city": "Wien",
     "street": "Anton-Baumgartner-Straße",
     "housenumber": "119",
     "addressextra": "extra",
-    "private": true,
-    "schoolforms": [
-      "HTL"
-    ],
-    "specialisations": [
-      "INSY"
-    ]
+    "private": false,
+    "schoolform": "Neue Mittelschule",
+    "schoolformDescription": "\/",
+    "graduation": "\/",
+    "specialisations": []
   }
 ]

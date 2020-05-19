@@ -1,5 +1,6 @@
 [
   {
+    "id": 125,
     "name": "NMS Renngasse 20",
     "zip": "1010",
     "city": "Wien",
@@ -13,6 +14,7 @@
     "specialisations": []
   },
   {
+    "id": 126,
     "name": "AkG Beethovenplatz 1",
     "zip": "1010",
     "city": "Wien",
@@ -26,6 +28,7 @@
     "specialisations": []
   },
   {
+    "id": 127,
     "name": "pG 1 Freyung 6",
     "zip": "1010",
     "city": "Wien",
@@ -39,6 +42,7 @@
     "specialisations": []
   },
   {
+    "id": 128,
     "name": "Rg 1 Schottenbastei 7-9",
     "zip": "1010",
     "city": "Wien",
@@ -52,6 +56,7 @@
     "specialisations": []
   },
   {
+    "id": 129,
     "name": "GRg 1 Stubenbastei 6-8",
     "zip": "1010",
     "city": "Wien",
@@ -65,6 +70,7 @@
     "specialisations": []
   },
   {
+    "id": 130,
     "name": "ORg 1\/H 12 Hegelgasse 12",
     "zip": "1010",
     "city": "Wien",
@@ -78,6 +84,7 @@
     "specialisations": []
   },
   {
+    "id": 131,
     "name": "Vienna Business School - Handelsakademie und Handelsschule Akademiestraße der Wiener Kaufmannschaft",
     "zip": "1010",
     "city": "Wien",
@@ -91,6 +98,7 @@
     "specialisations": []
   },
   {
+    "id": 132,
     "name": "Gastgewerbefachschule des Schulvereins der Wiener Gastwirte",
     "zip": "1010",
     "city": "Wien",
@@ -104,6 +112,7 @@
     "specialisations": []
   },
   {
+    "id": 133,
     "name": "Schauspielschule Krauss",
     "zip": "1010",
     "city": "Wien",
@@ -117,6 +126,7 @@
     "specialisations": []
   },
   {
+    "id": 134,
     "name": "Diözesankonservatorium für Kirchenmusik der Erzdiözese Wien",
     "zip": "1010",
     "city": "Wien",
@@ -130,6 +140,7 @@
     "specialisations": []
   },
   {
+    "id": 135,
     "name": "RgORg 2 Lessinggasse 8-14",
     "zip": "1010",
     "city": "Wien",
@@ -143,6 +154,7 @@
     "specialisations": []
   },
   {
+    "id": 136,
     "name": "NMS Feuerbachstraße 1",
     "zip": "1020",
     "city": "Wien",
@@ -156,6 +168,7 @@
     "specialisations": []
   },
   {
+    "id": 137,
     "name": "GRg 2 Wohlmutstraße 3",
     "zip": "1020",
     "city": "Wien",
@@ -169,6 +182,7 @@
     "specialisations": []
   },
   {
+    "id": 138,
     "name": "GRg 2 Zirkusgasse 48",
     "zip": "1020",
     "city": "Wien",
@@ -182,6 +196,7 @@
     "specialisations": []
   },
   {
+    "id": 139,
     "name": "GRg 2 Kleine Sperlgasse 4",
     "zip": "1020",
     "city": "Wien",
@@ -195,6 +210,7 @@
     "specialisations": []
   },
   {
+    "id": 140,
     "name": "NMS Obere Augartenstraße 38",
     "zip": "1020",
     "city": "Wien",
@@ -208,6 +224,7 @@
     "specialisations": []
   },
   {
+    "id": 141,
     "name": "pRg 2 Simon-Wiesenthal-Gasse 3",
     "zip": "1020",
     "city": "Wien",
@@ -221,6 +238,7 @@
     "specialisations": []
   },
   {
+    "id": 142,
     "name": "NMS Pazmanitengasse 26",
     "zip": "1020",
     "city": "Wien",
@@ -234,6 +252,7 @@
     "specialisations": []
   },
   {
+    "id": 143,
     "name": "FIT - Fachspezifische Schule für individualisierte Teilausbildungen für Jugendliche und junge Erwachsene mit Behinderungen\/Benachteiligungen der ITA gem. GmbH",
     "zip": "1020",
     "city": "Wien",
@@ -247,6 +266,7 @@
     "specialisations": []
   },
   {
+    "id": 144,
     "name": "I-FIT - Inklusive Fachspezifische Schule für Individualisierte Teilausbildungen für Jugendliche und junge Erwachsene mit Ausgrenzungsgefährdung und Behinderungen\/Benachteiligungen des Evang.Schulwerks A.B. Wien\"",
     "zip": "1020",
     "city": "Wien",
@@ -260,6 +280,7 @@
     "specialisations": []
   },
   {
+    "id": 145,
     "name": "PNMS Obere Augartenstraße 34",
     "zip": "1020",
     "city": "Wien",
@@ -273,6 +294,7 @@
     "specialisations": []
   },
   {
+    "id": 146,
     "name": "pORg 2 Rabbiner-Schneerson-Platz 1",
     "zip": "1020",
     "city": "Wien",
@@ -286,6 +308,7 @@
     "specialisations": []
   },
   {
+    "id": 147,
     "name": "PNMS Malzgasse 16",
     "zip": "1020",
     "city": "Wien",
@@ -299,6 +322,7 @@
     "specialisations": []
   },
   {
+    "id": 148,
     "name": "PNMS Rabbiner Schneerson-Platz 1",
     "zip": "1020",
     "city": "Wien",
@@ -312,6 +336,7 @@
     "specialisations": []
   },
   {
+    "id": 149,
     "name": "PNMS Große Stadtgutgasse 24",
     "zip": "1020",
     "city": "Wien",
@@ -325,6 +350,7 @@
     "specialisations": []
   },
   {
+    "id": 150,
     "name": "Danube International School Vienna",
     "zip": "1020",
     "city": "Wien",
@@ -338,6 +364,7 @@
     "specialisations": []
   },
   {
+    "id": 151,
     "name": "?JESSODE-Hatara-Schule? des Vereins ?KHAL ISRAEL religiös-orthodoxer Verein",
     "zip": "1020",
     "city": "Wien",
@@ -351,6 +378,7 @@
     "specialisations": []
   },
   {
+    "id": 152,
     "name": "Vienna Business School - Handelsakademie und Handelsschule Augarten der Wiener Kaufmannschaft",
     "zip": "1020",
     "city": "Wien",
@@ -364,6 +392,7 @@
     "specialisations": []
   },
   {
+    "id": 153,
     "name": "Handelsschule des Vereins jüdisches pädagogisches Zentrum",
     "zip": "1020",
     "city": "Wien",
@@ -377,6 +406,7 @@
     "specialisations": []
   },
   {
+    "id": 154,
     "name": "Handelsschule am Bundes-Blindeninstitut",
     "zip": "1020",
     "city": "Wien",
@@ -390,6 +420,7 @@
     "specialisations": []
   },
   {
+    "id": 155,
     "name": "Fachschule für jüdische Sozialberufe - Wiener Jeschiwah",
     "zip": "1020",
     "city": "Wien",
@@ -403,6 +434,7 @@
     "specialisations": []
   },
   {
+    "id": 156,
     "name": "Jüdische Mädchenfachschule für Kommunikation und Wirtschaft \"Beth-Jakov-Schule\"",
     "zip": "1020",
     "city": "Wien",
@@ -416,6 +448,7 @@
     "specialisations": []
   },
   {
+    "id": 157,
     "name": "Jehuda Halevi Musikschule des Vereins Jehuda Halevi Zentrum für Kunst und Kultur",
     "zip": "1020",
     "city": "Wien",
@@ -429,6 +462,7 @@
     "specialisations": []
   },
   {
+    "id": 302,
     "name": "NMS Max-Winter-Platz 2",
     "zip": "1020",
     "city": "Wien",
@@ -442,6 +476,7 @@
     "specialisations": []
   },
   {
+    "id": 308,
     "name": "pRgORg 2 Obere Augartenstraße 1c",
     "zip": "1020",
     "city": "Wien",
@@ -455,6 +490,7 @@
     "specialisations": []
   },
   {
+    "id": 332,
     "name": "NMS Wittelsbachstraße 6",
     "zip": "1020",
     "city": "Wien",
@@ -468,6 +504,7 @@
     "specialisations": []
   },
   {
+    "id": 343,
     "name": "WMS Kleine Sperlgasse 2A",
     "zip": "1020",
     "city": "Wien",
@@ -481,6 +518,7 @@
     "specialisations": []
   },
   {
+    "id": 158,
     "name": "NMS Dietrichgasse 36",
     "zip": "1030",
     "city": "Wien",
@@ -494,6 +532,7 @@
     "specialisations": []
   },
   {
+    "id": 159,
     "name": "PTS Maiselgasse 1",
     "zip": "1030",
     "city": "Wien",
@@ -507,6 +546,7 @@
     "specialisations": []
   },
   {
+    "id": 160,
     "name": "ORg 3 Landstraßer Hauptstraße 70",
     "zip": "1030",
     "city": "Wien",
@@ -520,6 +560,7 @@
     "specialisations": []
   },
   {
+    "id": 161,
     "name": "NMS Hainburger Straße 40",
     "zip": "1030",
     "city": "Wien",
@@ -533,6 +574,7 @@
     "specialisations": []
   },
   {
+    "id": 162,
     "name": "GRg 3 Boerhaavegasse 15",
     "zip": "1030",
     "city": "Wien",
@@ -546,6 +588,7 @@
     "specialisations": []
   },
   {
+    "id": 163,
     "name": "NMS Hörnesgasse 12",
     "zip": "1030",
     "city": "Wien",
@@ -559,6 +602,7 @@
     "specialisations": []
   },
   {
+    "id": 164,
     "name": "pG 3 Rennweg 31",
     "zip": "1030",
     "city": "Wien",
@@ -572,6 +616,7 @@
     "specialisations": []
   },
   {
+    "id": 165,
     "name": "GRg 3 Kundmanngasse 20-22",
     "zip": "1030",
     "city": "Wien",
@@ -585,6 +630,7 @@
     "specialisations": []
   },
   {
+    "id": 166,
     "name": "GRg 3 Hagenmüllergasse 30",
     "zip": "1030",
     "city": "Wien",
@@ -598,6 +644,7 @@
     "specialisations": []
   },
   {
+    "id": 167,
     "name": "PNMS Erdbergstraße 70",
     "zip": "1030",
     "city": "Wien",
@@ -611,6 +658,7 @@
     "specialisations": []
   },
   {
+    "id": 168,
     "name": "PNMS Schützengasse 31",
     "zip": "1030",
     "city": "Wien",
@@ -624,6 +672,7 @@
     "specialisations": []
   },
   {
+    "id": 169,
     "name": "PNMS Fasangasse 4",
     "zip": "1030",
     "city": "Wien",
@@ -637,6 +686,7 @@
     "specialisations": []
   },
   {
+    "id": 170,
     "name": "pRgORg 3 Schützengasse 31",
     "zip": "1030",
     "city": "Wien",
@@ -650,6 +700,7 @@
     "specialisations": []
   },
   {
+    "id": 171,
     "name": "ORg 3 Ballsportgymnasium Wien",
     "zip": "1030",
     "city": "Wien",
@@ -663,6 +714,7 @@
     "specialisations": []
   },
   {
+    "id": 172,
     "name": "Handelsakademie und Handelsschule Marienanstalt - Sacré Coeur der Schulstiftung Erzdiözese Wien",
     "zip": "1030",
     "city": "Wien",
@@ -676,6 +728,7 @@
     "specialisations": []
   },
   {
+    "id": 173,
     "name": "Schule für Sozialbetreuungsberufe (WISOZ) der AWZ-Soziales Wien GmbH",
     "zip": "1030",
     "city": "Wien",
@@ -689,6 +742,7 @@
     "specialisations": []
   },
   {
+    "id": 174,
     "name": "Höhere Lehranstalt für wirtschaftliche Berufe des Schulvereins der Schulschwestern",
     "zip": "1030",
     "city": "Wien",
@@ -702,6 +756,7 @@
     "specialisations": []
   },
   {
+    "id": 175,
     "name": "Camillo Sitte Lehranstalt, Höhere Technische Bundeslehr- und Versuchsanstalt",
     "zip": "1030",
     "city": "Wien",
@@ -715,6 +770,7 @@
     "specialisations": []
   },
   {
+    "id": 176,
     "name": "Bundeshandelsakademie und Bundeshandelsschule und Höhere Technische Bundeslehranstalt Schulzentrum Ungargasse Wien 3",
     "zip": "1030",
     "city": "Wien",
@@ -728,6 +784,7 @@
     "specialisations": []
   },
   {
+    "id": 177,
     "name": "Bundeshandelsakademie und Bundeshandelsschule und Höhere Technische Bundeslehranstalt Schulzentrum Ungargasse Wien 3",
     "zip": "1030",
     "city": "Wien",
@@ -741,6 +798,7 @@
     "specialisations": []
   },
   {
+    "id": 178,
     "name": "Höhere Technische Bundeslehranstalt Wien 3 Rennweg",
     "zip": "1030",
     "city": "Wien",
@@ -754,6 +812,7 @@
     "specialisations": []
   },
   {
+    "id": 179,
     "name": "BSH Bundesschüler\/innen-Wohnheim Juchgasse",
     "zip": "1030",
     "city": "Wien",
@@ -767,6 +826,7 @@
     "specialisations": []
   },
   {
+    "id": 350,
     "name": "GRg 3 Radetzkystraße 2A",
     "zip": "1030",
     "city": "Wien",
@@ -780,6 +840,7 @@
     "specialisations": []
   },
   {
+    "id": 353,
     "name": "NMS Kölblgasse 23",
     "zip": "1030",
     "city": "Wien",
@@ -793,6 +854,7 @@
     "specialisations": []
   },
   {
+    "id": 180,
     "name": "GTNMS Schäffergasse 3",
     "zip": "1040",
     "city": "Wien",
@@ -806,6 +868,7 @@
     "specialisations": []
   },
   {
+    "id": 181,
     "name": "PPTS Karlsplatz 14",
     "zip": "1040",
     "city": "Wien",
@@ -819,6 +882,7 @@
     "specialisations": []
   },
   {
+    "id": 182,
     "name": "Rg 4 Waltergasse 7",
     "zip": "1040",
     "city": "Wien",
@@ -832,6 +896,7 @@
     "specialisations": []
   },
   {
+    "id": 183,
     "name": "PWMS Karlsplatz 14",
     "zip": "1040",
     "city": "Wien",
@@ -845,6 +910,7 @@
     "specialisations": []
   },
   {
+    "id": 184,
     "name": "GRg 4 Wiedner Gürtel 68",
     "zip": "1040",
     "city": "Wien",
@@ -858,6 +924,7 @@
     "specialisations": []
   },
   {
+    "id": 185,
     "name": "Technisch-Gewerbliche Abendschule des bfi Wien - Werkmeisterschule",
     "zip": "1040",
     "city": "Wien",
@@ -871,6 +938,7 @@
     "specialisations": []
   },
   {
+    "id": 186,
     "name": "Prayner Konservatorium des Herrn Mag. Josef Schmid",
     "zip": "1040",
     "city": "Wien",
@@ -884,6 +952,7 @@
     "specialisations": []
   },
   {
+    "id": 315,
     "name": "pG 4 Favoritenstraße 15",
     "zip": "1040",
     "city": "Wien",
@@ -897,6 +966,7 @@
     "specialisations": []
   },
   {
+    "id": 115,
     "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 12 - International Business College Hetzendorf",
     "zip": "1050",
     "city": "Wien",
@@ -910,6 +980,7 @@
     "specialisations": []
   },
   {
+    "id": 187,
     "name": "GRg 5 Reinprechtsdorfer Straße 24",
     "zip": "1050",
     "city": "Wien",
@@ -923,6 +994,7 @@
     "specialisations": []
   },
   {
+    "id": 188,
     "name": "NMS Gassergasse 44",
     "zip": "1050",
     "city": "Wien",
@@ -936,6 +1008,7 @@
     "specialisations": []
   },
   {
+    "id": 189,
     "name": "Berufsschule für Verwaltungsberufe",
     "zip": "1050",
     "city": "Wien",
@@ -949,6 +1022,7 @@
     "specialisations": []
   },
   {
+    "id": 190,
     "name": "GRg 5 Rainergasse 39",
     "zip": "1050",
     "city": "Wien",
@@ -962,6 +1036,7 @@
     "specialisations": []
   },
   {
+    "id": 191,
     "name": "NMS Viktor-Christ-Gasse 24",
     "zip": "1050",
     "city": "Wien",
@@ -975,6 +1050,7 @@
     "specialisations": []
   },
   {
+    "id": 192,
     "name": "Höhere Bundeslehr- und Versuchsanstalt für Textilindustrie und Informatik",
     "zip": "1050",
     "city": "Wien",
@@ -988,6 +1064,7 @@
     "specialisations": []
   },
   {
+    "id": 193,
     "name": "Schulen des BFI Wien",
     "zip": "1050",
     "city": "Wien",
@@ -1001,6 +1078,7 @@
     "specialisations": []
   },
   {
+    "id": 194,
     "name": "PNMS Liniengasse 21",
     "zip": "1060",
     "city": "Wien",
@@ -1014,6 +1092,7 @@
     "specialisations": []
   },
   {
+    "id": 195,
     "name": "GRg 6 Amerlingstraße 6",
     "zip": "1060",
     "city": "Wien",
@@ -1027,6 +1106,7 @@
     "specialisations": []
   },
   {
+    "id": 196,
     "name": "Berufsschule für Elektrotechnik und Mechatronik",
     "zip": "1060",
     "city": "Wien",
@@ -1040,6 +1120,7 @@
     "specialisations": []
   },
   {
+    "id": 197,
     "name": "Berufsschule für Sanitär-, Heizungs- und Klimatechnik",
     "zip": "1060",
     "city": "Wien",
@@ -1053,6 +1134,7 @@
     "specialisations": []
   },
   {
+    "id": 198,
     "name": "Berufsschule für Metalltechnik, Glasbautechnik und Technische Zeichner",
     "zip": "1060",
     "city": "Wien",
@@ -1066,6 +1148,7 @@
     "specialisations": []
   },
   {
+    "id": 199,
     "name": "Berufsschule für Elektro-, Veranstaltungs- und Informationstechnik Austria",
     "zip": "1060",
     "city": "Wien",
@@ -1079,6 +1162,7 @@
     "specialisations": []
   },
   {
+    "id": 303,
     "name": "WMS Loquaiplatz 4",
     "zip": "1060",
     "city": "Wien",
@@ -1092,6 +1176,7 @@
     "specialisations": []
   },
   {
+    "id": 331,
     "name": "Rg 6 Marchettigasse 3",
     "zip": "1060",
     "city": "Wien",
@@ -1105,6 +1190,7 @@
     "specialisations": []
   },
   {
+    "id": 200,
     "name": "NMS Neubaugasse 42",
     "zip": "1070",
     "city": "Wien",
@@ -1118,6 +1204,7 @@
     "specialisations": []
   },
   {
+    "id": 201,
     "name": "PPTS Kenyongasse 4-12",
     "zip": "1070",
     "city": "Wien",
@@ -1131,6 +1218,7 @@
     "specialisations": []
   },
   {
+    "id": 202,
     "name": "PTS Burggasse 14-16",
     "zip": "1070",
     "city": "Wien",
@@ -1144,6 +1232,7 @@
     "specialisations": []
   },
   {
+    "id": 203,
     "name": "Berufsschule für Maschinen-, Fertigungstechnik und Elektronik",
     "zip": "1070",
     "city": "Wien",
@@ -1157,6 +1246,7 @@
     "specialisations": []
   },
   {
+    "id": 204,
     "name": "GRg 7 Kandlgasse 39",
     "zip": "1070",
     "city": "Wien",
@@ -1170,6 +1260,7 @@
     "specialisations": []
   },
   {
+    "id": 205,
     "name": "pGRg 7 Kenyongasse 4-12",
     "zip": "1070",
     "city": "Wien",
@@ -1183,6 +1274,7 @@
     "specialisations": []
   },
   {
+    "id": 206,
     "name": "PNMS Kenyongasse 4-12",
     "zip": "1070",
     "city": "Wien",
@@ -1196,6 +1288,7 @@
     "specialisations": []
   },
   {
+    "id": 207,
     "name": "RgORg 7 Neustiftgasse 95-99",
     "zip": "1070",
     "city": "Wien",
@@ -1209,6 +1302,7 @@
     "specialisations": []
   },
   {
+    "id": 208,
     "name": "Islamische Fachschule für soziale Bildung - Dr. A.K. Hammerschmidt der Islamischen Religionsgemeinde Wien",
     "zip": "1070",
     "city": "Wien",
@@ -1222,6 +1316,7 @@
     "specialisations": []
   },
   {
+    "id": 209,
     "name": "Konservatorium Sunrise_Studios des Herrn Mike Loewenrosen",
     "zip": "1070",
     "city": "Wien",
@@ -1235,6 +1330,7 @@
     "specialisations": []
   },
   {
+    "id": 210,
     "name": "Private Bildungsanstalt für Sozialpädagogik - Kolleg für Sozialpädagogik für Berufstätige der MERA Bildungsholding GmbH Schottenfeldgasse 69",
     "zip": "1070",
     "city": "Wien",
@@ -1248,6 +1344,7 @@
     "specialisations": []
   },
   {
+    "id": 211,
     "name": "BAFEP 7 Kenyongasse 4-12",
     "zip": "1070",
     "city": "Wien",
@@ -1261,6 +1358,7 @@
     "specialisations": []
   },
   {
+    "id": 327,
     "name": "NMS Neustiftgasse 98-102",
     "zip": "1070",
     "city": "Wien",
@@ -1274,6 +1372,7 @@
     "specialisations": []
   },
   {
+    "id": 212,
     "name": "GRg 8 Albertgasse 18-22",
     "zip": "1080",
     "city": "Wien",
@@ -1287,6 +1386,7 @@
     "specialisations": []
   },
   {
+    "id": 213,
     "name": "Rg 8 Feldgasse 6-8",
     "zip": "1080",
     "city": "Wien",
@@ -1300,6 +1400,7 @@
     "specialisations": []
   },
   {
+    "id": 214,
     "name": "Vienna Business School -  Handelsakademie und Handelsschule Hamerlingplatz der Wiener Kaufmannschaft",
     "zip": "1080",
     "city": "Wien",
@@ -1313,6 +1414,7 @@
     "specialisations": []
   },
   {
+    "id": 215,
     "name": "Vienna Business School -  Handelsakademie und Handelsschule Schönborngasse der Wiener Kaufmannschaft",
     "zip": "1080",
     "city": "Wien",
@@ -1326,6 +1428,7 @@
     "specialisations": []
   },
   {
+    "id": 216,
     "name": "BAFEP 8 Lange Gasse 47 + Albertgasse 38",
     "zip": "1080",
     "city": "Wien",
@@ -1339,6 +1442,7 @@
     "specialisations": []
   },
   {
+    "id": 217,
     "name": "Private \"Bildungsanstalt für Sozialpädagogik - Kolleg für Berufstätige\" des Vereins die \"bildungsakademie, Verein für Durchlässigkeit und soziale Gerechtigkeit in der Bildung",
     "zip": "1080",
     "city": "Wien",
@@ -1352,6 +1456,7 @@
     "specialisations": []
   },
   {
+    "id": 305,
     "name": "NMS Pfeilgasse 42b",
     "zip": "1080",
     "city": "Wien",
@@ -1365,6 +1470,7 @@
     "specialisations": []
   },
   {
+    "id": 323,
     "name": "G 8 Jodok-Fink-Platz 2",
     "zip": "1080",
     "city": "Wien",
@@ -1378,6 +1484,7 @@
     "specialisations": []
   },
   {
+    "id": 218,
     "name": "GRg 9 Wasagasse 10",
     "zip": "1090",
     "city": "Wien",
@@ -1391,6 +1498,7 @@
     "specialisations": []
   },
   {
+    "id": 219,
     "name": "Rg 9 Glasergasse 25",
     "zip": "1090",
     "city": "Wien",
@@ -1404,6 +1512,7 @@
     "specialisations": []
   },
   {
+    "id": 220,
     "name": "PNMS Währinger Straße 59",
     "zip": "1090",
     "city": "Wien",
@@ -1417,6 +1526,7 @@
     "specialisations": []
   },
   {
+    "id": 221,
     "name": "Lycée Liechtensteinstraße 37a Francais de Vienne",
     "zip": "1090",
     "city": "Wien",
@@ -1430,6 +1540,7 @@
     "specialisations": []
   },
   {
+    "id": 222,
     "name": "Höhere Bundeslehranstalt für Mode und für wirtschaftliche Berufe Wien 9",
     "zip": "1090",
     "city": "Wien",
@@ -1443,6 +1554,7 @@
     "specialisations": []
   },
   {
+    "id": 223,
     "name": "Caritas Ausbildungszentrum für Sozialberufe",
     "zip": "1090",
     "city": "Wien",
@@ -1456,6 +1568,7 @@
     "specialisations": []
   },
   {
+    "id": 224,
     "name": "Wiener Kunstschule",
     "zip": "1090",
     "city": "Wien",
@@ -1469,6 +1582,7 @@
     "specialisations": []
   },
   {
+    "id": 307,
     "name": "NMS Glasergasse 8",
     "zip": "1090",
     "city": "Wien",
@@ -1482,6 +1596,7 @@
     "specialisations": []
   },
   {
+    "id": 225,
     "name": "GRG 10 Ettenreichgasse 41-43",
     "zip": "1100",
     "city": "Wien",
@@ -1495,6 +1610,7 @@
     "specialisations": []
   },
   {
+    "id": 226,
     "name": "NMS Georg-Wilhelm-Pabst-Gasse 2a",
     "zip": "1100",
     "city": "Wien",
@@ -1508,6 +1624,7 @@
     "specialisations": []
   },
   {
+    "id": 227,
     "name": "pGRg 10 Ludwig-von-Höhnel-Gasse 17-19",
     "zip": "1100",
     "city": "Wien",
@@ -1521,6 +1638,7 @@
     "specialisations": []
   },
   {
+    "id": 228,
     "name": "Praxis-MS Grenzackerstraße 18",
     "zip": "1100",
     "city": "Wien",
@@ -1534,6 +1652,7 @@
     "specialisations": []
   },
   {
+    "id": 229,
     "name": "PTS Pernerstorfergasse 30-32",
     "zip": "1100",
     "city": "Wien",
@@ -1547,6 +1666,7 @@
     "specialisations": []
   },
   {
+    "id": 230,
     "name": "GRg 10 Laaer Berg-Straße 25-29",
     "zip": "1100",
     "city": "Wien",
@@ -1560,6 +1680,7 @@
     "specialisations": []
   },
   {
+    "id": 231,
     "name": "NMS Herzgasse 27",
     "zip": "1100",
     "city": "Wien",
@@ -1573,6 +1694,7 @@
     "specialisations": []
   },
   {
+    "id": 232,
     "name": "GRg 10 Pichelmayergasse 1",
     "zip": "1100",
     "city": "Wien",
@@ -1586,6 +1708,7 @@
     "specialisations": []
   },
   {
+    "id": 233,
     "name": "NMS Leibnizgasse 33",
     "zip": "1100",
     "city": "Wien",
@@ -1599,6 +1722,7 @@
     "specialisations": []
   },
   {
+    "id": 234,
     "name": "PNMS Ludwig v. Höhnel-Gasse 17-19",
     "zip": "1100",
     "city": "Wien",
@@ -1612,6 +1736,7 @@
     "specialisations": []
   },
   {
+    "id": 235,
     "name": "NMS Gudrunstraße 110",
     "zip": "1100",
     "city": "Wien",
@@ -1625,6 +1750,7 @@
     "specialisations": []
   },
   {
+    "id": 236,
     "name": "NMS Quellenstraße 144",
     "zip": "1100",
     "city": "Wien",
@@ -1638,6 +1764,7 @@
     "specialisations": []
   },
   {
+    "id": 237,
     "name": "Mayflower Christian Academy - Primar des Vereins MCA",
     "zip": "1100",
     "city": "Wien",
@@ -1651,6 +1778,7 @@
     "specialisations": []
   },
   {
+    "id": 238,
     "name": "PVS Maria Lassnig-Straße 32\/1",
     "zip": "1100",
     "city": "Wien",
@@ -1664,6 +1792,7 @@
     "specialisations": []
   },
   {
+    "id": 239,
     "name": "Höhere Technische Bundeslehranstalt Wien 10",
     "zip": "1100",
     "city": "Wien",
@@ -1677,6 +1806,7 @@
     "specialisations": []
   },
   {
+    "id": 240,
     "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 10",
     "zip": "1100",
     "city": "Wien",
@@ -1690,6 +1820,7 @@
     "specialisations": []
   },
   {
+    "id": 241,
     "name": "Höhere Bundeslehranstalt für wirtschaftliche Berufe Wien 10",
     "zip": "1100",
     "city": "Wien",
@@ -1703,6 +1834,7 @@
     "specialisations": []
   },
   {
+    "id": 242,
     "name": "Schule für Sozialbetreuungsberufe",
     "zip": "1100",
     "city": "Wien",
@@ -1716,6 +1848,7 @@
     "specialisations": []
   },
   {
+    "id": 243,
     "name": "BAFEP 10 Ettenreichgasse 45c",
     "zip": "1100",
     "city": "Wien",
@@ -1729,6 +1862,7 @@
     "specialisations": []
   },
   {
+    "id": 304,
     "name": "NMS Wendstattgasse 3",
     "zip": "1100",
     "city": "Wien",
@@ -1742,6 +1876,7 @@
     "specialisations": []
   },
   {
+    "id": 312,
     "name": "NMS Wendstattgasse 5\/I",
     "zip": "1100",
     "city": "Wien",
@@ -1755,6 +1890,7 @@
     "specialisations": []
   },
   {
+    "id": 314,
     "name": "NMS Absberggasse 50",
     "zip": "1100",
     "city": "Wien",
@@ -1768,6 +1904,7 @@
     "specialisations": []
   },
   {
+    "id": 325,
     "name": "NMS Knöllgasse 61",
     "zip": "1100",
     "city": "Wien",
@@ -1781,6 +1918,7 @@
     "specialisations": []
   },
   {
+    "id": 334,
     "name": "NMS Wendstattgasse 5\/II",
     "zip": "1100",
     "city": "Wien",
@@ -1794,6 +1932,7 @@
     "specialisations": []
   },
   {
+    "id": 335,
     "name": "Phönix Realgymnasium Knöllgasse 20 - 24",
     "zip": "1100",
     "city": "Wien",
@@ -1807,6 +1946,7 @@
     "specialisations": []
   },
   {
+    "id": 342,
     "name": "NMS Josef-Enslein-Platz 1-3",
     "zip": "1100",
     "city": "Wien",
@@ -1820,6 +1960,7 @@
     "specialisations": []
   },
   {
+    "id": 244,
     "name": "NMS Enkplatz 4\/II",
     "zip": "1110",
     "city": "Wien",
@@ -1833,6 +1974,7 @@
     "specialisations": []
   },
   {
+    "id": 245,
     "name": "GRg 11 Gottschalkgasse 21",
     "zip": "1110",
     "city": "Wien",
@@ -1846,6 +1988,7 @@
     "specialisations": []
   },
   {
+    "id": 246,
     "name": "GRg 11 Geringergasse 2",
     "zip": "1110",
     "city": "Wien",
@@ -1859,6 +2002,7 @@
     "specialisations": []
   },
   {
+    "id": 247,
     "name": "NMS Rzehakgasse 7",
     "zip": "1110",
     "city": "Wien",
@@ -1872,6 +2016,7 @@
     "specialisations": []
   },
   {
+    "id": 248,
     "name": "pGRg 11 Erdbergstraße 222 A",
     "zip": "1110",
     "city": "Wien",
@@ -1885,6 +2030,7 @@
     "specialisations": []
   },
   {
+    "id": 249,
     "name": "NMS Hasenleitengasse 7",
     "zip": "1110",
     "city": "Wien",
@@ -1898,6 +2044,7 @@
     "specialisations": []
   },
   {
+    "id": 250,
     "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 11",
     "zip": "1110",
     "city": "Wien",
@@ -1911,6 +2058,7 @@
     "specialisations": []
   },
   {
+    "id": 251,
     "name": "Konservatorium JAM MUSIC LAB \" International Academy of Music and Performing Arts Vienna\" der Jam Music Lab GmbH",
     "zip": "1110",
     "city": "Wien",
@@ -1924,6 +2072,7 @@
     "specialisations": []
   },
   {
+    "id": 252,
     "name": "Johann Sebastian Bach Musikschule des Evangelischen Schulwerk A.B. Wien",
     "zip": "1110",
     "city": "Wien",
@@ -1937,6 +2086,7 @@
     "specialisations": []
   },
   {
+    "id": 309,
     "name": "NMS Florian-Hedorferstraße 22",
     "zip": "1110",
     "city": "Wien",
@@ -1950,6 +2100,7 @@
     "specialisations": []
   },
   {
+    "id": 313,
     "name": "NMS Pachmayergasse 6",
     "zip": "1110",
     "city": "Wien",
@@ -1963,6 +2114,7 @@
     "specialisations": []
   },
   {
+    "id": 349,
     "name": "NMS Enkplatz 4\/I",
     "zip": "1110",
     "city": "Wien",
@@ -1976,6 +2128,7 @@
     "specialisations": []
   },
   {
+    "id": 351,
     "name": "NMS Svetelskystraße 4-6",
     "zip": "1110",
     "city": "Wien",
@@ -1989,6 +2142,7 @@
     "specialisations": []
   },
   {
+    "id": 113,
     "name": "Isma Private Gesamtschule Muhammad Asad Reschgasse 20-22",
     "zip": "1120",
     "city": "Wien",
@@ -2002,6 +2156,7 @@
     "specialisations": []
   },
   {
+    "id": 114,
     "name": "Fachschule der Stadt Wien für wirtschaftliche Berufe",
     "zip": "1120",
     "city": "Wien",
@@ -2015,6 +2170,7 @@
     "specialisations": []
   },
   {
+    "id": 116,
     "name": "Modeschule der Stadt Wien im Schloss Hetzendorf",
     "zip": "1120",
     "city": "Wien",
@@ -2028,6 +2184,7 @@
     "specialisations": []
   },
   {
+    "id": 117,
     "name": "Richard Wagner Konservatorium des Herrn Mirza Kapetanovic",
     "zip": "1120",
     "city": "Wien",
@@ -2041,6 +2198,7 @@
     "specialisations": []
   },
   {
+    "id": 118,
     "name": "BAFEP 12 Private Bundesbildungsanstalt für Elementarpädagogik",
     "zip": "1120",
     "city": "Wien",
@@ -2054,6 +2212,7 @@
     "specialisations": []
   },
   {
+    "id": 253,
     "name": "NMS Herthergasse 28",
     "zip": "1120",
     "city": "Wien",
@@ -2067,6 +2226,7 @@
     "specialisations": []
   },
   {
+    "id": 254,
     "name": "Berufsschule für Lebensmittel, Touristik und Zahntechnik",
     "zip": "1120",
     "city": "Wien",
@@ -2080,6 +2240,7 @@
     "specialisations": []
   },
   {
+    "id": 255,
     "name": "GRg 12 Rosasgasse 1-3",
     "zip": "1120",
     "city": "Wien",
@@ -2093,6 +2254,7 @@
     "specialisations": []
   },
   {
+    "id": 256,
     "name": "NMS Johann-Hoffmann-Platz 19",
     "zip": "1120",
     "city": "Wien",
@@ -2106,6 +2268,7 @@
     "specialisations": []
   },
   {
+    "id": 257,
     "name": "GRg 12 Erlgasse 32-34",
     "zip": "1120",
     "city": "Wien",
@@ -2119,6 +2282,7 @@
     "specialisations": []
   },
   {
+    "id": 258,
     "name": "Berufsschule für Gastgewerbe",
     "zip": "1120",
     "city": "Wien",
@@ -2132,6 +2296,7 @@
     "specialisations": []
   },
   {
+    "id": 259,
     "name": "Privatschule INFINUM ORG",
     "zip": "1120",
     "city": "Wien",
@@ -2145,6 +2310,7 @@
     "specialisations": []
   },
   {
+    "id": 260,
     "name": "NMS Singrienergasse 23",
     "zip": "1120",
     "city": "Wien",
@@ -2158,6 +2324,7 @@
     "specialisations": []
   },
   {
+    "id": 261,
     "name": "Berufsschule für Industrie, Finanzen und Transport",
     "zip": "1120",
     "city": "Wien",
@@ -2171,6 +2338,7 @@
     "specialisations": []
   },
   {
+    "id": 324,
     "name": "NMS Hermann-Broch-Gasse 2",
     "zip": "1120",
     "city": "Wien",
@@ -2184,6 +2352,7 @@
     "specialisations": []
   },
   {
+    "id": 330,
     "name": "NMS Am Schöpfwerk 27",
     "zip": "1120",
     "city": "Wien",
@@ -2197,6 +2366,7 @@
     "specialisations": []
   },
   {
+    "id": 336,
     "name": "NMS Steinbauergasse 27",
     "zip": "1120",
     "city": "Wien",
@@ -2210,6 +2380,7 @@
     "specialisations": []
   },
   {
+    "id": 59,
     "name": "Lehranstalt für systemische Familientherapie der Erzdiözese Wien für Berufstätige",
     "zip": "1130",
     "city": "Wien",
@@ -2223,6 +2394,7 @@
     "specialisations": []
   },
   {
+    "id": 60,
     "name": "Fachschule und Aufbaulehrgang für wirtschaftliche Berufe des Schulvereins der Dominikanerinnen",
     "zip": "1130",
     "city": "Wien",
@@ -2236,6 +2408,7 @@
     "specialisations": []
   },
   {
+    "id": 61,
     "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 13 - Schumpeter Handelsakademie",
     "zip": "1130",
     "city": "Wien",
@@ -2249,6 +2422,7 @@
     "specialisations": []
   },
   {
+    "id": 62,
     "name": "Höhere Bundeslehranstalt für Tourismus und für wirtschaftliche Berufe Wien 13",
     "zip": "1130",
     "city": "Wien",
@@ -2262,6 +2436,7 @@
     "specialisations": []
   },
   {
+    "id": 63,
     "name": "Speziallehrgang für Leitungsfunktionen in der Sozialarbeit der Caritas der Erzdiözese Wien",
     "zip": "1130",
     "city": "Wien",
@@ -2275,6 +2450,7 @@
     "specialisations": []
   },
   {
+    "id": 64,
     "name": "HBLFA Grünbergstraße 24",
     "zip": "1130",
     "city": "Wien",
@@ -2288,6 +2464,7 @@
     "specialisations": []
   },
   {
+    "id": 65,
     "name": "BSH 13 Himmelhofgasse 17-19",
     "zip": "1130",
     "city": "Wien",
@@ -2301,6 +2478,7 @@
     "specialisations": []
   },
   {
+    "id": 66,
     "name": "pORg 13 Auhofstraße 78 e-f",
     "zip": "1130",
     "city": "Wien",
@@ -2314,6 +2492,7 @@
     "specialisations": []
   },
   {
+    "id": 119,
     "name": "Berufsschule der SPAR österreichische Warenhandels-AG - Private Spar Akademie Wien",
     "zip": "1130",
     "city": "Wien",
@@ -2327,6 +2506,7 @@
     "specialisations": []
   },
   {
+    "id": 120,
     "name": "G 13 Fichtnergasse 15",
     "zip": "1130",
     "city": "Wien",
@@ -2340,6 +2520,7 @@
     "specialisations": []
   },
   {
+    "id": 121,
     "name": "Berufsschule für Einzelhandel",
     "zip": "1130",
     "city": "Wien",
@@ -2353,6 +2534,7 @@
     "specialisations": []
   },
   {
+    "id": 122,
     "name": "GRg 13 Wenzgasse 7",
     "zip": "1130",
     "city": "Wien",
@@ -2366,6 +2548,7 @@
     "specialisations": []
   },
   {
+    "id": 123,
     "name": "PNMS  Schloßberggasse 17",
     "zip": "1130",
     "city": "Wien",
@@ -2379,6 +2562,7 @@
     "specialisations": []
   },
   {
+    "id": 124,
     "name": "pGRg 13 Schloßberggasse 17",
     "zip": "1130",
     "city": "Wien",
@@ -2392,6 +2576,7 @@
     "specialisations": []
   },
   {
+    "id": 333,
     "name": "NMS Veitingergasse 9",
     "zip": "1130",
     "city": "Wien",
@@ -2405,6 +2590,7 @@
     "specialisations": []
   },
   {
+    "id": 67,
     "name": "Verein W@lz.Wiener Lernzentrum, Heinrich-Collin-Straße 9",
     "zip": "1140",
     "city": "Wien",
@@ -2418,6 +2604,7 @@
     "specialisations": []
   },
   {
+    "id": 68,
     "name": "Berufsschule für Schönheitsberufe",
     "zip": "1140",
     "city": "Wien",
@@ -2431,6 +2618,7 @@
     "specialisations": []
   },
   {
+    "id": 69,
     "name": "GRg 14 Astgasse 3",
     "zip": "1140",
     "city": "Wien",
@@ -2444,6 +2632,7 @@
     "specialisations": []
   },
   {
+    "id": 70,
     "name": "NMS Torricelligasse 50",
     "zip": "1140",
     "city": "Wien",
@@ -2457,6 +2646,7 @@
     "specialisations": []
   },
   {
+    "id": 71,
     "name": "GRg 14 Linzer Straße 146",
     "zip": "1140",
     "city": "Wien",
@@ -2470,6 +2660,7 @@
     "specialisations": []
   },
   {
+    "id": 72,
     "name": "NMS Lortzinggasse 2",
     "zip": "1140",
     "city": "Wien",
@@ -2483,6 +2674,7 @@
     "specialisations": []
   },
   {
+    "id": 73,
     "name": "Waldorf Campus Wien West (11.-13. Schulstufe)",
     "zip": "1140",
     "city": "Wien",
@@ -2496,6 +2688,7 @@
     "specialisations": []
   },
   {
+    "id": 74,
     "name": "NMS Kinkplatz 21\/II",
     "zip": "1140",
     "city": "Wien",
@@ -2509,6 +2702,7 @@
     "specialisations": []
   },
   {
+    "id": 75,
     "name": "BgBRgORg 14",
     "zip": "1140",
     "city": "Wien",
@@ -2522,6 +2716,7 @@
     "specialisations": []
   },
   {
+    "id": 76,
     "name": "PNMS Henckellgasse 19",
     "zip": "1140",
     "city": "Wien",
@@ -2535,6 +2730,7 @@
     "specialisations": []
   },
   {
+    "id": 82,
     "name": "Montessori Schule - Statutschule (1. - 3. Schulstufe)",
     "zip": "1140",
     "city": "Wien",
@@ -2548,6 +2744,7 @@
     "specialisations": []
   },
   {
+    "id": 83,
     "name": "Montessori Schule - Statutschule (10. - 12. Schulstufe)",
     "zip": "1140",
     "city": "Wien",
@@ -2561,6 +2758,7 @@
     "specialisations": []
   },
   {
+    "id": 84,
     "name": "Höhere Graphische Bundes-Lehr- und Versuchsanstalt",
     "zip": "1140",
     "city": "Wien",
@@ -2574,6 +2772,7 @@
     "specialisations": []
   },
   {
+    "id": 85,
     "name": "Werkmeisterschule für Berufstätige des BMLV an der Vega-Payer-Weyprecht-Kaserne",
     "zip": "1140",
     "city": "Wien",
@@ -2587,6 +2786,7 @@
     "specialisations": []
   },
   {
+    "id": 86,
     "name": "Musikinstitut Polyhymnia der Polyhymnia GmbH",
     "zip": "1140",
     "city": "Wien",
@@ -2600,6 +2800,7 @@
     "specialisations": []
   },
   {
+    "id": 311,
     "name": "NMS Spallartgasse 18",
     "zip": "1140",
     "city": "Wien",
@@ -2613,6 +2814,7 @@
     "specialisations": []
   },
   {
+    "id": 322,
     "name": "NMS Hadersdorf Hauptstraße 80",
     "zip": "1140",
     "city": "Wien",
@@ -2626,6 +2828,7 @@
     "specialisations": []
   },
   {
+    "id": 77,
     "name": "PTS Benedikt-Schellinger-Gasse 1-3",
     "zip": "1150",
     "city": "Wien",
@@ -2639,6 +2842,7 @@
     "specialisations": []
   },
   {
+    "id": 78,
     "name": "Berufsschule für Chemie, Grafik und gestaltende Berufe",
     "zip": "1150",
     "city": "Wien",
@@ -2652,6 +2856,7 @@
     "specialisations": []
   },
   {
+    "id": 79,
     "name": "RgORg 15 Henriettenplatz 6",
     "zip": "1150",
     "city": "Wien",
@@ -2665,6 +2870,7 @@
     "specialisations": []
   },
   {
+    "id": 80,
     "name": "NMS Schweglerstraße 2-4",
     "zip": "1150",
     "city": "Wien",
@@ -2678,6 +2884,7 @@
     "specialisations": []
   },
   {
+    "id": 81,
     "name": "NMS Sechshauser Straße 71",
     "zip": "1150",
     "city": "Wien",
@@ -2691,6 +2898,7 @@
     "specialisations": []
   },
   {
+    "id": 87,
     "name": "Berufsschule für Holz, Klang, Farbe und Lack",
     "zip": "1150",
     "city": "Wien",
@@ -2704,6 +2912,7 @@
     "specialisations": []
   },
   {
+    "id": 88,
     "name": "pGRg 15 Friesgasse 4",
     "zip": "1150",
     "city": "Wien",
@@ -2717,6 +2926,7 @@
     "specialisations": []
   },
   {
+    "id": 89,
     "name": "PNMS Friesgasse 4",
     "zip": "1150",
     "city": "Wien",
@@ -2730,6 +2940,7 @@
     "specialisations": []
   },
   {
+    "id": 90,
     "name": "PNMS Gebrüder-Lang-Gasse 4",
     "zip": "1150",
     "city": "Wien",
@@ -2743,6 +2954,7 @@
     "specialisations": []
   },
   {
+    "id": 91,
     "name": "GRg 15 Auf der Schmelz 4",
     "zip": "1150",
     "city": "Wien",
@@ -2756,6 +2968,7 @@
     "specialisations": []
   },
   {
+    "id": 92,
     "name": "Berufsschule für Handel und Reisen",
     "zip": "1150",
     "city": "Wien",
@@ -2769,6 +2982,7 @@
     "specialisations": []
   },
   {
+    "id": 93,
     "name": "pRg 15 Rauchfangkehrergasse 34\/6",
     "zip": "1150",
     "city": "Wien",
@@ -2782,6 +2996,7 @@
     "specialisations": []
   },
   {
+    "id": 94,
     "name": "Berufsschule für Bürokaufleute",
     "zip": "1150",
     "city": "Wien",
@@ -2795,6 +3010,7 @@
     "specialisations": []
   },
   {
+    "id": 95,
     "name": "Handelsakademie-Aufbaulehrgang \/ Handelsschule d. Schulverbund SSND Österreich",
     "zip": "1150",
     "city": "Wien",
@@ -2808,6 +3024,7 @@
     "specialisations": []
   },
   {
+    "id": 96,
     "name": "Vienna Konservatorium der Frau Mag. Eva Maria Schmid",
     "zip": "1150",
     "city": "Wien",
@@ -2821,6 +3038,7 @@
     "specialisations": []
   },
   {
+    "id": 97,
     "name": "VMI - VIENNA MUSIC INSTITUT - PRIVATKONSERVATORIUM DES HERRN MAG. ERNST RITSCH",
     "zip": "1150",
     "city": "Wien",
@@ -2834,6 +3052,7 @@
     "specialisations": []
   },
   {
+    "id": 98,
     "name": "BSPA Bundessportakademie -  Auf der Schmelz 6",
     "zip": "1150",
     "city": "Wien",
@@ -2847,6 +3066,7 @@
     "specialisations": []
   },
   {
+    "id": 317,
     "name": "NMS Selzergasse 25",
     "zip": "1150",
     "city": "Wien",
@@ -2860,6 +3080,7 @@
     "specialisations": []
   },
   {
+    "id": 328,
     "name": "GRg 15 Diefenbachgasse 19",
     "zip": "1150",
     "city": "Wien",
@@ -2873,6 +3094,7 @@
     "specialisations": []
   },
   {
+    "id": 344,
     "name": "NMS Kauergasse 3-5",
     "zip": "1150",
     "city": "Wien",
@@ -2886,6 +3108,7 @@
     "specialisations": []
   },
   {
+    "id": 99,
     "name": "NMS Grundsteingasse 48",
     "zip": "1160",
     "city": "Wien",
@@ -2899,6 +3122,7 @@
     "specialisations": []
   },
   {
+    "id": 100,
     "name": "Rg 16 Schuhmeierplatz 7",
     "zip": "1160",
     "city": "Wien",
@@ -2912,6 +3136,7 @@
     "specialisations": []
   },
   {
+    "id": 101,
     "name": "NMS Koppstraße 110\/II",
     "zip": "1160",
     "city": "Wien",
@@ -2925,6 +3150,7 @@
     "specialisations": []
   },
   {
+    "id": 102,
     "name": "GRg 16 Maroltingergasse 69-71",
     "zip": "1160",
     "city": "Wien",
@@ -2938,6 +3164,7 @@
     "specialisations": []
   },
   {
+    "id": 103,
     "name": "AHS Julius-Meinl-Gasse 2a",
     "zip": "1160",
     "city": "Wien",
@@ -2951,6 +3178,7 @@
     "specialisations": []
   },
   {
+    "id": 104,
     "name": "NMS Brüßlgasse 18",
     "zip": "1160",
     "city": "Wien",
@@ -2964,6 +3192,7 @@
     "specialisations": []
   },
   {
+    "id": 105,
     "name": "Berufsschule für Handel @ Administration",
     "zip": "1160",
     "city": "Wien",
@@ -2977,6 +3206,7 @@
     "specialisations": []
   },
   {
+    "id": 106,
     "name": "NMS Roterdstraße 1",
     "zip": "1160",
     "city": "Wien",
@@ -2990,6 +3220,7 @@
     "specialisations": []
   },
   {
+    "id": 107,
     "name": "NMS Wiesberggasse 7",
     "zip": "1160",
     "city": "Wien",
@@ -3003,6 +3234,7 @@
     "specialisations": []
   },
   {
+    "id": 108,
     "name": "Höhere Bundeslehranstalt für Mode und künstlerische Gestaltung",
     "zip": "1160",
     "city": "Wien",
@@ -3016,6 +3248,7 @@
     "specialisations": []
   },
   {
+    "id": 109,
     "name": "Höhere Technische Bundeslehranstalt Wien West",
     "zip": "1160",
     "city": "Wien",
@@ -3029,6 +3262,7 @@
     "specialisations": []
   },
   {
+    "id": 318,
     "name": "NMS Koppstraße 110\/I",
     "zip": "1160",
     "city": "Wien",
@@ -3042,6 +3276,7 @@
     "specialisations": []
   },
   {
+    "id": 1,
     "name": "Höhere Schule im Spital (HIS) des Vereins für Individualpsychologie, Pezzlgasse 29",
     "zip": "1170",
     "city": "Wien",
@@ -3061,6 +3296,7 @@
     ]
   },
   {
+    "id": 2,
     "name": "Höhere Bundes-Lehr- und Versuchsanstalt für chemische Industrie",
     "zip": "1170",
     "city": "Wien",
@@ -3074,6 +3310,7 @@
     "specialisations": []
   },
   {
+    "id": 3,
     "name": "Bundesschulen Kalvarienberg - Fachschulen und Aufbaulehrgang - Wirtschaft und Soziales",
     "zip": "1170",
     "city": "Wien",
@@ -3087,6 +3324,7 @@
     "specialisations": []
   },
   {
+    "id": 110,
     "name": "NMS Geblergasse 29-31",
     "zip": "1170",
     "city": "Wien",
@@ -3100,6 +3338,7 @@
     "specialisations": []
   },
   {
+    "id": 111,
     "name": "GRg 17 Parhamerplatz 18",
     "zip": "1170",
     "city": "Wien",
@@ -3113,6 +3352,7 @@
     "specialisations": []
   },
   {
+    "id": 112,
     "name": "NMS Redtenbachergasse 79",
     "zip": "1170",
     "city": "Wien",
@@ -3126,6 +3366,7 @@
     "specialisations": []
   },
   {
+    "id": 338,
     "name": "GRg 17 Geblergasse 56-58",
     "zip": "1170",
     "city": "Wien",
@@ -3139,6 +3380,7 @@
     "specialisations": []
   },
   {
+    "id": 4,
     "name": "PTS Schopenhauerstraße 81",
     "zip": "1180",
     "city": "Wien",
@@ -3152,6 +3394,7 @@
     "specialisations": []
   },
   {
+    "id": 5,
     "name": "pGRg 18  Semperstraße 45",
     "zip": "1180",
     "city": "Wien",
@@ -3165,6 +3408,7 @@
     "specialisations": []
   },
   {
+    "id": 6,
     "name": "NMS Schopenhauerstraße 79",
     "zip": "1180",
     "city": "Wien",
@@ -3178,6 +3422,7 @@
     "specialisations": []
   },
   {
+    "id": 7,
     "name": "pRgORg 18 Scheidlstraße 2",
     "zip": "1180",
     "city": "Wien",
@@ -3191,6 +3436,7 @@
     "specialisations": []
   },
   {
+    "id": 41,
     "name": "PNMS Antonigasse 72 - Schulstiftung der Erzdiözese Wien",
     "zip": "1180",
     "city": "Wien",
@@ -3204,6 +3450,7 @@
     "specialisations": []
   },
   {
+    "id": 42,
     "name": "G 18 Klostergasse 25",
     "zip": "1180",
     "city": "Wien",
@@ -3217,6 +3464,7 @@
     "specialisations": []
   },
   {
+    "id": 43,
     "name": "Rg 18 Schopenhauerstraße 49",
     "zip": "1180",
     "city": "Wien",
@@ -3230,6 +3478,7 @@
     "specialisations": []
   },
   {
+    "id": 44,
     "name": "PNMS Schopenhauerstraße 44-46",
     "zip": "1180",
     "city": "Wien",
@@ -3243,6 +3492,7 @@
     "specialisations": []
   },
   {
+    "id": 45,
     "name": "GRg 18 Haizingergasse 37",
     "zip": "1180",
     "city": "Wien",
@@ -3256,6 +3506,7 @@
     "specialisations": []
   },
   {
+    "id": 46,
     "name": "PNMS Semperstraße 45",
     "zip": "1180",
     "city": "Wien",
@@ -3269,6 +3520,7 @@
     "specialisations": []
   },
   {
+    "id": 47,
     "name": "Rudolf Steiner Schule Pötzleinsdorf",
     "zip": "1180",
     "city": "Wien",
@@ -3282,6 +3534,7 @@
     "specialisations": []
   },
   {
+    "id": 48,
     "name": "Private NMS der Frau Dr. Sigrid Schauberger",
     "zip": "1180",
     "city": "Wien",
@@ -3295,6 +3548,7 @@
     "specialisations": []
   },
   {
+    "id": 49,
     "name": "AMADEUS International School VIENNA",
     "zip": "1180",
     "city": "Wien",
@@ -3308,6 +3562,7 @@
     "specialisations": []
   },
   {
+    "id": 50,
     "name": "pORg 18, VES - Vienna European School",
     "zip": "1180",
     "city": "Wien",
@@ -3321,6 +3576,7 @@
     "specialisations": []
   },
   {
+    "id": 51,
     "name": "Werbeakademie - Fachlehrgang für Marktkommunikation des WIFI der Wirtschaftskammer Wien",
     "zip": "1180",
     "city": "Wien",
@@ -3334,6 +3590,7 @@
     "specialisations": []
   },
   {
+    "id": 52,
     "name": "Werkmeisterschule für Berufstätige des Wirtschaftsförderungsinstitutes der Wirtschaftskammer Wien",
     "zip": "1180",
     "city": "Wien",
@@ -3347,6 +3604,7 @@
     "specialisations": []
   },
   {
+    "id": 8,
     "name": "pGRg 19 Hofzeile 22",
     "zip": "1190",
     "city": "Wien",
@@ -3360,6 +3618,7 @@
     "specialisations": []
   },
   {
+    "id": 9,
     "name": "pGRg 19 Alfred Wegener-Gasse 10-12",
     "zip": "1190",
     "city": "Wien",
@@ -3373,6 +3632,7 @@
     "specialisations": []
   },
   {
+    "id": 10,
     "name": "GRg 19 Billrothstraße 73",
     "zip": "1190",
     "city": "Wien",
@@ -3386,6 +3646,7 @@
     "specialisations": []
   },
   {
+    "id": 11,
     "name": "American International School  Salmanndorferstraße 47",
     "zip": "1190",
     "city": "Wien",
@@ -3399,6 +3660,7 @@
     "specialisations": []
   },
   {
+    "id": 12,
     "name": "Schwedische Schule Scheibelreitergasse 15",
     "zip": "1190",
     "city": "Wien",
@@ -3412,6 +3674,7 @@
     "specialisations": []
   },
   {
+    "id": 13,
     "name": "Höhere Bundeslehranstalt für wirtschaftliche Berufe Wien 19",
     "zip": "1190",
     "city": "Wien",
@@ -3425,6 +3688,7 @@
     "specialisations": []
   },
   {
+    "id": 14,
     "name": "Tourismusschulen Modul der Wirtschaftskammer Wien",
     "zip": "1190",
     "city": "Wien",
@@ -3438,6 +3702,7 @@
     "specialisations": []
   },
   {
+    "id": 15,
     "name": "BAFEP 19 Hofzeile 17",
     "zip": "1190",
     "city": "Wien",
@@ -3451,6 +3716,7 @@
     "specialisations": []
   },
   {
+    "id": 53,
     "name": "PPTS Alfred Wegener-Gasse 10-12",
     "zip": "1190",
     "city": "Wien",
@@ -3464,6 +3730,7 @@
     "specialisations": []
   },
   {
+    "id": 54,
     "name": "G 19 Gymnasiumstraße 83",
     "zip": "1190",
     "city": "Wien",
@@ -3477,6 +3744,7 @@
     "specialisations": []
   },
   {
+    "id": 55,
     "name": "NMS Oskar-Spiel-Gasse 3",
     "zip": "1190",
     "city": "Wien",
@@ -3490,6 +3758,7 @@
     "specialisations": []
   },
   {
+    "id": 56,
     "name": "NMS Pyrkergasse 14-16",
     "zip": "1190",
     "city": "Wien",
@@ -3503,6 +3772,7 @@
     "specialisations": []
   },
   {
+    "id": 57,
     "name": "PNMS Alfred-Wegener-Gasse 10-12",
     "zip": "1190",
     "city": "Wien",
@@ -3516,6 +3786,7 @@
     "specialisations": []
   },
   {
+    "id": 58,
     "name": "Rg 19 Krottenbachstraße 11-13",
     "zip": "1190",
     "city": "Wien",
@@ -3529,6 +3800,7 @@
     "specialisations": []
   },
   {
+    "id": 310,
     "name": "GRg 19 Billrothstraße 26-30",
     "zip": "1190",
     "city": "Wien",
@@ -3542,6 +3814,7 @@
     "specialisations": []
   },
   {
+    "id": 337,
     "name": "NMS In der Krim 6",
     "zip": "1190",
     "city": "Wien",
@@ -3555,6 +3828,7 @@
     "specialisations": []
   },
   {
+    "id": 16,
     "name": "NMS Greiseneckergasse 31",
     "zip": "1200",
     "city": "Wien",
@@ -3568,6 +3842,7 @@
     "specialisations": []
   },
   {
+    "id": 17,
     "name": "PTS Stromstraße 44",
     "zip": "1200",
     "city": "Wien",
@@ -3581,6 +3856,7 @@
     "specialisations": []
   },
   {
+    "id": 18,
     "name": "BOL Adalbert-Stifter-Straße 14-18",
     "zip": "1200",
     "city": "Wien",
@@ -3594,6 +3870,7 @@
     "specialisations": []
   },
   {
+    "id": 19,
     "name": "NMS Pöchlarnstraße 14",
     "zip": "1200",
     "city": "Wien",
@@ -3607,6 +3884,7 @@
     "specialisations": []
   },
   {
+    "id": 20,
     "name": "NMS Staudingergasse 6",
     "zip": "1200",
     "city": "Wien",
@@ -3620,6 +3898,7 @@
     "specialisations": []
   },
   {
+    "id": 21,
     "name": "NMS Stromstraße 40",
     "zip": "1200",
     "city": "Wien",
@@ -3633,6 +3912,7 @@
     "specialisations": []
   },
   {
+    "id": 22,
     "name": "TGM Höhere Technische Bundes Lehr- und Versuchsanstalt Wien 20",
     "zip": "1200",
     "city": "Wien",
@@ -3646,6 +3926,7 @@
     "specialisations": []
   },
   {
+    "id": 339,
     "name": "WMS Leipziger Platz 1",
     "zip": "1200",
     "city": "Wien",
@@ -3659,6 +3940,7 @@
     "specialisations": []
   },
   {
+    "id": 346,
     "name": "GRgORg 20 Karajangasse 14",
     "zip": "1200",
     "city": "Wien",
@@ -3672,6 +3954,7 @@
     "specialisations": []
   },
   {
+    "id": 23,
     "name": "Berufsschule für Kraftfahrzeugtechnik",
     "zip": "1210",
     "city": "Wien",
@@ -3685,6 +3968,7 @@
     "specialisations": []
   },
   {
+    "id": 24,
     "name": "GRg 21 Franklinstraße 21",
     "zip": "1210",
     "city": "Wien",
@@ -3698,6 +3982,7 @@
     "specialisations": []
   },
   {
+    "id": 25,
     "name": "NMS Regnerweg 6",
     "zip": "1210",
     "city": "Wien",
@@ -3711,6 +3996,7 @@
     "specialisations": []
   },
   {
+    "id": 26,
     "name": "GRg 21 Franklinstraße 26",
     "zip": "1210",
     "city": "Wien",
@@ -3724,6 +4010,7 @@
     "specialisations": []
   },
   {
+    "id": 27,
     "name": "NMS Kinzerplatz 9",
     "zip": "1210",
     "city": "Wien",
@@ -3737,6 +4024,7 @@
     "specialisations": []
   },
   {
+    "id": 28,
     "name": "GRg 21 Ödenburger Straße 74",
     "zip": "1210",
     "city": "Wien",
@@ -3750,6 +4038,7 @@
     "specialisations": []
   },
   {
+    "id": 29,
     "name": "GRg 21 Donauinselplatz 1",
     "zip": "1210",
     "city": "Wien",
@@ -3763,6 +4052,7 @@
     "specialisations": []
   },
   {
+    "id": 30,
     "name": "NMS Pastorstraße 29",
     "zip": "1210",
     "city": "Wien",
@@ -3776,6 +4066,7 @@
     "specialisations": []
   },
   {
+    "id": 31,
     "name": "GRgORg 21 Gerasdorfer Straße 103",
     "zip": "1210",
     "city": "Wien",
@@ -3789,6 +4080,7 @@
     "specialisations": []
   },
   {
+    "id": 32,
     "name": "NMS Reisgasse 1",
     "zip": "1210",
     "city": "Wien",
@@ -3802,6 +4094,7 @@
     "specialisations": []
   },
   {
+    "id": 33,
     "name": "PNMS Anton-Böck-Gasse 20",
     "zip": "1210",
     "city": "Wien",
@@ -3815,6 +4108,7 @@
     "specialisations": []
   },
   {
+    "id": 34,
     "name": "pORg 21 Nordbahnanlage 4",
     "zip": "1210",
     "city": "Wien",
@@ -3828,6 +4122,7 @@
     "specialisations": []
   },
   {
+    "id": 35,
     "name": "PNMS Mayerweckstraße 1",
     "zip": "1210",
     "city": "Wien",
@@ -3841,6 +4136,7 @@
     "specialisations": []
   },
   {
+    "id": 36,
     "name": "Bundesgymnasium für Berufstätige",
     "zip": "1210",
     "city": "Wien",
@@ -3854,6 +4150,7 @@
     "specialisations": []
   },
   {
+    "id": 37,
     "name": "Privates Realgymnasium Avicenna (Ibn Sina)",
     "zip": "1210",
     "city": "Wien",
@@ -3867,6 +4164,7 @@
     "specialisations": []
   },
   {
+    "id": 38,
     "name": "NMS Jochbergengasse 1",
     "zip": "1210",
     "city": "Wien",
@@ -3880,6 +4178,7 @@
     "specialisations": []
   },
   {
+    "id": 39,
     "name": "NMS Adolf-Loos-Gasse 2",
     "zip": "1210",
     "city": "Wien",
@@ -3893,6 +4192,7 @@
     "specialisations": []
   },
   {
+    "id": 40,
     "name": "PNMS Weisselgasse 28",
     "zip": "1210",
     "city": "Wien",
@@ -3906,6 +4206,7 @@
     "specialisations": []
   },
   {
+    "id": 262,
     "name": "Privatschule für instinktives Lernen",
     "zip": "1210",
     "city": "Wien",
@@ -3919,6 +4220,7 @@
     "specialisations": []
   },
   {
+    "id": 263,
     "name": "Höhere Bundeslehranstalt für Tourismus und wirtschaftliche Berufe",
     "zip": "1210",
     "city": "Wien",
@@ -3932,6 +4234,7 @@
     "specialisations": []
   },
   {
+    "id": 264,
     "name": "Tierpflegerschule des Fonds zur Förderung der Tierpflegerausbildung",
     "zip": "1210",
     "city": "Wien",
@@ -3945,6 +4248,7 @@
     "specialisations": []
   },
   {
+    "id": 265,
     "name": "BAFEP 21 Bildungsanstalt für Elementarpädagogik des Vereins \"Schulverein De La Salle\"",
     "zip": "1210",
     "city": "Wien",
@@ -3958,6 +4262,7 @@
     "specialisations": []
   },
   {
+    "id": 266,
     "name": "BAFEP 21 Patrizigasse 2",
     "zip": "1210",
     "city": "Wien",
@@ -3971,6 +4276,7 @@
     "specialisations": []
   },
   {
+    "id": 267,
     "name": "Kolleg für Sozialpädagogik für Berufstätige",
     "zip": "1210",
     "city": "Wien",
@@ -3984,6 +4290,7 @@
     "specialisations": []
   },
   {
+    "id": 319,
     "name": "NMS Rudolf-Schön-Weg 1",
     "zip": "1210",
     "city": "Wien",
@@ -3997,6 +4304,7 @@
     "specialisations": []
   },
   {
+    "id": 320,
     "name": "pGRgORg 21 Anton-Böck-Gasse 37",
     "zip": "1210",
     "city": "Wien",
@@ -4010,6 +4318,7 @@
     "specialisations": []
   },
   {
+    "id": 326,
     "name": "NMS Deublergasse 21",
     "zip": "1210",
     "city": "Wien",
@@ -4023,6 +4332,7 @@
     "specialisations": []
   },
   {
+    "id": 340,
     "name": "NMS Aderklaaer Straße 2",
     "zip": "1210",
     "city": "Wien",
@@ -4036,6 +4346,7 @@
     "specialisations": []
   },
   {
+    "id": 352,
     "name": "NMS Roda-Roda-Gasse 3",
     "zip": "1210",
     "city": "Wien",
@@ -4049,6 +4360,7 @@
     "specialisations": []
   },
   {
+    "id": 354,
     "name": "NMS Hanreitergasse 2",
     "zip": "1210",
     "city": "Wien",
@@ -4062,6 +4374,7 @@
     "specialisations": []
   },
   {
+    "id": 268,
     "name": "NMS Anton-Sattler-Gasse 93",
     "zip": "1220",
     "city": "Wien",
@@ -4075,6 +4388,7 @@
     "specialisations": []
   },
   {
+    "id": 269,
     "name": "PTS Wintzingerodestraße 1-3",
     "zip": "1220",
     "city": "Wien",
@@ -4088,6 +4402,7 @@
     "specialisations": []
   },
   {
+    "id": 270,
     "name": "Berufsschule für Baugewerbe",
     "zip": "1220",
     "city": "Wien",
@@ -4101,6 +4416,7 @@
     "specialisations": []
   },
   {
+    "id": 271,
     "name": "GRg 22 Bernoullistraße 3",
     "zip": "1220",
     "city": "Wien",
@@ -4114,6 +4430,7 @@
     "specialisations": []
   },
   {
+    "id": 272,
     "name": "Berufsschule für Gartenbau und Floristik",
     "zip": "1220",
     "city": "Wien",
@@ -4127,6 +4444,7 @@
     "specialisations": []
   },
   {
+    "id": 273,
     "name": "GRgORg 22 Polgarstraße 24",
     "zip": "1220",
     "city": "Wien",
@@ -4140,6 +4458,7 @@
     "specialisations": []
   },
   {
+    "id": 274,
     "name": "NMS Konstanziagasse 50",
     "zip": "1220",
     "city": "Wien",
@@ -4153,6 +4472,7 @@
     "specialisations": []
   },
   {
+    "id": 275,
     "name": "VIS Straße der Menschenrechte 1",
     "zip": "1220",
     "city": "Wien",
@@ -4166,6 +4486,7 @@
     "specialisations": []
   },
   {
+    "id": 276,
     "name": "GRg 22 Theodor Kramer-Straße 3",
     "zip": "1220",
     "city": "Wien",
@@ -4179,6 +4500,7 @@
     "specialisations": []
   },
   {
+    "id": 277,
     "name": "NMS Plankenmaisstraße 30",
     "zip": "1220",
     "city": "Wien",
@@ -4192,6 +4514,7 @@
     "specialisations": []
   },
   {
+    "id": 278,
     "name": "GRg 22 Heustadelgasse 4",
     "zip": "1220",
     "city": "Wien",
@@ -4205,6 +4528,7 @@
     "specialisations": []
   },
   {
+    "id": 279,
     "name": "GRg 22 Contiweg 1",
     "zip": "1220",
     "city": "Wien",
@@ -4218,6 +4542,7 @@
     "specialisations": []
   },
   {
+    "id": 280,
     "name": "pRgORg 22 Maculangasse 2",
     "zip": "1220",
     "city": "Wien",
@@ -4231,6 +4556,7 @@
     "specialisations": []
   },
   {
+    "id": 281,
     "name": "BgBRg Maria-Trapp-Platz 5",
     "zip": "1220",
     "city": "Wien",
@@ -4244,6 +4570,7 @@
     "specialisations": []
   },
   {
+    "id": 282,
     "name": "NMS Afritschgasse 56",
     "zip": "1220",
     "city": "Wien",
@@ -4257,6 +4584,7 @@
     "specialisations": []
   },
   {
+    "id": 283,
     "name": "NMS Mira-Lobe-Weg 4",
     "zip": "1220",
     "city": "Wien",
@@ -4270,6 +4598,7 @@
     "specialisations": []
   },
   {
+    "id": 284,
     "name": "PNMS Jüptnergasse 4",
     "zip": "1220",
     "city": "Wien",
@@ -4283,6 +4612,7 @@
     "specialisations": []
   },
   {
+    "id": 285,
     "name": "Japanische Internationale Schule in Wien",
     "zip": "1220",
     "city": "Wien",
@@ -4296,6 +4626,7 @@
     "specialisations": []
   },
   {
+    "id": 286,
     "name": "International Christian School of Vienna, Wagramer Straße 175",
     "zip": "1220",
     "city": "Wien",
@@ -4309,6 +4640,7 @@
     "specialisations": []
   },
   {
+    "id": 287,
     "name": "Bundeshandelsakademie und Bundeshandelsschule Wien 22 - business.academy.donaustadt",
     "zip": "1220",
     "city": "Wien",
@@ -4322,6 +4654,7 @@
     "specialisations": []
   },
   {
+    "id": 288,
     "name": "Hertha Firnberg Schulen für Wirtschaft und Tourismus",
     "zip": "1220",
     "city": "Wien",
@@ -4335,6 +4668,7 @@
     "specialisations": []
   },
   {
+    "id": 289,
     "name": "Höhere Technische Bundeslehranstalt Donaustadt",
     "zip": "1220",
     "city": "Wien",
@@ -4348,6 +4682,7 @@
     "specialisations": []
   },
   {
+    "id": 306,
     "name": "NMS Prinzgasse 3",
     "zip": "1220",
     "city": "Wien",
@@ -4361,6 +4696,7 @@
     "specialisations": []
   },
   {
+    "id": 316,
     "name": "NMS Eibengasse 58",
     "zip": "1220",
     "city": "Wien",
@@ -4374,6 +4710,7 @@
     "specialisations": []
   },
   {
+    "id": 347,
     "name": "NMS Am Kaisermühlendamm 2",
     "zip": "1220",
     "city": "Wien",
@@ -4387,6 +4724,7 @@
     "specialisations": []
   },
   {
+    "id": 290,
     "name": "NMS Steinergasse 25",
     "zip": "1230",
     "city": "Wien",
@@ -4400,6 +4738,7 @@
     "specialisations": []
   },
   {
+    "id": 291,
     "name": "Berufsschule für Reinigungstechnik der Gebäudereinigungsakademie der Wiener Gebäudereiniger SchulungsGmbH",
     "zip": "1230",
     "city": "Wien",
@@ -4413,6 +4752,7 @@
     "specialisations": []
   },
   {
+    "id": 292,
     "name": "PTS Anton Baumgartner-Straße 44",
     "zip": "1230",
     "city": "Wien",
@@ -4426,6 +4766,7 @@
     "specialisations": []
   },
   {
+    "id": 293,
     "name": "pGRg 23 Promenadeweg 3",
     "zip": "1230",
     "city": "Wien",
@@ -4439,6 +4780,7 @@
     "specialisations": []
   },
   {
+    "id": 294,
     "name": "PSO Kanitzgasse 1-3",
     "zip": "1230",
     "city": "Wien",
@@ -4452,6 +4794,7 @@
     "specialisations": []
   },
   {
+    "id": 295,
     "name": "pGORg 23 Franz Asenbauer Gasse 49",
     "zip": "1230",
     "city": "Wien",
@@ -4465,6 +4808,7 @@
     "specialisations": []
   },
   {
+    "id": 296,
     "name": "NMS Bendagasse 1-2",
     "zip": "1230",
     "city": "Wien",
@@ -4478,6 +4822,7 @@
     "specialisations": []
   },
   {
+    "id": 297,
     "name": "PNMS Willergasse 55",
     "zip": "1230",
     "city": "Wien",
@@ -4491,6 +4836,7 @@
     "specialisations": []
   },
   {
+    "id": 298,
     "name": "GRg 23 Anton-Baumgartner-Straße 123",
     "zip": "1230",
     "city": "Wien",
@@ -4504,6 +4850,7 @@
     "specialisations": []
   },
   {
+    "id": 299,
     "name": "PNMS Franz-Asenbauer-Gasse 49",
     "zip": "1230",
     "city": "Wien",
@@ -4517,6 +4864,7 @@
     "specialisations": []
   },
   {
+    "id": 300,
     "name": "Höhere Lehranstalt für wirtschaftliche Berufe - Institut Santa Christiana",
     "zip": "1230",
     "city": "Wien",
@@ -4530,6 +4878,7 @@
     "specialisations": []
   },
   {
+    "id": 301,
     "name": "Musikschule Harmony des Vereins der Freunde der Musikschule Harmony",
     "zip": "1230",
     "city": "Wien",
@@ -4543,6 +4892,7 @@
     "specialisations": []
   },
   {
+    "id": 321,
     "name": "GRg 23 Draschestraße 90-92",
     "zip": "1230",
     "city": "Wien",
@@ -4556,6 +4906,7 @@
     "specialisations": []
   },
   {
+    "id": 329,
     "name": "NMS Dirmhirngasse 138",
     "zip": "1230",
     "city": "Wien",
@@ -4569,6 +4920,7 @@
     "specialisations": []
   },
   {
+    "id": 341,
     "name": "RgORg 23 Anton-Krieger-Gasse 25",
     "zip": "1230",
     "city": "Wien",
@@ -4582,6 +4934,7 @@
     "specialisations": []
   },
   {
+    "id": 345,
     "name": "NMS Carlbergergasse 72",
     "zip": "1230",
     "city": "Wien",
@@ -4595,6 +4948,7 @@
     "specialisations": []
   },
   {
+    "id": 348,
     "name": "NMS Anton-Baumgartner-Straße 119",
     "zip": "1230",
     "city": "Wien",

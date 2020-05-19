@@ -5,6 +5,11 @@ namespace Schooler\Classes;
 class School implements \JsonSerializable
 {
     /**
+     * @var int
+     */
+    private $id;
+
+    /**
      * @var string
      * Name der Schule
      */
@@ -72,6 +77,7 @@ class School implements \JsonSerializable
 
     /**
      * School constructor.
+     * @param int $id
      * @param string $name
      * @param string $zip
      * @param string $city
@@ -85,19 +91,20 @@ class School implements \JsonSerializable
      * @param array $specialisations
      */
     public function __construct(
-        string $name, string $zip, string $city, string $street, string $housenumber, string $addressaddition,
+        int $id, string $name, string $zip, string $city, string $street, string $housenumber, string $addressaddition,
         bool $privat, string $schoolform, string $schoolformDescription, string $graduation, array $specialisations)
     {
+        $this->id = $id;
         $this->name = utf8_encode($name);
         $this->zip = $zip;
         $this->city = utf8_encode($city);
         $this->street = utf8_encode($street);
-        $this->housenumber = $housenumber;
-        $this->addressextra = $addressaddition;
+        $this->housenumber = utf8_encode($housenumber);
+        $this->addressextra = utf8_encode($addressaddition);
         $this->private = $privat;
-        $this->schoolform = $schoolform;
+        $this->schoolform = utf8_encode($schoolform);
         $this->schoolformDescription = $schoolformDescription;
-        $this->graduation = $graduation;
+        $this->graduation = utf8_encode($graduation);
         $this->specialisations = $specialisations;
     }
 
@@ -108,6 +115,16 @@ class School implements \JsonSerializable
             ", Schultyp: " . $this->schoolform . ", Spezialisierung: " .
             implode(", ", $this->specialisations) . "<br>";
     }
+
+    /**
+     * @return int
+     */
+    public function getId(): int
+    {
+        return $this->id;
+    }
+
+
 
     /**
      * @return string
@@ -204,6 +221,7 @@ class School implements \JsonSerializable
     public function jsonSerialize()
     {
         return array(
+            'id' => $this->getId(),
             'name' => $this->getName(),
             'zip' => $this->getZip(),
             'city' => $this->getCity(),
