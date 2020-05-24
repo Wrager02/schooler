@@ -18,7 +18,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 });
 
 
-app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, $timeout) {
+app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, FilterByFilter, $timeout) {
 
     $log.debug("SchoolsViewController()");
 
@@ -27,21 +27,12 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
         console.log(this.list);
     };
 
-
     this.init = () => {
         FulltextSearch.search("").then(response => {
             this.list = response;
         });
     };
     this.init();
-
-    this.showTag = (tag) => {
-        if (!this.tagInput) {
-            return true;
-        } else {
-            return tag.toLowerCase().includes(this.tagInput.toLowerCase());
-        }
-    };
 
 
     this.search = () => {
@@ -52,6 +43,18 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
             }
             $timeout();
         });
+    };
+
+    this.applyFilters = () => {
+        this.list = FilterByFilter.filterList(this.list, this.selectedTags, this.control);
+    }
+
+    this.showTag = (tag) => {
+        if (!this.tagInput) {
+            return true;
+        } else {
+            return tag.toLowerCase().includes(this.tagInput.toLowerCase());
+        }
     };
 
 
