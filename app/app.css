@@ -158,6 +158,10 @@
   height: 36px;
 }
 
+.schools-view .content .top-bar div:nth-child(3) i {
+  cursor: pointer;
+}
+
 .schools-view .noselect {
   -webkit-touch-callout: none;
   /* iOS Safari */
@@ -293,21 +297,21 @@
   .schools-view .sidebar .fixed-container .filter-container .selectedTag {
     display: inline-block;
     background-color: #00AEEF;
-    color: #ffffff;
+    color: #000021;
     margin: 5px 5px 5px 0;
     padding: 5px;
     font-size: .8em;
     border-radius: 3px;
     cursor: pointer;
   }
-  .schools-view .sidebar .fixed-container .filter-container .selectedTag span {
-    margin: 0 .2em 0 .2em;
-    font-weight: bold;
-    color: #E8E8E8;
+  .schools-view .sidebar .fixed-container .filter-container .selectedTag i {
+    margin: .1em .2em 0 .2em;
   }
-  .schools-view .sidebar .fixed-container .filter-container .selectedTag:hover span {
-    color: red;
-    font-weight: bold;
+  .schools-view .sidebar .fixed-container .filter-container .selectedTag:hover {
+    color: #ffffff;
+  }
+  .schools-view .sidebar .fixed-container .filter-container .selectedTag:hover i {
+    color: #ffffff;
   }
   .schools-view .sidebar .fixed-container .filter-container .tag {
     display: inline-block;
@@ -353,5 +357,54 @@
   .schools-view .content .top-bar div {
     height: 40px;
   }
+}
+
+.list {
+  position: relative;
+  width: 90%;
+  margin: 0 5% 2em 5%;
+  background-color: #ffffff;
+  border-radius: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 200px;
+}
+
+.list .favourite {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.6em;
+}
+
+.list .favourite i {
+  margin: .5em .5em 0 0;
+  cursor: pointer;
+}
+
+.list .school-info {
+  margin-left: 20%;
+}
+
+.list h1 {
+  font-weight: normal;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+}
+
+.list h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #2D388A;
+  margin: 0;
 }
 /*# sourceMappingURL=app.css.map */

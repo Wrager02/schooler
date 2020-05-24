@@ -37,11 +37,11 @@
                         </div>
                     </div>
 
-                    <p class="filter-title" ng-show="$ctrl.tagSelected" ng-model="$ctrl.tagSelected">Ausgewählt</p>
+                    <p ng-show="$ctrl.tagSelected" ng-model="$ctrl.tagSelected">Ausgewählt</p>
                     
                     <div class="selected-tag-container">
                         <div class="selectedTag noselect"  ng-repeat="tag in $ctrl.selectedTags" ng-click="$ctrl.deselectTag($index)">
-                                {{tag}}  <span>X</span>
+                                {{tag}}  <i class="fas fa-times"></i>
                         </div>
                     </div>
     
@@ -119,7 +119,8 @@
 
             <div>
 
-                <i class="fas fa-th-list"></i>
+                <i class="fas fa-th-list" ng-show="$ctrl.listView" ng-click="$ctrl.changeView()"></i>
+                <i class="fas fa-th-large" ng-show="!$ctrl.listView" ng-click="$ctrl.changeView()"></i>
 
             </div>
 
@@ -127,7 +128,7 @@
 
         <div class="school-list">
             {{$ctrl.list.length}}
-            <school ng-repeat="school in $ctrl.list" school="school"></school>
+            <school ng-repeat="school in $ctrl.list" school="school" view="$ctrl.listView"></school>
 
         </div>
 
