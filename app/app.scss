@@ -19,6 +19,7 @@ $light-blue: #00AEEF;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        z-index: 5;
 
         .logo{
                 display: inline-block;
