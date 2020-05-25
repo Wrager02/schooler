@@ -77,7 +77,7 @@
                     <p class="filter-title">Abschluss</p>
 
                     <div class="button-container">
-                        <button class="selection-button" ng-click="$ctrl.change(4)" ng-class="{true: 'selected', false: ''}[$ctrl.control[4] == true]">Matura</button>
+                        <button class="selection-button" ng-click="$ctrl.change(4); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[4] == true]">Matura</button>
                         <button class="selection-button" ng-click="$ctrl.change(5)" ng-class="{true: 'selected', false: ''}[$ctrl.control[5] == true]">Hauptschule</button>
                         <button class="selection-button" ng-click="$ctrl.change(6)" ng-class="{true: 'selected', false: ''}[$ctrl.control[6] == true]">Ingenieur</button>
                     </div>
