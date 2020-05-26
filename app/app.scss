@@ -5,7 +5,7 @@ $light-blue: #00AEEF;
 
 .schools-view{
     width: 100vw;
-    
+    min-height: 100vh;
     background-color: #E8E8E8;
     font-size: 20px;
     position: relative;
@@ -471,7 +471,7 @@ $light-blue: #00AEEF;
 
 
     @media(min-width: 992px){
-        font-size: 1em;
+        font-size: .8em;
         min-height: 180px;
         width: 90%;
         margin: 0 5% 2em 5%;
@@ -482,8 +482,9 @@ $light-blue: #00AEEF;
         }
 
         .favourite{
-            font-size: 1.6em;
+            font-size: 1.8em;
             }
+            
     
     
     }
