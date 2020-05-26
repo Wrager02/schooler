@@ -407,6 +407,23 @@ main {
   width: 100%;
   background-color: #000021;
 }
+.detail-view .thumbnail-container .roundbtn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  margin-left: 5%;
+  margin-top: 2%;
+  color: #000021;
+  font-size: 1.5em;
+  transition: color 0.2s;
+}
+.detail-view .thumbnail-container .roundbtn:focus {
+  outline: none;
+}
+.detail-view .thumbnail-container .roundbtn:hover {
+  color: #00AEEF;
+}
 .detail-view .detail-info {
   margin: 2% 5% 0 5%;
 }
@@ -418,6 +435,12 @@ main {
 .detail-view .detail-info .title .left {
   flex-direction: column;
 }
+.detail-view .detail-info .title .right .buttons {
+  width: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .detail-view .detail-info .title .right .buttons .roundbtn {
   width: 50px;
   height: 50px;
@@ -425,13 +448,25 @@ main {
   border: 2px #000021 solid;
   color: #000021;
   font-size: 1.5em;
+  transition: border-color 0.2s, color 0.2s;
 }
 .detail-view .detail-info .title .right .buttons .roundbtn:focus {
   outline: none;
 }
-.detail-view .map {
-  width: 50%;
-  height: 50%;
+.detail-view .detail-info .title .right .buttons .roundbtn:hover {
+  border-color: #00AEEF;
+  color: #00AEEF;
+}
+.detail-view #map {
+  position: absolute;
+  right: 5%;
+  bottom: 3%;
+  width: 40vh;
+  height: 40vh;
+  border-radius: 8%;
+  -webkit-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
+  box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
 }
 
 /*# sourceMappingURL=app.css.map */
