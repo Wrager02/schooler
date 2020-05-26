@@ -491,7 +491,7 @@
 
 @media (min-width: 992px) {
   .list {
-    font-size: 1em;
+    font-size: .8em;
     min-height: 180px;
     width: 90%;
     margin: 0 5% 2em 5%;
@@ -500,7 +500,7 @@
     margin: 1em 1em 1em 25%;
   }
   .list .favourite {
-    font-size: 1.6em;
+    font-size: 1.8em;
   }
 }
 /*# sourceMappingURL=app.css.map */
