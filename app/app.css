@@ -1,53 +1,75 @@
 .schools-view {
   width: 100vw;
-  height: 100vh;
   background-color: #E8E8E8;
   font-size: 20px;
   position: relative;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
+
 .schools-view .navbar {
   width: 100%;
   height: 80px;
   position: fixed;
   background-color: #000021;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 5;
 }
+
 .schools-view .navbar .logo {
   display: inline-block;
   text-decoration: none;
   color: #ffffff;
   padding-left: 25px;
 }
+
 .schools-view .navbar .logo img {
   height: 80px;
   display: inline-block;
 }
+
 .schools-view .navbar .burger {
   height: 24px;
   width: 40px;
   margin: 27px 27px 27px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   cursor: pointer;
 }
+
 .schools-view .navbar .burger span {
   width: 40px;
   height: 3px;
   background-color: #ffffff;
   border-radius: 1em;
 }
+
 .schools-view .sidebar {
   display: none;
 }
+
 @media (min-width: 576px) {
   .schools-view .top-bar {
     font-size: 1.2em;
   }
 }
+
 .schools-view .content {
   display: inline-block;
   width: 90%;
@@ -55,72 +77,100 @@
   color: #000021;
   overflow: hidden;
 }
+
+.schools-view .content .school-list {
+  margin-top: 1em;
+}
+
 .schools-view .content .top-bar {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #ffffff;
-  border-radius: 0.5em;
+  border-radius: .5em;
 }
+
 .schools-view .content .top-bar div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0.5em 0 0.5em 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: .5em 0 .5em 0;
 }
+
 .schools-view .content .top-bar div:nth-child(1) {
   width: 45%;
-  margin-left: 0.5em;
+  margin-left: .5em;
   border: 2px solid #000021;
-  border-radius: 0.3em;
+  border-radius: .3em;
   height: 36px;
 }
+
 .schools-view .content .top-bar div:nth-child(1) i {
   position: absolute;
-  font-size: 0.6em;
-  margin-left: 0.8em;
+  font-size: .6em;
+  margin-left: .8em;
 }
+
 .schools-view .content .top-bar div:nth-child(1) input {
-  font-size: 0.6em;
+  font-size: .6em;
   outline: none;
-  border-radius: 0.3em;
+  border-radius: .3em;
   height: 100%;
-  font-size: 0.6em;
+  font-size: .6em;
   padding-left: 2.5em;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   border: none;
 }
+
 .schools-view .content .top-bar div:nth-child(1):focus-within {
   border: 2px solid #2C4392;
 }
+
 .schools-view .content .top-bar div:nth-child(2) {
   width: 33%;
 }
+
 .schools-view .content .top-bar div:nth-child(2) select {
   outline: none;
   height: 100%;
-  border-radius: 0.3em;
+  border-radius: .3em;
   border: 2px solid #000021;
-  font-size: 0.6em;
-  padding-left: 0.5em;
-  font-family: "Nunito Sans", sans-serif;
+  font-size: .6em;
+  padding-left: .5em;
+  font-family: 'Nunito Sans', sans-serif;
 }
+
 .schools-view .content .top-bar div:nth-child(3) {
   width: 30px;
-  margin-right: 0.5em;
+  margin-right: .5em;
   font-size: 1.2em;
   height: 36px;
 }
+
 .schools-view .content .top-bar div:nth-child(3) i {
   cursor: pointer;
 }
+
 .schools-view .noselect {
   -webkit-touch-callout: none;
   /* iOS Safari */
   -webkit-user-select: none;
   /* Safari */
-  -khtml-user-select: none;
   /* Konqueror HTML */
   -moz-user-select: none;
   /* Old versions of Firefox */
@@ -128,8 +178,9 @@
   /* Internet Explorer/Edge */
   user-select: none;
   /* Non-prefixed version, currently
-     supported by Chrome, Edge, Opera and Firefox */
+                                        supported by Chrome, Edge, Opera and Firefox */
 }
+
 @media (min-width: 992px) {
   .schools-view {
     display: table;
@@ -153,9 +204,16 @@
   }
   .schools-view .sidebar .fixed-container .logo-container {
     margin: 0 10% 0 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .schools-view .sidebar .fixed-container .logo-container .logo {
     width: 70%;
@@ -166,7 +224,7 @@
   .schools-view .sidebar .fixed-container .filter-container p {
     color: #ffffff;
     font-weight: bold;
-    letter-spacing: 0.1em;
+    letter-spacing: .1em;
   }
   .schools-view .sidebar .fixed-container .filter-container textarea:focus, .schools-view .sidebar .fixed-container .filter-container input:focus {
     outline: none;
@@ -179,7 +237,7 @@
     height: 1.5em;
     padding: 0;
     border-radius: 8px;
-    margin-bottom: 0.5em;
+    margin-bottom: .5em;
   }
   .schools-view .sidebar .fixed-container .filter-container .tag-search input {
     border: none;
@@ -192,7 +250,7 @@
     border-radius: 8px;
     color: #ffffff;
     background-color: #000021;
-    font-size: 0.8em;
+    font-size: .8em;
     z-index: 1;
     padding-left: 40px;
   }
@@ -200,7 +258,7 @@
     z-index: 3;
     position: absolute;
     margin: 7px 0 7px 9px;
-    font-size: 0.8em;
+    font-size: .8em;
   }
   .schools-view .sidebar .fixed-container .filter-container .tag-search:focus-within {
     border: 2px solid #00AEEF;
@@ -246,12 +304,12 @@
     color: #000021;
     margin: 5px 5px 5px 0;
     padding: 5px;
-    font-size: 0.8em;
+    font-size: .8em;
     border-radius: 3px;
     cursor: pointer;
   }
   .schools-view .sidebar .fixed-container .filter-container .selectedTag i {
-    margin: 0.1em 0.2em 0 0.2em;
+    margin: .1em .2em 0 .2em;
   }
   .schools-view .sidebar .fixed-container .filter-container .selectedTag:hover {
     color: #ffffff;
@@ -265,7 +323,7 @@
     color: #000021;
     margin: 5px 5px 5px 0;
     padding: 5px;
-    font-size: 0.8em;
+    font-size: .8em;
     border-radius: 3px;
     cursor: pointer;
   }
@@ -278,11 +336,11 @@
   .schools-view .sidebar .fixed-container .filter-container .button-container .selection-button {
     width: 140px;
     height: 40px;
-    font-size: 0.6em;
+    font-size: .6em;
     background-color: #000021;
     color: #ffffff;
-    font-family: "Nunito Sans", sans-serif;
-    letter-spacing: 0.1em;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: .1em;
     border: 2px solid #ffffff;
     border-radius: 5px;
     margin: 5px 5px 5px 0;
@@ -307,33 +365,71 @@
 
 .list {
   position: relative;
-  width: 90%;
-  margin: 0 5% 2em 5%;
+  width: 100%;
+  margin: 0 0 2em 0;
   background-color: #ffffff;
   border-radius: 1em;
+  padding: 1em 0 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100px;
+  overflow: hidden;
+  font-size: .5em;
 }
+
+.list .type-icon {
+  position: absolute;
+  margin-left: 8%;
+}
+
+.list .type-icon i {
+  font-size: 4em;
+}
+
 .list .favourite {
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 1.6em;
+  font-size: 2em;
 }
+
 .list .favourite i {
-  margin: 0.5em 0.5em 0 0;
+  margin: .5em .5em 0 0;
   cursor: pointer;
 }
-.list .school-info {
-  margin-left: 20%;
+
+.list .infos {
+  display: none;
 }
+
+.list .school-info {
+  margin: 1em 1em 1em 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .list h1 {
   font-weight: normal;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   margin: 0;
 }
+
 .list h3 {
   font-weight: bold;
   text-transform: uppercase;
@@ -392,4 +488,19 @@
   height: 50%;
 }
 
+
+@media (min-width: 992px) {
+  .list {
+    font-size: 1em;
+    min-height: 180px;
+    width: 90%;
+    margin: 0 5% 2em 5%;
+  }
+  .list .school-info {
+    margin: 1em 1em 1em 25%;
+  }
+  .list .favourite {
+    font-size: 1.6em;
+  }
+}
 /*# sourceMappingURL=app.css.map */
