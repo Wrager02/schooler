@@ -2,7 +2,6 @@ $dark-blue: #000021;
 $mid-blue: #2D388A;
 $light-blue: #00AEEF;
 
-
 .schools-view{
     width: 100vw;
     min-height: 100vh;
@@ -494,6 +493,7 @@ $light-blue: #00AEEF;
   height: 100vh;
   width: 100vw;
 
+
   h1{
     font-weight: normal;
     font-family: 'Nunito Sans', sans-serif;
@@ -514,6 +514,26 @@ $light-blue: #00AEEF;
     height: 33%;
     width: 100%;
     background-color: $dark-blue;
+
+    .roundbtn {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: none;
+      margin-left: 5%;
+      margin-top: 2%;
+      color: $dark-blue;
+      font-size: 1.5em;
+      transition: color 0.2s;
+
+      &:focus {
+        outline: none;
+      }
+
+      &:hover {
+        color: $light-blue;
+      }
+    }
   }
 
   .detail-info {
@@ -532,6 +552,11 @@ $light-blue: #00AEEF;
 
       .right {
         .buttons {
+          width: 120px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+
           .roundbtn {
             width: 50px;
             height: 50px;
@@ -539,9 +564,15 @@ $light-blue: #00AEEF;
             border: 2px $dark-blue solid;
             color: $dark-blue;
             font-size: 1.5em;
+            transition: border-color 0.2s, color 0.2s;
 
             &:focus {
               outline: none;
+            }
+
+            &:hover {
+              border-color: $light-blue;
+              color: $light-blue;
             }
           }
         }
@@ -553,9 +584,16 @@ $light-blue: #00AEEF;
     }
   }
 
-  .map {
-    width: 50%;
-    height: 50%;
+  #map {
+    position: absolute;
+    right: 5%;
+    bottom: 3%;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 8%;
+    -webkit-box-shadow: 3px 3px 18px 0px rgba(0,0,0,0.61);
+    -moz-box-shadow: 3px 3px 18px 0px rgba(0,0,0,0.61);
+    box-shadow: 3px 3px 18px 0px rgba(0,0,0,0.61);
   }
 }
 
