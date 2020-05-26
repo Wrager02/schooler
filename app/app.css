@@ -1,6 +1,5 @@
 .schools-view {
   width: 100vw;
-  height: 100vh;
   background-color: #E8E8E8;
   font-size: 20px;
   position: relative;
@@ -77,6 +76,10 @@
   margin: 100px 5% auto 5%;
   color: #000021;
   overflow: hidden;
+}
+
+.schools-view .content .school-list {
+  margin-top: 1em;
 }
 
 .schools-view .content .top-bar {
@@ -362,10 +365,11 @@
 
 .list {
   position: relative;
-  width: 90%;
-  margin: 0 5% 2em 5%;
+  width: 100%;
+  margin: 0 0 2em 0;
   background-color: #ffffff;
   border-radius: 1em;
+  padding: 1em 0 1em 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -376,14 +380,25 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-height: 200px;
+  min-height: 100px;
+  overflow: hidden;
+  font-size: .5em;
+}
+
+.list .type-icon {
+  position: absolute;
+  margin-left: 8%;
+}
+
+.list .type-icon i {
+  font-size: 4em;
 }
 
 .list .favourite {
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 1.6em;
+  font-size: 2em;
 }
 
 .list .favourite i {
@@ -391,8 +406,22 @@
   cursor: pointer;
 }
 
+.list .infos {
+  display: none;
+}
+
 .list .school-info {
-  margin-left: 20%;
+  margin: 1em 1em 1em 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .list h1 {
@@ -407,5 +436,20 @@
   font-family: 'Nunito Sans', sans-serif;
   color: #2D388A;
   margin: 0;
+}
+
+@media (min-width: 992px) {
+  .list {
+    font-size: 1em;
+    min-height: 180px;
+    width: 90%;
+    margin: 0 5% 2em 5%;
+  }
+  .list .school-info {
+    margin: 1em 1em 1em 25%;
+  }
+  .list .favourite {
+    font-size: 1.6em;
+  }
 }
 /*# sourceMappingURL=app.css.map */

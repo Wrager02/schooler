@@ -5,7 +5,7 @@ $light-blue: #00AEEF;
 
 .schools-view{
     width: 100vw;
-    height: 100vh;
+    
     background-color: #E8E8E8;
     font-size: 20px;
     position: relative;
@@ -73,6 +73,10 @@ $light-blue: #00AEEF;
         margin: 100px 5% auto 5%; 
         color: $dark-blue;
         overflow: hidden;
+
+        .school-list{
+            margin-top: 1em;
+        }
 
         .top-bar{
             width: 100%;
@@ -401,21 +405,34 @@ $light-blue: #00AEEF;
 
 .list{
     position: relative;
-    width: 90%;
-    margin: 0 5% 2em 5%;
+    width: 100%;
+    margin: 0 0 2em 0;
     background-color: #ffffff;
     border-radius: 1em;
+    padding: 1em 0 1em 0;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 200px;
+    min-height: 100px;
+
+    overflow: hidden;
+
+    font-size: .5em;
+
+    .type-icon{
+        position: absolute;
+        margin-left: 8%;
+        i{
+            font-size: 4em;
+        }
+    }
 
     .favourite{
         position: absolute;
         top: 0;
         right: 0;
-        font-size: 1.6em;
+        font-size: 2em;
         
         
         i{
@@ -424,9 +441,16 @@ $light-blue: #00AEEF;
         }
     }
 
+    .infos{
+        display: none;
+    }
+
 
     .school-info{
-        margin-left: 20%;
+        margin: 1em 1em 1em 30%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     h1{
@@ -441,6 +465,27 @@ $light-blue: #00AEEF;
         font-family: 'Nunito Sans', sans-serif;
         color: $mid-blue;
         margin: 0;
+    }
+
+
+
+
+    @media(min-width: 992px){
+        font-size: 1em;
+        min-height: 180px;
+        width: 90%;
+        margin: 0 5% 2em 5%;
+    
+
+        .school-info{
+            margin: 1em 1em 1em 25%;
+        }
+
+        .favourite{
+            font-size: 1.6em;
+            }
+    
+    
     }
 }
 
