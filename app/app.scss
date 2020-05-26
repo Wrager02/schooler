@@ -3,10 +3,18 @@ $mid-blue: #2D388A;
 $light-blue: #00AEEF;
 
 
+html, body{
+    background-color: #E8E8E8 !important;
+}
+
+
+main{
+    min-height: 100vh;
+}
+
 .schools-view{
     width: 100vw;
     min-height: 100vh;
-    background-color: #E8E8E8;
     font-size: 20px;
     position: relative;
     font-family: 'Nunito Sans', sans-serif;
@@ -185,6 +193,7 @@ $light-blue: #00AEEF;
            background-color: $dark-blue;
            width: 30vw;
            min-width: 380px;
+           min-height: 100vh;
            height: 100%;
 
            .fixed-container{
