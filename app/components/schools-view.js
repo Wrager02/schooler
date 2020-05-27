@@ -24,7 +24,6 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     this.sortList = () => {
         this.list.sort(SortBy.dynamicSort(this.select));
-        console.log(this.list);
     };
 
     this.init = () => {
@@ -47,7 +46,9 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     this.applyFilters = () => {
         this.list = FilterByFilter.filterList(this.list, this.selectedTags, this.control);
-    }
+        console.log(this.list);
+        $timeout();
+    };
 
     this.showTag = (tag) => {
         if (!this.tagInput) {
@@ -65,7 +66,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     this.changeView = () =>{
         this.listView = !this.listView;
-    }
+    };
 
 
 
@@ -83,19 +84,19 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
          this.selectedTags.push(this.tags[tag]);
          this.tags.splice(tag, 1);
          this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
-    }
+    };
 
     this.deselectTag = (tag) => {
          this.tags.push(this.selectedTags[tag]);
          this.selectedTags.splice(tag, 1);
          this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
-    }
+    };
 
 
 
     // Buttons
     
-    this.control = [true, false, true, false, false,true,false]
+    this.control = [false, false, false, false, false, false, false];
 
     this.change = (button) =>{
         this.control[button] = !this.control[button];

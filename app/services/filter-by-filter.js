@@ -14,7 +14,7 @@ app.service("FilterByFilter", function ($log, $timeout, LoadJson) {
 
             if (containsAny(e['specialisations'], selectedTags)) {
 
-                if (bundesland[0] && bundesland[1] || !bundesland[0] && bundesland[1]) {
+                if (bundesland[0] && bundesland[1] || !bundesland[0] && !bundesland[1]) {
                 } else if (bundesland[0]) {
                     return e['city'].toUpperCase() === 'WIEN';
                 } else if (bundesland[1]) {
@@ -74,13 +74,16 @@ app.service("FilterByFilter", function ($log, $timeout, LoadJson) {
             return false;
         });
 
-    }
+    };
 
     function containsAny(source, target) {
-        var result = source.filter(function (item) {
-            return target.indexOf(item) > -1
-        });
-        return (result.length > 0);
+        if (target.length > 0) {
+            var result = source.filter(function (item) {
+                return target.indexOf(item) > -1
+            });
+            return (result.length > 0);
+        }
+        return true;
     }
 
 
