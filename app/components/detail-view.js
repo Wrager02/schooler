@@ -24,6 +24,7 @@ app.controller("DetailViewController", function ($log, $stateParams, FilterByIdS
     this.id = $stateParams.id;
 
     FilterByIdService.filterByID(this.id).then(response => {
+        $timeout();
         this.school = response[0];
         let map = document.getElementById("map");
         map.innerHTML =
