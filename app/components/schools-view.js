@@ -29,6 +29,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     this.init = () => {
         FulltextSearch.search("").then(response => {
             this.list = response;
+            this.originalList = response;
         });
     };
     this.init();
@@ -45,9 +46,9 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     };
 
     this.applyFilters = () => {
-        this.list = FilterByFilter.filterList(this.list, this.selectedTags, this.control);
+        this.list = FilterByFilter.filterList(this.originalList, this.selectedTags, this.control);
         console.log(this.list);
-        $timeout();
+        //this.search();
     };
 
     this.showTag = (tag) => {

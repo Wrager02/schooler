@@ -809,7 +809,7 @@
     "schoolform": "Technische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": ["Informationstechnologie", "Mechatronik"]
   },
   {
     "id": 179,
