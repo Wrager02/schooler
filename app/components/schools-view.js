@@ -38,6 +38,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     this.search = () => {
         FulltextSearch.search(this.input).then(response => {
             this.list = response;
+            this.originalList = response;
             if (this.select) {
                 this.sortList();
             }
