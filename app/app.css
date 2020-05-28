@@ -436,10 +436,10 @@ main {
   flex-direction: column;
 }
 .detail-view .detail-info .title .right .buttons {
-  width: 120px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 120px;
 }
 .detail-view .detail-info .title .right .buttons .roundbtn {
   width: 50px;

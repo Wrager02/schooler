@@ -561,10 +561,10 @@ main{
 
       .right {
         .buttons {
-          width: 120px;
           display: flex;
           flex-direction: row;
           justify-content: space-between;
+          height: 120px;
 
           .roundbtn {
             width: 50px;
