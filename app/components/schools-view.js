@@ -24,6 +24,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     this.sortList = () => {
         this.list.sort(SortBy.dynamicSort(this.select));
+        console.log(this.list);
     };
 
     this.init = () => {
