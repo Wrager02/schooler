@@ -39,6 +39,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
         FulltextSearch.search(this.input).then(response => {
             this.list = response;
             this.originalList = response;
+            this.applyFilters();
             if (this.select) {
                 this.sortList();
             }
@@ -48,6 +49,9 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     this.applyFilters = () => {
         this.list = FilterByFilter.filterList(this.originalList, this.selectedTags, this.control);
+        if (this.select) {
+            this.sortList();
+        }
         console.log(this.list);
         //this.search();
     };
