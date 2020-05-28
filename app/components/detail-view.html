@@ -43,10 +43,35 @@
         <div class="infos">
 
             <div class="attributes">
+                <div class="attribute">
+                    <i class="fas fa-school"></i>
+                    <p class="attributeText">{{$ctrl.school.schoolform}}</p>
+                </div>
 
-                <p class="attribute"></p>
-                <p class="attribute"></p>
-                <p class="attribute"></p>
+                <div class="attribute">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p class="attributeText">{{$ctrl.school.street}} {{$ctrl.school.housenumber}}, {{$ctrl.school.zip}} {{$ctrl.school.city}}</p>
+                </div>
+
+                <div class="attribute">
+                    <i class="fas fa-info"></i>
+                    <p class="attributeText">{{$ctrl.school.website}}</p>
+                </div>
+
+                <div class="attribute">
+                    <i class="fas fa-at"></i>
+                    <p class="attributeText">{{$ctrl.school.email}}</p>
+                </div>
+
+                <div class="attribute">
+                    <i class="fas fa-user-graduate"></i>
+                    <p class="attributeText">{{$ctrl.school.graduation}}</p>
+                </div>
+
+                <div class="attribute">
+                    <i class="fas fa-key"></i>
+                    <p class="attributeText">{{$ctrl.school.privat ? "Privat" : "Öffentlich"}}</p>
+                </div>
 
             </div>
 

@@ -46,6 +46,16 @@ class School implements \JsonSerializable
     private $addressextra;
 
     /**
+     * @var string
+     */
+    private $website;
+
+    /**
+     * @var string
+     */
+    private $email;
+
+    /**
      * @var boolean
      * Handelt es sich um eine private oder öffentliche Schule?
      * true wenn privat, false wenn nicht
@@ -84,6 +94,8 @@ class School implements \JsonSerializable
      * @param string $street
      * @param string $housenumber
      * @param string $addressaddition
+     * @param string $website
+     * @param string $email
      * @param bool $privat
      * @param string $schoolform
      * @param string $schoolformDescription
@@ -92,7 +104,8 @@ class School implements \JsonSerializable
      */
     public function __construct(
         int $id, string $name, string $zip, string $city, string $street, string $housenumber, string $addressaddition,
-        bool $privat, string $schoolform, string $schoolformDescription, string $graduation, array $specialisations)
+        string $website, string $email, bool $privat, string $schoolform, string $schoolformDescription,
+        string $graduation, array $specialisations)
     {
         $this->id = $id;
         $this->name = utf8_encode($name);
@@ -101,6 +114,8 @@ class School implements \JsonSerializable
         $this->street = utf8_encode($street);
         $this->housenumber = utf8_encode($housenumber);
         $this->addressextra = utf8_encode($addressaddition);
+        $this->website = utf8_encode($website);
+        $this->email = utf8_encode($email);
         $this->private = $privat;
         $this->schoolform = utf8_encode($schoolform);
         $this->schoolformDescription = $schoolformDescription;
@@ -214,7 +229,21 @@ class School implements \JsonSerializable
         return $this->graduation;
     }
 
+    /**
+     * @return string
+     */
+    public function getWebsite(): string
+    {
+        return $this->website;
+    }
 
+    /**
+     * @return string
+     */
+    public function getEmail(): string
+    {
+        return $this->email;
+    }
 
 
 
@@ -228,6 +257,8 @@ class School implements \JsonSerializable
             'street' => $this->getStreet(),
             'housenumber' => $this->getHousenumber(),
             'addressextra' => $this->getAddressextra(),
+            'website' => $this->getWebsite(),
+            'email' => $this->getEmail(),
             'private' => $this->isPrivate(),
             'schoolform' => $this->getSchoolform(),
             'schoolformDescription' => $this->getSchoolformDescription(),

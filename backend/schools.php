@@ -57,6 +57,8 @@ try {
                 $school['street'],
                 $school['housenumber'],
                 $school['adressextra'],
+                $school['url'],
+                $school['email'],
                 $school['private'],
                 $schooltype['pk_schoolform'],
                 $schooltype['description'],
