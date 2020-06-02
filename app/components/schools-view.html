@@ -46,20 +46,7 @@
                     </div>
     
                 </div>
-    
-                <div>
-    
-                    <p class="filter-title">Bundesland</p>
 
-
-                    <div class="button-container">
-                        <button class="selection-button" ng-click="$ctrl.change(0); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[0] == true]">Wien</button>
-                        <button class="selection-button" ng-click="$ctrl.change(1); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[1] == true]">Niederösterreich</button>
-                    </div>
-                    
-                    
-    
-                </div>
     
                 <div>
     
@@ -83,7 +70,21 @@
                     </div>
     
                 </div>
-    
+
+
+                <div>
+
+                    <p class="filter-title">Favoriten</p>
+
+
+                    <div class="button-container">
+                        <button class="selection-button" ng-click="$ctrl.change(0); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[0] == true]">Anzeigen</button>
+                    </div>
+
+
+
+                </div>
+
             </div>
             <div class="filter-container">
                 <p ui-sref="imprint">Impressum</p>
