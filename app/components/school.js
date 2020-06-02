@@ -10,10 +10,7 @@ app.component("school", {
 });
 
 
-app.controller("SchoolController", function ($log) {
+app.controller("SchoolController", function ($log, $timeout) {
 
     $log.debug("SchoolController()");
-
-
-
 });
