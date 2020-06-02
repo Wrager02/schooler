@@ -14,15 +14,27 @@ app.controller("SchoolController", function ($log, AddToFavorite) {
 
     $log.debug("SchoolController()");
 
+    function wait(ms){
+        var start = new Date().getTime();
+        var end = start;
+        while(end < start + ms) {
+            end = new Date().getTime();
+        }
+    }
+
     this.toggleFavorite = () => {
         if(!this.school.favorite) {
-            console.log("added school");
             AddToFavorite.addToFavorite(this.school.id);
             this.school.favorite = true;
-            console.log(this.school.favorite);
+            $('#favorite-alert').fadeIn();
+            setTimeout(() => {
+                $('#favorite-alert').fadeOut(); }, 1500);
         } else {
             AddToFavorite.removeFromFavorite(this.school.id);
             this.school.favorite = false;
+            $('#disable-favorite-alert').fadeIn();
+            setTimeout(() => {
+                $('#disable-favorite-alert').fadeOut(); }, 1500);
         }
     }
 });

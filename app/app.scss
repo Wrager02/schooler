@@ -235,6 +235,16 @@ div[role="button"]{
       margin-top: 1em;
     }
 
+    .listed-school:hover {
+      cursor: pointer;
+      transition: 0.5s ease;
+      transform: translate(-5px, -5px);
+      background-color: hsl(0, 0%, 98%);
+      -webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+      -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+      box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+    }
+
     .top-bar {
       width: 100%;
       display: flex;
@@ -311,6 +321,32 @@ div[role="button"]{
       }
 
 
+    }
+
+    #favorite-alert {
+      background-color: hsl(110,70%,40%);
+    }
+
+    #disable-favorite-alert {
+      background-color: hsl(0,70%,40%);
+    }
+
+    .alert {
+      display: none;
+      text-align: center;
+      width: 140px;
+      margin: auto;
+      font-family: 'Nunito Sans', sans-serif;
+      position: fixed;
+      top: 90vh;
+      right: 3vw;
+      color: #ffffff;
+      font-size: 12px;
+      border-radius: 10px;
+      padding: 1em;
+      -webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+      -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+      box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
     }
   }
 

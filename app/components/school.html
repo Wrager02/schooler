@@ -34,7 +34,8 @@
     </div>
 
     <div class="favourite" ng-click="$ctrl.toggleFavorite()">
-        <i class="far fa-plus-square"></i>
+        <i class="fas fa-heart" ng-show="$ctrl.school.favorite"></i>
+        <i class="far fa-heart" ng-hide="$ctrl.school.favorite"></i>
     </div>
 
 </div>

@@ -190,6 +190,15 @@ div[role=button] {
 .schools-view .content .school-list {
   margin-top: 1em;
 }
+.schools-view .content .listed-school:hover {
+  cursor: pointer;
+  transition: 0.5s ease;
+  transform: translate(-5px, -5px);
+  background-color: #fafafa;
+  -webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+}
 .schools-view .content .top-bar {
   width: 100%;
   display: flex;
@@ -249,6 +258,29 @@ div[role=button] {
 }
 .schools-view .content .top-bar div:nth-child(3) i {
   cursor: pointer;
+}
+.schools-view .content #favorite-alert {
+  background-color: #36ad1f;
+}
+.schools-view .content #disable-favorite-alert {
+  background-color: #ad1f1f;
+}
+.schools-view .content .alert {
+  display: none;
+  text-align: center;
+  width: 140px;
+  margin: auto;
+  font-family: "Nunito Sans", sans-serif;
+  position: fixed;
+  top: 90vh;
+  right: 3vw;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 1em;
+  -webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
 }
 .schools-view .noselect {
   -webkit-touch-callout: none;
