@@ -76,6 +76,11 @@ class School implements \JsonSerializable
     private $specialisations;
 
     /**
+     * @var bool
+     */
+    private $favorite;
+
+    /**
      * School constructor.
      * @param int $id
      * @param string $name
@@ -89,10 +94,11 @@ class School implements \JsonSerializable
      * @param string $schoolformDescription
      * @param string $graduation
      * @param array $specialisations
+     * @param bool $favorite
      */
     public function __construct(
         int $id, string $name, string $zip, string $city, string $street, string $housenumber, string $addressaddition,
-        bool $privat, string $schoolform, string $schoolformDescription, string $graduation, array $specialisations)
+        bool $privat, string $schoolform, string $schoolformDescription, string $graduation, array $specialisations, bool $favorite)
     {
         $this->id = $id;
         $this->name = utf8_encode($name);
@@ -106,6 +112,7 @@ class School implements \JsonSerializable
         $this->schoolformDescription = $schoolformDescription;
         $this->graduation = utf8_encode($graduation);
         $this->specialisations = $specialisations;
+        $this->favorite = $favorite;
     }
 
 
@@ -214,6 +221,15 @@ class School implements \JsonSerializable
         return $this->graduation;
     }
 
+    /**
+     * @return bool
+     */
+    public function isFavorite()
+    {
+        return $this->favorite;
+    }
+
+
 
 
 
@@ -232,7 +248,8 @@ class School implements \JsonSerializable
             'schoolform' => $this->getSchoolform(),
             'schoolformDescription' => $this->getSchoolformDescription(),
             'graduation' => $this->getGraduation(),
-            'specialisations' => $this->getSpecialisations()
+            'specialisations' => $this->getSpecialisations(),
+            'favorite' => $this->isFavorite()
         );
     }
 }

@@ -455,11 +455,32 @@ div[role=button] {
   overflow: hidden;
   font-size: 0.5em;
 }
-.list .type-icon {
+.list div .infos {
+  display: none;
+}
+.list div .school-info {
+  margin: 1em 1em 1em 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list div h1 {
+  font-weight: normal;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+}
+.list div h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Nunito Sans", sans-serif;
+  color: #2D388A;
+  margin: 0;
+}
+.list div .type-icon {
   position: absolute;
   margin-left: 8%;
 }
-.list .type-icon i {
+.list div .type-icon i {
   font-size: 4em;
 }
 .list .favourite {
@@ -471,27 +492,6 @@ div[role=button] {
 .list .favourite i {
   margin: 0.5em 0.5em 0 0;
   cursor: pointer;
-}
-.list .infos {
-  display: none;
-}
-.list .school-info {
-  margin: 1em 1em 1em 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.list h1 {
-  font-weight: normal;
-  font-family: "Nunito Sans", sans-serif;
-  margin: 0;
-}
-.list h3 {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: "Nunito Sans", sans-serif;
-  color: #2D388A;
-  margin: 0;
 }
 @media (min-width: 992px) {
   .list {

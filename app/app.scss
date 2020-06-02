@@ -576,15 +576,44 @@ div[role="button"]{
   overflow: hidden;
 
   font-size: .5em;
+  div {
 
-  .type-icon {
-    position: absolute;
-    margin-left: 8%;
+    .infos {
+      display: none;
+    }
 
-    i {
-      font-size: 4em;
+
+    .school-info {
+      margin: 1em 1em 1em 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1 {
+      font-weight: normal;
+      font-family: 'Nunito Sans', sans-serif;
+      margin: 0;
+    }
+
+    h3 {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-family: 'Nunito Sans', sans-serif;
+      color: $mid-blue;
+      margin: 0;
+    }
+
+    .type-icon {
+      position: absolute;
+      margin-left: 8%;
+
+      i {
+        font-size: 4em;
+      }
     }
   }
+
 
   .favourite {
     position: absolute;
@@ -599,31 +628,6 @@ div[role="button"]{
     }
   }
 
-  .infos {
-    display: none;
-  }
-
-
-  .school-info {
-    margin: 1em 1em 1em 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  h1 {
-    font-weight: normal;
-    font-family: 'Nunito Sans', sans-serif;
-    margin: 0;
-  }
-
-  h3 {
-    font-weight: bold;
-    text-transform: uppercase;
-    font-family: 'Nunito Sans', sans-serif;
-    color: $mid-blue;
-    margin: 0;
-  }
 
 
   @media(min-width: 992px) {

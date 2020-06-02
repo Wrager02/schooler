@@ -1,6 +1,6 @@
 <?php
 
-require 'vendor/autoload.php';
+require './vendor/autoload.php';
 require 'classes/School.php';
 require 'classes/Specialisation.php';
 
@@ -61,7 +61,8 @@ try {
                 $schooltype['pk_schoolform'],
                 $schooltype['description'],
                 $schooltype['graduation'],
-                array_map('toSpecialisation', $specialisations)
+                array_map('toSpecialisation', $specialisations),
+                false
             );
         }
     }
