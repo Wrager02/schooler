@@ -6,6 +6,18 @@ main {
   min-height: 100vh;
 }
 
+input[type=button] {
+  outline: none;
+}
+
+a[role=button] {
+  outline: none;
+}
+
+div[role=button] {
+  outline: none;
+}
+
 .landing-page {
   font-family: "Nunito Sans", sans-serif;
 }
