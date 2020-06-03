@@ -18,7 +18,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 });
 
 
-app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, FilterByFilter, $timeout) {
+app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, FilterByFilter, $timeout, AddToFavorite) {
 
     $log.debug("SchoolsViewController()");
 
@@ -29,10 +29,12 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     this.init = () => {
         FulltextSearch.search("").then(response => {
-            this.list = response;
-            this.originalList = response;
+            this.list = AddToFavorite.loadFavoritesOnInit(response);
+            this.originalList = AddToFavorite.loadFavoritesOnInit(response);
+            console.log(this.list);
         });
     };
+
     this.init();
 
 
@@ -74,6 +76,9 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     this.changeView = () =>{
         this.listView = !this.listView;
     };
+
+
+
 
 
 
