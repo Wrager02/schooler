@@ -1,5 +1,6 @@
 html, body {
   background-color: #E8E8E8 !important;
+  scroll-behavior: smooth;
 }
 
 main {
@@ -263,6 +264,7 @@ div[role=button] {
   position: fixed;
   top: 90vh;
   right: 2vw;
+  display: none;
   background-color: white;
   height: 60px;
   width: 60px;

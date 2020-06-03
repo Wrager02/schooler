@@ -79,7 +79,18 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
 
 
+    this.scrollTo = () => {
+        window.scrollTo(0, 0);
+    }
 
+    $(document).scroll(function() {
+        var y = $(this).scrollTop();
+        if (y > 0) {
+            $('#scroll-top').fadeIn();
+        } else {
+            $('#scroll-top').fadeOut();
+        }
+    });
 
 
 

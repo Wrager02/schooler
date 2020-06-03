@@ -5,6 +5,7 @@ $light-blue: #00AEEF;
 
 html, body {
   background-color: #E8E8E8 !important;
+  scroll-behavior: smooth;
 }
 
 
@@ -23,6 +24,7 @@ a[role="button"]{
 div[role="button"]{
   outline: none;
 }
+
 
 .landing-page {
   font-family: 'Nunito Sans', sans-serif;
@@ -327,6 +329,7 @@ div[role="button"]{
       position: fixed;
       top: 90vh;
       right: 2vw;
+      display: none;
       background-color: white;
       height: 60px;
       width: 60px;
