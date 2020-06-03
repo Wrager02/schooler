@@ -5,7 +5,8 @@ app.component("school", {
     controller: "SchoolController",
     bindings: {
         school: '<',
-        view: '<'
+        view: '<',
+        fav: '&'
     }
 });
 
@@ -35,6 +36,7 @@ app.controller("SchoolController", function ($log, AddToFavorite) {
             $('#disable-favorite-alert').fadeIn();
             setTimeout(() => {
                 $('#disable-favorite-alert').fadeOut(); }, 1500);
+            this.fav({f: this.school.favorite});
         }
     }
 });
