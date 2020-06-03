@@ -23,7 +23,7 @@
     
                 <div>
     
-                    <p class="filter-title">Schwerpunkte</p>
+                    <p class="filter-title">Schwerpunkte <i class="fas fa-info-circle"><md-tooltip>Schwerpunkte</md-tooltip></i> </p>
 
                     <div class="tag-search">
                         <i class="fas fa-search"></i>
@@ -50,7 +50,7 @@
     
                 <div>
     
-                    <p class="filter-title">Schultyp</p>
+                    <p class="filter-title">Schultyp <i class="fas fa-info-circle"><md-tooltip>Schultyp</md-tooltip></i> </p>
 
                     <div class="button-container">
                         <button class="selection-button" ng-click="$ctrl.change(2); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[2] == true]">Öffentlich</button>
@@ -61,7 +61,7 @@
     
                 <div>
     
-                    <p class="filter-title">Abschluss</p>
+                    <p class="filter-title">Abschluss <i class="fas fa-info-circle"><md-tooltip>Abschluss</md-tooltip></i> </p>
 
                     <div class="button-container">
                         <button class="selection-button" ng-click="$ctrl.change(4); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[4] == true]">Matura</button>
@@ -74,7 +74,7 @@
 
                 <div>
 
-                    <p class="filter-title">Favoriten</p>
+                    <p class="filter-title">Favoriten <i class="fas fa-info-circle"><md-tooltip>Deine gewählten Lieblingsschulen</md-tooltip></i> </p>
 
 
                     <div class="button-container">
@@ -132,7 +132,7 @@
 
         <div class="school-list">
             
-            <school ng-repeat="school in $ctrl.list" school="school" view="$ctrl.listView" class="school"></school>
+            <school ng-repeat="school in $ctrl.list" school="school" fav="$ctrl.applyFilters()" view="$ctrl.listView" class="school"></school>
 
         </div>
 
