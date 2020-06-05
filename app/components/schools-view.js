@@ -18,7 +18,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 });
 
 
-app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, FilterByFilter, $timeout) {
+app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, FilterByFilter, $timeout, AddToFavorite) {
 
     $log.debug("SchoolsViewController()");
 
@@ -29,10 +29,12 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     this.init = () => {
         FulltextSearch.search("").then(response => {
-            this.list = response;
-            this.originalList = response;
+            this.list = AddToFavorite.loadFavoritesOnInit(response);
+            this.originalList = AddToFavorite.loadFavoritesOnInit(response);
+            console.log(this.list);
         });
     };
+
     this.init();
 
 
@@ -77,6 +79,20 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
 
 
+    this.scrollTo = () => {
+        window.scrollTo(0, 0);
+    }
+
+    $(document).scroll(function() {
+        var y = $(this).scrollTop();
+        if (y > 0) {
+            $('#scroll-top').fadeIn();
+        } else {
+            $('#scroll-top').fadeOut();
+        }
+    });
+
+
 
     // Schwerpunkt Tags //
 
@@ -108,4 +124,6 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     this.change = (button) =>{
         this.control[button] = !this.control[button];
     }
+
+
 });

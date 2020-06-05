@@ -1,35 +1,41 @@
-<div class="listed-school" ui-sref="detail-view({id: $ctrl.school.id})" ng-class="{true: 'list', false: 'card'}[$ctrl.view == true]">
+<div class="listed-school hidden" ng-class="{true: 'list', false: 'card'}[$ctrl.view == true]">
 
-    <div class="type-icon">
-        <i class="fas fa-book"></i>
-    </div>
-    
+    <div ui-sref="detail-view({id: $ctrl.school.id})" >
 
-    <div class="school-info">
-        <h3>Design</h3>
-        <h1>{{$ctrl.school.name}}</h1>
-    </div>
-    
-    
+        <div class="type-icon">
+            <i class="fas fa-book"></i>
+        </div>
 
-    <div class="infos">
 
-        <p class="topic"></p>
+        <div class="school-info">
+            <h3>Design</h3>
+            <h1>{{$ctrl.school.name}}</h1>
+        </div>
 
-        <h1 class="title"></h1>
 
-        <div class="attributes">
 
-            <p class="attribute"></p>
-            <p class="attribute"></p>
-            <p class="attribute"></p>
+        <div class="infos">
+
+            <p class="topic"></p>
+
+            <h1 class="title"></h1>
+
+            <div class="attributes">
+
+                <p class="attribute"></p>
+                <p class="attribute"></p>
+                <p class="attribute"></p>
+
+            </div>
 
         </div>
 
+
     </div>
 
-    <div class="favourite">
-        <i class="far fa-plus-square"></i>
+    <div class="favourite" ng-click="$ctrl.toggleFavorite()">
+        <i class="fas fa-heart" ng-show="$ctrl.school.favorite"></i>
+        <i class="far fa-heart" ng-hide="$ctrl.school.favorite"></i>
     </div>
 
 </div>

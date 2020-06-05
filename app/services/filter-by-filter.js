@@ -5,7 +5,7 @@ app.service("FilterByFilter", function ($log, $timeout, LoadJson) {
     $log.debug("FilterByFilter()");
 
     this.filterList = (list, selectedTags, control) => {
-        let bundesland = control.slice(0, 2);
+        let favoriten = control.slice(0, 1);
         let schultyp = control.slice(2, 4);
         let abschluss = control.slice(4, 7);
 
@@ -14,11 +14,8 @@ app.service("FilterByFilter", function ($log, $timeout, LoadJson) {
 
             if (containsAny(e['specialisations'], selectedTags)) {
 
-                if (bundesland[0] && bundesland[1] || !bundesland[0] && !bundesland[1]) {
-                } else if (bundesland[0]) {
-                    return e['city'].toUpperCase() === 'WIEN';
-                } else if (bundesland[1]) {
-                    return e['city'].toUpperCase() === 'NIEDERÖSTERREICH';
+                if (favoriten[0] && !e['favorite']) {
+                    return false;
                 }
 
                 if (schultyp[0] && schultyp[1] || !schultyp[0] && !schultyp[1]) {

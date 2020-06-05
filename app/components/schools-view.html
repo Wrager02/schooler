@@ -1,4 +1,4 @@
-<div class="schools-view">
+<div class="schools-view" ng-cloak>
 
     <div class="navbar">
         <a ui-sref="landing-page" class="logo">
@@ -23,7 +23,7 @@
     
                 <div>
     
-                    <p class="filter-title">Schwerpunkte</p>
+                    <p class="filter-title">Schwerpunkte <i class="fas fa-info-circle"><md-tooltip>Hier können Sie auswählen, auf welche Fachrichtung(en) die ausgewählten Schulen spezialisiert sein sollen.</md-tooltip></i> </p>
 
                     <div class="tag-search">
                         <i class="fas fa-search"></i>
@@ -46,24 +46,11 @@
                     </div>
     
                 </div>
+
     
                 <div>
     
-                    <p class="filter-title">Bundesland</p>
-
-
-                    <div class="button-container">
-                        <button class="selection-button" ng-click="$ctrl.change(0); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[0] == true]">Wien</button>
-                        <button class="selection-button" ng-click="$ctrl.change(1); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[1] == true]">Niederösterreich</button>
-                    </div>
-                    
-                    
-    
-                </div>
-    
-                <div>
-    
-                    <p class="filter-title">Schultyp</p>
+                    <p class="filter-title">Schultyp <i class="fas fa-info-circle"><md-tooltip>Hier können Sie auswählen, dass auschließlich private, öffentliche oder beide Schultypen angezeigt werden.</md-tooltip></i> </p>
 
                     <div class="button-container">
                         <button class="selection-button" ng-click="$ctrl.change(2); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[2] == true]">Öffentlich</button>
@@ -74,7 +61,7 @@
     
                 <div>
     
-                    <p class="filter-title">Abschluss</p>
+                    <p class="filter-title">Abschluss <i class="fas fa-info-circle"><md-tooltip>Hier können Sie die bevorzugten Abschlüsse auswählen.</md-tooltip></i> </p>
 
                     <div class="button-container">
                         <button class="selection-button" ng-click="$ctrl.change(4); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[4] == true]">Matura</button>
@@ -83,7 +70,21 @@
                     </div>
     
                 </div>
-    
+
+
+                <div>
+
+                    <p class="filter-title">Favoriten <i class="fas fa-info-circle"><md-tooltip>Hier können sie auswählen, dass nur die markierten Favoriten angezeigt werden.</md-tooltip></i> </p>
+
+
+                    <div class="button-container">
+                        <button class="selection-button" ng-click="$ctrl.change(0); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[0] == true]">Anzeigen</button>
+                    </div>
+
+
+
+                </div>
+
             </div>
             <div class="filter-container">
                 <p ui-sref="imprint">Impressum</p>
@@ -128,12 +129,30 @@
 
         </div>
 
+
         <div class="school-list">
             
-            <school ng-repeat="school in $ctrl.list" school="school" view="$ctrl.listView"></school>
+            <school ng-repeat="school in $ctrl.list" school="school" fav="$ctrl.applyFilters()" view="$ctrl.listView" class="school"></school>
+
+        </div>
+
+        <div id="scroll-top" ng-click="$ctrl.scrollTo()">
+
+            <i class="fas fa-arrow-circle-up"></i>
+
+        </div>
+
+        <div id="favorite-alert" class="alert">
+
+            <p>Zu Favoriten hinzugefügt</p>
+
+        </div>
+
+        <div id="disable-favorite-alert" class="alert">
+
+            <p>Von Favoriten entfernt</p>
 
         </div>
 
     </div>
-
 </div>

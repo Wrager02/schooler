@@ -1,9 +1,134 @@
 html, body {
   background-color: #E8E8E8 !important;
+  scroll-behavior: smooth;
 }
 
 main {
   min-height: 100vh;
+}
+
+input[type=button] {
+  outline: none;
+}
+
+a[role=button] {
+  outline: none;
+}
+
+div[role=button] {
+  outline: none;
+}
+
+.landing-page {
+  font-family: "Nunito Sans", sans-serif;
+}
+.landing-page .navbar {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 5;
+}
+.landing-page .navbar .logo {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 25px;
+}
+.landing-page .navbar .logo img {
+  height: 80px;
+  display: inline-block;
+}
+.landing-page .navbar .burger {
+  height: 24px;
+  width: 40px;
+  margin: 27px 27px 27px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.landing-page .navbar .burger span {
+  width: 40px;
+  height: 3px;
+  background-color: #000000;
+  border-radius: 1em;
+}
+.landing-page .content {
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+.landing-page .content .landing-first {
+  height: 100vh;
+  width: 100vw;
+}
+.landing-page .content .landing-first .landing-info {
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20vh;
+}
+.landing-page .content .landing-first .landing-info h1 {
+  font-size: 41px;
+  font-weight: 800;
+  color: #00AEEF;
+  margin: 0;
+}
+.landing-page .content .landing-first .landing-info p {
+  font-size: 18px;
+  margin-bottom: 2vh;
+}
+.landing-page .content .landing-first .landing-info input {
+  width: 110px;
+  font-size: 23px;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  background-color: #00AEEF;
+  padding: 5px;
+}
+.landing-page .content .landing-first .landing-info input:hover {
+  background-color: #38C9FF;
+  transition: 0.3s ease;
+}
+.landing-page .content .landing-first .landing-info input[type=button] {
+  outline: none;
+}
+.landing-page .content .landing-first #professor_without_board {
+  position: absolute;
+  top: 59vh;
+  right: 15vw;
+  width: 56%;
+}
+.landing-page .content .landing-first #blue_corner {
+  position: absolute;
+  top: 91vh;
+  right: 0px;
+  width: 100%;
+  z-index: 1;
+}
+.landing-page .content .landing-second {
+  z-index: 2;
+  height: 100vh;
+  background-color: #000021;
+}
+.landing-page .content .landing-second div {
+  width: 84%;
+  margin: auto;
+}
+.landing-page .content .landing-second div h2 {
+  padding-top: 8vh;
+  z-index: 2;
+  color: #00AEEF;
+  font-size: 32px;
+}
+.landing-page .content .landing-second div p {
+  padding-top: 6vh;
+  font-size: 17px;
+  color: #ffffff;
 }
 
 .schools-view {
@@ -66,6 +191,15 @@ main {
 .schools-view .content .school-list {
   margin-top: 1em;
 }
+.schools-view .content .listed-school:hover {
+  cursor: pointer;
+  transition: 0.5s ease;
+  transform: translate(-5px, -5px);
+  background-color: #fafafa;
+  -webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+}
 .schools-view .content .top-bar {
   width: 100%;
   display: flex;
@@ -126,6 +260,46 @@ main {
 .schools-view .content .top-bar div:nth-child(3) i {
   cursor: pointer;
 }
+.schools-view .content #scroll-top {
+  position: fixed;
+  top: 90vh;
+  right: 2vw;
+  display: none;
+  background-color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  font-size: 2.8em;
+}
+.schools-view .content #scroll-top i {
+  transform: translateY(-5.5px);
+}
+.schools-view .content #scroll-top:hover {
+  cursor: pointer;
+}
+.schools-view .content #favorite-alert {
+  background-color: #36ad1f;
+}
+.schools-view .content #disable-favorite-alert {
+  background-color: #ad1f1f;
+}
+.schools-view .content .alert {
+  display: none;
+  text-align: center;
+  width: 140px;
+  margin: auto;
+  font-family: "Nunito Sans", sans-serif;
+  position: fixed;
+  top: 90vh;
+  right: 8vw;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 1em;
+  -webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+}
 .schools-view .noselect {
   -webkit-touch-callout: none;
   /* iOS Safari */
@@ -139,7 +313,7 @@ main {
   /* Internet Explorer/Edge */
   user-select: none;
   /* Non-prefixed version, currently
-     supported by Chrome, Edge, Opera and Firefox */
+                                         supported by Chrome, Edge, Opera and Firefox */
 }
 @media (min-width: 992px) {
   .schools-view {
@@ -331,11 +505,32 @@ main {
   overflow: hidden;
   font-size: 0.5em;
 }
-.list .type-icon {
+.list div .infos {
+  display: none;
+}
+.list div .school-info {
+  margin: 1em 1em 1em 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list div h1 {
+  font-weight: normal;
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+}
+.list div h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Nunito Sans", sans-serif;
+  color: #2D388A;
+  margin: 0;
+}
+.list div .type-icon {
   position: absolute;
   margin-left: 8%;
 }
-.list .type-icon i {
+.list div .type-icon i {
   font-size: 4em;
 }
 .list .favourite {
@@ -347,27 +542,6 @@ main {
 .list .favourite i {
   margin: 0.5em 0.5em 0 0;
   cursor: pointer;
-}
-.list .infos {
-  display: none;
-}
-.list .school-info {
-  margin: 1em 1em 1em 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.list h1 {
-  font-weight: normal;
-  font-family: "Nunito Sans", sans-serif;
-  margin: 0;
-}
-.list h3 {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: "Nunito Sans", sans-serif;
-  color: #2D388A;
-  margin: 0;
 }
 @media (min-width: 992px) {
   .list {

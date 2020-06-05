@@ -13,7 +13,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 126,
@@ -29,7 +30,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 127,
@@ -45,7 +47,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 128,
@@ -61,7 +64,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 129,
@@ -77,7 +81,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 130,
@@ -93,7 +98,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 131,
@@ -109,7 +115,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 132,
@@ -125,7 +132,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 133,
@@ -141,7 +149,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 134,
@@ -157,7 +166,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 135,
@@ -173,7 +183,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 136,
@@ -189,7 +200,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 137,
@@ -205,7 +217,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 138,
@@ -221,7 +234,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 139,
@@ -237,7 +251,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 140,
@@ -253,7 +268,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 141,
@@ -269,7 +285,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 142,
@@ -285,7 +302,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 143,
@@ -301,7 +319,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 144,
@@ -317,7 +336,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 145,
@@ -333,7 +353,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 146,
@@ -349,7 +370,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 147,
@@ -365,7 +387,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 148,
@@ -381,7 +404,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 149,
@@ -397,7 +421,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 150,
@@ -413,7 +438,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 151,
@@ -429,7 +455,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 152,
@@ -445,7 +472,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 153,
@@ -461,7 +489,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 154,
@@ -477,7 +506,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 155,
@@ -493,7 +523,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 156,
@@ -509,7 +540,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 157,
@@ -525,7 +557,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 302,
@@ -541,7 +574,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 308,
@@ -557,7 +591,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 332,
@@ -573,7 +608,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 343,
@@ -589,7 +625,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 158,
@@ -605,7 +642,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 159,
@@ -621,7 +659,8 @@
     "schoolform": "Polytechnische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 160,
@@ -637,7 +676,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 161,
@@ -653,7 +693,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 162,
@@ -669,7 +710,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 163,
@@ -685,7 +727,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 164,
@@ -701,7 +744,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 165,
@@ -717,7 +761,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 166,
@@ -733,7 +778,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 167,
@@ -749,7 +795,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 168,
@@ -765,7 +812,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 169,
@@ -781,7 +829,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 170,
@@ -797,7 +846,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 171,
@@ -813,7 +863,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 172,
@@ -829,7 +880,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 173,
@@ -845,7 +897,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 174,
@@ -861,7 +914,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 175,
@@ -877,7 +931,8 @@
     "schoolform": "Technische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 176,
@@ -893,7 +948,8 @@
     "schoolform": "Technische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 177,
@@ -909,7 +965,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 178,
@@ -925,7 +982,8 @@
     "schoolform": "Technische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 179,
@@ -941,7 +999,8 @@
     "schoolform": "Technische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 350,
@@ -957,7 +1016,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 353,
@@ -973,7 +1033,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 180,
@@ -989,7 +1050,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 181,
@@ -1005,7 +1067,8 @@
     "schoolform": "Polytechnische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 182,
@@ -1021,7 +1084,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 183,
@@ -1037,7 +1101,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 184,
@@ -1053,7 +1118,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 185,
@@ -1069,7 +1135,8 @@
     "schoolform": "Technische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 186,
@@ -1085,7 +1152,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 315,
@@ -1101,7 +1169,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 115,
@@ -1117,7 +1186,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 187,
@@ -1133,7 +1203,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 188,
@@ -1149,7 +1220,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 189,
@@ -1165,7 +1237,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 190,
@@ -1181,7 +1254,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 191,
@@ -1197,7 +1271,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 192,
@@ -1213,7 +1288,8 @@
     "schoolform": "Zentrallehranstalt",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 193,
@@ -1229,7 +1305,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 194,
@@ -1245,7 +1322,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 195,
@@ -1261,7 +1339,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 196,
@@ -1277,7 +1356,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 197,
@@ -1293,7 +1373,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 198,
@@ -1309,7 +1390,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 199,
@@ -1325,7 +1407,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 303,
@@ -1341,7 +1424,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 331,
@@ -1357,7 +1441,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 200,
@@ -1373,7 +1458,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 201,
@@ -1389,7 +1475,8 @@
     "schoolform": "Polytechnische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 202,
@@ -1405,7 +1492,8 @@
     "schoolform": "Polytechnische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 203,
@@ -1421,7 +1509,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 204,
@@ -1437,7 +1526,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 205,
@@ -1453,7 +1543,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 206,
@@ -1469,7 +1560,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 207,
@@ -1485,7 +1577,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 208,
@@ -1501,7 +1594,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 209,
@@ -1517,7 +1611,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 210,
@@ -1533,7 +1628,8 @@
     "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 211,
@@ -1549,7 +1645,8 @@
     "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 327,
@@ -1565,7 +1662,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 212,
@@ -1581,7 +1679,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 213,
@@ -1597,7 +1696,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 214,
@@ -1613,7 +1713,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 215,
@@ -1629,7 +1730,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 216,
@@ -1645,7 +1747,8 @@
     "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 217,
@@ -1661,7 +1764,8 @@
     "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 305,
@@ -1677,7 +1781,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 323,
@@ -1693,7 +1798,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 218,
@@ -1709,7 +1815,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 219,
@@ -1725,7 +1832,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 220,
@@ -1741,7 +1849,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 221,
@@ -1757,7 +1866,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 222,
@@ -1773,7 +1883,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 223,
@@ -1789,7 +1900,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 224,
@@ -1805,7 +1917,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 307,
@@ -1821,7 +1934,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 225,
@@ -1837,7 +1951,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 226,
@@ -1853,7 +1968,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 227,
@@ -1869,7 +1985,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 228,
@@ -1885,7 +2002,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 229,
@@ -1901,7 +2019,8 @@
     "schoolform": "Polytechnische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 230,
@@ -1917,7 +2036,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 231,
@@ -1933,7 +2053,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 232,
@@ -1949,7 +2070,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 233,
@@ -1965,7 +2087,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 234,
@@ -1981,7 +2104,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 235,
@@ -1997,7 +2121,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 236,
@@ -2013,7 +2138,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 237,
@@ -2029,7 +2155,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 238,
@@ -2045,7 +2172,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 239,
@@ -2061,7 +2189,8 @@
     "schoolform": "Technische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 240,
@@ -2077,7 +2206,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 241,
@@ -2093,7 +2223,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 242,
@@ -2109,7 +2240,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 243,
@@ -2125,7 +2257,8 @@
     "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 304,
@@ -2141,7 +2274,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 312,
@@ -2157,7 +2291,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 314,
@@ -2173,7 +2308,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 325,
@@ -2189,7 +2325,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 334,
@@ -2205,7 +2342,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 335,
@@ -2221,7 +2359,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 342,
@@ -2237,7 +2376,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 244,
@@ -2253,7 +2393,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 245,
@@ -2269,7 +2410,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 246,
@@ -2285,7 +2427,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 247,
@@ -2301,7 +2444,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 248,
@@ -2317,7 +2461,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 249,
@@ -2333,7 +2478,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 250,
@@ -2349,7 +2495,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 251,
@@ -2365,7 +2512,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 252,
@@ -2381,7 +2529,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 309,
@@ -2397,7 +2546,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 313,
@@ -2413,7 +2563,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 349,
@@ -2429,7 +2580,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 351,
@@ -2445,7 +2597,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 113,
@@ -2461,7 +2614,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 114,
@@ -2477,7 +2631,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 116,
@@ -2493,7 +2648,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 117,
@@ -2509,7 +2665,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 118,
@@ -2525,7 +2682,8 @@
     "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 253,
@@ -2541,7 +2699,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 254,
@@ -2557,7 +2716,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 255,
@@ -2573,7 +2733,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 256,
@@ -2589,7 +2750,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 257,
@@ -2605,7 +2767,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 258,
@@ -2621,7 +2784,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 259,
@@ -2637,7 +2801,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 260,
@@ -2653,7 +2818,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 261,
@@ -2669,7 +2835,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 324,
@@ -2685,7 +2852,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 330,
@@ -2701,7 +2869,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 336,
@@ -2717,7 +2886,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 59,
@@ -2733,7 +2903,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 60,
@@ -2749,7 +2920,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 61,
@@ -2765,7 +2937,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 62,
@@ -2781,7 +2954,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 63,
@@ -2797,7 +2971,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 64,
@@ -2813,7 +2988,8 @@
     "schoolform": "Zentrallehranstalt",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 65,
@@ -2829,7 +3005,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 66,
@@ -2845,7 +3022,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 119,
@@ -2861,7 +3039,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 120,
@@ -2877,7 +3056,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 121,
@@ -2893,7 +3073,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 122,
@@ -2909,7 +3090,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 123,
@@ -2925,7 +3107,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 124,
@@ -2941,7 +3124,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 333,
@@ -2957,7 +3141,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 67,
@@ -2973,7 +3158,8 @@
     "schoolform": "Polytechnische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 68,
@@ -2989,7 +3175,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 69,
@@ -3005,7 +3192,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 70,
@@ -3021,7 +3209,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 71,
@@ -3037,7 +3226,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 72,
@@ -3053,7 +3243,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 73,
@@ -3069,7 +3260,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 74,
@@ -3085,7 +3277,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 75,
@@ -3101,7 +3294,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 76,
@@ -3117,7 +3311,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 82,
@@ -3133,7 +3328,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 83,
@@ -3149,7 +3345,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 84,
@@ -3165,7 +3362,8 @@
     "schoolform": "Zentrallehranstalt",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 85,
@@ -3181,7 +3379,8 @@
     "schoolform": "Technische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 86,
@@ -3197,7 +3396,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 311,
@@ -3213,7 +3413,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 322,
@@ -3229,7 +3430,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 77,
@@ -3245,7 +3447,8 @@
     "schoolform": "Polytechnische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 78,
@@ -3261,7 +3464,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 79,
@@ -3277,7 +3481,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 80,
@@ -3293,7 +3498,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 81,
@@ -3309,7 +3515,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 87,
@@ -3325,7 +3532,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 88,
@@ -3341,7 +3549,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 89,
@@ -3357,7 +3566,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 90,
@@ -3373,7 +3583,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 91,
@@ -3389,7 +3600,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 92,
@@ -3405,7 +3617,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 93,
@@ -3421,7 +3634,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 94,
@@ -3437,7 +3651,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 95,
@@ -3453,7 +3668,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 96,
@@ -3469,7 +3685,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 97,
@@ -3485,7 +3702,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 98,
@@ -3501,7 +3719,8 @@
     "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 317,
@@ -3517,7 +3736,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 328,
@@ -3533,7 +3753,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 344,
@@ -3549,7 +3770,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 99,
@@ -3565,7 +3787,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 100,
@@ -3581,7 +3804,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 101,
@@ -3597,7 +3821,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 102,
@@ -3613,7 +3838,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 103,
@@ -3629,7 +3855,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 104,
@@ -3645,7 +3872,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 105,
@@ -3661,7 +3889,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 106,
@@ -3677,7 +3906,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 107,
@@ -3693,7 +3923,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 108,
@@ -3709,7 +3940,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 109,
@@ -3725,7 +3957,8 @@
     "schoolform": "Technische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 318,
@@ -3741,7 +3974,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 1,
@@ -3763,7 +3997,8 @@
         "description": "description",
         "graphic": "1"
       }
-    ]
+    ],
+    "favorite": false
   },
   {
     "id": 2,
@@ -3779,7 +4014,8 @@
     "schoolform": "Zentrallehranstalt",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 3,
@@ -3795,7 +4031,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 110,
@@ -3811,7 +4048,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 111,
@@ -3827,7 +4065,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 112,
@@ -3843,7 +4082,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 338,
@@ -3859,7 +4099,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 4,
@@ -3875,7 +4116,8 @@
     "schoolform": "Polytechnische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 5,
@@ -3891,7 +4133,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 6,
@@ -3907,7 +4150,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 7,
@@ -3923,7 +4167,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 41,
@@ -3939,7 +4184,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 42,
@@ -3955,7 +4201,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 43,
@@ -3971,7 +4218,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 44,
@@ -3987,7 +4235,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 45,
@@ -4003,7 +4252,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 46,
@@ -4019,7 +4269,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 47,
@@ -4035,7 +4286,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 48,
@@ -4051,7 +4303,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 49,
@@ -4067,7 +4320,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 50,
@@ -4083,7 +4337,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 51,
@@ -4099,7 +4354,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 52,
@@ -4115,7 +4371,8 @@
     "schoolform": "Technische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 8,
@@ -4131,7 +4388,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 9,
@@ -4147,7 +4405,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 10,
@@ -4163,7 +4422,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 11,
@@ -4179,7 +4439,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 12,
@@ -4195,7 +4456,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 13,
@@ -4211,7 +4473,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 14,
@@ -4227,7 +4490,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 15,
@@ -4243,7 +4507,8 @@
     "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 53,
@@ -4259,7 +4524,8 @@
     "schoolform": "Polytechnische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 54,
@@ -4275,7 +4541,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 55,
@@ -4291,7 +4558,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 56,
@@ -4307,7 +4575,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 57,
@@ -4323,7 +4592,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 58,
@@ -4339,7 +4609,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 310,
@@ -4355,7 +4626,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 337,
@@ -4371,7 +4643,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 16,
@@ -4387,7 +4660,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 17,
@@ -4403,7 +4677,8 @@
     "schoolform": "Polytechnische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 18,
@@ -4419,7 +4694,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 19,
@@ -4435,7 +4711,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 20,
@@ -4451,7 +4728,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 21,
@@ -4467,7 +4745,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 22,
@@ -4483,7 +4762,8 @@
     "schoolform": "Zentrallehranstalt",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 339,
@@ -4499,7 +4779,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 346,
@@ -4515,7 +4796,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 23,
@@ -4531,7 +4813,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 24,
@@ -4547,7 +4830,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 25,
@@ -4563,7 +4847,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 26,
@@ -4579,7 +4864,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 27,
@@ -4595,7 +4881,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 28,
@@ -4611,7 +4898,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 29,
@@ -4627,7 +4915,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 30,
@@ -4643,7 +4932,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 31,
@@ -4659,7 +4949,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 32,
@@ -4675,7 +4966,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 33,
@@ -4691,7 +4983,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 34,
@@ -4707,7 +5000,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 35,
@@ -4723,7 +5017,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 36,
@@ -4739,7 +5034,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 37,
@@ -4755,7 +5051,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 38,
@@ -4771,7 +5068,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 39,
@@ -4787,7 +5085,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 40,
@@ -4803,7 +5102,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 262,
@@ -4819,7 +5119,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 263,
@@ -4835,7 +5136,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 264,
@@ -4851,7 +5153,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 265,
@@ -4867,7 +5170,8 @@
     "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 266,
@@ -4883,7 +5187,8 @@
     "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 267,
@@ -4899,7 +5204,8 @@
     "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 319,
@@ -4915,7 +5221,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 320,
@@ -4931,7 +5238,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 326,
@@ -4947,7 +5255,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 340,
@@ -4963,7 +5272,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 352,
@@ -4979,7 +5289,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 354,
@@ -4995,7 +5306,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 268,
@@ -5011,7 +5323,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 269,
@@ -5027,7 +5340,8 @@
     "schoolform": "Polytechnische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 270,
@@ -5043,7 +5357,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 271,
@@ -5059,7 +5374,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 272,
@@ -5075,7 +5391,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 273,
@@ -5091,7 +5408,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 274,
@@ -5107,7 +5425,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 275,
@@ -5123,7 +5442,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 276,
@@ -5139,7 +5459,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 277,
@@ -5155,7 +5476,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 278,
@@ -5171,7 +5493,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 279,
@@ -5187,7 +5510,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 280,
@@ -5203,7 +5527,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 281,
@@ -5219,7 +5544,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 282,
@@ -5235,7 +5561,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 283,
@@ -5251,7 +5578,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 284,
@@ -5267,7 +5595,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 285,
@@ -5283,7 +5612,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 286,
@@ -5299,7 +5629,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 287,
@@ -5315,7 +5646,8 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 288,
@@ -5331,7 +5663,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 289,
@@ -5347,7 +5680,8 @@
     "schoolform": "Technische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 306,
@@ -5363,7 +5697,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 316,
@@ -5379,7 +5714,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 347,
@@ -5395,7 +5731,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 290,
@@ -5411,7 +5748,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 291,
@@ -5427,7 +5765,8 @@
     "schoolform": "Berufsschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 292,
@@ -5443,7 +5782,8 @@
     "schoolform": "Polytechnische Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 293,
@@ -5459,7 +5799,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 294,
@@ -5475,7 +5816,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 295,
@@ -5491,7 +5833,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 296,
@@ -5507,7 +5850,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 297,
@@ -5523,7 +5867,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 298,
@@ -5539,7 +5884,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 299,
@@ -5555,7 +5901,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 300,
@@ -5571,7 +5918,8 @@
     "schoolform": "Humanberufliche Schule",
     "schoolformDescription": "\/",
     "graduation": "Berufsreife Diplom (Aufbaulehrgang zur Matura)",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 301,
@@ -5587,7 +5935,8 @@
     "schoolform": "Statutschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 321,
@@ -5603,7 +5952,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 329,
@@ -5619,7 +5969,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 341,
@@ -5635,7 +5986,8 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 345,
@@ -5651,7 +6003,8 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   },
   {
     "id": 348,
@@ -5667,6 +6020,7 @@
     "schoolform": "Neue Mittelschule",
     "schoolformDescription": "\/",
     "graduation": "\/",
-    "specialisations": []
+    "specialisations": [],
+    "favorite": false
   }
 ]
