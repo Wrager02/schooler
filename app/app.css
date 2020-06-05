@@ -559,53 +559,87 @@ div[role=button] {
 }
 
 .detail-view {
-  height: 100vh;
   width: 100vw;
+  min-height: 100vh;
   font-family: "Nunito Sans", sans-serif;
+  background-color: white;
 }
 .detail-view h1 {
   font-weight: normal;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   margin: 0;
+}
+@media (min-width: 992px) {
+  .detail-view h1 {
+    font-size: 40px;
+  }
 }
 .detail-view h3 {
   font-weight: bold;
   text-transform: uppercase;
   font-family: "Nunito Sans", sans-serif;
   color: #2D388A;
-  font-size: 25px;
+  font-size: 20px;
   margin: 0;
 }
+@media (min-width: 992px) {
+  .detail-view h3 {
+    font-size: 25px;
+  }
+}
 .detail-view .thumbnail-container {
-  height: 33%;
+  height: 30vh;
   width: 100%;
   background-color: #000021;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 992px) {
+  .detail-view .thumbnail-container {
+    height: 40vh;
+  }
+}
+.detail-view .thumbnail-container .icon {
+  color: white;
+  font-size: 20vh;
 }
 .detail-view .thumbnail-container .roundbtn {
-  width: 50px;
-  height: 50px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: none;
-  margin-left: 5%;
-  margin-top: 2%;
+  left: 5%;
+  top: 2%;
   color: #000021;
+}
+@media (min-width: 992px) {
+  .detail-view .thumbnail-container .roundbtn {
+    width: 50px;
+    height: 50px;
+  }
+}
+.detail-view .thumbnail-container .roundbtn .fas {
   font-size: 1.5em;
-  transition: background-color 0.2s;
+  color: #000021;
 }
 .detail-view .thumbnail-container .roundbtn:focus {
   outline: none;
-}
-.detail-view .thumbnail-container .roundbtn:hover {
-  background-color: #00AEEF;
 }
 .detail-view .detail-info {
   margin: 2% 5% 0 5%;
 }
 .detail-view .detail-info .title {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+}
+@media (min-width: 992px) {
+  .detail-view .detail-info .title {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 .detail-view .detail-info .title .left {
   flex-direction: column;
@@ -614,23 +648,6 @@ div[role=button] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 120px;
-}
-.detail-view .detail-info .title .right .buttons .roundbtn {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: 2px #000021 solid;
-  color: #000021;
-  font-size: 1.5em;
-  transition: border-color 0.2s, color 0.2s;
-}
-.detail-view .detail-info .title .right .buttons .roundbtn:focus {
-  outline: none;
-}
-.detail-view .detail-info .title .right .buttons .roundbtn:hover {
-  border-color: #00AEEF;
-  color: #00AEEF;
 }
 .detail-view .detail-info .infos .attributes {
   display: flex;
@@ -639,29 +656,51 @@ div[role=button] {
 .detail-view .detail-info .infos .attributes .attribute {
   display: flex;
   flex-direction: row;
-  width: 40%;
   align-items: center;
 }
 .detail-view .detail-info .infos .attributes .attribute .fas {
   color: #000021;
   margin-right: 0.5em;
-  font-size: 1.3em;
-  width: 1.3em;
+  font-size: 1.1em;
+  width: 1.1em;
   text-align: center;
 }
+@media (min-width: 992px) {
+  .detail-view .detail-info .infos .attributes .attribute .fas {
+    font-size: 1.3em;
+    width: 1.3em;
+  }
+}
 .detail-view .detail-info .infos .attributes .attribute .attributeText {
-  font-size: 1.2em;
+  font-size: 1em;
+  margin-block-end: 0.5em;
+  margin-block-start: 0.5em;
+}
+@media (min-width: 992px) {
+  .detail-view .detail-info .infos .attributes .attribute .attributeText {
+    font-size: 1.2em;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+  }
 }
 .detail-view #map {
-  position: absolute;
-  right: 5%;
-  bottom: 3%;
-  width: 40vh;
-  height: 40vh;
+  width: 90vw;
+  height: 90vw;
+  margin: 2% 5% 2% 5%;
   border-radius: 8%;
   -webkit-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
   -moz-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
   box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
+}
+@media (min-width: 992px) {
+  .detail-view #map {
+    position: absolute;
+    margin: 0;
+    right: 5vw;
+    bottom: 3vh;
+    width: 40vh;
+    height: 40vh;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -2,11 +2,11 @@
 
     <div class="thumbnail-container">
 
-        <img src="">
-
         <button class="roundbtn back" ui-sref="schools-view">
             <i class="fas fa-angle-left"></i>
         </button>
+
+        <i class="fas fa-book icon"></i>
 
     </div>
 
@@ -18,7 +18,7 @@
 
                 <!--                <p class="topic">{{$ctrl.school.specialisation}}</p>-->
 
-                <h3>Design</h3>
+                <h3>{{$ctrl.school.specialisations.size ? $ctrl.school.specialisations : "Design"}}</h3>
                 <h1 class="title">{{$ctrl.school.name}}</h1>
 
             </div>
