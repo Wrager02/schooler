@@ -17,14 +17,13 @@ app.config(function ($stateProvider, $urlRouterProvider) {
     // $urlRouterProvider.otherwise("/detail-view");
 });
 
-app.controller("DetailViewController", function ($log, $stateParams, FilterByIdService, $timeout) {
+app.controller("DetailViewController", function ($log, $stateParams, FilterByIdService) {
 
     $log.debug("DetailViewController()");
 
     this.id = $stateParams.id;
 
     FilterByIdService.filterByID(this.id).then(response => {
-        $timeout();
         this.school = response[0];
         let map = document.getElementById("map");
         map.innerHTML =
