@@ -11,7 +11,7 @@
         </div>
     </div>
 
-    <div class="sidebar">
+    <div class="sidebar" ng-model="$ctrl.filterOn" ng-class="{true: '', false: 'hideFilter'}[$ctrl.filterOn == true]">
         <div class="fixed-container">
             <div class="logo-container">
 
@@ -20,6 +20,11 @@
             </div>
     
             <div class="filter-container">
+
+                <div class="mobile-filter">
+                    <p>Filter</p>
+                    <i class="fas fa-times" ng-click="$ctrl.toggleMobileFilter()"></i>
+                </div>
     
                 <div>
     
@@ -130,7 +135,7 @@
         </div>
 
 
-        <div class="school-list">
+        <div class="school-list" ng-model="$ctrl.filterOn" ng-class="{true: '', false: 'hideFilter'}[$ctrl.filterOn == false]">
             
             <school ng-repeat="school in $ctrl.list" school="school" fav="$ctrl.applyFilters()" view="$ctrl.listView" class="school"></school>
 
@@ -139,6 +144,12 @@
         <div id="scroll-top" ng-click="$ctrl.scrollTo()">
 
             <i class="fas fa-arrow-up"></i>
+
+        </div>
+
+        <div id="mobile-filter" ng-click="$ctrl.toggleMobileFilter()">
+
+            <i class="fas fa-sliders-h"></i>
 
         </div>
 
