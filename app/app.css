@@ -351,16 +351,26 @@ div[role="button"] {
   top: 90vh;
   right: 2vw;
   display: none;
-  background-color: white;
   height: 60px;
   width: 60px;
   border-radius: 50px;
-  font-size: 2.8em;
+  font-size: 1.2em;
+  background-color: #000021;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .schools-view .content #scroll-top i {
-  -webkit-transform: translateY(-5.5px);
-          transform: translateY(-5.5px);
+  color: #ffffff;
+  text-align: center;
 }
 
 .schools-view .content #scroll-top:hover {
@@ -444,6 +454,7 @@ div[role="button"] {
   }
   .schools-view .sidebar .fixed-container .logo-container .logo {
     width: 70%;
+    cursor: pointer;
   }
   .schools-view .sidebar .fixed-container .filter-container {
     margin: 5% 10% 0 10%;
