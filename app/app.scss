@@ -977,25 +977,17 @@ div[role="button"]{
     margin: 1em 30% 1em 30%;
   }
 
-  &::before{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 10em;
-    top: 0;
-    left: 0;
-    background-color: #263055;
-  }
+
 
   .type-icon{
     position: absolute;
-    z-index: 4;
     color: #ffffff;
     font-size: 5em;
     top: 0;
     left: 0;
     width: 100%;
-    height: 2.1em;
+    height: 2em;
+    background-color: #263055;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -1053,9 +1045,6 @@ div[role="button"]{
     margin: 1em 10% 0 10%;
     height: auto;
 
-    &::before{
-      height: 10em;
-    }
 
     .school-info{
       margin: 12em 10% 0 10%;
@@ -1063,7 +1052,7 @@ div[role="button"]{
 
     .favourite{
       position: absolute;
-      top: 7.5em;
+      top: 8em;
       right: 10%;
       font-size: 1.5em;
     }
@@ -1158,6 +1147,8 @@ div[role="button"]{
       display: flex;
       flex-direction: column;
       justify-content: center;
+      max-width: 35px;
+      background-color: none !important;
 
       i {
         font-size: 4em;

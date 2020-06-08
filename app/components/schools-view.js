@@ -94,7 +94,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     // Ansicht //
 
-    this.listView = true;
+    this.listView = false;
 
     this.changeView = () =>{
         this.listView = !this.listView;

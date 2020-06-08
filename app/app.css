@@ -890,25 +890,15 @@ div[role="button"] {
   }
 }
 
-.card::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 10em;
-  top: 0;
-  left: 0;
-  background-color: #263055;
-}
-
 .card .type-icon {
   position: absolute;
-  z-index: 4;
   color: #ffffff;
   font-size: 5em;
   top: 0;
   left: 0;
   width: 100%;
-  height: 2.1em;
+  height: 2em;
+  background-color: #263055;
   text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -966,15 +956,12 @@ div[role="button"] {
     margin: 1em 10% 0 10%;
     height: auto;
   }
-  .card::before {
-    height: 10em;
-  }
   .card .school-info {
     margin: 12em 10% 0 10%;
   }
   .card .favourite {
     position: absolute;
-    top: 7.5em;
+    top: 8em;
     right: 10%;
     font-size: 1.5em;
   }
@@ -1080,6 +1067,8 @@ div[role="button"] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  max-width: 35px;
+  background-color: none !important;
 }
 
 .list div .type-icon i {
@@ -1192,6 +1181,7 @@ div[role="button"] {
   color: white;
   font-size: 20vh;
 }
+
 @media (min-width: 992px) {
   .detail-view .thumbnail-container .icon {
     font-size: 36vh;
@@ -1321,10 +1311,6 @@ div[role="button"] {
 @media (min-width: 992px) {
   .detail-view .detail-info .infos .attributes .attribute .attributeText {
     font-size: 1.2em;
-    -webkit-margin-after: 1em;
-            margin-block-end: 1em;
-    -webkit-margin-before: 1em;
-            margin-block-start: 1em;
   }
 }
 
@@ -1334,7 +1320,6 @@ div[role="button"] {
   margin: 2% 5% 2% 5%;
   border-radius: 8%;
   -webkit-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
-  -moz-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
   box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
 }
 
@@ -1348,5 +1333,4 @@ div[role="button"] {
     height: 40vh;
   }
 }
-
 /*# sourceMappingURL=app.css.map */
