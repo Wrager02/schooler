@@ -596,12 +596,12 @@ div[role="button"]{
 
 
             &::-webkit-scrollbar-track {
-              background: #263055;
+              background: #ffffff;
               border-radius: 5px;
             }
 
             &::-webkit-scrollbar-thumb {
-              background-color: #ffffff;
+              background-color: $dark-blue;
               width: 4px;
               border-radius: 5px;
             }

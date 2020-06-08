@@ -592,11 +592,11 @@ div[role="button"] {
     border-radius: 5px;
   }
   .schools-view .sidebar .filter-container .selected-tag-container::-webkit-scrollbar-track {
-    background: #263055;
+    background: #ffffff;
     border-radius: 5px;
   }
   .schools-view .sidebar .filter-container .selected-tag-container::-webkit-scrollbar-thumb {
-    background-color: #ffffff;
+    background-color: #000021;
     width: 4px;
     border-radius: 5px;
   }
