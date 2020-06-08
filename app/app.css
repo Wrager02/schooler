@@ -843,6 +843,91 @@ div[role="button"] {
   }
 }
 
+@media (min-width: 992px) {
+  .school-list {
+    width: 90%;
+    margin: 0 5% 0 5%;
+  }
+}
+
+.card {
+  position: relative;
+  width: 30%;
+  min-width: 300px;
+  height: 40vh;
+  background-color: #ffffff;
+  border-radius: 1em;
+  display: inline-block;
+  margin: 1em 3.3% 1em 0;
+  cursor: pointer;
+  overflow: hidden;
+  -ms-flex-preferred-size: 300px;
+      flex-basis: 300px;
+  font-size: .6em;
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  top: 0;
+  left: 0;
+  background-color: #263055;
+  z-index: 3;
+}
+
+.card .type-icon {
+  position: absolute;
+  z-index: 4;
+  color: #ffffff;
+  font-size: 5em;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card .school-info {
+  margin: 45% 10% 0 10%;
+}
+
+.card h3 {
+  font-weight: bolder;
+}
+
+.card .infos {
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+.card .infos .attribute * {
+  display: inline-block;
+}
+
+.card .infos i {
+  font-size: 1.2em;
+  margin-right: .5em;
+}
+
+.card .favourite {
+  position: absolute;
+  top: 35%;
+  right: 10%;
+  font-size: 1.5em;
+}
+
 .list {
   position: relative;
   width: 100%;
@@ -937,8 +1022,8 @@ div[role="button"] {
   .list {
     font-size: .8em;
     min-height: 180px;
-    width: 90%;
-    margin: 0 5% 2em 5%;
+    width: 100%;
+    margin: 0 0 2em 0;
     cursor: pointer;
   }
   .list:hover {
