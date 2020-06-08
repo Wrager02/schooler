@@ -433,7 +433,9 @@ div[role="button"]{
   }
 
 
-
+  #p-selected{
+    font-weight: lighter;
+  }
 
   // Mobile Filter
 
@@ -807,7 +809,6 @@ div[role="button"]{
           }
 
           .selected-tag-container {
-            height: 80px;
             max-height: 80px;
             overflow-y: auto;
 

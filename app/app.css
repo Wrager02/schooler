@@ -448,6 +448,10 @@ div[role="button"] {
                                            supported by Chrome, Edge, Opera and Firefox */
 }
 
+.schools-view #p-selected {
+  font-weight: lighter;
+}
+
 .schools-view #mobile-filter {
   position: fixed;
   top: 85%;
@@ -758,7 +762,6 @@ div[role="button"] {
     border-radius: 5px;
   }
   .schools-view .sidebar .fixed-container .filter-container .selected-tag-container {
-    height: 80px;
     max-height: 80px;
     overflow-y: auto;
   }

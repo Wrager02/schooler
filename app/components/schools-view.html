@@ -38,7 +38,7 @@
                         </div>
                     </div>
 
-                    <p ng-show="$ctrl.tagSelected" ng-model="$ctrl.tagSelected">Ausgewählt</p>
+                    <p ng-show="$ctrl.tagSelected" ng-model="$ctrl.tagSelected" id="p-selected">Ausgewählt</p>
                     
                     <div class="selected-tag-container">
                         <div class="selectedTag noselect"  ng-repeat="tag in $ctrl.selectedTags" ng-click="$ctrl.deselectTag($index); $ctrl.applyFilters()">
