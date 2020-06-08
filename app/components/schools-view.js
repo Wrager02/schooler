@@ -68,6 +68,29 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     };
 
 
+    // Burger //
+
+    $('.burger').click(function(){
+        $(this).toggleClass('active');
+        return false;
+      });
+
+
+
+    // Mobile Filter //
+
+    this.filterOn = false;
+
+    this.toggleMobileFilter = () =>{
+        console.log(this.filterOn)
+
+        this.scrollTo();
+
+        this.filterOn = !this.filterOn;
+    };
+
+
+
 
     // Ansicht //
 
@@ -80,12 +103,23 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
 
     this.scrollTo = () => {
-        window.scrollTo(0, 0);
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+          });
     }
+
+    $(document).ready(function() {
+        var y = $(this).scrollTop();
+        if (y < 500) {
+            $('#scroll-top').fadeOut(1);
+        }
+    });
 
     $(document).scroll(function() {
         var y = $(this).scrollTop();
-        if (y > 0) {
+        if (y > 500) {
             $('#scroll-top').fadeIn();
         } else {
             $('#scroll-top').fadeOut();

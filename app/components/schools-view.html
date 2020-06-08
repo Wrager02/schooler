@@ -4,22 +4,23 @@
         <a ui-sref="landing-page" class="logo">
             <img src="./resources/images/icon_font.svg" alt="schooler logo">
         </a>
-        <div class="burger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+        <a class="burger" href="#"><span></span></a>
     </div>
 
-    <div class="sidebar">
+    <div class="sidebar" ng-model="$ctrl.filterOn" ng-class="{true: '', false: 'hideFilter'}[$ctrl.filterOn == true]">
         <div class="fixed-container">
             <div class="logo-container">
 
-                <img src="./resources/images/icon_font.svg" class="logo" alt="schooler logo">
+                <img ui-sref="landing-page" src="./resources/images/icon_font.svg" class="logo" alt="schooler logo">
     
             </div>
     
             <div class="filter-container">
+
+                <div class="mobile-filter">
+                    <p>Filter</p>
+                    <i class="fas fa-times" ng-click="$ctrl.toggleMobileFilter()"></i>
+                </div>
     
                 <div>
     
@@ -37,7 +38,7 @@
                         </div>
                     </div>
 
-                    <p ng-show="$ctrl.tagSelected" ng-model="$ctrl.tagSelected">Ausgewählt</p>
+                    <p ng-show="$ctrl.tagSelected" ng-model="$ctrl.tagSelected" id="p-selected">Ausgewählt</p>
                     
                     <div class="selected-tag-container">
                         <div class="selectedTag noselect"  ng-repeat="tag in $ctrl.selectedTags" ng-click="$ctrl.deselectTag($index); $ctrl.applyFilters()">
@@ -130,15 +131,22 @@
         </div>
 
 
-        <div class="school-list">
-            
+        <div class="school-list" ng-model="$ctrl.filterOn" ng-class="{true: '', false: 'hideFilter'}[$ctrl.filterOn == false]">
+
+            <h3 class="list-empty" ng-hide="$ctrl.list.length">Keine Ergebnisse :(</h3>
             <school ng-repeat="school in $ctrl.list" school="school" fav="$ctrl.applyFilters()" view="$ctrl.listView" class="school"></school>
 
         </div>
 
         <div id="scroll-top" ng-click="$ctrl.scrollTo()">
 
-            <i class="fas fa-arrow-circle-up"></i>
+            <i class="fas fa-arrow-up"></i>
+
+        </div>
+
+        <div id="mobile-filter" ng-click="$ctrl.toggleMobileFilter()">
+
+            <i class="fas fa-sliders-h"></i>
 
         </div>
 
