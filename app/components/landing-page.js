@@ -22,4 +22,9 @@ app.controller("LandingPageController", function ($log) {
 
     $log.debug("LandingPageController()");
 
+
+    $('.burger').click(function(){
+        $(this).toggleClass('active');
+        return false;
+      });
 });
