@@ -994,11 +994,12 @@ div[role="button"]{
   }
 
   .school-info{
-    margin: 45% 10% 0 10%;
+    margin: 40% 10% 0 10%;
   }
 
   h3{
     font-weight: bolder;
+    text-align: start;
   }
 
   .infos{
@@ -1121,6 +1122,7 @@ div[role="button"]{
       font-family: 'Nunito Sans', sans-serif;
       color: $mid-blue;
       margin: 0;
+      text-align: start;
     }
 
     .type-icon {
