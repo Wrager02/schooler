@@ -7,128 +7,100 @@ main {
   min-height: 100vh;
 }
 
-input[type="button"] {
+input[type=button] {
   outline: none;
 }
 
-a[role="button"] {
+a[role=button] {
   outline: none;
 }
 
-div[role="button"] {
+div[role=button] {
   outline: none;
 }
 
 .landing-page {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
-
 .landing-page .navbar {
   width: 100%;
   height: 80px;
   position: fixed;
   background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   z-index: 5;
 }
-
 .landing-page .navbar .logo {
   display: inline-block;
   text-decoration: none;
   color: #ffffff;
   padding-left: 25px;
 }
-
 .landing-page .navbar .logo img {
   height: 80px;
   display: inline-block;
 }
-
 .landing-page .navbar .burger {
   cursor: pointer;
   margin: auto 25px auto 0;
 }
-
 .landing-page .navbar .burger span {
   position: relative;
   display: block;
   width: 30px;
   height: 4px;
   background: #000021;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-
 .landing-page .navbar .burger span:before, .landing-page .navbar .burger span:after {
   position: absolute;
   background: #000021;
-  content: '';
+  content: "";
   width: 30px;
   height: 4px;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-
 .landing-page .navbar .burger span:before {
   top: -8px;
 }
-
 .landing-page .navbar .burger span:after {
   top: 8px;
 }
-
 .landing-page .navbar .burger.active span {
   background: transparent;
 }
-
 .landing-page .navbar .burger.active span:before {
-  -webkit-transform: rotate(45deg) translate(5px, 6px);
-          transform: rotate(45deg) translate(5px, 6px);
+  transform: rotate(45deg) translate(5px, 6px);
 }
-
 .landing-page .navbar .burger.active span:after {
-  -webkit-transform: rotate(-45deg) translate(5px, -6px);
-          transform: rotate(-45deg) translate(5px, -6px);
+  transform: rotate(-45deg) translate(5px, -6px);
 }
-
 .landing-page .content {
   background-color: #ffffff;
   overflow-x: hidden;
 }
-
 .landing-page .content .landing-first {
   height: 100vh;
   width: 100vw;
 }
-
 .landing-page .content .landing-first .landing-info {
   width: 84%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 20vh;
 }
-
 .landing-page .content .landing-first .landing-info h1 {
   font-size: 41px;
   font-weight: 800;
   color: #00AEEF;
   margin: 0;
 }
-
 .landing-page .content .landing-first .landing-info p {
   font-size: 18px;
   margin-bottom: 2vh;
 }
-
 .landing-page .content .landing-first .landing-info input {
   width: 110px;
   font-size: 23px;
@@ -138,24 +110,19 @@ div[role="button"] {
   background-color: #00AEEF;
   padding: 5px;
 }
-
 .landing-page .content .landing-first .landing-info input:hover {
   background-color: #38C9FF;
-  -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
-
-.landing-page .content .landing-first .landing-info input[type="button"] {
+.landing-page .content .landing-first .landing-info input[type=button] {
   outline: none;
 }
-
 .landing-page .content .landing-first #professor_without_board {
   position: absolute;
   top: 59vh;
   right: 15vw;
   width: 56%;
 }
-
 .landing-page .content .landing-first #blue_corner {
   position: absolute;
   top: 91vh;
@@ -163,25 +130,21 @@ div[role="button"] {
   width: 100%;
   z-index: 1;
 }
-
 .landing-page .content .landing-second {
   z-index: 2;
   height: 100vh;
   background-color: #000021;
 }
-
 .landing-page .content .landing-second div {
   width: 84%;
   margin: auto;
 }
-
 .landing-page .content .landing-second div h2 {
   padding-top: 8vh;
   z-index: 2;
   color: #00AEEF;
   font-size: 32px;
 }
-
 .landing-page .content .landing-second div p {
   padding-top: 6vh;
   font-size: 17px;
@@ -193,92 +156,72 @@ div[role="button"] {
   min-height: 100vh;
   font-size: 20px;
   position: relative;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
-
+.schools-view h3 {
+  text-align: center;
+  margin-top: 4em;
+}
 .schools-view .navbar {
   width: 100%;
   height: 80px;
   position: fixed;
   background-color: #000021;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   z-index: 5;
 }
-
 .schools-view .navbar .logo {
   display: inline-block;
   text-decoration: none;
   color: #ffffff;
   padding-left: 25px;
 }
-
 .schools-view .navbar .logo img {
   height: 80px;
   display: inline-block;
 }
-
 .schools-view .navbar .burger {
   cursor: pointer;
   margin: auto 25px auto 0;
 }
-
 .schools-view .navbar .burger span {
   position: relative;
   display: block;
   width: 30px;
   height: 4px;
   background: #ffffff;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-
 .schools-view .navbar .burger span:before, .schools-view .navbar .burger span:after {
   position: absolute;
   background: #ffffff;
-  content: '';
+  content: "";
   width: 30px;
   height: 4px;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-
 .schools-view .navbar .burger span:before {
   top: -8px;
 }
-
 .schools-view .navbar .burger span:after {
   top: 8px;
 }
-
 .schools-view .navbar .burger.active span {
   background: transparent;
 }
-
 .schools-view .navbar .burger.active span:before {
-  -webkit-transform: rotate(45deg) translate(5px, 6px);
-          transform: rotate(45deg) translate(5px, 6px);
+  transform: rotate(45deg) translate(5px, 6px);
 }
-
 .schools-view .navbar .burger.active span:after {
-  -webkit-transform: rotate(-45deg) translate(5px, -6px);
-          transform: rotate(-45deg) translate(5px, -6px);
+  transform: rotate(-45deg) translate(5px, -6px);
 }
-
 @media (min-width: 576px) {
   .schools-view .top-bar {
     font-size: 1.2em;
   }
 }
-
 .schools-view .content {
   display: inline-block;
   width: 90%;
@@ -286,97 +229,71 @@ div[role="button"] {
   color: #000021;
   overflow: hidden;
 }
-
 .schools-view .content .school-list {
   margin-top: 1em;
 }
-
 .schools-view .content .top-bar {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #ffffff;
-  border-radius: .5em;
+  border-radius: 0.5em;
 }
-
 .schools-view .content .top-bar div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: .5em 0 .5em 0;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5em 0 0.5em 0;
 }
-
 .schools-view .content .top-bar div:nth-child(1) {
   width: 45%;
-  margin-left: .5em;
+  margin-left: 0.5em;
   border: 2px solid #000021;
-  border-radius: .3em;
+  border-radius: 0.3em;
   height: 36px;
 }
-
 .schools-view .content .top-bar div:nth-child(1) i {
   position: absolute;
-  font-size: .6em;
-  margin-left: .8em;
+  font-size: 0.6em;
+  margin-left: 0.8em;
 }
-
 .schools-view .content .top-bar div:nth-child(1) input {
-  font-size: .6em;
+  font-size: 0.6em;
   outline: none;
-  border-radius: .3em;
+  border-radius: 0.3em;
   height: 100%;
-  font-size: .6em;
+  font-size: 0.6em;
   padding-left: 2.5em;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   border: none;
 }
-
 .schools-view .content .top-bar div:nth-child(1):focus-within {
   border: 2px solid #2C4392;
 }
-
 .schools-view .content .top-bar div:nth-child(2) {
   width: 33%;
 }
-
 .schools-view .content .top-bar div:nth-child(2) select {
   outline: none;
   height: 100%;
-  border-radius: .3em;
+  border-radius: 0.3em;
   border: 2px solid #000021;
-  font-size: .6em;
-  padding-left: .5em;
-  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.6em;
+  padding-left: 0.5em;
+  font-family: "Nunito Sans", sans-serif;
 }
-
 .schools-view .content .top-bar div:nth-child(3) {
   width: 30px;
-  margin-right: .5em;
+  margin-right: 0.5em;
   font-size: 1.2em;
   height: 36px;
   outline: none;
 }
-
 .schools-view .content .top-bar div:nth-child(3) i {
   cursor: pointer;
   outline: none;
 }
-
 .schools-view .content #scroll-top {
   position: fixed;
   top: 85%;
@@ -387,41 +304,29 @@ div[role="button"] {
   border-radius: 50px;
   font-size: 1.2em;
   background-color: #000021;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .schools-view .content #scroll-top i {
   color: #ffffff;
   text-align: center;
 }
-
 .schools-view .content #scroll-top:hover {
   cursor: pointer;
 }
-
 .schools-view .content #favorite-alert {
   background-color: #36ad1f;
 }
-
 .schools-view .content #disable-favorite-alert {
   background-color: #ad1f1f;
 }
-
 .schools-view .content .alert {
   display: none;
   text-align: center;
   width: 140px;
   margin: auto;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   position: fixed;
   top: 90vh;
   right: 8vw;
@@ -430,14 +335,15 @@ div[role="button"] {
   border-radius: 10px;
   padding: 1em;
   -webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
   box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
 }
-
 .schools-view .noselect {
   -webkit-touch-callout: none;
   /* iOS Safari */
   -webkit-user-select: none;
   /* Safari */
+  -khtml-user-select: none;
   /* Konqueror HTML */
   -moz-user-select: none;
   /* Old versions of Firefox */
@@ -445,9 +351,8 @@ div[role="button"] {
   /* Internet Explorer/Edge */
   user-select: none;
   /* Non-prefixed version, currently
-                                           supported by Chrome, Edge, Opera and Firefox */
+                                         supported by Chrome, Edge, Opera and Firefox */
 }
-
 .schools-view #mobile-filter {
   position: fixed;
   top: 85%;
@@ -458,23 +363,14 @@ div[role="button"] {
   border-radius: 50px;
   font-size: 1.2em;
   background-color: #000021;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .schools-view #mobile-filter i {
   color: #ffffff;
   text-align: center;
 }
-
 @media (max-width: 992px) {
   .schools-view .md-tooltip {
     font-size: 10px !important;
@@ -499,16 +395,9 @@ div[role="button"] {
     margin: 5% 10% 0 10%;
   }
   .schools-view .sidebar .filter-container .mobile-filter {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
     font-size: 1.6em;
   }
   .schools-view .sidebar .filter-container .mobile-filter p {
@@ -524,7 +413,7 @@ div[role="button"] {
   .schools-view .sidebar .filter-container p {
     color: #000021;
     font-weight: bold;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
   }
   .schools-view .sidebar .filter-container textarea:focus, .schools-view .sidebar .filter-container input:focus {
     outline: none;
@@ -537,7 +426,7 @@ div[role="button"] {
     height: 1.6em;
     padding: 0;
     border-radius: 8px;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
     overflow: hidden;
   }
   .schools-view .sidebar .filter-container .tag-search input {
@@ -551,7 +440,7 @@ div[role="button"] {
     border-radius: 8px;
     color: #000021;
     background-color: #ffffff;
-    font-size: .8em;
+    font-size: 0.8em;
     line-height: 1em;
     z-index: 1;
     padding-left: 50px;
@@ -560,7 +449,7 @@ div[role="button"] {
     z-index: 3;
     position: absolute;
     margin: 7px 0 7px 5px;
-    font-size: .8em;
+    font-size: 0.8em;
     color: #000021;
   }
   .schools-view .sidebar .filter-container .tag-search:focus-within {
@@ -606,12 +495,12 @@ div[role="button"] {
     color: #ffffff;
     margin: 5px 5px 5px 0;
     padding: 5px;
-    font-size: .8em;
+    font-size: 0.8em;
     border-radius: 3px;
     cursor: pointer;
   }
   .schools-view .sidebar .filter-container .selectedTag i {
-    margin: .1em .2em 0 .2em;
+    margin: 0.1em 0.2em 0 0.2em;
   }
   .schools-view .sidebar .filter-container .tag {
     display: inline-block;
@@ -619,7 +508,7 @@ div[role="button"] {
     color: #000021;
     margin: 5px 5px 5px 0;
     padding: 5px;
-    font-size: .8em;
+    font-size: 0.8em;
     border-radius: 3px;
     cursor: pointer;
   }
@@ -632,12 +521,12 @@ div[role="button"] {
   .schools-view .sidebar .filter-container .button-container .selection-button {
     width: 140px;
     height: 40px;
-    font-size: .6em;
+    font-size: 0.6em;
     font-weight: bold;
     background-color: none;
     color: #000021;
-    font-family: 'Nunito Sans', sans-serif;
-    letter-spacing: .1em;
+    font-family: "Nunito Sans", sans-serif;
+    letter-spacing: 0.1em;
     border: 2px solid #000021;
     border-radius: 5px;
     margin: 5px 5px 5px 0;
@@ -648,7 +537,6 @@ div[role="button"] {
     background-color: #00AEEF;
   }
 }
-
 @media (min-width: 992px) {
   .schools-view {
     display: table;
@@ -679,16 +567,9 @@ div[role="button"] {
   }
   .schools-view .sidebar .fixed-container .logo-container {
     margin: 0 10% 0 10%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-direction: row;
+    justify-content: center;
   }
   .schools-view .sidebar .fixed-container .logo-container .logo {
     width: 70%;
@@ -700,7 +581,7 @@ div[role="button"] {
   .schools-view .sidebar .fixed-container .filter-container p {
     color: #ffffff;
     font-weight: bold;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
   }
   .schools-view .sidebar .fixed-container .filter-container textarea:focus, .schools-view .sidebar .fixed-container .filter-container input:focus {
     outline: none;
@@ -713,7 +594,7 @@ div[role="button"] {
     height: 1.5em;
     padding: 0;
     border-radius: 8px;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
     overflow: hidden;
   }
   .schools-view .sidebar .fixed-container .filter-container .tag-search input {
@@ -727,7 +608,7 @@ div[role="button"] {
     border-radius: 8px;
     color: #ffffff;
     background-color: #000021;
-    font-size: .8em;
+    font-size: 0.8em;
     z-index: 1;
     padding-left: 30px;
   }
@@ -735,7 +616,7 @@ div[role="button"] {
     z-index: 3;
     position: absolute;
     margin: 7px 0 7px 9px;
-    font-size: .8em;
+    font-size: 0.8em;
   }
   .schools-view .sidebar .fixed-container .filter-container .tag-search:focus-within {
     border: 2px solid #00AEEF;
@@ -781,12 +662,12 @@ div[role="button"] {
     color: #000021;
     margin: 5px 5px 5px 0;
     padding: 5px;
-    font-size: .8em;
+    font-size: 0.8em;
     border-radius: 3px;
     cursor: pointer;
   }
   .schools-view .sidebar .fixed-container .filter-container .selectedTag i {
-    margin: .1em .2em 0 .2em;
+    margin: 0.1em 0.2em 0 0.2em;
   }
   .schools-view .sidebar .fixed-container .filter-container .selectedTag:hover {
     color: #ffffff;
@@ -800,7 +681,7 @@ div[role="button"] {
     color: #000021;
     margin: 5px 5px 5px 0;
     padding: 5px;
-    font-size: .8em;
+    font-size: 0.8em;
     border-radius: 3px;
     cursor: pointer;
   }
@@ -813,11 +694,11 @@ div[role="button"] {
   .schools-view .sidebar .fixed-container .filter-container .button-container .selection-button {
     width: 140px;
     height: 40px;
-    font-size: .6em;
+    font-size: 0.6em;
     background-color: #000021;
     color: #ffffff;
-    font-family: 'Nunito Sans', sans-serif;
-    letter-spacing: .1em;
+    font-family: "Nunito Sans", sans-serif;
+    letter-spacing: 0.1em;
     border: 2px solid #ffffff;
     border-radius: 5px;
     margin: 5px 5px 5px 0;
@@ -847,104 +728,70 @@ div[role="button"] {
   background-color: #ffffff;
   border-radius: 1em;
   padding: 1em 0 1em 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   min-height: 100px;
   overflow: hidden;
-  font-size: .5em;
+  font-size: 0.5em;
 }
-
 .list div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .list div .infos {
   display: none;
 }
-
 .list div .school-info {
   margin: 1em 1em 1em 20%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .list div h1 {
   font-weight: normal;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   margin: 0;
 }
-
 .list div h3 {
   font-weight: bold;
   text-transform: uppercase;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   color: #2D388A;
   margin: 0;
 }
-
 .list div .type-icon {
   margin-left: 8%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .list div .type-icon i {
   font-size: 4em;
 }
-
 .list .favourite {
   position: absolute;
   top: 0;
   right: 0;
   font-size: 2em;
 }
-
 .list .favourite i {
-  margin: .5em .5em 0 0;
+  margin: 0.5em 0.5em 0 0;
   cursor: pointer;
 }
-
 @media (min-width: 992px) {
   .list {
-    font-size: .8em;
+    font-size: 0.8em;
     min-height: 180px;
     width: 90%;
     margin: 0 5% 2em 5%;
     cursor: pointer;
   }
   .list:hover {
-    -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
-    -webkit-transform: translate(-5px, -5px);
-            transform: translate(-5px, -5px);
+    transform: translate(-5px, -5px);
     background-color: #fafafa;
     -webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
     box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
   }
   .list .school-info {
@@ -958,64 +805,50 @@ div[role="button"] {
 .detail-view {
   width: 100vw;
   min-height: 100vh;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   background-color: white;
 }
-
 .detail-view h1 {
   font-weight: normal;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 30px;
   margin: 0;
 }
-
 @media (min-width: 992px) {
   .detail-view h1 {
     font-size: 40px;
   }
 }
-
 .detail-view h3 {
   font-weight: bold;
   text-transform: uppercase;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   color: #2D388A;
   font-size: 20px;
   margin: 0;
 }
-
 @media (min-width: 992px) {
   .detail-view h3 {
     font-size: 25px;
   }
 }
-
 .detail-view .thumbnail-container {
   height: 30vh;
   width: 100%;
   background-color: #000021;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 @media (min-width: 992px) {
   .detail-view .thumbnail-container {
     height: 40vh;
   }
 }
-
 .detail-view .thumbnail-container .icon {
   color: white;
   font-size: 20vh;
 }
-
 .detail-view .thumbnail-container .roundbtn {
   position: absolute;
   width: 40px;
@@ -1026,92 +859,49 @@ div[role="button"] {
   top: 2%;
   color: #000021;
 }
-
 @media (min-width: 992px) {
   .detail-view .thumbnail-container .roundbtn {
     width: 50px;
     height: 50px;
   }
 }
-
 .detail-view .thumbnail-container .roundbtn .fas {
   font-size: 1.5em;
   color: #000021;
 }
-
 .detail-view .thumbnail-container .roundbtn:focus {
   outline: none;
 }
-
 .detail-view .detail-info {
   margin: 2% 5% 0 5%;
 }
-
 .detail-view .detail-info .title {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 @media (min-width: 992px) {
   .detail-view .detail-info .title {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
-
 .detail-view .detail-info .title .left {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .detail-view .detail-info .title .right .buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
 .detail-view .detail-info .infos .attributes {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .detail-view .detail-info .infos .attributes .attribute {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  align-items: center;
 }
-
 .detail-view .detail-info .infos .attributes .attribute .fas {
   color: #000021;
   margin-right: 0.5em;
@@ -1119,41 +909,33 @@ div[role="button"] {
   width: 1.1em;
   text-align: center;
 }
-
 @media (min-width: 992px) {
   .detail-view .detail-info .infos .attributes .attribute .fas {
     font-size: 1.3em;
     width: 1.3em;
   }
 }
-
 .detail-view .detail-info .infos .attributes .attribute .attributeText {
   font-size: 1em;
-  -webkit-margin-after: 0.5em;
-          margin-block-end: 0.5em;
-  -webkit-margin-before: 0.5em;
-          margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-block-start: 0.5em;
 }
-
 @media (min-width: 992px) {
   .detail-view .detail-info .infos .attributes .attribute .attributeText {
     font-size: 1.2em;
-    -webkit-margin-after: 1em;
-            margin-block-end: 1em;
-    -webkit-margin-before: 1em;
-            margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
   }
 }
-
 .detail-view #map {
   width: 90vw;
   height: 90vw;
   margin: 2% 5% 2% 5%;
   border-radius: 8%;
   -webkit-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
   box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
 }
-
 @media (min-width: 992px) {
   .detail-view #map {
     position: absolute;
@@ -1164,4 +946,5 @@ div[role="button"] {
     height: 40vh;
   }
 }
+
 /*# sourceMappingURL=app.css.map */

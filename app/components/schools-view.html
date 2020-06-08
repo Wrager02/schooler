@@ -132,7 +132,8 @@
 
 
         <div class="school-list" ng-model="$ctrl.filterOn" ng-class="{true: '', false: 'hideFilter'}[$ctrl.filterOn == false]">
-            
+
+            <h3 class="list-empty" ng-hide="$ctrl.list.length">Keine Ergebnisse :(</h3>
             <school ng-repeat="school in $ctrl.list" school="school" fav="$ctrl.applyFilters()" view="$ctrl.listView" class="school"></school>
 
         </div>
