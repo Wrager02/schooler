@@ -1329,6 +1329,11 @@ div[role="button"]{
         display: flex;
         flex-direction: column;
 
+        a {
+          color: $mid-blue;
+          text-decoration: none;
+        }
+
         .attribute {
 
           display: flex;

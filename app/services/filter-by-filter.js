@@ -40,29 +40,31 @@ app.service("FilterByFilter", function ($log, $timeout, LoadJson) {
                     }
                 }
 
+                //Das || eventuell durch && ersetzen?
+
                 if(abschluss[0] && abschluss[1] && abschluss[2] || !abschluss[0] && !abschluss[1] && !abschluss[2]) {
                 } else if(abschluss[0] && abschluss[1]) {
-                    if(e['graduation'].toUpperCase() !== 'MATURA' || e['graduation'].toUpperCase() !== 'HAUPTSCHULE') {
+                    if(!e['graduation'].toUpperCase().includes('MATURA') || !e['graduation'].toUpperCase().includes('KEIN ABSCHLUSS')) {
                         return false;
                     }
                 } else if(abschluss[1] && abschluss[2]) {
-                    if(e['graduation'].toUpperCase() !== 'HAUPTSCHULE' || e['graduation'].toUpperCase() !== 'INGENIEUR') {
+                    if(!e['graduation'].toUpperCase().includes('KEIN ABSCHLUSS') || !e['graduation'].toUpperCase().includes('DIPLOM')) {
                         return false;
                     }
                 } else if(abschluss[0] && abschluss[2]) {
-                    if(e['graduation'].toUpperCase() !== 'MATURA' || e['graduation'].toUpperCase() !== 'INGENIEUR') {
+                    if(!e['graduation'].toUpperCase().includes('MATURA') || !e['graduation'].toUpperCase().includes('DIPLOM')) {
                         return false;
                     }
                 } else if(abschluss[0]) {
-                    if(e['graduation'].toUpperCase() !== 'MATURA') {
+                    if(!e['graduation'].toUpperCase().includes('MATURA')) {
                         return false;
                     }
                 } else if(abschluss[1]) {
-                    if(e['graduation'].toUpperCase() !== 'HAUPTSCHULE') {
+                    if(!e['graduation'].toUpperCase().includes('KEIN ABSCHLUSS')) {
                         return false;
                     }
                 } else if(abschluss[2]) {
-                    if(e['graduation'].toUpperCase() !== 'INGENIEUR') {
+                    if(!e['graduation'].toUpperCase().includes('DIPLOM')) {
                         return false;
                     }
                 }
