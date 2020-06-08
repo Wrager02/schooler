@@ -55,12 +55,12 @@
 
                 <div class="attribute">
                     <i class="fas fa-info"><md-tooltip>Website</md-tooltip></i>
-                    <p class="attributeText">{{$ctrl.school.website}}</p>
+                    <a target="_blank" href="{{$ctrl.school.website}}" class="attributeText">{{$ctrl.school.website}}</a>
                 </div>
 
                 <div class="attribute">
                     <i class="fas fa-at"><md-tooltip>Kontakt</md-tooltip></i>
-                    <p class="attributeText">{{$ctrl.school.email}}</p>
+                    <a href="mailto:{{$ctrl.school.email}}" class="attributeText">{{$ctrl.school.email}}</a>
                 </div>
 
                 <div class="attribute">
