@@ -1036,7 +1036,7 @@ div[role="button"] {
 }
 
 .list div .school-info {
-  margin: 1em 1em 1em 20%;
+  margin: 1em 1em 1em 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1053,6 +1053,10 @@ div[role="button"] {
   font-weight: normal;
   font-family: 'Nunito Sans', sans-serif;
   margin: 0;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .list div h3 {
@@ -1102,6 +1106,9 @@ div[role="button"] {
     margin: 0 0 2em 0;
     cursor: pointer;
   }
+  .list h1 {
+    width: 400px !important;
+  }
   .list:hover {
     -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
@@ -1116,6 +1123,12 @@ div[role="button"] {
   }
   .list .favourite {
     font-size: 1.8em;
+  }
+}
+
+@media (min-width: 1600px) {
+  .list h1 {
+    width: 600px !important;
   }
 }
 
