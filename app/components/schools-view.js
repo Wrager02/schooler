@@ -68,6 +68,14 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     };
 
 
+    // Burger //
+
+    $('.burger').click(function(){
+        $(this).toggleClass('active');
+        return false;
+      });
+
+
 
     // Mobile Filter //
 
