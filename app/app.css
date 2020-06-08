@@ -605,6 +605,11 @@ div[role=button] {
   color: white;
   font-size: 20vh;
 }
+@media (min-width: 992px) {
+  .detail-view .thumbnail-container .icon {
+    font-size: 36vh;
+  }
+}
 .detail-view .thumbnail-container .roundbtn {
   position: absolute;
   width: 40px;
@@ -650,6 +655,7 @@ div[role=button] {
   justify-content: space-between;
 }
 .detail-view .detail-info .infos .attributes {
+  margin-top: 1em;
   display: flex;
   flex-direction: column;
 }
@@ -679,8 +685,6 @@ div[role=button] {
 @media (min-width: 992px) {
   .detail-view .detail-info .infos .attributes .attribute .attributeText {
     font-size: 1.2em;
-    margin-block-end: 1em;
-    margin-block-start: 1em;
   }
 }
 .detail-view #map {

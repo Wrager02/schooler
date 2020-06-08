@@ -755,6 +755,10 @@ div[role="button"]{
     .icon {
       color: white;
       font-size: 20vh;
+
+      @media(min-width: 992px) {
+        font-size: 36vh;
+      }
     }
 
     .roundbtn {
@@ -815,10 +819,12 @@ div[role="button"]{
 
     .infos {
       .attributes {
+        margin-top: 1em;
         display: flex;
         flex-direction: column;
 
         .attribute {
+
           display: flex;
           flex-direction: row;
           align-items: center;
@@ -843,8 +849,6 @@ div[role="button"]{
 
             @media(min-width: 992px) {
               font-size: 1.2em;
-              margin-block-end: 1em;
-              margin-block-start: 1em;
             }
           }
         }
