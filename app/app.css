@@ -1035,6 +1035,14 @@ div[role=button] {
   justify-content: space-between;
   align-content: center;
 }
+.detail-view .detail-info .title .left .specialisationContainer .favourite {
+  font-size: 20px;
+}
+@media (min-width: 992px) {
+  .detail-view .detail-info .title .left .specialisationContainer .favourite {
+    font-size: 25px;
+  }
+}
 .detail-view .detail-info .title .right .buttons {
   display: flex;
   flex-direction: row;
