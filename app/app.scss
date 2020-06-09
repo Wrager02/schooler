@@ -1222,6 +1222,7 @@ div[role="button"]{
   font-family: 'Nunito Sans', sans-serif;
   background-color: white;
 
+  padding-bottom: 2%;
 
 
   h1 {
@@ -1252,7 +1253,6 @@ div[role="button"]{
   .thumbnail-container {
     height: 30vh;
     width: 100%;
-    background-color: $dark-blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1278,16 +1278,13 @@ div[role="button"]{
       border: none;
       left: 5%;
       top: 2%;
+      font-size: 1.5em;
       color: $dark-blue;
 
       @media(min-width: 992px) {
-        width: 50px;
-        height: 50px;
-      }
-
-      .fas {
-        font-size: 1.5em;
-        color: $dark-blue;
+        width: 75px;
+        height: 75px;
+        font-size: 2em;
       }
 
       &:focus {
@@ -1312,6 +1309,17 @@ div[role="button"]{
 
       .left {
         flex-direction: column;
+
+        .specialisationContainer {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-content: center;
+
+          .favourite {
+            
+          }
+        }
       }
 
       .right {
@@ -1319,6 +1327,11 @@ div[role="button"]{
           display: flex;
           flex-direction: row;
           justify-content: space-between;
+          margin-top: 1em;
+
+          @media(min-width: 992px) {
+            margin-top: 0;
+          }
         }
       }
     }
@@ -1370,7 +1383,7 @@ div[role="button"]{
   #map {
     width: 90vw;
     height: 90vw;
-    margin: 2% 5% 2% 5%;
+    margin: 2% 5% 0 5%;
 
     border-radius: 8%;
     -webkit-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);

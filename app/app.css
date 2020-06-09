@@ -890,13 +890,8 @@ div[role=button] {
 .list div .type-icon {
   margin-left: 8%;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   max-width: 35px;
   background-color: none !important;
 }
@@ -950,6 +945,7 @@ div[role=button] {
   min-height: 100vh;
   font-family: "Nunito Sans", sans-serif;
   background-color: white;
+  padding-bottom: 2%;
 }
 .detail-view h1 {
   font-weight: normal;
@@ -978,7 +974,6 @@ div[role=button] {
 .detail-view .thumbnail-container {
   height: 30vh;
   width: 100%;
-  background-color: #000021;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -992,7 +987,6 @@ div[role=button] {
   color: white;
   font-size: 20vh;
 }
-
 @media (min-width: 992px) {
   .detail-view .thumbnail-container .icon {
     font-size: 36vh;
@@ -1006,17 +1000,15 @@ div[role=button] {
   border: none;
   left: 5%;
   top: 2%;
+  font-size: 1.5em;
   color: #000021;
 }
 @media (min-width: 992px) {
   .detail-view .thumbnail-container .roundbtn {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
+    font-size: 2em;
   }
-}
-.detail-view .thumbnail-container .roundbtn .fas {
-  font-size: 1.5em;
-  color: #000021;
 }
 .detail-view .thumbnail-container .roundbtn:focus {
   outline: none;
@@ -1037,10 +1029,22 @@ div[role=button] {
 .detail-view .detail-info .title .left {
   flex-direction: column;
 }
+.detail-view .detail-info .title .left .specialisationContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
 .detail-view .detail-info .title .right .buttons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 1em;
+}
+@media (min-width: 992px) {
+  .detail-view .detail-info .title .right .buttons {
+    margin-top: 0;
+  }
 }
 .detail-view .detail-info .infos .attributes {
   margin-top: 1em;
@@ -1082,9 +1086,10 @@ div[role=button] {
 .detail-view #map {
   width: 90vw;
   height: 90vw;
-  margin: 2% 5% 2% 5%;
+  margin: 2% 5% 0 5%;
   border-radius: 8%;
   -webkit-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
   box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
 }
 @media (min-width: 992px) {
@@ -1097,4 +1102,5 @@ div[role=button] {
     height: 40vh;
   }
 }
+
 /*# sourceMappingURL=app.css.map */
