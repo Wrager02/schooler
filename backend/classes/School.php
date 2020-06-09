@@ -121,7 +121,7 @@ class School implements \JsonSerializable
         $this->street = $street;
         $this->housenumber = $housenumber;
         $this->addressextra = $addressaddition;
-        $this->website = $website;
+        $this->website = "www." . $website;
         $this->email = $email;
         $this->private = $privat;
         $this->schoolform = $schoolform;
