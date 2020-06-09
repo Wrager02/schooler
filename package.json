@@ -17,6 +17,8 @@
     "e2e-tests": "testcafe --speed 1.0 chromium e2e-tests/"
   },
   "dependencies": {
-    "fuse.js": "^5.2.3"
+    "fuse.js": "^5.2.3",
+    "surge": "^0.21.3",
+    "workbox-cli": "^5.1.3"
   }
 }

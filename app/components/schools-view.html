@@ -1,84 +1,95 @@
-<div class="schools-view">
+<div class="schools-view" ng-cloak>
 
     <div class="navbar">
         <a ui-sref="landing-page" class="logo">
-            <img src="./resources/images/icon_font.svg">
+            <img src="./resources/images/icon_font.svg" alt="schooler logo">
         </a>
-        <div class="burger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
+        <a class="burger" href="#"><span></span></a>
     </div>
 
-    <div class="sidebar">
+    <div class="sidebar" ng-model="$ctrl.filterOn" ng-class="{true: '', false: 'hideFilter'}[$ctrl.filterOn == true]">
         <div class="fixed-container">
             <div class="logo-container">
 
-                <img src="" class="logo">
+                <img ui-sref="landing-page" src="./resources/images/icon_font.svg" class="logo" alt="schooler logo">
     
             </div>
     
             <div class="filter-container">
+
+                <div class="mobile-filter">
+                    <p>Filter</p>
+                    <i class="fas fa-times" ng-click="$ctrl.toggleMobileFilter()"></i>
+                </div>
     
                 <div>
     
-                    <p class="filter-title">Schwerpunkte</p>
+                    <p class="filter-title">Schwerpunkte <i class="fas fa-info-circle"><md-tooltip>Hier können Sie auswählen, auf welche Fachrichtung(en) die ausgewählten Schulen spezialisiert sein sollen.</md-tooltip></i> </p>
 
+                    <div class="tag-search">
+                        <i class="fas fa-search"></i>
+                        <input type="text" ng-model="$ctrl.tagInput" placeholder="Suche"> 
+                    </div>
                     
-                    <input type="text" class="tag-search" ng-model="$ctrl.tagInput" placeholder="Suche">
+
                     
                     <div class="tag-container" ng-controller="SchoolsViewController">
-                        <div class="tag noselect" ng-bind="tag" ng-show="$ctrl.showTag(tag)" ng-repeat="tag in $ctrl.tags" ng-click="$ctrl.selectTag($index)">
+                        <div class="tag noselect" ng-bind="tag" ng-show="$ctrl.showTag(tag)" ng-repeat="tag in $ctrl.tags" ng-click="$ctrl.selectTag($index); $ctrl.applyFilters()">
                         </div>
                     </div>
 
-                    <p class="filter-title" ng-show="$ctrl.tagSelected" ng-model="$ctrl.tagSelected">Ausgewählt</p>
+                    <p ng-show="$ctrl.tagSelected" ng-model="$ctrl.tagSelected" id="p-selected">Ausgewählt</p>
                     
                     <div class="selected-tag-container">
-                        <div class="selectedTag noselect" ng-bind="tag" ng-repeat="tag in $ctrl.selectedTags" ng-click="$ctrl.deselectTag($index)">
+                        <div class="selectedTag noselect"  ng-repeat="tag in $ctrl.selectedTags" ng-click="$ctrl.deselectTag($index); $ctrl.applyFilters()">
+                                {{tag}}  <i class="fas fa-times"></i>
                         </div>
                     </div>
     
                 </div>
+
     
                 <div>
     
-                    <p class="filter-title">Bundesland</p>
-
-
-                    <div class="button-container">
-                        <button class="selection-button" ng-click="$ctrl.change(0)" ng-class="{true: 'selected', false: ''}[$ctrl.control[0] == true]">Wien</button>
-                        <button class="selection-button" ng-click="$ctrl.change(1)" ng-class="{true: 'selected', false: ''}[$ctrl.control[1] == true]">Niederösterreich</button>
-                    </div>
-                    
-                    
-    
-                </div>
-    
-                <div>
-    
-                    <p class="filter-title">Schultyp</p>
+                    <p class="filter-title">Schultyp <i class="fas fa-info-circle"><md-tooltip>Hier können Sie auswählen, dass auschließlich private, öffentliche oder beide Schultypen angezeigt werden.</md-tooltip></i> </p>
 
                     <div class="button-container">
-                        <button class="selection-button" ng-click="$ctrl.change(2)" ng-class="{true: 'selected', false: ''}[$ctrl.control[2] == true]">Öffentlich</button>
-                        <button class="selection-button" ng-click="$ctrl.change(3)" ng-class="{true: 'selected', false: ''}[$ctrl.control[3] == true]">Privat</button>
+                        <button class="selection-button" ng-click="$ctrl.change(2); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[2] == true]">Öffentlich</button>
+                        <button class="selection-button" ng-click="$ctrl.change(3); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[3] == true]">Privat</button>
                     </div>
     
                 </div>
     
                 <div>
     
-                    <p class="filter-title">Abschluss</p>
+                    <p class="filter-title">Abschluss <i class="fas fa-info-circle"><md-tooltip>Hier können Sie die bevorzugten Abschlüsse auswählen.</md-tooltip></i> </p>
 
                     <div class="button-container">
-                        <button class="selection-button" ng-click="$ctrl.change(4)" ng-class="{true: 'selected', false: ''}[$ctrl.control[4] == true]">Matura</button>
-                        <button class="selection-button" ng-click="$ctrl.change(5)" ng-class="{true: 'selected', false: ''}[$ctrl.control[5] == true]">Hauptschule</button>
-                        <button class="selection-button" ng-click="$ctrl.change(6)" ng-class="{true: 'selected', false: ''}[$ctrl.control[6] == true]">Ingenieur</button>
+                        <button class="selection-button" ng-click="$ctrl.change(4); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[4] == true]">Matura</button>
+                        <button class="selection-button" ng-click="$ctrl.change(5); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[5] == true]">Hauptschule</button>
+                        <button class="selection-button" ng-click="$ctrl.change(6); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[6] == true]">Diplom</button>
                     </div>
     
                 </div>
-    
+
+
+                <div>
+
+                    <p class="filter-title">Favoriten <i class="fas fa-info-circle"><md-tooltip>Hier können Sie auswählen, dass nur die markierten Favoriten angezeigt werden.</md-tooltip></i> </p>
+
+
+                    <div class="button-container">
+                        <button class="selection-button" ng-click="$ctrl.change(0); $ctrl.applyFilters()" ng-class="{true: 'selected', false: ''}[$ctrl.control[0] == true]">Anzeigen</button>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+            <div class="filter-container">
+                <p ui-sref="imprint">Impressum</p>
+                <p ui-sref="contact">Kontakt</p>
             </div>
         </div>
 
@@ -90,8 +101,9 @@
 
         <div class="top-bar">
 
-            <div>
+            <div class="search">
 
+                <i class="fas fa-search"></i>
                 <input type="text" placeholder="Schule suchen" ng-model="$ctrl.input" ng-model-options="{debounce: 300}" ng-change="$ctrl.search()">
 
             </div>
@@ -100,12 +112,10 @@
 
                 <select class="filter-select" ng-model="$ctrl.select" ng-change="$ctrl.sortList()">
 
-                    <option disabled selected value> -- Sortierung -- </option>
+                    <option disabled selected value>Sortierung</option>
                     <option selected value="name">Alphabetisch</option>
+                    <option value="schoolform">Schulform</option>
                     <option value="city">Ort</option>
-                    <option value="typ">Typ</option>
-                    <!--    TODO: Array zu Attribut abändern    -->
-                    <option value="4">Schwerpunkt</option>
 
                 </select>
 
@@ -113,20 +123,44 @@
 
             <div>
 
-                <button class="toggle-list" ng-click="$ctrl.applyFilter()">
-                    Test
-                </button>
+                <i class="fas fa-th-list" ng-show="$ctrl.listView" ng-click="$ctrl.changeView()"></i>
+                <i class="fas fa-th-large" ng-show="!$ctrl.listView" ng-click="$ctrl.changeView()"></i>
 
             </div>
 
         </div>
 
-        <div class="school-list">
-            {{$ctrl.list.length}}
-            <school ng-repeat="school in $ctrl.list" school="school" class="school"></school>
+
+        <div class="school-list" ng-model="$ctrl.filterOn" ng-class="{true: '', false: 'hideFilter'}[$ctrl.filterOn == false]">
+
+            <h3 class="list-empty" ng-hide="$ctrl.list.length">Keine Ergebnisse :(</h3>
+            <school ng-repeat="school in $ctrl.list" school="school" fav="$ctrl.applyFilters()" view="$ctrl.listView" class="school"></school>
+
+        </div>
+
+        <div id="scroll-top" ng-click="$ctrl.scrollTo()">
+
+            <i class="fas fa-arrow-up"></i>
+
+        </div>
+
+        <div id="mobile-filter" ng-click="$ctrl.toggleMobileFilter()">
+
+            <i class="fas fa-sliders-h"></i>
+
+        </div>
+
+        <div id="favorite-alert" class="alert">
+
+            <p>Zu Favoriten hinzugefügt</p>
+
+        </div>
+
+        <div id="disable-favorite-alert" class="alert">
+
+            <p>Von Favoriten entfernt</p>
 
         </div>
 
     </div>
-
 </div>

@@ -1,43 +1,55 @@
 <div class="landing-page">
 
     <div class="navbar">
-
-        <img src="">
-
+        <a ui-sref="landing-page" class="logo">
+            <img src="./resources/images/icon_font_black.svg" alt="schooler logo">
+        </a>
+        <a class="burger" href="#"><span></span></a>
     </div>
 
     <div class="content">
 
-        <div class="first">
+        <div class="landing-first">
 
-            <div class="left">
+            <div class="landing-info" layout="column">
 
-                <img src="">
+                <h1>Finde deine nächste Schule</h1>
 
-            </div>
+                <p>Damit du nicht im Schulchaos
+                    versinkst, suchen wir die beste
+                    Schule für dich.</p>
 
-            <div class="right">
+                <input type="button" ui-sref="schools-view" value="LOS"></input>
 
-                <div layout="column">
-
-                    <h1>Finde deine nächste Schule</h1>
-
-                    <form layout="row">
-
-                        <input type="text" placeholder="Dein Standort"/>
-                        <button ui-sref="schools-view">LOS</button>
-
-                    </form>
-
-                </div>
 
             </div>
+
+
+            <img id="professor_without_board" src="./resources/images/professor_without_board.svg"
+                 alt="professor without board illustraion">
+            <img id="blue_corner" src="./resources/images/blue_corner.svg" alt="blue corner illustration">
 
         </div>
 
-        <div class="derRest">
+        <div class="landing-second">
 
-            ...
+            <div>
+
+                <h2>Was ist schooler?</h2>
+
+                <p>Schooler ist eine Web-Applikation, welche den User bei der Suche nach der idealen Schule unterstützt.
+                    Schoolers Zielgruppe sind vor allem Eltern, aber auch Schüler aus Unterstufen. Auf der Website kann
+                    der User mittels verschiedener Filter eine Schule finden, welche möglichst genau zu den
+                    Suchkriterien passt. Durch Schooler wird der Prozess der Suche deutlich verkürzt und vereinfacht.
+                    Besonders intuitives Design steht hierbei im Vordergrund. Die kinderleichte Navigation ermöglicht
+                    es, ohne großen Aufwand große Ergebnisse zu erzielen. Nach der Eingabe werden dem User multiple
+                    Einträge mit Schulen und deren Kurzinformationen ausgegeben, um ein schnelles Vergleichen zu
+                    ermöglichen. <br><br>
+                    Im Gegensatz zu den derzeit vorhandenen Konkurrenten, trumpft Schooler mit einem einzigartigen und
+                    ansprechenden Design. Außerdem liefert Schooler zuverlässige, aktuelle und ausgiebige Informationen
+                    zu jeder Schule in Wien.</p>
+
+            </div>
 
         </div>
 

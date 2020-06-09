@@ -5,6 +5,11 @@ namespace Schooler\Classes;
 class School implements \JsonSerializable
 {
     /**
+     * @var int
+     */
+    private $id;
+
+    /**
      * @var string
      * Name der Schule
      */
@@ -41,6 +46,16 @@ class School implements \JsonSerializable
     private $addressextra;
 
     /**
+     * @var string
+     */
+    private $website;
+
+    /**
+     * @var string
+     */
+    private $email;
+
+    /**
      * @var boolean
      * Handelt es sich um eine private oder öffentliche Schule?
      * true wenn privat, false wenn nicht
@@ -71,34 +86,49 @@ class School implements \JsonSerializable
     private $specialisations;
 
     /**
+     * @var bool
+     */
+    private $favorite;
+
+    /**
      * School constructor.
+     * @param int $id
      * @param string $name
      * @param string $zip
      * @param string $city
      * @param string $street
      * @param string $housenumber
      * @param string $addressaddition
+     * @param string $website
+     * @param string $email
      * @param bool $privat
      * @param string $schoolform
      * @param string $schoolformDescription
      * @param string $graduation
      * @param array $specialisations
+     * @param bool $favorite
      */
     public function __construct(
-        string $name, string $zip, string $city, string $street, string $housenumber, string $addressaddition,
-        bool $privat, string $schoolform, string $schoolformDescription, string $graduation, array $specialisations)
+        int $id, string $name, string $zip, string $city, string $street, string $housenumber, string $addressaddition,
+        string $website, string $email, bool $privat, string $schoolform, string $schoolformDescription,
+        string $graduation, array $specialisations, $favorite)
+
     {
-        $this->name = utf8_encode($name);
+        $this->id = $id;
+        $this->name = $name;
         $this->zip = $zip;
-        $this->city = utf8_encode($city);
-        $this->street = utf8_encode($street);
+        $this->city = $city;
+        $this->street = $street;
         $this->housenumber = $housenumber;
         $this->addressextra = $addressaddition;
+        $this->website = "www." . $website;
+        $this->email = $email;
         $this->private = $privat;
         $this->schoolform = $schoolform;
         $this->schoolformDescription = $schoolformDescription;
         $this->graduation = $graduation;
         $this->specialisations = $specialisations;
+        $this->favorite = $favorite;
     }
 
 
@@ -108,6 +138,16 @@ class School implements \JsonSerializable
             ", Schultyp: " . $this->schoolform . ", Spezialisierung: " .
             implode(", ", $this->specialisations) . "<br>";
     }
+
+    /**
+     * @return int
+     */
+    public function getId(): int
+    {
+        return $this->id;
+    }
+
+
 
     /**
      * @return string
@@ -197,24 +237,51 @@ class School implements \JsonSerializable
         return $this->graduation;
     }
 
+    /**
+     * @return string
+     */
+    public function getWebsite(): string
+    {
+        return $this->website;
+    }
+    /**
+     * @return bool
+     */
+    public function isFavorite()
+    {
+        return $this->favorite;
+    }
 
+
+
+    /**
+     * @return string
+     */
+    public function getEmail(): string
+    {
+        return $this->email;
+    }
 
 
 
     public function jsonSerialize()
     {
         return array(
+            'id' => $this->getId(),
             'name' => $this->getName(),
             'zip' => $this->getZip(),
             'city' => $this->getCity(),
             'street' => $this->getStreet(),
             'housenumber' => $this->getHousenumber(),
             'addressextra' => $this->getAddressextra(),
+            'website' => $this->getWebsite(),
+            'email' => $this->getEmail(),
             'private' => $this->isPrivate(),
             'schoolform' => $this->getSchoolform(),
             'schoolformDescription' => $this->getSchoolformDescription(),
             'graduation' => $this->getGraduation(),
-            'specialisations' => $this->getSpecialisations()
+            'specialisations' => $this->getSpecialisations(),
+            'favorite' => $this->isFavorite()
         );
     }
 }

@@ -1,10 +1,12 @@
 <div class="detail-view">
 
-    <div class="thumbnail-container">
+    <div class="thumbnail-container" ng-style="{'background-color': $ctrl.school.specialisations[0].hsl}">
 
-        <img src="">
+        <button class="roundbtn back" ui-sref="schools-view">
+            <i class="fas fa-angle-left"></i>
+        </button>
 
-        <button class="back" ui-sref="schools-view"></button>
+        <i ng-class="'icon fas fa-' + $ctrl.school.specialisations[0].graphic"></i>
 
     </div>
 
@@ -14,9 +16,15 @@
 
             <div class="left">
 
-                <p class="topic">Design</p>
-
-                <h1 class="title">HTL Rennweg</h1>
+                <!--                <p class="topic">{{$ctrl.school.specialisation}}</p>-->
+                <div class="specialisationContainer">
+                    <h3>{{$ctrl.school.specialisations[0].specialisation}}</h3>
+                    <div class="favourite" ng-click="$ctrl.toggleFavorite()">
+                        <i class="fas fa-heart" ng-show="$ctrl.school.favorite"></i>
+                        <i class="far fa-heart" ng-hide="$ctrl.school.favorite"></i>
+                    </div>
+                </div>
+                <h1 class="title">{{$ctrl.school.name}}</h1>
 
             </div>
 
@@ -24,8 +32,11 @@
 
                 <div class="buttons">
 
-                    <button class="addToFavorite">+</button>
-                    <button class="share">Lesgo</button>
+                    <!--button class="roundbtn plus">
+                        <i class="fas fa-plus"></i>
+                    </button-->
+
+                    <div class="addthis_inline_share_toolbox"></div>
 
                 </div>
 
@@ -37,10 +48,35 @@
         <div class="infos">
 
             <div class="attributes">
+                <div class="attribute">
+                    <i class="fas fa-school"><md-tooltip>Schulform</md-tooltip></i>
+                    <p class="attributeText">{{$ctrl.school.schoolform}}</p>
+                </div>
 
-                <p class="attribute"></p>
-                <p class="attribute"></p>
-                <p class="attribute"></p>
+                <div class="attribute">
+                    <i class="fas fa-map-marker-alt"><md-tooltip>Adresse</md-tooltip></i>
+                    <p class="attributeText">{{$ctrl.school.street}} {{$ctrl.school.housenumber}}, {{$ctrl.school.zip}} {{$ctrl.school.city}}</p>
+                </div>
+
+                <div class="attribute">
+                    <i class="fas fa-info"><md-tooltip>Website</md-tooltip></i>
+                    <a target="_blank" href="//{{$ctrl.school.website}}" class="attributeText">{{$ctrl.school.website}}</a>
+                </div>
+
+                <div class="attribute">
+                    <i class="fas fa-at"><md-tooltip>Kontakt</md-tooltip></i>
+                    <a href="mailto:{{$ctrl.school.email}}" class="attributeText">{{$ctrl.school.email}}</a>
+                </div>
+
+                <div class="attribute">
+                    <i class="fas fa-user-graduate"><md-tooltip>Abschluss</md-tooltip></i>
+                    <p class="attributeText">{{$ctrl.school.graduation}}</p>
+                </div>
+
+                <div class="attribute">
+                    <i class="fas fa-key"><md-tooltip>Privat oder Öffentlich</md-tooltip></i>
+                    <p class="attributeText">{{$ctrl.school.private ? "Privat" : "Öffentlich"}}</p>
+                </div>
 
             </div>
 
@@ -56,9 +92,17 @@
 
     </div>
 
-    <div class="map">
+    <div id="map"></div>
 
-        <iframe></iframe>
+    <div id="favorite-alert" class="alert">
+
+        <p>Zu Favoriten hinzugefügt</p>
+
+    </div>
+
+    <div id="disable-favorite-alert" class="alert">
+
+        <p>Von Favoriten entfernt</p>
 
     </div>
 

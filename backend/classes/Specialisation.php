@@ -25,16 +25,23 @@ class Specialisation implements \JsonSerializable
     private $graphic;
 
     /**
+     * @var string
+     */
+    private $hsl;
+
+    /**
      * Specialisation constructor.
      * @param string $specialisation
      * @param string $description
      * @param string $graphic
+     * @param string $hsl
      */
-    public function __construct(string $specialisation, $description, $graphic)
+    public function __construct(string $specialisation, $description, $graphic, $hsl)
     {
         $this->specialisation = $specialisation;
         $this->description = $description;
         $this->graphic = $graphic;
+        $this->hsl = $hsl;
     }
 
     public function __toString()
@@ -47,6 +54,7 @@ class Specialisation implements \JsonSerializable
         $array["specialisation"] = $this->specialisation;
         $array["description"] = $this->description;
         $array["graphic"] = $this->graphic;
+        $array["hsl"] = $this->hsl;
         return $array;
     }
 

@@ -1,25 +1,44 @@
-<div class="listed-school">
+<div class="listed-school hidden" ng-class="{true: 'list', false: 'card'}[$ctrl.view == true]">
 
-    <img src="" class="thumbnail">
+    <div ui-sref="detail-view({id: $ctrl.school.id})" >
 
-    <h1>{{$ctrl.school.name}}</h1>
+        <div class="type-icon" id="{{$ctrl.school.id}}">
+            <i id="spec-icon" class="fas" ng-class="$ctrl.getIcon()"></i>
+        </div>
 
-    <div class="infos">
 
-        <p class="topic"></p>
+        <div class="school-info">
+            <h3>{{$ctrl.school.specialisations[0].specialisation}}</h3>
+            <h1>{{$ctrl.school.name}}</h1>
+        </div>
 
-        <h1 class="title"></h1>
 
-        <div class="attributes">
 
-            <p class="attribute"></p>
-            <p class="attribute"></p>
-            <p class="attribute"></p>
+        <div class="infos">
+
+            <div class="attribute">
+                <i class="fas fa-school"><md-tooltip>Schulform</md-tooltip></i>
+                <p class="attributeText">{{$ctrl.school.schoolform}}</p>
+            </div>
+
+            <div class="attribute">
+                <i class="fas fa-user-graduate"><md-tooltip>Abschluss</md-tooltip></i>
+                <p class="attributeText">{{$ctrl.school.graduation}}</p>
+            </div>
+
+            <div class="attribute">
+                <i class="fas fa-key"><md-tooltip>Privat oder Öffentlich</md-tooltip></i>
+                <p class="attributeText">{{$ctrl.school.private ? "Privat" : "Öffentlich"}}</p>
+            </div>
 
         </div>
 
+
     </div>
 
-    <button class="addToFavorite">+</button>
+    <div class="favourite" ng-click="$ctrl.toggleFavorite()">
+        <i class="fas fa-heart" ng-show="$ctrl.school.favorite"></i>
+        <i class="far fa-heart" ng-hide="$ctrl.school.favorite"></i>
+    </div>
 
 </div>
