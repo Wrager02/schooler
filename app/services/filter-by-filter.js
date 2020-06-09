@@ -18,29 +18,29 @@ app.service("FilterByFilter", function ($log, $timeout, LoadJson) {
                 if (containsAny(n['specialisation'], selectedTags)) {
 
                     if (favoriten[0] && !e['favorite']) {
-                        result =  false;
+                        return false;
                     }
 
 
                     if (schultyp[0] && schultyp[1] || !schultyp[0] && !schultyp[1]) {
                     } else if (schultyp[0]) {
                         if (e['private']) {
-                            result =  false;
+                            return false;
                         }
                     } else if (schultyp[1]) {
                         if (!e['private']) {
-                            result =  false;
+                            return false;
                         }
                     }
 
                     if (schultyp[0] && schultyp[1] || !schultyp[0] && !schultyp[1]) {
                     } else if (schultyp[0]) {
                         if (e['private']) {
-                            result =  false;
+                            return false;
                         }
                     } else if (schultyp[1]) {
                         if (!e['private']) {
-                            result =  false;
+                            return false;
                         }
                     }
 
@@ -49,27 +49,27 @@ app.service("FilterByFilter", function ($log, $timeout, LoadJson) {
                     if(abschluss[0] && abschluss[1] && abschluss[2] || !abschluss[0] && !abschluss[1] && !abschluss[2]) {
                     } else if(abschluss[0] && abschluss[1]) {
                         if(!e['graduation'].toUpperCase().includes('MATURA') || !e['graduation'].toUpperCase().includes('KEIN ABSCHLUSS')) {
-                            result =  false;
+                            return false;
                         }
                     } else if(abschluss[1] && abschluss[2]) {
                         if(!e['graduation'].toUpperCase().includes('KEIN ABSCHLUSS') || !e['graduation'].toUpperCase().includes('DIPLOM')) {
-                            result =  false;
+                            return false;
                         }
                     } else if(abschluss[0] && abschluss[2]) {
                         if(!e['graduation'].toUpperCase().includes('MATURA') || !e['graduation'].toUpperCase().includes('DIPLOM')) {
-                            result =  false;
+                            return false;
                         }
                     } else if(abschluss[0]) {
                         if(!e['graduation'].toUpperCase().includes('MATURA')) {
-                            result =  false;
+                            return false;
                         }
                     } else if(abschluss[1]) {
                         if(!e['graduation'].toUpperCase().includes('KEIN ABSCHLUSS')) {
-                            result =  false;
+                            return false;
                         }
                     } else if(abschluss[2]) {
                         if(!e['graduation'].toUpperCase().includes('DIPLOM')) {
-                            result =  false;
+                            return false;
                         }
                     }
                     result =  true;
