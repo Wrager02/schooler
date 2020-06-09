@@ -947,6 +947,11 @@ div[role=button] {
   background-color: white;
   padding-bottom: 2%;
 }
+@media (min-width: 992px) {
+  .detail-view {
+    padding-bottom: 0;
+  }
+}
 .detail-view h1 {
   font-weight: normal;
   font-family: "Nunito Sans", sans-serif;
@@ -989,7 +994,7 @@ div[role=button] {
 }
 @media (min-width: 992px) {
   .detail-view .thumbnail-container .icon {
-    font-size: 36vh;
+    font-size: 25vh;
   }
 }
 .detail-view .thumbnail-container .roundbtn {
@@ -1089,6 +1094,8 @@ div[role=button] {
 @media (min-width: 992px) {
   .detail-view .detail-info .infos .attributes .attribute .attributeText {
     font-size: 1.2em;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
   }
 }
 .detail-view #map {
@@ -1109,6 +1116,29 @@ div[role=button] {
     width: 40vh;
     height: 40vh;
   }
+}
+.detail-view #favorite-alert {
+  background-color: #36ad1f;
+}
+.detail-view #disable-favorite-alert {
+  background-color: #ad1f1f;
+}
+.detail-view .alert {
+  display: none;
+  text-align: center;
+  width: 140px;
+  margin: auto;
+  font-family: "Nunito Sans", sans-serif;
+  position: fixed;
+  top: 90vh;
+  right: 8vw;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 1em;
+  -webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
 }
 
 /*# sourceMappingURL=app.css.map */

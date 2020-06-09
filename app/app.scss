@@ -1224,6 +1224,10 @@ div[role="button"]{
 
   padding-bottom: 2%;
 
+  @media(min-width: 992px) {
+    padding-bottom: 0;
+  }
+
 
   h1 {
     font-weight: normal;
@@ -1266,7 +1270,7 @@ div[role="button"]{
       font-size: 20vh;
 
       @media(min-width: 992px) {
-        font-size: 36vh;
+        font-size: 25vh;
       }
     }
 
@@ -1377,6 +1381,8 @@ div[role="button"]{
 
             @media(min-width: 992px) {
               font-size: 1.2em;
+              margin-block-end: 1em;
+              margin-block-start: 1em;
             }
           }
         }
@@ -1402,6 +1408,32 @@ div[role="button"]{
       width: 40vh;
       height: 40vh;
     }
+  }
+
+  #favorite-alert {
+    background-color: hsl(110,70%,40%);
+  }
+
+  #disable-favorite-alert {
+    background-color: hsl(0,70%,40%);
+  }
+
+  .alert {
+    display: none;
+    text-align: center;
+    width: 140px;
+    margin: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    position: fixed;
+    top: 90vh;
+    right: 8vw;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 1em;
+    -webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+    box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
   }
 }
 
