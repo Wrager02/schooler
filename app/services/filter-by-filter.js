@@ -11,78 +11,93 @@ app.service("FilterByFilter", function ($log, $timeout, LoadJson) {
 
         return list.filter(function (e) {
 
+            let result = false;
 
-            if (containsAny(e['specialisations'], selectedTags)) {
+            e['specialisations'].forEach(n => {
 
-                if (favoriten[0] && !e['favorite']) {
-                    return false;
+                if (containsAny(n['specialisation'], selectedTags)) {
+
+                    if (favoriten[0] && !e['favorite']) {
+                        result =  false;
+                    }
+
+
+                    if (schultyp[0] && schultyp[1] || !schultyp[0] && !schultyp[1]) {
+                    } else if (schultyp[0]) {
+                        if (e['private']) {
+                            result =  false;
+                        }
+                    } else if (schultyp[1]) {
+                        if (!e['private']) {
+                            result =  false;
+                        }
+                    }
+
+                    if (schultyp[0] && schultyp[1] || !schultyp[0] && !schultyp[1]) {
+                    } else if (schultyp[0]) {
+                        if (e['private']) {
+                            result =  false;
+                        }
+                    } else if (schultyp[1]) {
+                        if (!e['private']) {
+                            result =  false;
+                        }
+                    }
+
+                    //Das || eventuell durch && ersetzen?
+
+                    if(abschluss[0] && abschluss[1] && abschluss[2] || !abschluss[0] && !abschluss[1] && !abschluss[2]) {
+                    } else if(abschluss[0] && abschluss[1]) {
+                        if(!e['graduation'].toUpperCase().includes('MATURA') || !e['graduation'].toUpperCase().includes('KEIN ABSCHLUSS')) {
+                            result =  false;
+                        }
+                    } else if(abschluss[1] && abschluss[2]) {
+                        if(!e['graduation'].toUpperCase().includes('KEIN ABSCHLUSS') || !e['graduation'].toUpperCase().includes('DIPLOM')) {
+                            result =  false;
+                        }
+                    } else if(abschluss[0] && abschluss[2]) {
+                        if(!e['graduation'].toUpperCase().includes('MATURA') || !e['graduation'].toUpperCase().includes('DIPLOM')) {
+                            result =  false;
+                        }
+                    } else if(abschluss[0]) {
+                        if(!e['graduation'].toUpperCase().includes('MATURA')) {
+                            result =  false;
+                        }
+                    } else if(abschluss[1]) {
+                        if(!e['graduation'].toUpperCase().includes('KEIN ABSCHLUSS')) {
+                            result =  false;
+                        }
+                    } else if(abschluss[2]) {
+                        if(!e['graduation'].toUpperCase().includes('DIPLOM')) {
+                            result =  false;
+                        }
+                    }
+                    result =  true;
                 }
 
-                if (schultyp[0] && schultyp[1] || !schultyp[0] && !schultyp[1]) {
-                } else if (schultyp[0]) {
-                    if (e['private']) {
-                        return false;
-                    }
-                } else if (schultyp[1]) {
-                    if (!e['private']) {
-                        return false;
-                    }
-                }
+            });
 
-                if (schultyp[0] && schultyp[1] || !schultyp[0] && !schultyp[1]) {
-                } else if (schultyp[0]) {
-                    if (e['private']) {
-                        return false;
-                    }
-                } else if (schultyp[1]) {
-                    if (!e['private']) {
-                        return false;
-                    }
-                }
+            return result;
 
-                //Das || eventuell durch && ersetzen?
-
-                if(abschluss[0] && abschluss[1] && abschluss[2] || !abschluss[0] && !abschluss[1] && !abschluss[2]) {
-                } else if(abschluss[0] && abschluss[1]) {
-                    if(!e['graduation'].toUpperCase().includes('MATURA') || !e['graduation'].toUpperCase().includes('KEIN ABSCHLUSS')) {
-                        return false;
-                    }
-                } else if(abschluss[1] && abschluss[2]) {
-                    if(!e['graduation'].toUpperCase().includes('KEIN ABSCHLUSS') || !e['graduation'].toUpperCase().includes('DIPLOM')) {
-                        return false;
-                    }
-                } else if(abschluss[0] && abschluss[2]) {
-                    if(!e['graduation'].toUpperCase().includes('MATURA') || !e['graduation'].toUpperCase().includes('DIPLOM')) {
-                        return false;
-                    }
-                } else if(abschluss[0]) {
-                    if(!e['graduation'].toUpperCase().includes('MATURA')) {
-                        return false;
-                    }
-                } else if(abschluss[1]) {
-                    if(!e['graduation'].toUpperCase().includes('KEIN ABSCHLUSS')) {
-                        return false;
-                    }
-                } else if(abschluss[2]) {
-                    if(!e['graduation'].toUpperCase().includes('DIPLOM')) {
-                        return false;
-                    }
-                }
-                return true;
-            }
-            return false;
         });
 
     };
 
     function containsAny(source, target) {
-        if (target.length > 0) {
-            var result = source.filter(function (item) {
-                return target.indexOf(item) > -1
-            });
-            return (result.length > 0);
+        let result = true;
+        if(target.length) {
+            for (let i = 0; i < target.length; i++) {
+                console.log("source: ", source)
+                console.log("target: ", target[i]);
+                if(target[i] === source) {
+                    result = true;
+                    break;
+                }
+                result = false;
+            }
+            console.log("Nach for ", result)
         }
-        return true;
+        return result;
     }
 
 
