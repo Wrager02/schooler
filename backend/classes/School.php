@@ -115,18 +115,18 @@ class School implements \JsonSerializable
 
     {
         $this->id = $id;
-        $this->name = utf8_encode($name);
+        $this->name = $name;
         $this->zip = $zip;
-        $this->city = utf8_encode($city);
-        $this->street = utf8_encode($street);
-        $this->housenumber = utf8_encode($housenumber);
-        $this->addressextra = utf8_encode($addressaddition);
-        $this->website = utf8_encode($website);
-        $this->email = utf8_encode($email);
+        $this->city = $city;
+        $this->street = $street;
+        $this->housenumber = $housenumber;
+        $this->addressextra = $addressaddition;
+        $this->website = "www." . $website;
+        $this->email = $email;
         $this->private = $privat;
-        $this->schoolform = utf8_encode($schoolform);
+        $this->schoolform = $schoolform;
         $this->schoolformDescription = $schoolformDescription;
-        $this->graduation = utf8_encode($graduation);
+        $this->graduation = $graduation;
         $this->specialisations = $specialisations;
         $this->favorite = $favorite;
     }
