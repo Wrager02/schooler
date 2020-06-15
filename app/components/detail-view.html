@@ -1,12 +1,12 @@
 <div class="detail-view">
 
-    <div class="thumbnail-container">
+    <div class="thumbnail-container" ng-style="{'background-color': $ctrl.school.specialisations[0].hsl}">
 
         <button class="roundbtn back" ui-sref="schools-view">
             <i class="fas fa-angle-left"></i>
         </button>
 
-        <i class="fas fa-book icon"></i>
+        <i ng-class="'icon fas fa-' + $ctrl.school.specialisations[0].graphic"></i>
 
     </div>
 
@@ -17,8 +17,13 @@
             <div class="left">
 
                 <!--                <p class="topic">{{$ctrl.school.specialisation}}</p>-->
-
-                <h3>{{$ctrl.school.specialisations.size ? $ctrl.school.specialisations : "Design"}}</h3>
+                <div class="specialisationContainer">
+                    <h3>{{$ctrl.school.specialisations[0].specialisation}}</h3>
+                    <div class="favourite" ng-click="$ctrl.toggleFavorite()">
+                        <i class="fas fa-heart" ng-show="$ctrl.school.favorite"></i>
+                        <i class="far fa-heart" ng-hide="$ctrl.school.favorite"></i>
+                    </div>
+                </div>
                 <h1 class="title">{{$ctrl.school.name}}</h1>
 
             </div>
@@ -55,12 +60,12 @@
 
                 <div class="attribute">
                     <i class="fas fa-info"><md-tooltip>Website</md-tooltip></i>
-                    <p class="attributeText">{{$ctrl.school.website}}</p>
+                    <a target="_blank" href="//{{$ctrl.school.website}}" class="attributeText">{{$ctrl.school.website}}</a>
                 </div>
 
                 <div class="attribute">
                     <i class="fas fa-at"><md-tooltip>Kontakt</md-tooltip></i>
-                    <p class="attributeText">{{$ctrl.school.email}}</p>
+                    <a href="mailto:{{$ctrl.school.email}}" class="attributeText">{{$ctrl.school.email}}</a>
                 </div>
 
                 <div class="attribute">
@@ -88,5 +93,17 @@
     </div>
 
     <div id="map"></div>
+
+    <div id="favorite-alert" class="alert">
+
+        <p>Zu Favoriten hinzugefügt</p>
+
+    </div>
+
+    <div id="disable-favorite-alert" class="alert">
+
+        <p>Von Favoriten entfernt</p>
+
+    </div>
 
 </div>

@@ -70,18 +70,17 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     // Burger //
 
-    $('.burger').click(function(){
+    $('.burger').click(function () {
         $(this).toggleClass('active');
         return false;
-      });
-
+    });
 
 
     // Mobile Filter //
 
     this.filterOn = false;
 
-    this.toggleMobileFilter = () =>{
+    this.toggleMobileFilter = () => {
         console.log(this.filterOn)
 
         this.scrollTo();
@@ -90,16 +89,13 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     };
 
 
-
-
     // Ansicht //
 
     this.listView = false;
 
-    this.changeView = () =>{
+    this.changeView = () => {
         this.listView = !this.listView;
     };
-
 
 
     this.scrollTo = () => {
@@ -107,17 +103,17 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
             top: 0,
             left: 0,
             behavior: 'smooth'
-          });
+        });
     }
 
-    $(document).ready(function() {
+    $(document).ready(function () {
         var y = $(this).scrollTop();
         if (y < 500) {
             $('#scroll-top').fadeOut(1);
         }
     });
 
-    $(document).scroll(function() {
+    $(document).scroll(function () {
         var y = $(this).scrollTop();
         if (y > 500) {
             $('#scroll-top').fadeIn();
@@ -127,38 +123,49 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     });
 
 
-
-
-
     // Schwerpunkt Tags //
 
-    
 
-    this.tags = ["Mechatronik", "Informationstechnologie", "Chemie", "Sport", "Design", "Fotografie", "Designee", "Fotografieee", "Hirsie", "ist", "lost", "af", "denn", "hallo", "moin", "karl ess", "insolvenz", "madeira"];
+    this.tags = ["Abendschule", "Administration", "Arabisch", "Baugewerbe", "Bautechnik",
+        "BHAK", "BHAS", "Biomedizin", "Bundesrealgymnasium", "Büro",
+        "Bürokaufleute", "Chemie", "Design", "Dienstleistungen", "Einzelhandel",
+        "Elektronik", "Elektrotechnik", "Elementarpädagogik", "Fachlehrgang für Marktkommunikation", "Fachschule Informationstechnik",
+        "Fachschule Mechatronik", "Fahrradmechatronik", "Farbe", "Finanzen", "Fotografie",
+        "Gartenbau", "Gastgewerbe", "Gesundheit", "Gesundheits- und Krankenpflege", "Grafik",
+        "Gymnasium", "Handel", "Heereslogistik", "Holz", "Industrie",
+        "Informatik", "Informationstechnologie", "Jüdische Sozialberufe", "Karosseriebautechnik", "Klang",
+        "Kraftfahrzeugtechnik", "Kunst", "Kunststofftechnik", "Küche und Service", "Lack",
+        "Lebensmittel", "Maschinenbau", "Mechatronik", "Metall/Maschinenbau", "Metalltechnik, Glasbautechnik und Technische Zeichner",
+        "Mode", "Multimedia", "Musik", "Netzwerktechnik", "Patisserie-Meisterklasse",
+        "Polytechnische Schule", "Printmedia", "Reinigung", "Reisen", "Sanitär-, Heizungs- und Klimatechnik", "Schönheitsberufe",
+        "Sozialpädagogik", "Spar", "Spengler", "Sport", "Textilindustrie",
+        "Tiere", "Tourismus", "Transport", "Veranstaltungstechnik", "Verwaltungsberufe",
+        "Werkmeisterschule", "Wirtschaft-Soziales", "Wirtschaftsingenieure", "Wirtschaftliche Berufe", "Wohnheim",
+        "Zahntechnik"];
     this.selectedTags = [];
 
     this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
 
     this.selectTag = (tag) => {
-         this.selectedTags.push(this.tags[tag]);
-         this.tags.splice(tag, 1);
-         this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
+        this.selectedTags.push(this.tags[tag]);
+        this.tags.splice(tag, 1);
+        this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
     };
 
     this.deselectTag = (tag) => {
-         this.tags.push(this.selectedTags[tag]);
-         this.selectedTags.splice(tag, 1);
-         this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
+        this.tags.push(this.selectedTags[tag]);
+        this.selectedTags.splice(tag, 1);
+        this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
     };
 
 
-
     // Buttons
-    
+
     this.control = [false, false, false, false, false, false, false];
 
-    this.change = (button) =>{
+    this.change = (button) => {
         this.control[button] = !this.control[button];
     }
+
 
 });

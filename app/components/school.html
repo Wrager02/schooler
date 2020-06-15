@@ -2,13 +2,13 @@
 
     <div ui-sref="detail-view({id: $ctrl.school.id})" >
 
-        <div class="type-icon">
-            <i class="fas fa-book"></i>
+        <div class="type-icon" id="{{$ctrl.school.id}}">
+            <i id="spec-icon" class="fas" ng-class="$ctrl.getIcon()"></i>
         </div>
 
 
         <div class="school-info">
-            <h3>Design</h3>
+            <h3>{{$ctrl.school.specialisations[0].specialisation}}</h3>
             <h1>{{$ctrl.school.name}}</h1>
         </div>
 
@@ -28,7 +28,7 @@
 
             <div class="attribute">
                 <i class="fas fa-key"><md-tooltip>Privat oder Öffentlich</md-tooltip></i>
-                <p class="attributeText">{{$ctrl.school.privat ? "Privat" : "Öffentlich"}}</p>
+                <p class="attributeText">{{$ctrl.school.private ? "Privat" : "Öffentlich"}}</p>
             </div>
 
         </div>

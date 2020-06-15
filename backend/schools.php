@@ -7,11 +7,19 @@ require 'classes/Specialisation.php';
 use Schooler\Classes\School as School;
 use Schooler\Classes\Specialisation as Specialisation;
 
+//$connectionParams = array(
+//    'dbname' => 'u156147db1',
+//    'user' => 'u156147db1',
+//    'password' => '0n7b5egfgx7g',
+//    'host' => 'e98629-mysql.services.easyname.eu',
+//    'driver' => 'pdo_mysql'
+//);
+
 $connectionParams = array(
-    'dbname' => 'u156147db1',
-    'user' => 'u156147db1',
-    'password' => '0n7b5egfgx7g',
-    'host' => 'e98629-mysql.services.easyname.eu',
+    'dbname' => 'schooler',
+    'user' => 'root',
+    'password' => '',
+    'host' => 'localhost',
     'driver' => 'pdo_mysql'
 );
 
@@ -48,6 +56,25 @@ try {
             ->execute()
             ->fetchAll();
 
+        $specialisationsFinal = [];
+
+        foreach ($specialisations as $specialisation) {
+            $graphic = $conn->createQueryBuilder()
+                ->select('url', 'hsl')
+                ->from('graphic')
+                ->where('graphic.pk_graphic_id = ?')
+                ->setParameter(0, $specialisation['fk_graphic_id'])
+                ->execute()
+                ->fetch();
+
+            $specialisationsFinal[] = new Specialisation(
+                $specialisation['pk_name'],
+                $specialisation['description'],
+                $graphic['url'],
+                $graphic['hsl']
+            );
+        }
+
         foreach ($schooltypes as $schooltype) {
             $return[] = new School(
                 $school['pk_school_id'],
@@ -63,7 +90,7 @@ try {
                 $schooltype['pk_schoolform'],
                 $schooltype['description'],
                 $schooltype['graduation'],
-                array_map('toSpecialisation', $specialisations),
+                $specialisationsFinal,
                 false
             );
         }
@@ -75,8 +102,3 @@ try {
 } catch (\Doctrine\DBAL\DBALException $e) {
     echo $e;
 }
-
-function toSpecialisation($array) {
-    return new Specialisation($array['pk_name'], $array['description'], $array['fk_graphic_id']);
-}
-

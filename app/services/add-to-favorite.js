@@ -13,12 +13,12 @@ app.service("AddToFavorite", function ($log) {
     this.addToFavorite = (school_id) => {
         favArray.push(school_id);
         localStorage.setItem("favorite", JSON.stringify(favArray));
-    }
+    };
 
     this.removeFromFavorite = (school_id) => {
         favArray.splice(favArray.indexOf(school_id), 1);
         localStorage.setItem("favorite", JSON.stringify(favArray));
-    }
+    };
 
     this.loadFavoritesOnInit = (school_array) => {
         return school_array.map(n => {
@@ -29,6 +29,10 @@ app.service("AddToFavorite", function ($log) {
             }
             return n;
         });
-    }
+    };
+
+    this.isFavorite = (school_id) =>  {
+        return favArray.includes(school_id);
+    };
 
 });

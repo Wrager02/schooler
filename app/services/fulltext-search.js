@@ -20,8 +20,8 @@ app.service("FulltextSearch", function ($log, $timeout, LoadJson) {
                                 return true;
                             }
                             if (typeof e[key] === 'object') {
-                                for (let i = 0; i <= e[key].length; i++) {
-                                    if(typeof e[key][i] === 'string' && (e[key][i].toLowerCase()).includes(input.toLowerCase())) {
+                                for (let i = 0; i < e[key].length; i++) {
+                                    if(typeof e[key][i].specialisation === 'string' && e[key][i].specialisation.toLowerCase().includes(input.toLowerCase())) {
                                         return true;
                                     }
                                 }
