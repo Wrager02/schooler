@@ -27,4 +27,5 @@ app.controller("LandingPageController", function ($log) {
         $(this).toggleClass('active');
         return false;
       });
+
 });
