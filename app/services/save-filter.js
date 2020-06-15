@@ -11,21 +11,21 @@ app.service("SaveFilter", function ($log) {
     };
 
     this.loadSelectedTags = () => {
-        if(localStorage.getItem("selectedTags") !== "undefined") {
+        if(localStorage.getItem("selectedTags")) {
             return JSON.parse(localStorage.getItem("selectedTags"));
         }
         return [];
     };
 
     this.loadControl = () => {
-        if(localStorage.getItem("control") !== "undefined") {
+        if(localStorage.getItem("control")) {
             return JSON.parse(localStorage.getItem("control"));
         }
         return [false, false, false, false, false, false, false];
     };
 
     this.loadInput = () => {
-        if(localStorage.getItem("input") !== "undefined") {
+        if(localStorage.getItem("input")) {
             return JSON.parse(localStorage.getItem("input"));
         }
         return "";
