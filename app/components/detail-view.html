@@ -45,54 +45,75 @@
 
         </div>
 
-        <div class="infos">
+        <div class="info-container">
+            <div class="infos">
+                <h3>Informationen</h3>
+                <div class="attributes">
+                    <div class="attribute">
+                        <i class="fas fa-school">
+                            <md-tooltip>Schulform</md-tooltip>
+                        </i>
+                        <p class="attributeText">{{$ctrl.school.schoolform}}</p>
+                    </div>
 
-            <div class="attributes">
-                <div class="attribute">
-                    <i class="fas fa-school"><md-tooltip>Schulform</md-tooltip></i>
-                    <p class="attributeText">{{$ctrl.school.schoolform}}</p>
+                    <div class="attribute">
+                        <i class="fas fa-map-marker-alt">
+                            <md-tooltip>Adresse</md-tooltip>
+                        </i>
+                        <p class="attributeText">{{$ctrl.school.street}} {{$ctrl.school.housenumber}},
+                            {{$ctrl.school.zip}} {{$ctrl.school.city}}</p>
+                    </div>
+
+                    <div class="attribute">
+                        <i class="fas fa-info">
+                            <md-tooltip>Website</md-tooltip>
+                        </i>
+                        <a target="_blank" href="//{{$ctrl.school.website}}" class="attributeText">{{$ctrl.school.website}}</a>
+                    </div>
+
+                    <div class="attribute">
+                        <i class="fas fa-at">
+                            <md-tooltip>Kontakt</md-tooltip>
+                        </i>
+                        <a href="mailto:{{$ctrl.school.email}}" class="attributeText">{{$ctrl.school.email}}</a>
+                    </div>
+
+                    <div class="attribute">
+                        <i class="fas fa-user-graduate">
+                            <md-tooltip>Abschluss</md-tooltip>
+                        </i>
+                        <p class="attributeText">{{$ctrl.school.graduation}}</p>
+                    </div>
+
+                    <div class="attribute">
+                        <i class="fas fa-key">
+                            <md-tooltip>Privat oder Öffentlich</md-tooltip>
+                        </i>
+                        <p class="attributeText">{{$ctrl.school.private ? "Privat" : "Öffentlich"}}</p>
+                    </div>
+
                 </div>
 
-                <div class="attribute">
-                    <i class="fas fa-map-marker-alt"><md-tooltip>Adresse</md-tooltip></i>
-                    <p class="attributeText">{{$ctrl.school.street}} {{$ctrl.school.housenumber}}, {{$ctrl.school.zip}} {{$ctrl.school.city}}</p>
-                </div>
+                <div>
 
-                <div class="attribute">
-                    <i class="fas fa-info"><md-tooltip>Website</md-tooltip></i>
-                    <a target="_blank" href="//{{$ctrl.school.website}}" class="attributeText">{{$ctrl.school.website}}</a>
-                </div>
+                    <h2 class="description-title"></h2>
 
-                <div class="attribute">
-                    <i class="fas fa-at"><md-tooltip>Kontakt</md-tooltip></i>
-                    <a href="mailto:{{$ctrl.school.email}}" class="attributeText">{{$ctrl.school.email}}</a>
-                </div>
+                    <p class="description"></p>
 
-                <div class="attribute">
-                    <i class="fas fa-user-graduate"><md-tooltip>Abschluss</md-tooltip></i>
-                    <p class="attributeText">{{$ctrl.school.graduation}}</p>
-                </div>
-
-                <div class="attribute">
-                    <i class="fas fa-key"><md-tooltip>Privat oder Öffentlich</md-tooltip></i>
-                    <p class="attributeText">{{$ctrl.school.private ? "Privat" : "Öffentlich"}}</p>
                 </div>
 
             </div>
-
-            <div>
-
-                <h2 class="description-title"></h2>
-
-                <p class="description"></p>
-
+            <div class="specialisations">
+                <h3>Spezialisierungen</h3>
+                <div class="specialisation" ng-repeat="specialisation in $ctrl.school.specialisations">
+                    <i ng-class="'icon fas fa-' + specialisation.graphic"></i>
+                    <div>{{specialisation.specialisation}}</div>
+                </div>
             </div>
-
+            <div id="map"></div>
         </div>
 
     </div>
-
-    <div id="map"></div>
 
     <div id="favorite-alert" class="alert">
 
