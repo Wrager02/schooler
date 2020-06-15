@@ -128,6 +128,8 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
 
 
+
+
     // Schwerpunkt Tags //
 
     
@@ -158,6 +160,5 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     this.change = (button) =>{
         this.control[button] = !this.control[button];
     }
-
 
 });

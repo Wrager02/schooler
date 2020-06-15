@@ -353,11 +353,9 @@ div[role=button] {
   /* Non-prefixed version, currently
                                          supported by Chrome, Edge, Opera and Firefox */
 }
-
 .schools-view #p-selected {
   font-weight: lighter;
 }
-
 .schools-view #mobile-filter {
   position: fixed;
   top: 85%;
@@ -731,7 +729,6 @@ div[role=button] {
     margin: 0 5% 0 5%;
   }
 }
-
 .card {
   position: relative;
   width: 30%;
@@ -743,25 +740,21 @@ div[role=button] {
   margin: 1em 3.3% 1em 0;
   cursor: pointer;
   overflow: hidden;
-  -ms-flex-preferred-size: 300px;
-      flex-basis: 300px;
-  font-size: .6em;
+  flex-basis: 300px;
+  font-size: 0.6em;
 }
-
 @media (max-width: 1608px) {
   .card {
     margin: 1em 0 1em 10%;
   }
 }
-
 @media (max-width: 1230px) {
   .card {
     margin: 1em 30% 1em 30%;
   }
 }
-
 .card::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 30%;
@@ -769,7 +762,6 @@ div[role=button] {
   left: 0;
   background-color: #263055;
 }
-
 .card .type-icon {
   position: absolute;
   z-index: 4;
@@ -780,47 +772,33 @@ div[role=button] {
   width: 100%;
   height: 30%;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .card .school-info {
   margin: 45% 10% 0 10%;
 }
-
 .card h3 {
   font-weight: bolder;
 }
-
 .card .infos {
   width: 80%;
   margin: 0 10% 0 10%;
 }
-
 .card .infos .attribute * {
   display: inline-block;
 }
-
 .card .infos i {
   font-size: 1.2em;
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
-
 .card .favourite {
   position: absolute;
   top: 35%;
   right: 10%;
   font-size: 1.5em;
 }
-
 @media (max-width: 992px) {
   .card {
     min-width: 80%;
@@ -846,7 +824,6 @@ div[role=button] {
     margin-bottom: 1em;
   }
 }
-
 @media (max-width: 576px) {
   .card {
     min-width: 100%;
