@@ -1241,7 +1241,7 @@
   },
   {
     "id": 116,
-    "name": "Höhere Bundeslehr- und Versuchsanstalt für Textilindustrie und Informatik",
+    "name": "HTL Spengergasse",
     "zip": "1050",
     "city": "Wien",
     "street": "Spengergasse",
@@ -1255,10 +1255,22 @@
     "graduation": "Matura\/Diplom",
     "specialisations": [
       {
-        "specialisation": "Textilindustrie",
+        "specialisation": "Informationstechnologie",
         "description": "\/",
-        "graphic": "tshirt",
-        "hsl": "hsl(320,48%,20%)"
+        "graphic": "laptop-code",
+        "hsl": "hsl(213,48%,20%)"
+      },
+      {
+        "specialisation": "Informatik",
+        "description": "\/",
+        "graphic": "laptop-code",
+        "hsl": "hsl(213,48%,20%)"
+      },
+      {
+        "specialisation": "Biomedizin- und Gesundheitstechnik",
+        "description": "\/",
+        "graphic": "seedling",
+        "hsl": "hsl(328,48%,20%)"
       }
     ],
     "favorite": false
@@ -1825,7 +1837,7 @@
     "graduation": "Diplom",
     "specialisations": [
       {
-        "specialisation": "Elementärpädagogik",
+        "specialisation": "Elementarpädagogik",
         "description": "\/",
         "graphic": "child",
         "hsl": "hsl(14,48%,20%)"
@@ -2287,7 +2299,7 @@
     "graduation": "Diplom",
     "specialisations": [
       {
-        "specialisation": "Elementärpädagogik",
+        "specialisation": "Elementarpädagogik",
         "description": "\/",
         "graphic": "child",
         "hsl": "hsl(14,48%,20%)"
@@ -2497,7 +2509,7 @@
     "graduation": "Diplom",
     "specialisations": [
       {
-        "specialisation": "Elementärpädagogik",
+        "specialisation": "Elementarpädagogik",
         "description": "\/",
         "graphic": "child",
         "hsl": "hsl(14,48%,20%)"
@@ -4272,7 +4284,7 @@
     "graduation": "Diplom",
     "specialisations": [
       {
-        "specialisation": "Elementärpädagogik",
+        "specialisation": "Elementarpädagogik",
         "description": "\/",
         "graphic": "child",
         "hsl": "hsl(14,48%,20%)"
@@ -4812,13 +4824,13 @@
     "graduation": "Diplom",
     "specialisations": [
       {
-        "specialisation": "Elementärpädagogik",
+        "specialisation": "Elementarpädagogik",
         "description": "\/",
         "graphic": "child",
         "hsl": "hsl(14,48%,20%)"
       },
       {
-        "specialisation": "Elementärpädagogik",
+        "specialisation": "Elementarpädagogik",
         "description": "\/",
         "graphic": "child",
         "hsl": "hsl(14,48%,20%)"
