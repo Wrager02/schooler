@@ -205,7 +205,20 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "Matura",
-    "specialisations": [],
+    "specialisations": [
+      {
+        "specialisation": "Gymnasium",
+        "description": "\/",
+        "graphic": "book",
+        "hsl": "hsl(183,48%,20%)"
+      },
+      {
+        "specialisation": "Bundesrealgymnasium",
+        "description": "\/",
+        "graphic": "book",
+        "hsl": "hsl(183,48%,20%)"
+      }
+    ],
     "favorite": false
   },
   {
@@ -856,7 +869,7 @@
       {
         "specialisation": "Bautechnik",
         "description": "\/",
-        "graphic": "snow-plow",
+        "graphic": "snowplow",
         "hsl": "hsl(95,48%,20%)"
       }
     ],
@@ -864,7 +877,7 @@
   },
   {
     "id": 105,
-    "name": "HAK | HAS | HTL  Ungargasse Wien 3",
+    "name": "HTL  Ungargasse Wien 3",
     "zip": "1030",
     "city": "Wien",
     "street": "Ungargasse",
@@ -888,19 +901,13 @@
         "description": "\/",
         "graphic": "laptop-code",
         "hsl": "hsl(213,48%,20%)"
-      },
-      {
-        "specialisation": "Wirtschaftingenieure",
-        "description": "\/",
-        "graphic": "cogs",
-        "hsl": "hsl(167,48%,20%)"
       }
     ],
     "favorite": false
   },
   {
     "id": 106,
-    "name": "HAK | HAS | HTL  Ungargasse Wien 3",
+    "name": "HAK/HAS  Ungargasse Wien 3",
     "zip": "1030",
     "city": "Wien",
     "street": "Ungargasse",
@@ -912,7 +919,14 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "(Matura\/Diplom)",
-    "specialisations": [],
+    "specialisations": [
+      {
+        "specialisation": "Wirtschaftingenieure",
+        "description": "\/",
+        "graphic": "cogs",
+        "hsl": "hsl(167,48%,20%)"
+      }
+    ],
     "favorite": false
   },
   {
@@ -1265,6 +1279,12 @@
         "description": "\/",
         "graphic": "laptop-code",
         "hsl": "hsl(213,48%,20%)"
+      },
+      {
+        "specialisation": "Gamedesign",
+        "description": "\/",
+        "graphic": "gamepad",
+        "hsl": "hsl(241,48%,20%)"
       },
       {
         "specialisation": "Biomedizin- und Gesundheitstechnik",
@@ -2609,7 +2629,20 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "Matura",
-    "specialisations": [],
+    "specialisations": [
+      {
+        "specialisation": "Gymnasium",
+        "description": "\/",
+        "graphic": "book",
+        "hsl": "hsl(183,48%,20%)"
+      },
+      {
+        "specialisation": "Bundesrealgymnasium",
+        "description": "\/",
+        "graphic": "book",
+        "hsl": "hsl(183,48%,20%)"
+      }
+    ],
     "favorite": false
   },
   {
@@ -4852,7 +4885,14 @@
     "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
     "schoolformDescription": "\/",
     "graduation": "Diplom",
-    "specialisations": [],
+    "specialisations": [
+      {
+        "specialisation": "Sozialpädagogik",
+        "description": "\/",
+        "graphic": "child",
+        "hsl": "hsl(14,48%,20%)"
+      }
+    ],
     "favorite": false
   },
   {
