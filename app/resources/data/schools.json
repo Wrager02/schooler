@@ -951,10 +951,10 @@
         "hsl": "hsl(213,48%,20%)"
       },
       {
-        "specialisation": "Netzwerktechnik",
+        "specialisation": "Mechatronik",
         "description": "\/",
-        "graphic": "laptop-code",
-        "hsl": "hsl(213,48%,20%)"
+        "graphic": "cogs",
+        "hsl": "hsl(11,48%,20%)"
       },
       {
         "specialisation": "Fachschule Informationstechnik",
