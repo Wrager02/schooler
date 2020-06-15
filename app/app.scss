@@ -105,12 +105,20 @@ div[role="button"]{
     .landing-first{
       height: 100vh;
       width: 100vw;
+      overflow: hidden;
+      position: relative;
 
       .landing-info {
         width: 84%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 20vh;
+
+        @media(max-width: 992px){
+          padding-top: 20vh;
+          
+        }
+        
+        overflow: hidden;
 
         h1{
           font-size: 41px;
@@ -147,28 +155,39 @@ div[role="button"]{
 
       #professor_without_board{
         position: absolute;
-        top: 59vh;
+        bottom: 0;
         right: 15vw;
-        width: 56%;
+        width: calc(180px + 10%);
+      }
+
+      #professor_with_board{
+        display: none;
       }
 
       #blue_corner{
         position: absolute;
-         top: 91vh;
-        right: 0px;
+        bottom: -1px;
+        right: 0;
         width: 100%;
         z-index: 1;
+
+        @media(min-width: 576px){
+          bottom: -12vh;
+        }
        }
     }
 
     .landing-second{
       z-index: 2;
-      height: 100vh;
+      position: relative;
+      min-height: 100vh;
       background-color: $dark-blue;
+      overflow: hidden;
 
       div {
         width: 84%;
         margin: auto;
+        overflow: hidden;
 
         h2{
           padding-top: 8vh;
@@ -186,6 +205,117 @@ div[role="button"]{
     }
   }
 
+
+  @media(min-width: 992px){
+    .navbar{
+      background-color: transparent;
+    }
+
+    .landing-info{
+      margin: 0 0 0 0 !important;
+      padding-top: 0 !important;
+      position: absolute;
+      right: 0;
+      top: 0;
+      color: white;
+      background-color: $dark-blue;
+      width: 30vw !important;
+      height: 100vh;
+      z-index: 2;
+      overflow: visible !important;
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      
+
+      h1{
+        color: #ffffff !important;
+        width: 40vw;
+        margin-left: -15vw !important;
+        text-align: center;
+        font-size: 3vw !important;
+      }
+
+      p{
+        width: 40vw;
+        color: $light-blue !important;
+        margin-left: -15vw !important;
+        margin-top: 0 !important;
+        text-align: center;
+      }
+
+      input{
+        margin-top: 2vh;
+        margin-left: 1.5vw;
+      }
+
+      *{
+        
+        z-index: 1;
+        position: relative;
+      }
+
+      
+    }
+
+    .burger{
+      display: none;
+    }
+
+    ul{
+
+      margin-right: 2em;
+
+      li{
+        display: inline-block;
+        color: #ffffff;
+        padding: 1em;
+        cursor: pointer;
+
+        a{
+          color: #ffffff;
+          text-decoration: none;
+        }
+      }
+    }
+
+    #professor_without_board{
+      display: none;
+    }
+
+    #professor_with_board{
+      display: block !important;
+      position: absolute;
+      bottom: 35vh;
+      left: 5vw;
+      width: 450px;
+    }
+
+      #blue_corner{
+              transform: rotate(-90deg) !important;
+              width: 200vh !important;
+              top:50vh;
+              left: calc(20vw - 400px) !important;
+              z-index: -1;
+
+            }
+
+
+    .landing-second{
+      background-color: #E8E8E8 !important;
+
+      h2{
+        text-align: center;
+        font-size: 2em !important;
+      }
+
+      p{
+        color: $dark-blue !important;
+        font-size: 1.2em !important;
+      }
+    }
+
+  }
 
 }
 
