@@ -59,6 +59,7 @@ div[role="button"] {
       span {
         position: relative;
         display: block;
+        z-index: 5;
         width: 30px;
         height: 4px;
         background: $dark-blue;
@@ -89,16 +90,57 @@ div[role="button"] {
 
         &:before {
           transform: rotate(45deg) translate(5px, 6px);
+          background: #ffffff;
         }
 
         &:after {
           transform: rotate(-45deg) translate(5px, -6px);
+          background: #ffffff;
         }
+      }
+    }
+
+
+    @media(max-width: 992px){
+      ul {
+        margin: 0;
+        position: absolute;
+        right: -60vw;
+        top: 0;
+        height: 100vh;
+        width: 50vw;
+        background-color: $dark-blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: .5s;
+  
+        li {
+          display: block;
+          color: #ffffff;
+          padding: 1em;
+          cursor: pointer;
+  
+          a {
+            color: #ffffff;
+            text-decoration: none;
+          }
+        }
+      }
+
+      .ul-active{
+        right: 0 !important;
       }
     }
   }
 
+  .content-active{
+    transition: .5s;
+    transform: translate(-50vw);
+  }
+
   .content {
+    transition: .5s;
     background-color: #ffffff;
     overflow-x: hidden;
 
@@ -155,9 +197,9 @@ div[role="button"] {
 
       #professor_without_board {
         position: absolute;
-        bottom: 0;
+        bottom: -5vh;
         right: 15vw;
-        width: calc(180px + 10%);
+        width: calc(160px + 10%);
       }
 
       #professor_with_board {
@@ -166,7 +208,7 @@ div[role="button"] {
 
       #blue_corner {
         position: absolute;
-        bottom: -1px;
+        bottom: -5vh;
         right: 0;
         width: 100%;
         z-index: 1;
@@ -187,6 +229,7 @@ div[role="button"] {
       min-height: 100vh;
       background-color: $dark-blue;
       overflow: hidden;
+      padding-bottom: 5vh !important;
 
       div {
         width: 84%;
@@ -204,6 +247,45 @@ div[role="button"] {
           padding-top: 6vh;
           font-size: 17px;
           color: #ffffff;
+        }
+      }
+    }
+    footer{
+      background-color: $dark-blue;
+      color: #ffffff;
+      margin: 0;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      padding: 5vh 0 5vh 0;
+
+      @media(max-width: 992px){
+        flex-direction: column;
+        padding-left: 10vw;
+        background-color: #14141a;
+
+
+        *{
+          margin: 2vh;
+        }
+
+        p{
+          margin-bottom: 5vh;
+        }
+
+      }
+
+      *{
+        margin: 0;
+
+      }
+
+      a{
+        text-decoration: none;
+        color: #ffffff;
+
+        &:hover{
+          text-decoration: underline;
         }
       }
     }
@@ -274,10 +356,25 @@ div[role="button"] {
         color: #ffffff;
         padding: 1em;
         cursor: pointer;
+        position: relative;
 
         a {
           color: #ffffff;
           text-decoration: none;
+        }
+
+        &:hover{
+
+          &::after{
+            content: '';
+            width: 72%;
+            height: 4px;
+            border-radius: 4px;
+            background-color: $light-blue;
+            position: absolute;
+            left: 14%;
+            bottom: 25%;
+          }
         }
       }
     }
@@ -319,6 +416,7 @@ div[role="button"] {
       p {
         color: $dark-blue !important;
         font-size: 1.2em !important;
+
       }
     }
 
