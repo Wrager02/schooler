@@ -175,7 +175,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     this.change = (button) => {
         this.control[button] = !this.control[button];
-        SaveFilter.saveFilter(this.selectedTags, this.control, this.input, this.select);
+        SaveFilter.saveFilter(this.selectedTags, this.control, this.input, this.select, this.listView);
     }
 
 
