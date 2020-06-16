@@ -18,7 +18,7 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 });
 
 
-app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, FilterByFilter, $timeout, AddToFavorite) {
+app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, FilterByFilter, $timeout, AddToFavorite, SaveFilter) {
 
     $log.debug("SchoolsViewController()");
 
@@ -28,10 +28,14 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     };
 
     this.init = () => {
-        FulltextSearch.search("").then(response => {
+        this.input = SaveFilter.loadInput();
+        FulltextSearch.search(this.input).then(response => {
             this.list = AddToFavorite.loadFavoritesOnInit(response);
             this.originalList = AddToFavorite.loadFavoritesOnInit(response);
-            console.log(this.list);
+            this.applyFilters();
+            if (this.select) {
+                this.sortList();
+            }
         });
     };
 
@@ -39,6 +43,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
 
     this.search = () => {
+        SaveFilter.saveFilter(this.selectedTags, this.control, this.input);
         FulltextSearch.search(this.input).then(response => {
             this.list = response;
             this.originalList = response;
@@ -142,7 +147,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
         "Tiere", "Tourismus", "Transport", "Veranstaltungstechnik", "Verwaltungsberufe",
         "Werkmeisterschule", "Wirtschaft-Soziales", "Wirtschaftsingenieure", "Wirtschaftliche Berufe", "Wohnheim",
         "Zahntechnik"];
-    this.selectedTags = [];
+    this.selectedTags = SaveFilter.loadSelectedTags();
 
     this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
 
@@ -150,21 +155,24 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
         this.selectedTags.push(this.tags[tag]);
         this.tags.splice(tag, 1);
         this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
+        SaveFilter.saveFilter(this.selectedTags, this.control, this.input);
     };
 
     this.deselectTag = (tag) => {
         this.tags.push(this.selectedTags[tag]);
         this.selectedTags.splice(tag, 1);
         this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
+        SaveFilter.saveFilter(this.selectedTags, this.control, this.input);
     };
 
 
     // Buttons
 
-    this.control = [false, false, false, false, false, false, false];
+    this.control = SaveFilter.loadControl();
 
     this.change = (button) => {
         this.control[button] = !this.control[button];
+        SaveFilter.saveFilter(this.selectedTags, this.control, this.input);
     }
 
 

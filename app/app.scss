@@ -174,7 +174,11 @@ div[role="button"] {
         @media(min-width: 576px) {
           bottom: -12vh;
         }
-      }
+       }
+
+       #blue_corner_desktop{
+         display: none;
+       }
     }
 
     .landing-second {
@@ -218,7 +222,6 @@ div[role="button"] {
       right: 0;
       top: 0;
       color: white;
-      background-color: $dark-blue;
       width: 30vw !important;
       height: 100vh;
       z-index: 2;
@@ -291,14 +294,18 @@ div[role="button"] {
       width: 450px;
     }
 
-    #blue_corner {
-      transform: rotate(-90deg) !important;
-      width: 200vh !important;
-      top: 50vh;
-      left: calc(20vw - 400px) !important;
-      z-index: -1;
+      #blue_corner{
+              display: none;
 
     }
+
+       #blue_corner_desktop{
+              display: block !important;
+              position: absolute;
+              left: 45vw;
+              top: 0;
+              min-height: 100vh;
+            }     
 
 
     .landing-second {
