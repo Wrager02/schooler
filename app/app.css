@@ -7,57 +7,45 @@ main {
   min-height: 100vh;
 }
 
-input[type="button"] {
+input[type=button] {
   outline: none;
 }
 
-a[role="button"] {
+a[role=button] {
   outline: none;
 }
 
-div[role="button"] {
+div[role=button] {
   outline: none;
 }
 
 .landing-page {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
-
 .landing-page .navbar {
   width: 100%;
   height: 80px;
   position: fixed;
   background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   z-index: 5;
 }
-
 .landing-page .navbar .logo {
   display: inline-block;
   text-decoration: none;
   color: #ffffff;
   padding-left: 25px;
 }
-
 .landing-page .navbar .logo img {
   height: 80px;
   display: inline-block;
 }
-
 .landing-page .navbar .burger {
   cursor: pointer;
   margin: auto 25px auto 0;
 }
-
 .landing-page .navbar .burger span {
   position: relative;
   display: block;
@@ -65,44 +53,33 @@ div[role="button"] {
   width: 30px;
   height: 4px;
   background: #000021;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-
 .landing-page .navbar .burger span:before, .landing-page .navbar .burger span:after {
   position: absolute;
   background: #000021;
-  content: '';
+  content: "";
   width: 30px;
   height: 4px;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-
 .landing-page .navbar .burger span:before {
   top: -8px;
 }
-
 .landing-page .navbar .burger span:after {
   top: 8px;
 }
-
 .landing-page .navbar .burger.active span {
   background: transparent;
 }
-
 .landing-page .navbar .burger.active span:before {
-  -webkit-transform: rotate(45deg) translate(5px, 6px);
-          transform: rotate(45deg) translate(5px, 6px);
+  transform: rotate(45deg) translate(5px, 6px);
   background: #ffffff;
 }
-
 .landing-page .navbar .burger.active span:after {
-  -webkit-transform: rotate(-45deg) translate(5px, -6px);
-          transform: rotate(-45deg) translate(5px, -6px);
+  transform: rotate(-45deg) translate(5px, -6px);
   background: #ffffff;
 }
-
 @media (max-width: 992px) {
   .landing-page .navbar ul {
     margin: 0;
@@ -112,18 +89,10 @@ div[role="button"] {
     height: 100vh;
     width: 50vw;
     background-color: #000021;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-transition: .5s;
-    transition: .5s;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;
   }
   .landing-page .navbar ul li {
     display: block;
@@ -139,53 +108,42 @@ div[role="button"] {
     right: 0 !important;
   }
 }
-
 .landing-page .content-active {
-  -webkit-transition: .5s;
-  transition: .5s;
-  -webkit-transform: translate(-50vw);
-          transform: translate(-50vw);
+  transition: 0.5s;
+  transform: translate(-50vw);
 }
-
 .landing-page .content {
-  -webkit-transition: .5s;
-  transition: .5s;
+  transition: 0.5s;
   background-color: #ffffff;
   overflow-x: hidden;
 }
-
 .landing-page .content .landing-first {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
   position: relative;
 }
-
 .landing-page .content .landing-first .landing-info {
   width: 84%;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
 }
-
 @media (max-width: 992px) {
   .landing-page .content .landing-first .landing-info {
     padding-top: 20vh;
   }
 }
-
 .landing-page .content .landing-first .landing-info h1 {
   font-size: 41px;
   font-weight: 800;
   color: #00AEEF;
   margin: 0;
 }
-
 .landing-page .content .landing-first .landing-info p {
   font-size: 18px;
   margin-bottom: 2vh;
 }
-
 .landing-page .content .landing-first .landing-info input {
   width: 110px;
   font-size: 23px;
@@ -195,28 +153,22 @@ div[role="button"] {
   background-color: #00AEEF;
   padding: 5px;
 }
-
 .landing-page .content .landing-first .landing-info input:hover {
   background-color: #38C9FF;
-  -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
-
-.landing-page .content .landing-first .landing-info input[type="button"] {
+.landing-page .content .landing-first .landing-info input[type=button] {
   outline: none;
 }
-
 .landing-page .content .landing-first #professor_without_board {
   position: absolute;
   bottom: -5vh;
   right: 15vw;
   width: calc(160px + 10%);
 }
-
 .landing-page .content .landing-first #professor_with_board {
   display: none;
 }
-
 .landing-page .content .landing-first #blue_corner {
   position: absolute;
   bottom: -5vh;
@@ -224,17 +176,14 @@ div[role="button"] {
   width: 100%;
   z-index: 1;
 }
-
 @media (min-width: 576px) {
   .landing-page .content .landing-first #blue_corner {
     bottom: -12vh;
   }
 }
-
 .landing-page .content .landing-first #blue_corner_desktop {
   display: none;
 }
-
 .landing-page .content .landing-second {
   z-index: 2;
   position: relative;
@@ -243,48 +192,34 @@ div[role="button"] {
   overflow: hidden;
   padding-bottom: 5vh !important;
 }
-
 .landing-page .content .landing-second div {
   width: 84%;
   margin: auto;
   overflow: hidden;
 }
-
 .landing-page .content .landing-second div h2 {
   padding-top: 8vh;
   z-index: 2;
   color: #00AEEF;
   font-size: 32px;
 }
-
 .landing-page .content .landing-second div p {
   padding-top: 6vh;
   font-size: 17px;
   color: #ffffff;
 }
-
 .landing-page .content footer {
   background-color: #000021;
   color: #ffffff;
   margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  justify-content: space-around;
+  flex-direction: row;
   padding: 5vh 0 5vh 0;
 }
-
 @media (max-width: 992px) {
   .landing-page .content footer {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     padding-left: 10vw;
     background-color: #14141a;
   }
@@ -295,20 +230,16 @@ div[role="button"] {
     margin-bottom: 5vh;
   }
 }
-
 .landing-page .content footer * {
   margin: 0;
 }
-
 .landing-page .content footer a {
   text-decoration: none;
   color: #ffffff;
 }
-
 .landing-page .content footer a:hover {
   text-decoration: underline;
 }
-
 @media (min-width: 992px) {
   .landing-page .navbar {
     background-color: transparent;
@@ -324,16 +255,9 @@ div[role="button"] {
     height: 100vh;
     z-index: 2;
     overflow: visible !important;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-direction: column;
+    justify-content: center;
   }
   .landing-page .landing-info h1 {
     color: #ffffff !important;
@@ -375,7 +299,7 @@ div[role="button"] {
     text-decoration: none;
   }
   .landing-page ul li:hover::after {
-    content: '';
+    content: "";
     width: 72%;
     height: 4px;
     border-radius: 4px;
@@ -422,97 +346,72 @@ div[role="button"] {
   min-height: 100vh;
   font-size: 20px;
   position: relative;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
-
 .schools-view h3 {
   text-align: center;
   margin-top: 4em;
 }
-
 .schools-view .navbar {
   width: 100%;
   height: 80px;
   position: fixed;
   background-color: #000021;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   z-index: 5;
 }
-
 .schools-view .navbar .logo {
   display: inline-block;
   text-decoration: none;
   color: #ffffff;
   padding-left: 25px;
 }
-
 .schools-view .navbar .logo img {
   height: 80px;
   display: inline-block;
 }
-
 .schools-view .navbar .burger {
   cursor: pointer;
   margin: auto 25px auto 0;
 }
-
 .schools-view .navbar .burger span {
   position: relative;
   display: block;
   width: 30px;
   height: 4px;
   background: #ffffff;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-
 .schools-view .navbar .burger span:before, .schools-view .navbar .burger span:after {
   position: absolute;
   background: #ffffff;
-  content: '';
+  content: "";
   width: 30px;
   height: 4px;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-
 .schools-view .navbar .burger span:before {
   top: -8px;
 }
-
 .schools-view .navbar .burger span:after {
   top: 8px;
 }
-
 .schools-view .navbar .burger.active span {
   background: transparent;
 }
-
 .schools-view .navbar .burger.active span:before {
-  -webkit-transform: rotate(45deg) translate(5px, 6px);
-          transform: rotate(45deg) translate(5px, 6px);
+  transform: rotate(45deg) translate(5px, 6px);
 }
-
 .schools-view .navbar .burger.active span:after {
-  -webkit-transform: rotate(-45deg) translate(5px, -6px);
-          transform: rotate(-45deg) translate(5px, -6px);
+  transform: rotate(-45deg) translate(5px, -6px);
 }
-
 @media (min-width: 576px) {
   .schools-view .top-bar {
     font-size: 1.2em;
   }
 }
-
 .schools-view .content {
   display: inline-block;
   width: 90%;
@@ -520,97 +419,71 @@ div[role="button"] {
   color: #000021;
   overflow: hidden;
 }
-
 .schools-view .content .school-list {
   margin-top: 1em;
 }
-
 .schools-view .content .top-bar {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #ffffff;
-  border-radius: .5em;
+  border-radius: 0.5em;
 }
-
 .schools-view .content .top-bar div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: .5em 0 .5em 0;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5em 0 0.5em 0;
 }
-
 .schools-view .content .top-bar div:nth-child(1) {
   width: 45%;
-  margin-left: .5em;
+  margin-left: 0.5em;
   border: 2px solid #000021;
-  border-radius: .3em;
+  border-radius: 0.3em;
   height: 36px;
 }
-
 .schools-view .content .top-bar div:nth-child(1) i {
   position: absolute;
-  font-size: .6em;
-  margin-left: .8em;
+  font-size: 0.6em;
+  margin-left: 0.8em;
 }
-
 .schools-view .content .top-bar div:nth-child(1) input {
-  font-size: .6em;
+  font-size: 0.6em;
   outline: none;
-  border-radius: .3em;
+  border-radius: 0.3em;
   height: 100%;
-  font-size: .6em;
+  font-size: 0.6em;
   padding-left: 2.5em;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   border: none;
 }
-
 .schools-view .content .top-bar div:nth-child(1):focus-within {
   border: 2px solid #2C4392;
 }
-
 .schools-view .content .top-bar div:nth-child(2) {
   width: 33%;
 }
-
 .schools-view .content .top-bar div:nth-child(2) select {
   outline: none;
   height: 100%;
-  border-radius: .3em;
+  border-radius: 0.3em;
   border: 2px solid #000021;
-  font-size: .6em;
-  padding-left: .5em;
-  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.6em;
+  padding-left: 0.5em;
+  font-family: "Nunito Sans", sans-serif;
 }
-
 .schools-view .content .top-bar div:nth-child(3) {
   width: 30px;
-  margin-right: .5em;
+  margin-right: 0.5em;
   font-size: 1.2em;
   height: 36px;
   outline: none;
 }
-
 .schools-view .content .top-bar div:nth-child(3) i {
   cursor: pointer;
   outline: none;
 }
-
 .schools-view .content #scroll-top {
   position: fixed;
   top: 85%;
@@ -621,41 +494,29 @@ div[role="button"] {
   border-radius: 50px;
   font-size: 1.2em;
   background-color: #000021;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .schools-view .content #scroll-top i {
   color: #ffffff;
   text-align: center;
 }
-
 .schools-view .content #scroll-top:hover {
   cursor: pointer;
 }
-
 .schools-view .content #favorite-alert {
   background-color: #36ad1f;
 }
-
 .schools-view .content #disable-favorite-alert {
   background-color: #ad1f1f;
 }
-
 .schools-view .content .alert {
   display: none;
   text-align: center;
   width: 140px;
   margin: auto;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   position: fixed;
   top: 90vh;
   right: 8vw;
@@ -667,7 +528,6 @@ div[role="button"] {
   -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
   box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
 }
-
 .schools-view .noselect {
   -webkit-touch-callout: none;
   /* iOS Safari */
@@ -681,13 +541,11 @@ div[role="button"] {
   /* Internet Explorer/Edge */
   user-select: none;
   /* Non-prefixed version, currently
-                                           supported by Chrome, Edge, Opera and Firefox */
+                                         supported by Chrome, Edge, Opera and Firefox */
 }
-
 .schools-view #p-selected {
   font-weight: lighter;
 }
-
 .schools-view #mobile-filter {
   position: fixed;
   top: 85%;
@@ -698,23 +556,14 @@ div[role="button"] {
   border-radius: 50px;
   font-size: 1.2em;
   background-color: #000021;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .schools-view #mobile-filter i {
   color: #ffffff;
   text-align: center;
 }
-
 @media (max-width: 992px) {
   .schools-view .md-tooltip {
     font-size: 10px !important;
@@ -739,16 +588,9 @@ div[role="button"] {
     margin: 5% 10% 0 10%;
   }
   .schools-view .sidebar .filter-container .mobile-filter {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
     font-size: 1.6em;
   }
   .schools-view .sidebar .filter-container .mobile-filter p {
@@ -764,7 +606,7 @@ div[role="button"] {
   .schools-view .sidebar .filter-container p {
     color: #000021;
     font-weight: bold;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
   }
   .schools-view .sidebar .filter-container textarea:focus, .schools-view .sidebar .filter-container input:focus {
     outline: none;
@@ -777,7 +619,7 @@ div[role="button"] {
     height: 1.6em;
     padding: 0;
     border-radius: 8px;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
     overflow: hidden;
   }
   .schools-view .sidebar .filter-container .tag-search input {
@@ -791,7 +633,7 @@ div[role="button"] {
     border-radius: 8px;
     color: #000021;
     background-color: #ffffff;
-    font-size: .8em;
+    font-size: 0.8em;
     line-height: 1em;
     z-index: 1;
     padding-left: 50px;
@@ -800,7 +642,7 @@ div[role="button"] {
     z-index: 3;
     position: absolute;
     margin: 7px 0 7px 5px;
-    font-size: .8em;
+    font-size: 0.8em;
     color: #000021;
   }
   .schools-view .sidebar .filter-container .tag-search:focus-within {
@@ -846,12 +688,12 @@ div[role="button"] {
     color: #ffffff;
     margin: 5px 5px 5px 0;
     padding: 5px;
-    font-size: .8em;
+    font-size: 0.8em;
     border-radius: 3px;
     cursor: pointer;
   }
   .schools-view .sidebar .filter-container .selectedTag i {
-    margin: .1em .2em 0 .2em;
+    margin: 0.1em 0.2em 0 0.2em;
   }
   .schools-view .sidebar .filter-container .tag {
     display: inline-block;
@@ -859,7 +701,7 @@ div[role="button"] {
     color: #000021;
     margin: 5px 5px 5px 0;
     padding: 5px;
-    font-size: .8em;
+    font-size: 0.8em;
     border-radius: 3px;
     cursor: pointer;
   }
@@ -872,12 +714,12 @@ div[role="button"] {
   .schools-view .sidebar .filter-container .button-container .selection-button {
     width: 140px;
     height: 40px;
-    font-size: .6em;
+    font-size: 0.6em;
     font-weight: bold;
     background-color: none;
     color: #000021;
-    font-family: 'Nunito Sans', sans-serif;
-    letter-spacing: .1em;
+    font-family: "Nunito Sans", sans-serif;
+    letter-spacing: 0.1em;
     border: 2px solid #000021;
     border-radius: 5px;
     margin: 5px 5px 5px 0;
@@ -888,7 +730,6 @@ div[role="button"] {
     background-color: #00AEEF;
   }
 }
-
 @media (min-width: 992px) {
   .schools-view {
     display: table;
@@ -919,16 +760,9 @@ div[role="button"] {
   }
   .schools-view .sidebar .fixed-container .logo-container {
     margin: 0 10% 0 10%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-direction: row;
+    justify-content: center;
   }
   .schools-view .sidebar .fixed-container .logo-container .logo {
     width: 70%;
@@ -940,7 +774,7 @@ div[role="button"] {
   .schools-view .sidebar .fixed-container .filter-container p {
     color: #ffffff;
     font-weight: bold;
-    letter-spacing: .1em;
+    letter-spacing: 0.1em;
   }
   .schools-view .sidebar .fixed-container .filter-container textarea:focus, .schools-view .sidebar .fixed-container .filter-container input:focus {
     outline: none;
@@ -953,7 +787,7 @@ div[role="button"] {
     height: 1.5em;
     padding: 0;
     border-radius: 8px;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
     overflow: hidden;
   }
   .schools-view .sidebar .fixed-container .filter-container .tag-search input {
@@ -967,7 +801,7 @@ div[role="button"] {
     border-radius: 8px;
     color: #ffffff;
     background-color: #000021;
-    font-size: .8em;
+    font-size: 0.8em;
     z-index: 1;
     padding-left: 30px;
   }
@@ -975,7 +809,7 @@ div[role="button"] {
     z-index: 3;
     position: absolute;
     margin: 7px 0 7px 9px;
-    font-size: .8em;
+    font-size: 0.8em;
   }
   .schools-view .sidebar .fixed-container .filter-container .tag-search:focus-within {
     border: 2px solid #00AEEF;
@@ -1020,12 +854,12 @@ div[role="button"] {
     color: #000021;
     margin: 5px 5px 5px 0;
     padding: 5px;
-    font-size: .8em;
+    font-size: 0.8em;
     border-radius: 3px;
     cursor: pointer;
   }
   .schools-view .sidebar .fixed-container .filter-container .selectedTag i {
-    margin: .1em .2em 0 .2em;
+    margin: 0.1em 0.2em 0 0.2em;
   }
   .schools-view .sidebar .fixed-container .filter-container .selectedTag:hover {
     color: #ffffff;
@@ -1039,7 +873,7 @@ div[role="button"] {
     color: #000021;
     margin: 5px 5px 5px 0;
     padding: 5px;
-    font-size: .8em;
+    font-size: 0.8em;
     border-radius: 3px;
     cursor: pointer;
   }
@@ -1052,11 +886,11 @@ div[role="button"] {
   .schools-view .sidebar .fixed-container .filter-container .button-container .selection-button {
     width: 140px;
     height: 40px;
-    font-size: .6em;
+    font-size: 0.6em;
     background-color: #000021;
     color: #ffffff;
-    font-family: 'Nunito Sans', sans-serif;
-    letter-spacing: .1em;
+    font-family: "Nunito Sans", sans-serif;
+    letter-spacing: 0.1em;
     border: 2px solid #ffffff;
     border-radius: 5px;
     margin: 5px 5px 5px 0;
@@ -1085,7 +919,6 @@ div[role="button"] {
     margin: 0 5% 0 5%;
   }
 }
-
 .card {
   position: relative;
   width: 30%;
@@ -1094,14 +927,12 @@ div[role="button"] {
   background-color: #ffffff;
   border-radius: 1em;
   display: inline-block;
-  margin: 1em 3.3% 1em 0;
+  margin: 1em 3% 1em 0;
   cursor: pointer;
   overflow: hidden;
-  -ms-flex-preferred-size: 300px;
-      flex-basis: 300px;
-  font-size: .6em;
+  flex-basis: 300px;
+  font-size: 0.6em;
 }
-
 @media (max-width: 1608px) {
   .card {
     margin: 1em 0 1em 10%;
@@ -1114,13 +945,11 @@ div[role="button"] {
     text-overflow: ellipsis;
   }
 }
-
 @media (max-width: 1230px) {
   .card {
     margin: 1em 30% 1em 30%;
   }
 }
-
 .card .type-icon {
   position: absolute;
   color: #ffffff;
@@ -1131,56 +960,41 @@ div[role="button"] {
   height: 2em;
   background-color: #263055;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .card .school-info {
   margin: 12em 10% 0 10%;
   position: relative;
 }
-
 .card h1 {
   width: 260px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 .card h3 {
   font-weight: bolder;
   text-align: start;
 }
-
 .card .infos {
   width: 80%;
   margin: 0 10% 0 10%;
 }
-
 .card .infos .attribute * {
   display: inline-block;
 }
-
 .card .infos i {
   font-size: 1.2em;
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
-
 .card .favourite {
   position: absolute;
   top: 8em;
   right: 10%;
   font-size: 1.5em;
 }
-
 @media (max-width: 992px) {
   .card {
     min-width: 80%;
@@ -1206,7 +1020,6 @@ div[role="button"] {
     width: 300px !important;
   }
 }
-
 @media (max-width: 576px) {
   .card {
     min-width: 100%;
@@ -1228,99 +1041,66 @@ div[role="button"] {
   background-color: #ffffff;
   border-radius: 1em;
   padding: 1em 0 1em 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   min-height: 100px;
   overflow: hidden;
-  font-size: .5em;
+  font-size: 0.5em;
 }
-
 .list div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .list div .infos {
   display: none;
 }
-
 .list div .school-info {
   margin: 1em 1em 1em 15%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 }
-
 .list div h1 {
   font-weight: normal;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   margin: 0;
   width: 200px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 .list div h3 {
   font-weight: bold;
   text-transform: uppercase;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   color: #2D388A;
   margin: 0;
   text-align: start;
 }
-
 .list div .type-icon {
   margin-left: 8%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-direction: column;
+  justify-content: center;
   max-width: 35px;
   background-color: none !important;
 }
-
 .list div .type-icon i {
   font-size: 4em;
 }
-
 .list .favourite {
   position: absolute;
   top: 0;
   right: 0;
   font-size: 2em;
 }
-
 .list .favourite i {
-  margin: .5em .5em 0 0;
+  margin: 0.5em 0.5em 0 0;
   cursor: pointer;
 }
-
 @media (min-width: 992px) {
   .list {
-    font-size: .8em;
+    font-size: 0.8em;
     min-height: 180px;
     width: 100%;
     margin: 0 0 2em 0;
@@ -1330,10 +1110,8 @@ div[role="button"] {
     width: 400px !important;
   }
   .list:hover {
-    -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
-    -webkit-transform: translate(-5px, -5px);
-            transform: translate(-5px, -5px);
+    transform: translate(-5px, -5px);
     background-color: #fafafa;
     -webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
     -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
@@ -1346,7 +1124,6 @@ div[role="button"] {
     font-size: 1.8em;
   }
 }
-
 @media (min-width: 1600px) {
   .list h1 {
     width: 600px !important;
@@ -1356,70 +1133,55 @@ div[role="button"] {
 .detail-view {
   width: 100vw;
   min-height: 100vh;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   background-color: white;
-  padding-bottom: 2%;
+  padding-bottom: 4%;
 }
-
 @media (min-width: 992px) {
   .detail-view {
     padding-bottom: 0;
   }
 }
-
 .detail-view h1 {
   font-weight: normal;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-size: 30px;
   margin: 0;
 }
-
 @media (min-width: 992px) {
   .detail-view h1 {
     font-size: 40px;
   }
 }
-
 .detail-view h3 {
   font-weight: bold;
   text-transform: uppercase;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   color: #2D388A;
   font-size: 20px;
   margin: 0;
 }
-
 .detail-view .thumbnail-container {
   height: 30vh;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 @media (min-width: 992px) {
   .detail-view .thumbnail-container {
     height: 40vh;
   }
 }
-
 .detail-view .thumbnail-container .icon {
   color: white;
   font-size: 20vh;
 }
-
 @media (min-width: 992px) {
   .detail-view .thumbnail-container .icon {
     font-size: 25vh;
   }
 }
-
 .detail-view .thumbnail-container .roundbtn {
   position: absolute;
   width: 40px;
@@ -1431,7 +1193,6 @@ div[role="button"] {
   font-size: 1.5em;
   color: #000021;
 }
-
 @media (min-width: 992px) {
   .detail-view .thumbnail-container .roundbtn {
     width: 75px;
@@ -1439,222 +1200,176 @@ div[role="button"] {
     font-size: 2em;
   }
 }
-
 .detail-view .thumbnail-container .roundbtn:focus {
   outline: none;
 }
-
 .detail-view .detail-info {
-  margin: 2% 5% 0 5%;
+  margin: 4% 8% 0 8%;
 }
-
 @media (min-width: 992px) {
   .detail-view .detail-info {
     height: 50vh;
     margin: 2% 5% 0 5%;
   }
 }
-
 .detail-view .detail-info .title {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 @media (min-width: 992px) {
   .detail-view .detail-info .title {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
-
 .detail-view .detail-info .title .left {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .detail-view .detail-info .title .left .specialisationContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
 }
-
 .detail-view .detail-info .title .left .specialisationContainer .favourite {
   font-size: 20px;
 }
-
 @media (min-width: 992px) {
   .detail-view .detail-info .title .left .specialisationContainer .favourite {
     font-size: 25px;
   }
 }
-
 .detail-view .detail-info .title .right .buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: flex-start;
   margin-top: 1em;
 }
-
 @media (min-width: 992px) {
   .detail-view .detail-info .title .right .buttons {
     margin-top: 0;
   }
 }
-
+.detail-view .detail-info .title .right .buttons .shareButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6vw;
+  color: white;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  text-decoration: none;
+  margin-right: 3vw;
+}
+@media (min-width: 992px) {
+  .detail-view .detail-info .title .right .buttons .shareButton {
+    width: 2.5vw;
+    height: 2.5vw;
+    font-size: 1.5vw;
+    margin-right: 0;
+    margin-left: 0.5vw;
+  }
+}
+.detail-view .detail-info .title .right .buttons #whatsapp {
+  background-color: #4fce5d;
+  transition: background-color 0.2s;
+}
+.detail-view .detail-info .title .right .buttons #whatsapp:hover {
+  background-color: #33b742;
+}
+.detail-view .detail-info .title .right .buttons #facebook {
+  background-color: #3c5898;
+  transition: background-color 0.2s;
+}
+.detail-view .detail-info .title .right .buttons #facebook:hover {
+  background-color: #2e4374;
+}
+.detail-view .detail-info .title .right .buttons #twitter {
+  background-color: #1da1f2;
+  transition: background-color 0.2s;
+}
+.detail-view .detail-info .title .right .buttons #twitter:hover {
+  background-color: #0c85d0;
+}
 .detail-view .detail-info .info-container {
   margin-top: 5%;
 }
-
 @media (min-width: 992px) {
   .detail-view .detail-info .info-container {
     width: 90vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
     position: absolute;
     bottom: 2%;
     margin: 0;
   }
 }
-
 @media (min-width: 992px) {
   .detail-view .detail-info .info-container .infos {
     height: 40vh;
     width: 40vh;
   }
 }
-
 .detail-view .detail-info .info-container .infos .attributes {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 .detail-view .detail-info .info-container .infos .attributes a {
   color: #2D388A;
   text-decoration: none;
 }
-
 .detail-view .detail-info .info-container .infos .attributes .attribute {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-margin-before: 0.5em;
-          margin-block-start: 0.5em;
+  flex-direction: row;
+  align-items: center;
+  margin-block-start: 1em;
 }
-
 @media (min-width: 992px) {
   .detail-view .detail-info .info-container .infos .attributes .attribute {
     font-size: 1.2em;
-    -webkit-margin-after: 0;
-            margin-block-end: 0;
-    -webkit-margin-before: 1em;
-            margin-block-start: 1em;
+    margin-block-end: 0;
+    margin-block-start: 1em;
   }
 }
-
 .detail-view .detail-info .info-container .infos .attributes .attribute .fas {
   color: #000021;
   margin-right: 1em;
   width: 1em;
   text-align: center;
 }
-
 .detail-view .detail-info .info-container .infos .attributes .attribute .attributeText {
-  -webkit-margin-after: 0;
-          margin-block-end: 0;
-  -webkit-margin-before: 0;
-          margin-block-start: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
   font-size: 1em;
 }
-
 @media (min-width: 992px) {
   .detail-view .detail-info .info-container .specialisations {
     height: 40vh;
     width: 40vh;
   }
 }
-
 .detail-view .detail-info .info-container .specialisations .specialisation {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   font-size: 1em;
-  -webkit-margin-before: 0.5em;
-          margin-block-start: 0.5em;
+  margin-block-start: 1em;
 }
-
 @media (min-width: 992px) {
   .detail-view .detail-info .info-container .specialisations .specialisation {
-    -webkit-margin-before: 1em;
-            margin-block-start: 1em;
+    margin-block-start: 1em;
     font-size: 1.2em;
   }
 }
-
 .detail-view .detail-info .info-container .specialisations .specialisation .fas {
   color: #000021;
   margin-right: 1em;
   width: 1em;
   text-align: center;
 }
-
 .detail-view .detail-info .info-container #map {
   width: 84vw;
   height: 84vw;
@@ -1664,7 +1379,6 @@ div[role="button"] {
   box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
   margin-top: 10%;
 }
-
 @media (min-width: 992px) {
   .detail-view .detail-info .info-container #map {
     margin: 0;
@@ -1672,21 +1386,18 @@ div[role="button"] {
     height: 40vh;
   }
 }
-
 .detail-view #favorite-alert {
   background-color: #36ad1f;
 }
-
 .detail-view #disable-favorite-alert {
   background-color: #ad1f1f;
 }
-
 .detail-view .alert {
   display: none;
   text-align: center;
   width: 140px;
   margin: auto;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   position: fixed;
   top: 90vh;
   right: 8vw;
@@ -1698,4 +1409,5 @@ div[role="button"] {
   -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
   box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
 }
+
 /*# sourceMappingURL=app.css.map */

@@ -1549,11 +1549,60 @@ div[role="button"] {
         .buttons {
           display: flex;
           flex-direction: row;
-          justify-content: space-between;
+          justify-content: flex-start;
           margin-top: 1em;
 
           @media(min-width: 992px) {
             margin-top: 0;
+          }
+
+          .shareButton {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 6vw;
+            color: white;
+            width: 10vw;
+            height: 10vw;
+            border-radius: 50%;
+            text-decoration: none;
+            margin-right: 3vw;
+
+            @media(min-width: 992px) {
+              width: 2.5vw;
+              height: 2.5vw;
+              font-size: 1.5vw;
+              margin-right: 0;
+              margin-left: .5vw;
+            }
+
+          }
+
+          #whatsapp {
+            background-color: hsl(126.6,56.4%,55.9%);
+            transition: background-color 0.2s;
+
+            &:hover {
+              background-color: hsl(126.6,56.4%,45.9%);
+            }
+          }
+
+          #facebook {
+            background-color: hsl(221.7,43.4%,41.6%);
+            transition: background-color 0.2s;
+
+            &:hover {
+              background-color: hsl(221.7,43.4%,31.6%);
+            }
+          }
+
+          #twitter {
+            background-color: hsl(202.8,89.1%,53.1%);
+            transition: background-color 0.2s;
+
+            &:hover {
+              background-color: hsl(202.8,89.1%,43.1%);
+            }
           }
         }
       }
