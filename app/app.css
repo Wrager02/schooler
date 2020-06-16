@@ -1050,7 +1050,7 @@ div[role=button] {
   min-height: 100vh;
   font-family: "Nunito Sans", sans-serif;
   background-color: white;
-  padding-bottom: 2%;
+  padding-bottom: 4%;
 }
 @media (min-width: 992px) {
   .detail-view {
@@ -1119,11 +1119,12 @@ div[role=button] {
   outline: none;
 }
 .detail-view .detail-info {
-  margin: 2% 5% 0 5%;
+  margin: 4% 8% 0 8%;
 }
 @media (min-width: 992px) {
   .detail-view .detail-info {
     height: 50vh;
+    margin: 2% 5% 0 5%;
   }
 }
 .detail-view .detail-info .title {
@@ -1198,7 +1199,7 @@ div[role=button] {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-block-start: 0.5em;
+  margin-block-start: 1em;
 }
 @media (min-width: 992px) {
   .detail-view .detail-info .info-container .infos .attributes .attribute {
@@ -1228,7 +1229,7 @@ div[role=button] {
   display: flex;
   flex-direction: row;
   font-size: 1em;
-  margin-block-start: 0.5em;
+  margin-block-start: 1em;
 }
 @media (min-width: 992px) {
   .detail-view .detail-info .info-container .specialisations .specialisation {
@@ -1243,13 +1244,13 @@ div[role=button] {
   text-align: center;
 }
 .detail-view .detail-info .info-container #map {
-  width: 90vw;
-  height: 90vw;
+  width: 84vw;
+  height: 84vw;
   border-radius: 8%;
   -webkit-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
   -moz-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
   box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
-  margin-top: 5%;
+  margin-top: 10%;
 }
 @media (min-width: 992px) {
   .detail-view .detail-info .info-container #map {
