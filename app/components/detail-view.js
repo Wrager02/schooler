@@ -54,4 +54,18 @@ app.controller("DetailViewController", function (AddToFavorite, $log, $timeout, 
             this.fav({f: this.school.favorite});
         }
     }
+
+    this.getHref = (mode) => {
+        let text = "Schooler: "
+        switch (mode) {
+            case 0:
+                return "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(window.location.href);
+                break;
+            case 1:
+                return "https://twitter.com/intent/tweet?text=" + encodeURIComponent(text + window.location.href);
+                break;
+            case 2:
+                return "https://api.whatsapp.com/send?text=" + encodeURIComponent(text + window.location.href);
+        }
+    }
 });
