@@ -4,10 +4,12 @@ app.service("SaveFilter", function ($log) {
 
     $log.debug("SaveFilter()");
 
-    this.saveFilter = (selectedTags, control, input) => {
+    this.saveFilter = (selectedTags, control, input, select, view) => {
         localStorage.setItem("selectedTags", JSON.stringify(selectedTags));
         localStorage.setItem("control", JSON.stringify(control));
         localStorage.setItem("input", JSON.stringify(input));
+        localStorage.setItem("select", JSON.stringify(select));
+        localStorage.setItem("view", JSON.stringify(view));
     };
 
     this.loadSelectedTags = () => {
@@ -29,5 +31,19 @@ app.service("SaveFilter", function ($log) {
             return JSON.parse(localStorage.getItem("input"));
         }
         return "";
+    };
+
+    this.loadSelect = () => {
+        if(localStorage.getItem("select")) {
+            return JSON.parse(localStorage.getItem("select"));
+        }
+        return "";
+    };
+
+    this.loadView = () => {
+        if(localStorage.getItem("view")) {
+            return JSON.parse(localStorage.getItem("view"));
+        }
+        return false;
     };
 });

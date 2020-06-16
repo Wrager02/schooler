@@ -24,11 +24,13 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     this.sortList = () => {
         this.list.sort(SortBy.dynamicSort(this.select));
+        SaveFilter.saveFilter(this.selectedTags, this.control, this.input, this.select, this.listView);
         console.log(this.list);
     };
 
     this.init = () => {
         this.input = SaveFilter.loadInput();
+        this.select = SaveFilter.loadSelect();
         FulltextSearch.search(this.input).then(response => {
             this.list = AddToFavorite.loadFavoritesOnInit(response);
             this.originalList = AddToFavorite.loadFavoritesOnInit(response);
@@ -43,7 +45,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
 
     this.search = () => {
-        SaveFilter.saveFilter(this.selectedTags, this.control, this.input);
+        SaveFilter.saveFilter(this.selectedTags, this.control, this.input, this.select, this.listView);
         FulltextSearch.search(this.input).then(response => {
             this.list = response;
             this.originalList = response;
@@ -86,7 +88,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     this.filterOn = false;
 
     this.toggleMobileFilter = () => {
-        console.log(this.filterOn)
+        console.log(this.filterOn);
 
         this.scrollTo();
 
@@ -96,10 +98,11 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     // Ansicht //
 
-    this.listView = false;
+    this.listView = SaveFilter.loadView();
 
     this.changeView = () => {
         this.listView = !this.listView;
+        SaveFilter.saveFilter(this.selectedTags, this.control, this.input, this.select, this.listView);
     };
 
 
@@ -109,7 +112,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
             left: 0,
             behavior: 'smooth'
         });
-    }
+    };
 
     $(document).ready(function () {
         var y = $(this).scrollTop();
@@ -155,14 +158,14 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
         this.selectedTags.push(this.tags[tag]);
         this.tags.splice(tag, 1);
         this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
-        SaveFilter.saveFilter(this.selectedTags, this.control, this.input);
+        SaveFilter.saveFilter(this.selectedTags, this.control, this.input, this.select, this.listView);
     };
 
     this.deselectTag = (tag) => {
         this.tags.push(this.selectedTags[tag]);
         this.selectedTags.splice(tag, 1);
         this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
-        SaveFilter.saveFilter(this.selectedTags, this.control, this.input);
+        SaveFilter.saveFilter(this.selectedTags, this.control, this.input, this.select, this.listView);
     };
 
 
@@ -172,7 +175,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     this.change = (button) => {
         this.control[button] = !this.control[button];
-        SaveFilter.saveFilter(this.selectedTags, this.control, this.input);
+        SaveFilter.saveFilter(this.selectedTags, this.control, this.input, this.select);
     }
 
 
