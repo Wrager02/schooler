@@ -61,6 +61,7 @@ div[role="button"] {
 .landing-page .navbar .burger span {
   position: relative;
   display: block;
+  z-index: 5;
   width: 30px;
   height: 4px;
   background: #000021;
@@ -93,14 +94,62 @@ div[role="button"] {
 .landing-page .navbar .burger.active span:before {
   -webkit-transform: rotate(45deg) translate(5px, 6px);
           transform: rotate(45deg) translate(5px, 6px);
+  background: #ffffff;
 }
 
 .landing-page .navbar .burger.active span:after {
   -webkit-transform: rotate(-45deg) translate(5px, -6px);
           transform: rotate(-45deg) translate(5px, -6px);
+  background: #ffffff;
+}
+
+@media (max-width: 992px) {
+  .landing-page .navbar ul {
+    margin: 0;
+    position: absolute;
+    right: -60vw;
+    top: 0;
+    height: 100vh;
+    width: 50vw;
+    background-color: #000021;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  .landing-page .navbar ul li {
+    display: block;
+    color: #ffffff;
+    padding: 1em;
+    cursor: pointer;
+  }
+  .landing-page .navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .landing-page .navbar .ul-active {
+    right: 0 !important;
+  }
+}
+
+.landing-page .content-active {
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-transform: translate(-50vw);
+          transform: translate(-50vw);
 }
 
 .landing-page .content {
+  -webkit-transition: .5s;
+  transition: .5s;
   background-color: #ffffff;
   overflow-x: hidden;
 }
@@ -159,9 +208,9 @@ div[role="button"] {
 
 .landing-page .content .landing-first #professor_without_board {
   position: absolute;
-  bottom: 0;
+  bottom: -5vh;
   right: 15vw;
-  width: calc(180px + 10%);
+  width: calc(160px + 10%);
 }
 
 .landing-page .content .landing-first #professor_with_board {
@@ -170,7 +219,7 @@ div[role="button"] {
 
 .landing-page .content .landing-first #blue_corner {
   position: absolute;
-  bottom: -1px;
+  bottom: -5vh;
   right: 0;
   width: 100%;
   z-index: 1;
@@ -192,6 +241,7 @@ div[role="button"] {
   min-height: 100vh;
   background-color: #000021;
   overflow: hidden;
+  padding-bottom: 5vh !important;
 }
 
 .landing-page .content .landing-second div {
@@ -211,6 +261,52 @@ div[role="button"] {
   padding-top: 6vh;
   font-size: 17px;
   color: #ffffff;
+}
+
+.landing-page .content footer {
+  background-color: #000021;
+  color: #ffffff;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 5vh 0 5vh 0;
+}
+
+@media (max-width: 992px) {
+  .landing-page .content footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 10vw;
+    background-color: #14141a;
+  }
+  .landing-page .content footer * {
+    margin: 2vh;
+  }
+  .landing-page .content footer p {
+    margin-bottom: 5vh;
+  }
+}
+
+.landing-page .content footer * {
+  margin: 0;
+}
+
+.landing-page .content footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.landing-page .content footer a:hover {
+  text-decoration: underline;
 }
 
 @media (min-width: 992px) {
@@ -272,10 +368,21 @@ div[role="button"] {
     color: #ffffff;
     padding: 1em;
     cursor: pointer;
+    position: relative;
   }
   .landing-page ul li a {
     color: #ffffff;
     text-decoration: none;
+  }
+  .landing-page ul li:hover::after {
+    content: '';
+    width: 72%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #00AEEF;
+    position: absolute;
+    left: 14%;
+    bottom: 25%;
   }
   .landing-page #professor_without_board {
     display: none;
@@ -985,7 +1092,7 @@ div[role="button"] {
   background-color: #ffffff;
   border-radius: 1em;
   display: inline-block;
-  margin: 1em 3.3% 1em 0;
+  margin: 1em 3% 1em 0;
   cursor: pointer;
   overflow: hidden;
   -ms-flex-preferred-size: 300px;
