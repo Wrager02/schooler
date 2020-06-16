@@ -1410,4 +1410,12 @@ div[role=button] {
   box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
 }
 
+.imprint .content {
+  margin: 2%;
+}
+
+.contact .content {
+  margin: 2%;
+}
+
 /*# sourceMappingURL=app.css.map */
