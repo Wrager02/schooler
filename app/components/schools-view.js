@@ -45,7 +45,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
 
     this.search = () => {
-        SaveFilter.saveFilter(this.selectedTags, this.control, this.input, this.select, this.listView);
+        SaveFilter.saveFilter(this.selectedTags, this.tags, this.control, this.input, this.select, this.listView);
         FulltextSearch.search(this.input).then(response => {
             this.list = response;
             this.originalList = response;
@@ -102,7 +102,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     this.changeView = () => {
         this.listView = !this.listView;
-        SaveFilter.saveFilter(this.selectedTags, this.control, this.input, this.select, this.listView);
+        SaveFilter.saveFilter(this.selectedTags, this.tags, this.control, this.input, this.select, this.listView);
     };
 
 
@@ -134,22 +134,8 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     // Schwerpunkt Tags //
 
 
-    this.tags = ["Abendschule", "Administration", "Arabisch", "Baugewerbe", "Bautechnik",
-        "BHAK", "BHAS", "Biomedizin", "Bundesrealgymnasium", "Büro",
-        "Bürokaufleute", "Chemie", "Design", "Dienstleistungen", "Einzelhandel",
-        "Elektronik", "Elektrotechnik", "Elementarpädagogik", "Fachlehrgang für Marktkommunikation", "Fachschule Informationstechnik",
-        "Fachschule Mechatronik", "Fahrradmechatronik", "Farbe", "Finanzen", "Fotografie",
-        "Gartenbau", "Gastgewerbe", "Gesundheit", "Gesundheits- und Krankenpflege", "Grafik",
-        "Gymnasium", "Handel", "Heereslogistik", "Holz", "Industrie",
-        "Informatik", "Informationstechnologie", "Jüdische Sozialberufe", "Karosseriebautechnik", "Klang",
-        "Kraftfahrzeugtechnik", "Kunst", "Kunststofftechnik", "Küche und Service", "Lack",
-        "Lebensmittel", "Maschinenbau", "Mechatronik", "Metall/Maschinenbau", "Metalltechnik, Glasbautechnik und Technische Zeichner",
-        "Mode", "Multimedia", "Musik", "Netzwerktechnik", "Patisserie-Meisterklasse",
-        "Polytechnische Schule", "Printmedia", "Reinigung", "Reisen", "Sanitär-, Heizungs- und Klimatechnik", "Schönheitsberufe",
-        "Sozialpädagogik", "Spar", "Spengler", "Sport", "Textilindustrie",
-        "Tiere", "Tourismus", "Transport", "Veranstaltungstechnik", "Verwaltungsberufe",
-        "Werkmeisterschule", "Wirtschaft-Soziales", "Wirtschaftsingenieure", "Wirtschaftliche Berufe", "Wohnheim",
-        "Zahntechnik"];
+    this.tags = SaveFilter.loadTags();
+
     this.selectedTags = SaveFilter.loadSelectedTags();
 
     this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
@@ -158,14 +144,14 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
         this.selectedTags.push(this.tags[tag]);
         this.tags.splice(tag, 1);
         this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
-        SaveFilter.saveFilter(this.selectedTags, this.control, this.input, this.select, this.listView);
+        SaveFilter.saveFilter(this.selectedTags, this.tags, this.control, this.input, this.select, this.listView);
     };
 
     this.deselectTag = (tag) => {
         this.tags.push(this.selectedTags[tag]);
         this.selectedTags.splice(tag, 1);
         this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
-        SaveFilter.saveFilter(this.selectedTags, this.control, this.input, this.select, this.listView);
+        SaveFilter.saveFilter(this.selectedTags, this.tags, this.control, this.input, this.select, this.listView);
     };
 
 
@@ -175,7 +161,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     this.change = (button) => {
         this.control[button] = !this.control[button];
-        SaveFilter.saveFilter(this.selectedTags, this.control, this.input, this.select, this.listView);
+        SaveFilter.saveFilter(this.selectedTags, this.tags, this.control, this.input, this.select, this.listView);
     }
 
 

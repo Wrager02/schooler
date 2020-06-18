@@ -1231,14 +1231,6 @@ div[role=button] {
   justify-content: space-between;
   align-content: center;
 }
-.detail-view .detail-info .title .left .specialisationContainer .favourite {
-  font-size: 20px;
-}
-@media (min-width: 992px) {
-  .detail-view .detail-info .title .left .specialisationContainer .favourite {
-    font-size: 25px;
-  }
-}
 .detail-view .detail-info .title .right .buttons {
   display: flex;
   flex-direction: row;
@@ -1385,6 +1377,22 @@ div[role=button] {
     width: 40vh;
     height: 40vh;
   }
+}
+.detail-view .favourite {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  right: 5%;
+  top: 3%;
+}
+@media (min-width: 992px) {
+  .detail-view .favourite {
+    font-size: 40px;
+    top: 4%;
+  }
+}
+.detail-view .favourite:hover {
+  cursor: pointer;
 }
 .detail-view #favorite-alert {
   background-color: #36ad1f;

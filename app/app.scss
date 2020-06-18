@@ -1535,13 +1535,7 @@ div[role="button"] {
           justify-content: space-between;
           align-content: center;
 
-          .favourite {
-            font-size: 20px;
 
-            @media(min-width: 992px) {
-              font-size: 25px;
-            }
-          }
         }
       }
 
@@ -1711,6 +1705,24 @@ div[role="button"] {
         }
       }
     }
+  }
+
+  .favourite {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 5%;
+    top: 3%;
+
+    @media(min-width: 992px) {
+      font-size: 40px;
+      top: 4%;
+    }
+
+  }
+
+  .favourite:hover{
+    cursor: pointer;
   }
 
   #favorite-alert {
