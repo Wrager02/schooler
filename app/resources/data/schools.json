@@ -103,13 +103,13 @@
   },
   {
     "id": 79,
-    "name": "BORG 1 Hegelgasse",
+    "name": "ORg Hegelgasse 12",
     "zip": "1010",
     "city": "Wien",
     "street": "Hegelgasse",
     "housenumber": "12",
     "addressextra": "\/",
-    "website": "h12.at",
+    "website": "www.h12.at",
     "email": "julia.berger@bildung.gv.at",
     "private": false,
     "schoolform": "Allgemeinbildende hoehere Schule",
@@ -139,7 +139,7 @@
     "street": "Akademiestraße",
     "housenumber": "12",
     "addressextra": "\/",
-    "website": " akademiestrasse.vbs.ac.at",
+    "website": "www.akademiestrasse.vbs.ac.at",
     "email": "akademiestrasse@vbs.ac.at",
     "private": true,
     "schoolform": "Kaufmaennische Schule",
@@ -163,7 +163,7 @@
     "street": "Judenplatz",
     "housenumber": "3-4",
     "addressextra": "\/",
-    "website": " gafa.ac.at",
+    "website": "www.gafa.ac.at",
     "email": "office@gafa.ac.at",
     "private": true,
     "schoolform": "Humanberufliche Schule",
@@ -199,13 +199,26 @@
     "street": "Schellinggasse",
     "housenumber": "13",
     "addressextra": "\/",
-    "website": "lessinggasse.at",
+    "website": "www.lessinggasse.at",
     "email": "sekretariat@lessinggasse.at",
     "private": false,
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "Matura",
-    "specialisations": [],
+    "specialisations": [
+      {
+        "specialisation": "Gymnasium",
+        "description": "\/",
+        "graphic": "book",
+        "hsl": "hsl(183,48%,20%)"
+      },
+      {
+        "specialisation": "Bundesrealgymnasium",
+        "description": "\/",
+        "graphic": "book",
+        "hsl": "hsl(183,48%,20%)"
+      }
+    ],
     "favorite": false
   },
   {
@@ -354,7 +367,7 @@
     "street": "Untere Augartenstraße",
     "housenumber": "9",
     "addressextra": "\/",
-    "website": " akademiestrasse.vbs.ac.at",
+    "website": "www.akademiestrasse.vbs.ac.at",
     "email": "akademiestrasse@vbs.ac.at",
     "private": true,
     "schoolform": "Kaufmaennische Schule",
@@ -840,7 +853,7 @@
   },
   {
     "id": 104,
-    "name": "Camillo Sitte Bautechnikum",
+    "name": "Camillo Sitte Lehranstalt, Höhere Technische Bundeslehr- und Versuchsanstalt",
     "zip": "1030",
     "city": "Wien",
     "street": "Leberstraße",
@@ -856,7 +869,7 @@
       {
         "specialisation": "Bautechnik",
         "description": "\/",
-        "graphic": "snow-plow",
+        "graphic": "snowplow",
         "hsl": "hsl(95,48%,20%)"
       }
     ],
@@ -864,7 +877,7 @@
   },
   {
     "id": 105,
-    "name": "HAK | HAS | HTL  Ungargasse Wien 3",
+    "name": "HTL  Ungargasse Wien 3",
     "zip": "1030",
     "city": "Wien",
     "street": "Ungargasse",
@@ -888,19 +901,13 @@
         "description": "\/",
         "graphic": "laptop-code",
         "hsl": "hsl(213,48%,20%)"
-      },
-      {
-        "specialisation": "Wirtschaftingenieure",
-        "description": "\/",
-        "graphic": "cogs",
-        "hsl": "hsl(167,48%,20%)"
       }
     ],
     "favorite": false
   },
   {
     "id": 106,
-    "name": "HAK | HAS | HTL  Ungargasse Wien 3",
+    "name": "HAK/HAS  Ungargasse Wien 3",
     "zip": "1030",
     "city": "Wien",
     "street": "Ungargasse",
@@ -912,7 +919,14 @@
     "schoolform": "Kaufmaennische Schule",
     "schoolformDescription": "\/",
     "graduation": "(Matura\/Diplom)",
-    "specialisations": [],
+    "specialisations": [
+      {
+        "specialisation": "Wirtschaftingenieure",
+        "description": "\/",
+        "graphic": "cogs",
+        "hsl": "hsl(167,48%,20%)"
+      }
+    ],
     "favorite": false
   },
   {
@@ -937,10 +951,10 @@
         "hsl": "hsl(213,48%,20%)"
       },
       {
-        "specialisation": "Netzwerktechnik",
+        "specialisation": "Mechatronik",
         "description": "\/",
-        "graphic": "laptop-code",
-        "hsl": "hsl(213,48%,20%)"
+        "graphic": "cogs",
+        "hsl": "hsl(11,48%,20%)"
       },
       {
         "specialisation": "Fachschule Informationstechnik",
@@ -1241,7 +1255,7 @@
   },
   {
     "id": 116,
-    "name": "Höhere Bundeslehr- und Versuchsanstalt für Textilindustrie und Informatik",
+    "name": "HTL Spengergasse",
     "zip": "1050",
     "city": "Wien",
     "street": "Spengergasse",
@@ -1255,10 +1269,28 @@
     "graduation": "Matura\/Diplom",
     "specialisations": [
       {
-        "specialisation": "Textilindustrie",
+        "specialisation": "Informationstechnologie",
         "description": "\/",
-        "graphic": "tshirt",
-        "hsl": "hsl(320,48%,20%)"
+        "graphic": "laptop-code",
+        "hsl": "hsl(213,48%,20%)"
+      },
+      {
+        "specialisation": "Informatik",
+        "description": "\/",
+        "graphic": "laptop-code",
+        "hsl": "hsl(213,48%,20%)"
+      },
+      {
+        "specialisation": "Gamedesign",
+        "description": "\/",
+        "graphic": "gamepad",
+        "hsl": "hsl(241,48%,20%)"
+      },
+      {
+        "specialisation": "Biomedizin",
+        "description": "\/",
+        "graphic": "seedling",
+        "hsl": "hsl(328,48%,20%)"
       }
     ],
     "favorite": false
@@ -1757,7 +1789,7 @@
     "street": "Hamerlingplatz",
     "housenumber": "5-6",
     "addressextra": "\/",
-    "website": " hamerlingplatz.vbs.ac.at",
+    "website": "www.hamerlingplatz.vbs.ac.at",
     "email": "hamerlingplatz@vbs.ac.at",
     "private": true,
     "schoolform": "Kaufmaennische Schule",
@@ -1787,7 +1819,7 @@
     "street": "Schönborngasse",
     "housenumber": "3-5",
     "addressextra": "\/",
-    "website": " schoenborngasse.vbs.ac.at",
+    "website": "www.schoenborngasse.vbs.ac.at",
     "email": "schoenborngasse@vbs.ac.at",
     "private": true,
     "schoolform": "Kaufmaennische Schule",
@@ -1825,7 +1857,7 @@
     "graduation": "Diplom",
     "specialisations": [
       {
-        "specialisation": "Elementärpädagogik",
+        "specialisation": "Elementarpädagogik",
         "description": "\/",
         "graphic": "child",
         "hsl": "hsl(14,48%,20%)"
@@ -1889,7 +1921,7 @@
     "street": "Wasagasse",
     "housenumber": "10",
     "addressextra": "\/",
-    "website": " bg9.at",
+    "website": "www.bg9.at",
     "email": "elang@bg9.at",
     "private": false,
     "schoolform": "Allgemeinbildende hoehere Schule",
@@ -1913,7 +1945,7 @@
     "street": "Glasergasse",
     "housenumber": "25",
     "addressextra": "\/",
-    "website": " brg9.at",
+    "website": "www.brg9.at",
     "email": "sekretariat@brg9.at",
     "private": false,
     "schoolform": "Allgemeinbildende hoehere Schule",
@@ -1991,7 +2023,7 @@
     "street": "Seegasse",
     "housenumber": "30",
     "addressextra": "\/",
-    "website": " seegasse.caritas-wien.at",
+    "website": "www.seegasse.caritas-wien.at",
     "email": "office@ausbildung.caritas-wien.at",
     "private": true,
     "schoolform": "Humanberufliche Schule",
@@ -2255,7 +2287,7 @@
     "street": "Absberggasse",
     "housenumber": "27",
     "addressextra": "\/",
-    "website": " sob.caritas-wien.at",
+    "website": "www.sob.caritas-wien.at",
     "email": "sob@caritas-wien.at",
     "private": true,
     "schoolform": "Humanberufliche Schule",
@@ -2287,7 +2319,7 @@
     "graduation": "Diplom",
     "specialisations": [
       {
-        "specialisation": "Elementärpädagogik",
+        "specialisation": "Elementarpädagogik",
         "description": "\/",
         "graphic": "child",
         "hsl": "hsl(14,48%,20%)"
@@ -2303,7 +2335,7 @@
     "street": "Knöllgasse",
     "housenumber": "20",
     "addressextra": "\/",
-    "website": " phoenixrealgymnasium.at\/w3\/",
+    "website": "www.phoenixrealgymnasium.at\/w3\/",
     "email": "prg10@phoenixrealgymnasium.at",
     "private": true,
     "schoolform": "Allgemeinbildende hoehere Schule",
@@ -2497,7 +2529,7 @@
     "graduation": "Diplom",
     "specialisations": [
       {
-        "specialisation": "Elementärpädagogik",
+        "specialisation": "Elementarpädagogik",
         "description": "\/",
         "graphic": "child",
         "hsl": "hsl(14,48%,20%)"
@@ -2597,7 +2629,20 @@
     "schoolform": "Allgemeinbildende hoehere Schule",
     "schoolformDescription": "\/",
     "graduation": "Matura",
-    "specialisations": [],
+    "specialisations": [
+      {
+        "specialisation": "Gymnasium",
+        "description": "\/",
+        "graphic": "book",
+        "hsl": "hsl(183,48%,20%)"
+      },
+      {
+        "specialisation": "Bundesrealgymnasium",
+        "description": "\/",
+        "graphic": "book",
+        "hsl": "hsl(183,48%,20%)"
+      }
+    ],
     "favorite": false
   },
   {
@@ -2632,7 +2677,7 @@
     "street": "Hetzendorferstraße",
     "housenumber": "77",
     "addressextra": "\/",
-    "website": " infinum.edupage.org",
+    "website": "www.infinum.edupage.org",
     "email": "direktion@infinum.at",
     "private": true,
     "schoolform": "Allgemeinbildende hoehere Schule",
@@ -2914,7 +2959,7 @@
     "street": "Amalienstraße",
     "housenumber": "31-33",
     "addressextra": "\/",
-    "website": " bs1130eh.schule.wien.at",
+    "website": "www.bs1130eh.schule.wien.at",
     "email": "office.913025@schule.wien.gv.at",
     "private": false,
     "schoolform": "Berufsschule",
@@ -3322,7 +3367,7 @@
     "street": "Friesgasse",
     "housenumber": "4",
     "addressextra": "\/",
-    "website": " ahs.schulfriesgasse.ac.at",
+    "website": "www.ahs.schulfriesgasse.ac.at",
     "email": "ahs@schulefriesgasse.ac.at",
     "private": true,
     "schoolform": "Allgemeinbildende hoehere Schule",
@@ -3424,7 +3469,7 @@
     "street": "Meiselstraße",
     "housenumber": "19",
     "addressextra": "\/",
-    "website": " bsbk.schule.wien,at",
+    "website": "www.bsbk.schule.wien,at",
     "email": "office@bsbk.at",
     "private": false,
     "schoolform": "Berufsschule",
@@ -3448,7 +3493,7 @@
     "street": "Friesgasse",
     "housenumber": "4",
     "addressextra": "\/",
-    "website": " has-aul.schulefriesgasse.ac.at\/has",
+    "website": "www.has-aul.schulefriesgasse.ac.at\/has",
     "email": "has@schulfriesgasse.ac.at",
     "private": true,
     "schoolform": "Kaufmaennische Schule",
@@ -3856,7 +3901,7 @@
     "street": "Schopenhauerstraße",
     "housenumber": "79-81",
     "addressextra": "\/",
-    "website": " pts18.schule.wien.at",
+    "website": "www.pts18.schule.wien.at",
     "email": "ps18scho081k@m56ssr.wien.at",
     "private": false,
     "schoolform": "Polytechnische Schule",
@@ -3952,7 +3997,7 @@
     "street": "Scheidlstraße",
     "housenumber": "2",
     "addressextra": "\/",
-    "website": " ahsmarianum.weebly.com",
+    "website": "www.ahsmarianum.weebly.com",
     "email": "gymnasium@marianum.at",
     "private": true,
     "schoolform": "Allgemeinbildende hoehere Schule",
@@ -4048,7 +4093,7 @@
     "street": "Paulinengasse",
     "housenumber": "16a",
     "addressextra": "\/",
-    "website": " ves.at",
+    "website": "www.ves.at",
     "email": "office@ves.at",
     "private": true,
     "schoolform": "Allgemeinbildende hoehere Schule",
@@ -4096,7 +4141,7 @@
     "street": "Währinger Gürtel",
     "housenumber": "97",
     "addressextra": "\/",
-    "website": " www.wifiwien.at",
+    "website": "www.wifiwien.at",
     "email": "Kundenservice@wifiwien.at",
     "private": true,
     "schoolform": "Technische Schule",
@@ -4168,7 +4213,7 @@
     "street": "Billrothstraße",
     "housenumber": "73",
     "addressextra": "\/",
-    "website": " billroth73.at",
+    "website": "www.billroth73.at",
     "email": "sek1.grg19bi73@919076.ssr-wien.gv.at",
     "private": false,
     "schoolform": "Allgemeinbildende hoehere Schule",
@@ -4272,7 +4317,7 @@
     "graduation": "Diplom",
     "specialisations": [
       {
-        "specialisation": "Elementärpädagogik",
+        "specialisation": "Elementarpädagogik",
         "description": "\/",
         "graphic": "child",
         "hsl": "hsl(14,48%,20%)"
@@ -4366,7 +4411,7 @@
     "street": "Billrothstraße",
     "housenumber": "26-30",
     "addressextra": "\/",
-    "website": " billrothgymnasium.at\/",
+    "website": "www.billrothgymnasium.at\/",
     "email": "administration@billrothgymnasium.at",
     "private": false,
     "schoolform": "Allgemeinbildende hoehere Schule",
@@ -4428,7 +4473,7 @@
     "graduation": "Matura\/Diplom",
     "specialisations": [
       {
-        "specialisation": "Biomedizin- und Gesundheitstechnik",
+        "specialisation": "Biomedizin",
         "description": "\/",
         "graphic": "seedling",
         "hsl": "hsl(328,48%,20%)"
@@ -4726,7 +4771,7 @@
     "street": "Prager Straße",
     "housenumber": "124",
     "addressextra": "\/",
-    "website": " avicenna.schule.wien.at",
+    "website": "www.avicenna.schule.wien.at",
     "email": "\/",
     "private": true,
     "schoolform": "Allgemeinbildende hoehere Schule",
@@ -4812,13 +4857,13 @@
     "graduation": "Diplom",
     "specialisations": [
       {
-        "specialisation": "Elementärpädagogik",
+        "specialisation": "Elementarpädagogik",
         "description": "\/",
         "graphic": "child",
         "hsl": "hsl(14,48%,20%)"
       },
       {
-        "specialisation": "Elementärpädagogik",
+        "specialisation": "Elementarpädagogik",
         "description": "\/",
         "graphic": "child",
         "hsl": "hsl(14,48%,20%)"
@@ -4840,7 +4885,14 @@
     "schoolform": "Lehrerbildende mittlere und hoehere Schulen",
     "schoolformDescription": "\/",
     "graduation": "Diplom",
-    "specialisations": [],
+    "specialisations": [
+      {
+        "specialisation": "Sozialpädagogik",
+        "description": "\/",
+        "graphic": "child",
+        "hsl": "hsl(14,48%,20%)"
+      }
+    ],
     "favorite": false
   },
   {
@@ -4875,7 +4927,7 @@
     "street": "Anton Böck",
     "housenumber": "-",
     "addressextra": "\/",
-    "website": " ahs.dls21.at\/",
+    "website": "www.ahs.dls21.at\/",
     "email": "ahs.direktion@delasalle.at",
     "private": true,
     "schoolform": "Allgemeinbildende hoehere Schule",
@@ -4929,7 +4981,7 @@
     "street": "Wagramer Straße",
     "housenumber": "65",
     "addressextra": "\/",
-    "website": " bsbau.at",
+    "website": "www.bsbau.at",
     "email": "office.922015@schule.wien.gv.at",
     "private": false,
     "schoolform": "Berufsschule",
@@ -4983,7 +5035,7 @@
     "street": "Donizettiweg",
     "housenumber": "31",
     "addressextra": "\/",
-    "website": " bsgf.schule.wien.at",
+    "website": "www.bsgf.schule.wien.at",
     "email": "office.922025@schule.wien.gv.at",
     "private": false,
     "schoolform": "Berufsschule",
@@ -5091,7 +5143,7 @@
     "street": "Heustadelgasse",
     "housenumber": "4",
     "addressextra": "\/",
-    "website": " heustadlgasse.at",
+    "website": "www.heustadlgasse.at",
     "email": "sek1.grgorg22@922056.bildung-wien.gv.at",
     "private": false,
     "schoolform": "Allgemeinbildende hoehere Schule",
@@ -5409,7 +5461,7 @@
     "street": "Promenadeweg",
     "housenumber": "3",
     "addressextra": "\/",
-    "website": " gym.kalksburg.at\/",
+    "website": "www.gym.kalksburg.at\/",
     "email": "direktion.gym@kalksburg.at",
     "private": true,
     "schoolform": "Allgemeinbildende hoehere Schule",
@@ -5469,7 +5521,7 @@
     "street": "Anton Baumgartner-Straße",
     "housenumber": "123",
     "addressextra": "\/",
-    "website": " grg23-alterlaa.ac.at\/",
+    "website": "www.grg23-alterlaa.ac.at\/",
     "email": "grg23@923066.bildung-wien.gv.at",
     "private": false,
     "schoolform": "Allgemeinbildende hoehere Schule",

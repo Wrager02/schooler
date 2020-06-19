@@ -38,10 +38,10 @@ class Specialisation implements \JsonSerializable
      */
     public function __construct(string $specialisation, $description, $graphic, $hsl)
     {
-        $this->specialisation = $specialisation;
-        $this->description = $description;
-        $this->graphic = $graphic;
-        $this->hsl = $hsl;
+        $this->specialisation = utf8_encode($specialisation);
+        $this->description = utf8_encode($description);
+        $this->graphic = utf8_encode($graphic);
+        $this->hsl = utf8_encode($hsl);
     }
 
     public function __toString()

@@ -49,6 +49,7 @@ div[role=button] {
 .landing-page .navbar .burger span {
   position: relative;
   display: block;
+  z-index: 5;
   width: 30px;
   height: 4px;
   background: #000021;
@@ -73,23 +74,65 @@ div[role=button] {
 }
 .landing-page .navbar .burger.active span:before {
   transform: rotate(45deg) translate(5px, 6px);
+  background: #ffffff;
 }
 .landing-page .navbar .burger.active span:after {
   transform: rotate(-45deg) translate(5px, -6px);
+  background: #ffffff;
+}
+@media (max-width: 992px) {
+  .landing-page .navbar ul {
+    margin: 0;
+    position: absolute;
+    right: -60vw;
+    top: 0;
+    height: 100vh;
+    width: 50vw;
+    background-color: #000021;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;
+  }
+  .landing-page .navbar ul li {
+    display: block;
+    color: #ffffff;
+    padding: 1em;
+    cursor: pointer;
+  }
+  .landing-page .navbar ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .landing-page .navbar .ul-active {
+    right: 0 !important;
+  }
+}
+.landing-page .content-active {
+  transition: 0.5s;
+  transform: translate(-50vw);
 }
 .landing-page .content {
+  transition: 0.5s;
   background-color: #ffffff;
   overflow-x: hidden;
 }
 .landing-page .content .landing-first {
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
+  position: relative;
 }
 .landing-page .content .landing-first .landing-info {
   width: 84%;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20vh;
+  overflow: hidden;
+}
+@media (max-width: 992px) {
+  .landing-page .content .landing-first .landing-info {
+    padding-top: 20vh;
+  }
 }
 .landing-page .content .landing-first .landing-info h1 {
   font-size: 41px;
@@ -119,25 +162,40 @@ div[role=button] {
 }
 .landing-page .content .landing-first #professor_without_board {
   position: absolute;
-  top: 59vh;
+  bottom: -5vh;
   right: 15vw;
-  width: 56%;
+  width: calc(160px + 10%);
+}
+.landing-page .content .landing-first #professor_with_board {
+  display: none;
 }
 .landing-page .content .landing-first #blue_corner {
   position: absolute;
-  top: 91vh;
-  right: 0px;
+  bottom: -5vh;
+  right: 0;
   width: 100%;
   z-index: 1;
 }
+@media (min-width: 576px) {
+  .landing-page .content .landing-first #blue_corner {
+    bottom: -12vh;
+  }
+}
+.landing-page .content .landing-first #blue_corner_desktop {
+  display: none;
+}
 .landing-page .content .landing-second {
   z-index: 2;
-  height: 100vh;
+  position: relative;
+  min-height: 100vh;
   background-color: #000021;
+  overflow: hidden;
+  padding-bottom: 5vh !important;
 }
 .landing-page .content .landing-second div {
   width: 84%;
   margin: auto;
+  overflow: hidden;
 }
 .landing-page .content .landing-second div h2 {
   padding-top: 8vh;
@@ -149,6 +207,138 @@ div[role=button] {
   padding-top: 6vh;
   font-size: 17px;
   color: #ffffff;
+}
+.landing-page .content footer {
+  background-color: #000021;
+  color: #ffffff;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 5vh 0 5vh 0;
+}
+@media (max-width: 992px) {
+  .landing-page .content footer {
+    flex-direction: column;
+    padding-left: 10vw;
+    background-color: #14141a;
+  }
+  .landing-page .content footer * {
+    margin: 2vh;
+  }
+  .landing-page .content footer p {
+    margin-bottom: 5vh;
+  }
+}
+.landing-page .content footer * {
+  margin: 0;
+}
+.landing-page .content footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.landing-page .content footer a:hover {
+  text-decoration: underline;
+}
+@media (min-width: 992px) {
+  .landing-page .navbar {
+    background-color: transparent;
+  }
+  .landing-page .landing-info {
+    margin: 0 0 0 0 !important;
+    padding-top: 0 !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: white;
+    width: 30vw !important;
+    height: 100vh;
+    z-index: 2;
+    overflow: visible !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .landing-page .landing-info h1 {
+    color: #ffffff !important;
+    width: 40vw;
+    margin-left: -15vw !important;
+    text-align: center;
+    font-size: 3vw !important;
+  }
+  .landing-page .landing-info p {
+    width: 40vw;
+    color: #00AEEF !important;
+    margin-left: -15vw !important;
+    margin-top: 0 !important;
+    text-align: center;
+  }
+  .landing-page .landing-info input {
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+  }
+  .landing-page .landing-info * {
+    z-index: 1;
+    position: relative;
+  }
+  .landing-page .burger {
+    display: none;
+  }
+  .landing-page ul {
+    margin-right: 2em;
+  }
+  .landing-page ul li {
+    display: inline-block;
+    color: #ffffff;
+    padding: 1em;
+    cursor: pointer;
+    position: relative;
+  }
+  .landing-page ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  .landing-page ul li:hover::after {
+    content: "";
+    width: 72%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #00AEEF;
+    position: absolute;
+    left: 14%;
+    bottom: 25%;
+  }
+  .landing-page #professor_without_board {
+    display: none;
+  }
+  .landing-page #professor_with_board {
+    display: block !important;
+    position: absolute;
+    bottom: 35vh;
+    left: 5vw;
+    width: 450px;
+  }
+  .landing-page #blue_corner {
+    display: none;
+  }
+  .landing-page #blue_corner_desktop {
+    display: block !important;
+    position: absolute;
+    left: 45vw;
+    top: 0;
+    min-height: 100vh;
+  }
+  .landing-page .landing-second {
+    background-color: #E8E8E8 !important;
+  }
+  .landing-page .landing-second h2 {
+    text-align: center;
+    font-size: 2em !important;
+  }
+  .landing-page .landing-second p {
+    color: #000021 !important;
+    font-size: 1.2em !important;
+  }
 }
 
 .schools-view {
@@ -737,7 +927,7 @@ div[role=button] {
   background-color: #ffffff;
   border-radius: 1em;
   display: inline-block;
-  margin: 1em 3.3% 1em 0;
+  margin: 1em 3% 1em 0;
   cursor: pointer;
   overflow: hidden;
   flex-basis: 300px;
@@ -945,7 +1135,7 @@ div[role=button] {
   min-height: 100vh;
   font-family: "Nunito Sans", sans-serif;
   background-color: white;
-  padding-bottom: 2%;
+  padding-bottom: 4%;
 }
 @media (min-width: 992px) {
   .detail-view {
@@ -970,11 +1160,6 @@ div[role=button] {
   color: #2D388A;
   font-size: 20px;
   margin: 0;
-}
-@media (min-width: 992px) {
-  .detail-view h3 {
-    font-size: 25px;
-  }
 }
 .detail-view .thumbnail-container {
   height: 30vh;
@@ -1019,7 +1204,13 @@ div[role=button] {
   outline: none;
 }
 .detail-view .detail-info {
-  margin: 2% 5% 0 5%;
+  margin: 4% 8% 0 8%;
+}
+@media (min-width: 992px) {
+  .detail-view .detail-info {
+    height: 50vh;
+    margin: 2% 5% 0 5%;
+  }
 }
 .detail-view .detail-info .title {
   display: flex;
@@ -1040,18 +1231,10 @@ div[role=button] {
   justify-content: space-between;
   align-content: center;
 }
-.detail-view .detail-info .title .left .specialisationContainer .favourite {
-  font-size: 20px;
-}
-@media (min-width: 992px) {
-  .detail-view .detail-info .title .left .specialisationContainer .favourite {
-    font-size: 25px;
-  }
-}
 .detail-view .detail-info .title .right .buttons {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-top: 1em;
 }
 @media (min-width: 992px) {
@@ -1059,63 +1242,157 @@ div[role=button] {
     margin-top: 0;
   }
 }
-.detail-view .detail-info .infos .attributes {
-  margin-top: 1em;
+.detail-view .detail-info .title .right .buttons .shareButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6vw;
+  color: white;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  text-decoration: none;
+  margin-right: 3vw;
+}
+@media (min-width: 992px) {
+  .detail-view .detail-info .title .right .buttons .shareButton {
+    width: 2.5vw;
+    height: 2.5vw;
+    font-size: 1.5vw;
+    margin-right: 0;
+    margin-left: 0.5vw;
+  }
+}
+.detail-view .detail-info .title .right .buttons #whatsapp {
+  background-color: #4fce5d;
+  transition: background-color 0.2s;
+}
+.detail-view .detail-info .title .right .buttons #whatsapp:hover {
+  background-color: #33b742;
+}
+.detail-view .detail-info .title .right .buttons #facebook {
+  background-color: #3c5898;
+  transition: background-color 0.2s;
+}
+.detail-view .detail-info .title .right .buttons #facebook:hover {
+  background-color: #2e4374;
+}
+.detail-view .detail-info .title .right .buttons #twitter {
+  background-color: #1da1f2;
+  transition: background-color 0.2s;
+}
+.detail-view .detail-info .title .right .buttons #twitter:hover {
+  background-color: #0c85d0;
+}
+.detail-view .detail-info .info-container {
+  margin-top: 5%;
+}
+@media (min-width: 992px) {
+  .detail-view .detail-info .info-container {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 2%;
+    margin: 0;
+  }
+}
+@media (min-width: 992px) {
+  .detail-view .detail-info .info-container .infos {
+    height: 40vh;
+    width: 40vh;
+  }
+}
+.detail-view .detail-info .info-container .infos .attributes {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
-.detail-view .detail-info .infos .attributes a {
+.detail-view .detail-info .info-container .infos .attributes a {
   color: #2D388A;
   text-decoration: none;
 }
-.detail-view .detail-info .infos .attributes .attribute {
+.detail-view .detail-info .info-container .infos .attributes .attribute {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-.detail-view .detail-info .infos .attributes .attribute .fas {
-  color: #000021;
-  margin-right: 0.5em;
-  font-size: 1.1em;
-  width: 1.1em;
-  text-align: center;
+  margin-block-start: 1em;
 }
 @media (min-width: 992px) {
-  .detail-view .detail-info .infos .attributes .attribute .fas {
-    font-size: 1.3em;
-    width: 1.3em;
-  }
-}
-.detail-view .detail-info .infos .attributes .attribute .attributeText {
-  font-size: 1em;
-  margin-block-end: 0.5em;
-  margin-block-start: 0.5em;
-}
-@media (min-width: 992px) {
-  .detail-view .detail-info .infos .attributes .attribute .attributeText {
+  .detail-view .detail-info .info-container .infos .attributes .attribute {
     font-size: 1.2em;
-    margin-block-end: 1em;
+    margin-block-end: 0;
     margin-block-start: 1em;
   }
 }
-.detail-view #map {
-  width: 90vw;
-  height: 90vw;
-  margin: 2% 5% 0 5%;
+.detail-view .detail-info .info-container .infos .attributes .attribute .fas {
+  color: #000021;
+  margin-right: 1em;
+  width: 1em;
+  text-align: center;
+}
+.detail-view .detail-info .info-container .infos .attributes .attribute .attributeText {
+  margin-block-end: 0;
+  margin-block-start: 0;
+  font-size: 1em;
+}
+@media (min-width: 992px) {
+  .detail-view .detail-info .info-container .specialisations {
+    height: 40vh;
+    width: 40vh;
+  }
+}
+.detail-view .detail-info .info-container .specialisations .specialisation {
+  display: flex;
+  flex-direction: row;
+  font-size: 1em;
+  margin-block-start: 1em;
+}
+@media (min-width: 992px) {
+  .detail-view .detail-info .info-container .specialisations .specialisation {
+    margin-block-start: 1em;
+    font-size: 1.2em;
+  }
+}
+.detail-view .detail-info .info-container .specialisations .specialisation .fas {
+  color: #000021;
+  margin-right: 1em;
+  width: 1em;
+  text-align: center;
+}
+.detail-view .detail-info .info-container #map {
+  width: 84vw;
+  height: 84vw;
   border-radius: 8%;
   -webkit-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
   -moz-box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
   box-shadow: 3px 3px 18px 0px rgba(0, 0, 0, 0.61);
+  margin-top: 10%;
 }
 @media (min-width: 992px) {
-  .detail-view #map {
-    position: absolute;
+  .detail-view .detail-info .info-container #map {
     margin: 0;
-    right: 5vw;
-    bottom: 3vh;
     width: 40vh;
     height: 40vh;
   }
+}
+.detail-view .favourite {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  right: 5%;
+  top: 3%;
+}
+@media (min-width: 992px) {
+  .detail-view .favourite {
+    font-size: 40px;
+    top: 4%;
+  }
+}
+.detail-view .favourite:hover {
+  cursor: pointer;
 }
 .detail-view #favorite-alert {
   background-color: #36ad1f;
@@ -1139,6 +1416,14 @@ div[role=button] {
   -webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
   -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
   box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+}
+
+.imprint .content {
+  margin: 2%;
+}
+
+.contact .content {
+  margin: 2%;
 }
 
 /*# sourceMappingURL=app.css.map */

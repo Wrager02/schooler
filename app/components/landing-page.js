@@ -25,6 +25,9 @@ app.controller("LandingPageController", function ($log) {
 
     $('.burger').click(function(){
         $(this).toggleClass('active');
+        $('#burger-ul').toggleClass('ul-active');
+        $('#content').toggleClass('content-active');
         return false;
       });
+
 });

@@ -5,9 +5,15 @@
             <img src="./resources/images/icon_font_black.svg" alt="schooler logo">
         </a>
         <a class="burger" href="#"><span></span></a>
+        <ul id="burger-ul">
+            <li><a href="#">home</a></li>
+            <li><a href="#info">info</a></li>
+            <li ui-sref="imprint">impressum</li>
+            <li ui-sref="contact">kontakt</li>
+        </ul>
     </div>
 
-    <div class="content">
+    <div class="content" id="content">
 
         <div class="landing-first">
 
@@ -27,7 +33,10 @@
 
             <img id="professor_without_board" src="./resources/images/professor_without_board.svg"
                  alt="professor without board illustraion">
+            <img id="professor_with_board" src="./resources/images/professor_with_board.png"
+            alt="professor with board illustraion">
             <img id="blue_corner" src="./resources/images/blue_corner.svg" alt="blue corner illustration">
+            <img id="blue_corner_desktop" src="./resources/images/blue_corner_desktop.svg" alt="blue corner illustration">
 
         </div>
 
@@ -52,6 +61,12 @@
             </div>
 
         </div>
+
+        <footer>
+            <p>Ein Projekt der HTL Rennweg.</p>
+            <a ui-sref="imprint">Impressum</a>
+            <a ui-sref="contact">Kontakt</a>
+        </footer>
 
     </div>
 

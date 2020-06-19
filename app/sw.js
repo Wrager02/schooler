@@ -2858,5 +2858,5 @@ workbox.precaching.precacheAndRoute([{
 
 workbox.routing.registerRoute(
     /.*/,
-    new workbox.strategies.NetworkFirst()
+    new workbox.strategies.StaleWhileRevalidate()
 );

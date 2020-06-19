@@ -18,20 +18,26 @@ app.config(function ($stateProvider, $urlRouterProvider) {
 });
 
 
-app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, FilterByFilter, $timeout, AddToFavorite) {
+app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, FilterByFilter, $timeout, AddToFavorite, SaveFilter) {
 
     $log.debug("SchoolsViewController()");
 
     this.sortList = () => {
         this.list.sort(SortBy.dynamicSort(this.select));
+        SaveFilter.saveFilter(this.selectedTags, this.control, this.input, this.select, this.listView);
         console.log(this.list);
     };
 
     this.init = () => {
-        FulltextSearch.search("").then(response => {
+        this.input = SaveFilter.loadInput();
+        this.select = SaveFilter.loadSelect();
+        FulltextSearch.search(this.input).then(response => {
             this.list = AddToFavorite.loadFavoritesOnInit(response);
             this.originalList = AddToFavorite.loadFavoritesOnInit(response);
-            console.log(this.list);
+            this.applyFilters();
+            if (this.select) {
+                this.sortList();
+            }
         });
     };
 
@@ -39,6 +45,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
 
     this.search = () => {
+        SaveFilter.saveFilter(this.selectedTags, this.tags, this.control, this.input, this.select, this.listView);
         FulltextSearch.search(this.input).then(response => {
             this.list = response;
             this.originalList = response;
@@ -81,7 +88,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     this.filterOn = false;
 
     this.toggleMobileFilter = () => {
-        console.log(this.filterOn)
+        console.log(this.filterOn);
 
         this.scrollTo();
 
@@ -91,10 +98,11 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
 
     // Ansicht //
 
-    this.listView = false;
+    this.listView = SaveFilter.loadView();
 
     this.changeView = () => {
         this.listView = !this.listView;
+        SaveFilter.saveFilter(this.selectedTags, this.tags, this.control, this.input, this.select, this.listView);
     };
 
 
@@ -104,7 +112,7 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
             left: 0,
             behavior: 'smooth'
         });
-    }
+    };
 
     $(document).ready(function () {
         var y = $(this).scrollTop();
@@ -126,23 +134,9 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
     // Schwerpunkt Tags //
 
 
-    this.tags = ["Abendschule", "Administration", "Arabisch", "Baugewerbe", "Bautechnik",
-        "BHAK", "BHAS", "Biomedizin", "Bundesrealgymnasium", "Büro",
-        "Bürokaufleute", "Chemie", "Design", "Dienstleistungen", "Einzelhandel",
-        "Elektronik", "Elektrotechnik", "Elementarpädagogik", "Fachlehrgang für Marktkommunikation", "Fachschule Informationstechnik",
-        "Fachschule Mechatronik", "Fahrradmechatronik", "Farbe", "Finanzen", "Fotografie",
-        "Gartenbau", "Gastgewerbe", "Gesundheit", "Gesundheits- und Krankenpflege", "Grafik",
-        "Gymnasium", "Handel", "Heereslogistik", "Holz", "Industrie",
-        "Informatik", "Informationstechnologie", "Jüdische Sozialberufe", "Karosseriebautechnik", "Klang",
-        "Kraftfahrzeugtechnik", "Kunst", "Kunststofftechnik", "Küche und Service", "Lack",
-        "Lebensmittel", "Maschinenbau", "Mechatronik", "Metall/Maschinenbau", "Metalltechnik, Glasbautechnik und Technische Zeichner",
-        "Mode", "Multimedia", "Musik", "Netzwerktechnik", "Patisserie-Meisterklasse",
-        "Polytechnische Schule", "Printmedia", "Reinigung", "Reisen", "Sanitär-, Heizungs- und Klimatechnik", "Schönheitsberufe",
-        "Sozialpädagogik", "Spar", "Spengler", "Sport", "Textilindustrie",
-        "Tiere", "Tourismus", "Transport", "Veranstaltungstechnik", "Verwaltungsberufe",
-        "Werkmeisterschule", "Wirtschaft-Soziales", "Wirtschaftsingenieure", "Wirtschaftliche Berufe", "Wohnheim",
-        "Zahntechnik"];
-    this.selectedTags = [];
+    this.tags = SaveFilter.loadTags();
+
+    this.selectedTags = SaveFilter.loadSelectedTags();
 
     this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
 
@@ -150,21 +144,24 @@ app.controller("SchoolsViewController", function ($log, FulltextSearch, SortBy, 
         this.selectedTags.push(this.tags[tag]);
         this.tags.splice(tag, 1);
         this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
+        SaveFilter.saveFilter(this.selectedTags, this.tags, this.control, this.input, this.select, this.listView);
     };
 
     this.deselectTag = (tag) => {
         this.tags.push(this.selectedTags[tag]);
         this.selectedTags.splice(tag, 1);
         this.tagSelected = ((this.selectedTags.length < 1) ? false : true);
+        SaveFilter.saveFilter(this.selectedTags, this.tags, this.control, this.input, this.select, this.listView);
     };
 
 
     // Buttons
 
-    this.control = [false, false, false, false, false, false, false];
+    this.control = SaveFilter.loadControl();
 
     this.change = (button) => {
         this.control[button] = !this.control[button];
+        SaveFilter.saveFilter(this.selectedTags, this.tags, this.control, this.input, this.select, this.listView);
     }
 
 
