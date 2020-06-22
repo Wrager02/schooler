@@ -7,7 +7,7 @@
         <a class="burger" href="#"><span></span></a>
         <ul id="burger-ul">
             <li><a href="#">home</a></li>
-            <li><a href="#info">info</a></li>
+            <li><a ng-click="$ctrl.scrollInfo()">info</a></li>
             <li ui-sref="imprint">impressum</li>
             <li ui-sref="contact">kontakt</li>
         </ul>
@@ -44,7 +44,7 @@
 
             <div>
 
-                <h2>Was ist schooler?</h2>
+                <h2 id="info-heading">Was ist schooler?</h2>
 
                 <p>Schooler ist eine Web-Applikation, welche den User bei der Suche nach der idealen Schule unterstützt.
                     Schoolers Zielgruppe sind vor allem Eltern, aber auch Schüler aus Unterstufen. Auf der Website kann

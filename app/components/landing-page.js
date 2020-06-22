@@ -30,4 +30,10 @@ app.controller("LandingPageController", function ($log) {
         return false;
       });
 
+
+    this.scrollInfo = () => {
+        document.querySelector('.landing-second').scrollIntoView({ behavior: 'smooth' });
+        console.log("lost");
+    }
+
 });

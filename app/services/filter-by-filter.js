@@ -87,15 +87,12 @@ app.service("FilterByFilter", function ($log, $timeout, LoadJson) {
         let result = true;
         if(target.length) {
             for (let i = 0; i < target.length; i++) {
-                console.log("source: ", source)
-                console.log("target: ", target[i]);
                 if(target[i] === source) {
                     result = true;
                     break;
                 }
                 result = false;
             }
-            console.log("Nach for ", result)
         }
         return result;
     }

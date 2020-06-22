@@ -1257,6 +1257,19 @@ div[role="button"] {
   }
 
 
+  @media(min-width: 992px){
+    &:hover {
+      transition: 0.5s ease;
+      transform: translate(-5px, -5px);
+      background-color: hsl(0, 0%, 98%);
+      -webkit-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+      -moz-box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+      box-shadow: 5px 5px 13px 0px rgba(0, 0, 0, 0.31);
+    }
+
+  }
+  
+
   // mobile //
 
   @media(max-width: 992px) {
@@ -1535,13 +1548,7 @@ div[role="button"] {
           justify-content: space-between;
           align-content: center;
 
-          .favourite {
-            font-size: 20px;
 
-            @media(min-width: 992px) {
-              font-size: 25px;
-            }
-          }
         }
       }
 
@@ -1711,6 +1718,24 @@ div[role="button"] {
         }
       }
     }
+  }
+
+  .favourite {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 5%;
+    top: 3%;
+
+    @media(min-width: 992px) {
+      font-size: 40px;
+      top: 4%;
+    }
+
+  }
+
+  .favourite:hover{
+    cursor: pointer;
   }
 
   #favorite-alert {

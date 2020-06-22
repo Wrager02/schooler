@@ -110,7 +110,7 @@
                     <option disabled selected value>Sortierung</option>
                     <option selected value="name">Alphabetisch</option>
                     <option value="schoolform">Schulform</option>
-                    <option value="city">Ort</option>
+                    <option value="zip">Bezirk</option>
 
                 </select>
 
@@ -118,8 +118,8 @@
 
             <div>
 
-                <i class="fas fa-th-list" ng-show="$ctrl.listView" ng-click="$ctrl.changeView()"></i>
-                <i class="fas fa-th-large" ng-show="!$ctrl.listView" ng-click="$ctrl.changeView()"></i>
+                <i class="fas fa-th-list" ng-show="!$ctrl.listView" ng-click="$ctrl.changeView()"></i>
+                <i class="fas fa-th-large" ng-show="$ctrl.listView" ng-click="$ctrl.changeView()"></i>
 
             </div>
 
