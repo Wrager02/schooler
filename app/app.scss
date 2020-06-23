@@ -347,6 +347,18 @@ div[role="button"] {
       display: none;
     }
 
+    .dark-nav{
+
+      li{
+        color: $dark-blue !important;
+
+        a{
+          color: $dark-blue !important;
+        }
+      }
+      
+    }
+
     ul {
 
       margin-right: 2em;
@@ -357,6 +369,7 @@ div[role="button"] {
         padding: 1em;
         cursor: pointer;
         position: relative;
+        font-size: 1.1em;
 
         a {
           color: #ffffff;
