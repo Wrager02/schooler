@@ -56,7 +56,7 @@ app.controller("DetailViewController", function (AddToFavorite, $log, $timeout, 
     }
 
     this.getHref = (mode) => {
-        let text = "Schooler: "
+        let text = "Schau dir doch mal die Schule " + this.school.name + " auf Schooler an!\n"
         switch (mode) {
             case 0:
                 return "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(window.location.href);
