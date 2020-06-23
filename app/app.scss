@@ -1498,6 +1498,24 @@ div[role="button"] {
       }
     }
 
+    .favourite {
+      font-size: 30px;
+      color: white;
+      position: absolute;
+      right: 5%;
+      top: 3%;
+
+      @media(min-width: 992px) {
+        font-size: 40px;
+        top: 4%;
+      }
+
+    }
+
+    .favourite:hover{
+      cursor: pointer;
+    }
+
     .roundbtn {
       position: absolute;
       width: 40px;
@@ -1505,15 +1523,9 @@ div[role="button"] {
       border-radius: 50%;
       border: none;
       left: 5%;
-      top: 2%;
+      top: 5%;
       font-size: 1.5em;
       color: $dark-blue;
-
-      @media(min-width: 992px) {
-        width: 75px;
-        height: 75px;
-        font-size: 2em;
-      }
 
       &:focus {
         outline: none;
@@ -1718,24 +1730,6 @@ div[role="button"] {
         }
       }
     }
-  }
-
-  .favourite {
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    right: 5%;
-    top: 3%;
-
-    @media(min-width: 992px) {
-      font-size: 40px;
-      top: 4%;
-    }
-
-  }
-
-  .favourite:hover{
-    cursor: pointer;
   }
 
   #favorite-alert {
